@@ -1,4 +1,9 @@
+require_dependency 'support/application_record'
+
 module Support
-  class UserPermission < ApplicationRecord
+  module Pivotal
+    class UserPermission < ApplicationRecord
+      self.table_name = 'extranet.pivotal_user_permissions'
+    end
   end
 end

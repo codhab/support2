@@ -1,3 +1,5 @@
+require_dependency 'support/application_record'
+
 module Support
   module Pivotal
     class Nav < ApplicationRecord

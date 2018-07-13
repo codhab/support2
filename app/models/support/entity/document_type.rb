@@ -1,4 +1,4 @@
-require_depedency 'application_record'
+require_dependency 'support/application_record'
 
 module Support
   module Entity
