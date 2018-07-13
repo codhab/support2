@@ -1,25 +1,23 @@
+require 'net/http'
+
 namespace :populate_common do 
   task populate: :environment do 
-    http = Net::HTTP.new('raw.githubusercontent.com', 443)
-    http.use_ssl = true
+    Rake::Task["populate_common:state_and_city"].invoke
+  end
 
-    populate = JSON.parse http.get('/codhab/populate/master/state_and_cities.json').body
-    
-    populate.each do |state|
-      state_obj = Support::Common::State.new(
-        acronym: state['acronym'],
-        name: state['name']
-      )
-      state_obj.save
+  task state_and_city: :environment do 
+    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/common/state_and_cities.json')
 
+    populate.data.each do |state|
+      state_obj = Support::Common::State.new(acronym: state['acronym'],name: state['name']).save
       state['cities'].each do |city|
-        c = SupportCodhab::Common::City.new
+        c = Support::Common::City.new
         c.name = city['name']
         c.state_id = state_obj.id
         c.capital = (city['name'] == state['capital'])
         c.save
       end
     end
-
   end 
+  
 end
