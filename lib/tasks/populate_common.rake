@@ -25,8 +25,7 @@ namespace :populate_common do
   task shared_tables: :environment do 
     populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/common/shared_tables.json')
     
-    array = ['civil_states', 'kinships', 'special_condition_types', 'genders', 
-             'education_backgrounds', 'contract_types', 'programs']
+    array = ['civil_states', 'kinships', 'special_condition_types', 'genders', 'education_backgrounds', 'programs']
 
     array.each do |arr|
       populate.data[arr].each do |item|

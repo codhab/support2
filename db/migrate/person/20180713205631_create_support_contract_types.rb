@@ -1,6 +1,6 @@
 class CreateSupportContractTypes < ActiveRecord::Migration[5.2]
   def change
-    create_table 'common.contract_types' do |t|
+    create_table 'extranet.person_contract_types' do |t|
       t.string :name
       t.boolean :status, default: false
       
