@@ -8,7 +8,7 @@ class CreateSupportPivotalPermissions < ActiveRecord::Migration[5.2]
       t.timestamps
 
       t.boolean  :deleted, default: false
-      t.datetime :deleted_at
+      t.datetime :deleted_at, default: nil
     end
   end
 end

@@ -4,10 +4,10 @@ class CreateSupportEntityRaffles < ActiveRecord::Migration[5.2]
       t.string  :name
       t.text    :description
       t.string  :document
-      t.date    :manifestation_start
-      t.date    :manifestation_end
-      t.date    :raffle_start
-      t.date    :raffle_end
+      t.date    :manifestation_start_at, default: nil
+      t.date    :manifestation_end_at, default: nil
+      t.date    :raffle_start_at, default: nil
+      t.date    :raffle_end_at, default: nil
       t.boolean :status, default: true
       
       t.timestamps
