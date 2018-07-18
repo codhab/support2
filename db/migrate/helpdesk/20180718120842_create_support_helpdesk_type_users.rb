@@ -1,4 +1,4 @@
-class CreateSupportHelpdeskTicketUsers < ActiveRecord::Migration[5.2]
+class CreateSupportHelpdeskTypeUsers < ActiveRecord::Migration[5.2]
   def change
     create_table 'extranet.helpdesk_type_users' do |t|
       t.integer :ticket_type_id

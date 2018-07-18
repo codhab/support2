@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     support (0.1.0)
+      bcrypt
       rails (~> 5.2.0)
 
 GEM
@@ -49,6 +50,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (9.0.0)
+    bcrypt (3.1.12)
     builder (3.2.3)
     concurrent-ruby (1.0.5)
     crass (1.0.4)

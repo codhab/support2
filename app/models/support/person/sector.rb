@@ -1,7 +1,7 @@
 require_dependency 'support/application_record'
 
 module Support
-  class Person
+  module Person
     class Sector < ApplicationRecord
       self.table_name = 'extranet.person_sectors'
     end

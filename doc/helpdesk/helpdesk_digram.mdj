@@ -444,7 +444,7 @@
 									},
 									"font": "Arial;13;1",
 									"left": 832,
-									"top": 93,
+									"top": 85,
 									"width": 170.16259765625,
 									"height": 13,
 									"text": "helpdesk_type_users"
@@ -470,7 +470,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 837,
-											"top": 116,
+											"top": 108,
 											"width": 160.16259765625,
 											"height": 13
 										},
@@ -485,7 +485,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 837,
-											"top": 131,
+											"top": 123,
 											"width": 160.16259765625,
 											"height": 13
 										},
@@ -500,7 +500,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 837,
-											"top": 146,
+											"top": 138,
 											"width": 160.16259765625,
 											"height": 13
 										},
@@ -515,7 +515,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 837,
-											"top": 161,
+											"top": 153,
 											"width": 160.16259765625,
 											"height": 13
 										},
@@ -530,7 +530,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 837,
-											"top": 176,
+											"top": 168,
 											"width": 160.16259765625,
 											"height": 13
 										},
@@ -545,7 +545,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 837,
-											"top": 191,
+											"top": 183,
 											"width": 160.16259765625,
 											"height": 13
 										},
@@ -560,7 +560,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 837,
-											"top": 206,
+											"top": 198,
 											"width": 160.16259765625,
 											"height": 13
 										},
@@ -575,21 +575,21 @@
 											},
 											"font": "Arial;13;0",
 											"left": 837,
-											"top": 221,
+											"top": 213,
 											"width": 160.16259765625,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 832,
-									"top": 111,
+									"top": 103,
 									"width": 170.16259765625,
 									"height": 128
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 832,
-							"top": 88,
+							"top": 80,
 							"width": 170.16259765625,
 							"height": 151,
 							"nameLabel": {

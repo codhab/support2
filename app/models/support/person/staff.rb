@@ -1,9 +1,14 @@
 require_dependency 'support/application_record'
 
 module Support
-  class Person
+  module Person
     class Staff < ApplicationRecord
       self.table_name = 'extranet.person_staffs'
+
+      def password=(value)
+        self[:password] = BCrypt::Password.create(value)
+      end
+
     end
   end
 end
