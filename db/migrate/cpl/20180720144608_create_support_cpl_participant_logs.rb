@@ -4,10 +4,11 @@ class CreateSupportCplParticipantLogs < ActiveRecord::Migration[5.2] # :nodoc:
       t.string   :name
       t.text     :description
       t.integer  :participant_id
-      t.boolean  :deleted, default: false
-      t.datetime :deleted_at
 
       t.timestamps
+
+      t.boolean  :deleted, default: false
+      t.datetime :deleted_at, default: nil
     end
   end
 end

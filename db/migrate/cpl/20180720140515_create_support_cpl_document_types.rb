@@ -3,10 +3,11 @@ class CreateSupportCplDocumentTypes < ActiveRecord::Migration[5.2] # :nodoc:
     create_table 'extranet.cpl_document_types' do |t|
       t.string   :name
       t.boolean  :status, default: true
-      t.boolean  :deleted, default: false
-      t.datetime :deleted_at
 
       t.timestamps
+
+      t.boolean  :deleted, default: false
+      t.datetime :deleted_at, default: nil
     end
   end
 end

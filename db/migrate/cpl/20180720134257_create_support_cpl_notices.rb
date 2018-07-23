@@ -13,11 +13,12 @@ class CreateSupportCplNotices < ActiveRecord::Migration[5.2] # :nodoc:
       t.string   :attachment
       t.text     :observation
       t.boolean  :status, default: true
-
-      t.boolean  :deleted, default: false
-      t.datetime :deleted_at
+      t.integer  :staff_id
 
       t.timestamps
+
+      t.boolean  :deleted, default: false
+      t.datetime :deleted_at, default: nil
     end
   end
 end

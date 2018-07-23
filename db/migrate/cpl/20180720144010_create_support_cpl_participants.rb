@@ -12,10 +12,11 @@ class CreateSupportCplParticipants < ActiveRecord::Migration[5.2] # :nodoc:
       t.datetime :token_validate
       t.datetime :last_signed_at
       t.boolean  :status, default: true
-      t.boolean  :deleted, default: false
-      t.datetime :deleted_at
 
       t.timestamps
+
+      t.boolean  :deleted, default: false
+      t.datetime :deleted_at, default: nil
     end
   end
 end

@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  port: 5432
+
+development:
+  <<: *default
+  database: 'codhab_development'
+  username: 'postgres'
+  password: '123456789'
+  host: 'localhost'
+  schema_search_path: 'extranet, sihab, common'
+
+test:
+  <<: *default
+  database: 'codhab_test'
+  username: 'postgres'
+  password: '123456789'
+  host: 'localhost'
+  schema_search_path: 'extranet, sihab, common'

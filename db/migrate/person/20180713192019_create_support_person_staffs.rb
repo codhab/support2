@@ -52,7 +52,7 @@ class CreateSupportPersonStaffs < ActiveRecord::Migration[5.2]
       t.string  :bank_agency_number
       t.string  :bank_account_number
       t.string  :spouse_name
-      t.integer :education_background_id
+      t.integer :education_type_id
       t.string  :graduation
       t.string  :mobile_user_token
       t.string  :mobile_push_token
@@ -63,7 +63,7 @@ class CreateSupportPersonStaffs < ActiveRecord::Migration[5.2]
       t.boolean :blocked, default: false
 
       t.timestamps
-      
+
       t.boolean  :deleted, default: false
       t.datetime :deleted_at, default: nil
     end
