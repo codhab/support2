@@ -11,7 +11,7 @@ class CreateSupportJuridicalComplements < ActiveRecord::Migration[5.2] # :nodoc:
       t.text    :complement
       t.integer :responsible_lawyer_id
       t.integer :advice_type_id
-      t.string  :file_path
+      t.string  :attachment
       t.boolean :status, default: true
       t.integer :complement_father_id
       t.integer :legal_advice_id
