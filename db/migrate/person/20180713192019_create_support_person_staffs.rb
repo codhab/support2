@@ -10,10 +10,10 @@ class CreateSupportPersonStaffs < ActiveRecord::Migration[5.2]
       t.date    :born, default: nil
       t.integer :born_uf_id
       t.integer :gender_id
-      t.string  :avatar_data
-      t.string  :personal_image_data
+      t.string  :avatar
+      t.string  :personal
       t.string  :branch_line
-      t.string  :curriculum_data
+      t.string  :curriculum
       t.string  :email
       t.string  :private_email
       t.text    :bio
@@ -61,6 +61,9 @@ class CreateSupportPersonStaffs < ActiveRecord::Migration[5.2]
       t.integer :sector_current_id
       t.integer :sector_origin_id
       t.boolean :blocked, default: false
+
+      t.string   :token, default: nil
+      t.datetime :token_expires_at, default: nil
 
       t.timestamps
 
