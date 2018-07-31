@@ -10,7 +10,6 @@ class CreateSupportSpecialConditionTypes < ActiveRecord::Migration[5.2]
       t.boolean :deleted, default: false
       t.datetime :deleted_at, default: nil
       
-      t.timestamps
     end
   end
 end

@@ -1,15 +1,13 @@
-class CreateSupportPrograms < ActiveRecord::Migration[5.2]
+class CreateSupportAttendanceAgendaCategories < ActiveRecord::Migration[5.2]
   def change
-    create_table 'common.programs' do |t|
+    create_table 'sihab.attendance_agenda_categories' do |t|
       t.string :name
-      t.string :acron
       t.boolean :status, default: true
       
       t.timestamps
       
       t.boolean :deleted, default: false
       t.datetime :deleted_at, default: nil
-
     end
   end
 end
