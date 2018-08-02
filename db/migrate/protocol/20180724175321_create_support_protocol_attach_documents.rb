@@ -1,6 +1,6 @@
 class CreateSupportProtocolAttachDocuments < ActiveRecord::Migration[5.2] # :nodoc:
   def change
-    create_table :support_protocol_attach_documents do |t|
+    create_table 'extranet.protocol_attach_documents' do |t|
       t.integer :document_father_id
       t.integer :document_child_id
       t.integer :attach_type

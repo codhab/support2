@@ -3,7 +3,8 @@ class CreateSupportCplNoticeParticipants < ActiveRecord::Migration[5.2] # :nodoc
     create_table 'extranet.cpl_notice_participants' do |t|
       t.integer  :notice_id
       t.integer  :participant_id
-      t.boolean  :status
+      t.boolean  :status, default: true
+      t.boolean  :certificate, default: false
 
       t.timestamps
 

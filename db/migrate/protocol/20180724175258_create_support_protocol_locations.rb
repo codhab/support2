@@ -1,6 +1,6 @@
 class CreateSupportProtocolLocations < ActiveRecord::Migration[5.2] # :nodoc:
   def change
-    create_table ':support_protocol_locations' do |t|
+    create_table 'extranet.protocol_locations' do |t|
       t.string  :shelf
       t.string  :pile
       t.string  :box
