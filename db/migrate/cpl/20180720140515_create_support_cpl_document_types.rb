@@ -3,6 +3,7 @@ class CreateSupportCplDocumentTypes < ActiveRecord::Migration[5.2] # :nodoc:
     create_table 'extranet.cpl_document_types' do |t|
       t.string   :name
       t.boolean  :status, default: true
+      t.integer :staff_id
 
       t.timestamps
 
