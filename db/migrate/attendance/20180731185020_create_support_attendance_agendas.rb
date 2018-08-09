@@ -17,6 +17,7 @@ class CreateSupportAttendanceAgendas < ActiveRecord::Migration[5.2]
       t.integer :location_id
       t.integer :creator_id
       t.boolean :status, default: false
+      t.boolean :cnpj_required, default: false
       
       t.boolean :restriction, default: false
       t.boolean :restriction_presence, default: false

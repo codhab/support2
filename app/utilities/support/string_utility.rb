@@ -30,7 +30,6 @@ module Support
 
     def format_cnpj
       # => 00.000.000/0000-00
-
       @cpf  = self
       @cpf  =~ /(\d{2})\.?(\d{3})\.?(\d{3})\.?(\d{4})-?(\d{2})/
       @cpf  = "#{$1}.#{$2}.#{$3}/#{$4}-#{$5}"
@@ -39,7 +38,6 @@ module Support
     def unformat_cnpj
       self.gsub('.','').gsub('-','').gsub('/','')
     end
-
 
     def underline_array
     self.split('_')

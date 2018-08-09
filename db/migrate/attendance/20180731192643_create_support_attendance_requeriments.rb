@@ -13,7 +13,9 @@ class CreateSupportAttendanceRequeriments < ActiveRecord::Migration[5.2]
       t.string  :document_number
       t.text    :content
       t.integer :category_id 
-    
+      t.integer :situation_id 
+      t.integer :attendant_id
+      t.text    :attendant_answer
       t.timestamps
       
       t.boolean :deleted, default: false

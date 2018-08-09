@@ -8,6 +8,9 @@ class CreateSupportAttendanceChatMessages < ActiveRecord::Migration[5.2]
       t.string  :attachment
       
       t.timestamps
+
+      t.boolean :deleted, default: false
+      t.datetime :deleted_at, default: nil
     end
   end
 end
