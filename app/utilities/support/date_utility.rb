@@ -7,5 +7,9 @@ module Support
     def formatted_date
       self.strftime("%d/%m/%Y")
     end
+    
+    def formatted_time
+      self.strftime("%H:%M")
+    end
   end
 end

@@ -9,10 +9,8 @@ module Support
         self[:password] = BCrypt::Password.create(value)
       end
 
-
-      def short_name
-        short = self.name.split(' ')
-        "#{short[0]} #{short[-1]}"
+      def presenter
+        call_presenter('Support::Person::StaffPresenter', self)
       end
     end
   end
