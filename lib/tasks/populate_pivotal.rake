@@ -14,20 +14,22 @@ namespace :populate_pivotal do
       object.description   = nav['description']
       object.save!
       
-      nav['childrens'].each do |subnav|
-        sub_object = Support::Pivotal::Nav.new
-        sub_object.label      = subnav['label']
-        sub_object.url        = subnav['url']
-        sub_object.father_id  = object.id
-        sub_object.save!
+      if nav.has_key?('childrens') 
+        nav['childrens'].each do |subnav|
+          sub_object = Support::Pivotal::Nav.new
+          sub_object.label      = subnav['label']
+          sub_object.url        = subnav['url']
+          sub_object.father_id  = object.id
+          sub_object.save!
 
-        if subnav.has_key?('childrens') 
-          subnav['childrens'].each do |subsubnav|
-            sub_sub_object = Support::Pivotal::Nav.new
-            sub_sub_object.label      = subsubnav['label']
-            sub_sub_object.url        = subsubnav['url']
-            sub_sub_object.father_id  = sub_object.id
-            sub_sub_object.save!
+          if subnav.has_key?('childrens') 
+            subnav['childrens'].each do |subsubnav|
+              sub_sub_object = Support::Pivotal::Nav.new
+              sub_sub_object.label      = subsubnav['label']
+              sub_sub_object.url        = subsubnav['url']
+              sub_sub_object.father_id  = sub_object.id
+              sub_sub_object.save!
+            end
           end
         end
       end
