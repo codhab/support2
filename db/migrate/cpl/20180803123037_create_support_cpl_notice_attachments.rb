@@ -5,6 +5,7 @@ class CreateSupportCplNoticeAttachments < ActiveRecord::Migration[5.2] # :nodoc:
       t.string  :attachment
       t.text    :observation
       t.integer :notice_id
+      t.integer :attachment_type_id
       t.boolean :status, default: true
       t.integer :staff_id
 

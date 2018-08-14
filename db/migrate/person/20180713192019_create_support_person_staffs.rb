@@ -1,4 +1,4 @@
-class CreateSupportPersonStaffs < ActiveRecord::Migration[5.2]
+class CreateSupportPersonStaffs < ActiveRecord::Migration[5.2] # :nodoc:
   def change
     create_table 'extranet.person_staffs' do |t|
       t.string  :code

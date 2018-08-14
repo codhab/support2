@@ -2,7 +2,8 @@ class CreateSupportCplDocumentParticipants < ActiveRecord::Migration[5.2] # :nod
   def change
     create_table 'extranet.cpl_document_participants' do |t|
       t.integer :notice_participant_id
-      t.integer :document_notice_id
+      t.integer :notice_document_id
+      t.string  :attachment
 
       t.timestamps
 
