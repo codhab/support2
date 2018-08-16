@@ -3,7 +3,7 @@ class CreateSupportBrbCategories < ActiveRecord::Migration[5.2] # :nodoc:
     create_table 'extranet.brb_categories' do |t|
       t.string  :name
       t.decimal :default_value, precision: 8, scale: 2
-      t.status  :status, default: true
+      t.boolean :status, default: true
 
       t.timestamps
 

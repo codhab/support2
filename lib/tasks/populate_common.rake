@@ -6,6 +6,8 @@ namespace :populate_common do
     Rake::Task["populate_common:shared_tables"].invoke
     Rake::Task["populate_common:subject"].invoke
     Rake::Task["populate_common:document_type"].invoke
+    Rake::Task["populate_common:situation_type"].invoke
+    Rake::Task["populate_common:procedural_type"].invoke
     Rake::Task["populate_common:cpl_document_type"].invoke
     Rake::Task["populate_common:notice"].invoke
     Rake::Task["populate_common:participant"].invoke
@@ -48,6 +50,29 @@ namespace :populate_common do
       object.id     = document_type['id']
       object.name   = document_type['name']
       object.status = document_type['status']
+      object.save(validate: false)
+    end
+  end
+
+  task situation_type: :environment do
+    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/sihab/candidate/situation_types.json')
+
+    populate.data['situations'].each do |situation_type|
+      object = Support::Candidate::SituationType.new
+      object.id     = situation_type['id']
+      object.name   = situation_type['name']
+      object.save(validate: false)
+    end
+  end
+
+  task procedural_type: :environment do
+    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/sihab/candidate/procedural_types.json')
+
+    populate.data['procedurals'].each do |procedural_type|
+      object = Support::Candidate::ProceduralType.new
+      object.id     = procedural_type['id']
+      object.name   = procedural_type['name']
+      object.status = procedural_type['status']
       object.save(validate: false)
     end
   end

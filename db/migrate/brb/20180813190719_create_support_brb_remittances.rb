@@ -4,7 +4,7 @@ class CreateSupportBrbRemittances < ActiveRecord::Migration[5.2] # :nodoc:
       t.text    :content
       t.text    :header_content
       t.integer :invoice_id
-      t.boolean :publish
+      t.boolean :publish, default: false
       t.date    :date
 
       t.timestamps

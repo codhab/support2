@@ -1,7 +1,8 @@
-class CreateSupportBrbInvoiceTypes < ActiveRecord::Migration[5.2] # :nodoc:
+class CreateSupportCandidateProceduralTypes < ActiveRecord::Migration[5.2]
   def change
-    create_table 'extranet.brb_invoice_types' do |t|
+    create_table 'sihab.candidate_procedural_types' do |t|
       t.string  :name
+      t.text    :description
       t.boolean :status, default: true
 
       t.timestamps
