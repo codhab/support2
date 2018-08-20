@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     support (0.1.0)
+      audited (~> 4.7)
       bcrypt
       pg
       rails (~> 5.2.0)
@@ -58,6 +59,8 @@ GEM
       nokogiri
     arel (9.0.0)
     ast (2.4.0)
+    audited (4.7.1)
+      activerecord (>= 4.0, < 5.3)
     bcrypt (3.1.12)
     builder (3.2.3)
     byebug (9.1.0)

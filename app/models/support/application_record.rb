@@ -5,6 +5,7 @@ module Support
     default_scope { where(deleted: false) }
     
     scope :status_active, -> { where(status: true) }
+    scope :not_deleted,   -> { where(deleted: false) }
 
     def destroy
       self.update(deleted: true, deleted_at: Time.now)
