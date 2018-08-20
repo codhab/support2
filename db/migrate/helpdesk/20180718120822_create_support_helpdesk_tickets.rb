@@ -9,7 +9,8 @@ class CreateSupportHelpdeskTickets < ActiveRecord::Migration[5.2]
       t.date    :date
       t.time    :hour
       t.integer :attendant_id
-      
+      t.text    :description
+
       t.timestamps
 
       t.boolean  :deleted, default: false
