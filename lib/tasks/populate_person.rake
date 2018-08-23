@@ -6,6 +6,8 @@ namespace :populate_person do
     Rake::Task["populate_person:sector"].invoke
     Rake::Task["populate_person:job"].invoke
     Rake::Task["populate_person:staff"].invoke
+
+    p 'Person populado.'
   end
 
   task contract_type: :environment do 

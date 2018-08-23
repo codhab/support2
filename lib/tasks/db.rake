@@ -24,6 +24,7 @@ namespace :db do
     Rake::Task['populate_common:populate'].invoke
     Rake::Task['populate_person:populate'].invoke
     Rake::Task['populate_pivotal:populate'].invoke
+    Rake::Task['populate_sei:populate'].invoke
   end
 
   task populate_minimal: :environment do
