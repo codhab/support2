@@ -12,6 +12,7 @@ namespace :populate_common do
     Rake::Task["populate_common:notice"].invoke
     Rake::Task["populate_common:participant"].invoke
     Rake::Task["populate_common:assessment"].invoke
+    Rake::Task["populate_common:candidate"].invoke
   end
 
   task state_and_city: :environment do
@@ -148,6 +149,13 @@ namespace :populate_common do
       object.status = document_type['status']
       object.save(validate: false)
     end
+  end
+
+  task candidate: :environment do
+    object = Support::Candidate::Cadastre.new
+    object.name = 'Fulano de Tal'
+    object.cpf = '13615303083'
+    object.save(validate: false)
   end
 
   task shared_tables: :environment do

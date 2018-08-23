@@ -4,6 +4,8 @@ module Support
   module Candidate
     class SituationType < ApplicationRecord # :nodoc:
       self.table_name = 'sihab.candidate_situation_types'
+
+      audited
     end
   end
 end

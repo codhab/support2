@@ -4,6 +4,8 @@ module Support
   module Candidate
     class CadastreConvocation < ApplicationRecord # :nodoc:
       self.table_name = 'sihab.candidate_cadastre_convocations'
+
+      audited
     end
   end
 end
