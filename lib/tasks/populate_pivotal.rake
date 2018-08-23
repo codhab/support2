@@ -3,6 +3,8 @@ require 'net/http'
 namespace :populate_pivotal do 
   task populate: :environment do 
     Rake::Task["populate_pivotal:nav"].invoke
+
+    p 'Pivotal populado.'
   end
 
   task nav: :environment do 

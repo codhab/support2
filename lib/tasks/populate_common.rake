@@ -12,6 +12,8 @@ namespace :populate_common do
     Rake::Task["populate_common:notice"].invoke
     Rake::Task["populate_common:participant"].invoke
     Rake::Task["populate_common:assessment"].invoke
+
+    p 'Common populado.'
   end
 
   task state_and_city: :environment do
