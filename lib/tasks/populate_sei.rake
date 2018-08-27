@@ -30,13 +30,25 @@ namespace :populate_sei do
     end 
   end
   
-    task units: :environment do 
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/sei/units.json')
+  task units: :environment do 
+  populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/sei/units.json')
     populate.data["units"].each do |row|
       object = Support::Sei::Unit.new
       object.name            = row['name']
       object.sei_tranning_id = row['sei_tranning_id']
       object.save(validate: false) 
-    end 
+    end
   end
+  
+  task units: :environment do 
+    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/sei/legal_hypotheses.json')
+    populate.data["legals"].each do |row|
+      object = Support::Sei::LegalHypothesis.new
+      object.code            = row['code']
+      object.name            = row['name']
+      object.sei_tranning_id = row['sei_tranning_id']
+      object.save(validate: false) 
+    end
+  end
+  
 end
