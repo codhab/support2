@@ -12,13 +12,13 @@ module Support
 
       scope :paids, -> { where(status: 1) }
 
-      validates :due, :category, :name, :value, presence: true
-      validates :cpf, cpf: true, if: 'cpf.present?'
-      validates :cnpj, cnpj: true, if: 'cnpj.present?'
-      validate  :invoice_type_valid?, on: :create
+      #validates :due, :category, :name, :value, presence: true
+      #validates :cpf, cpf: true, if: 'cpf.present?'
+      #validates :cnpj, cnpj: true, if: 'cnpj.present?'
+      #validate  :invoice_type_valid?, on: :create
 
-      after_create :generate_invoice!, if: 'self.boleto?'
-      after_create :generate_simple_invoice!, if: 'self.guia_simples?'
+      #after_create :generate_invoice!, if: 'self.boleto?'
+      #after_create :generate_simple_invoice!, if: 'self.guia_simples?'
 
       scope :by_name,       ->(name) { where('name ilike ?' "%#{name}%") }
       scope :by_cpf,        ->(cpf) { where(cpf: cpf.gsub('.','').gsub('-','')) }
