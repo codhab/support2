@@ -5,6 +5,7 @@ class CreateSupportSeiProcedureTypes < ActiveRecord::Migration[5.2]
       t.string  :name
       t.string  :sei_id
       t.string  :sei_tranning_id
+      t.boolean :legal, default: false
       t.integer :legal_id
 
       t.timestamps
