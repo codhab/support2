@@ -12,7 +12,7 @@ namespace :db do
   end
 
   task reload: :environment do
-    system('rails db:environment:set RAILS_ENV=development')
+    #system('rails db:environment:set RAILS_ENV=development')
     
     Rake::Task["db:drop"].invoke
     Rake::Task["db:create"].invoke

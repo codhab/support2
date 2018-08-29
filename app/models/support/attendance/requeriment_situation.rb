@@ -1,8 +1,8 @@
-require_dependency 'support/attendance/requeriment_situation'
+require_dependency 'support/application_record'
 
 module Support
   module Attendance
-    class RequerimentSituation < Support::Attendance::RequerimentSituation
+    class RequerimentSituation < ApplicationRecord
     end 
   end
 end
