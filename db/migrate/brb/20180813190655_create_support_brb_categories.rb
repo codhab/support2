@@ -4,6 +4,7 @@ class CreateSupportBrbCategories < ActiveRecord::Migration[5.2] # :nodoc:
       t.string  :name
       t.decimal :default_value, precision: 8, scale: 2
       t.boolean :status, default: true
+      t.integer :invoice_type_id
 
       t.timestamps
 
