@@ -5,7 +5,7 @@ module Support
     class Invoice < ApplicationRecord # :nodoc:
       self.table_name = 'extranet.brb_invoices'
       belongs_to :category,  required: false, class_name: 'Support::Brb::Category'
-      belongs_to :situation, required: false, class_name: 'Support::Brb::InvoiceSituation'      
+      belongs_to :situation, required: false, class_name: 'Support::Brb::InvoiceSituation'
       belongs_to :state,     required: false, class_name: 'Support::Common::State'
 
       scope :paids, -> { where(status: 1) }
@@ -21,6 +21,10 @@ module Support
       scope :by_category,   ->(category) { where(category_id: category) }
       scope :by_date_start, ->(date_start) { where('brb_invoices.created_at::date >= ?', Date.parse(date_start))}
       scope :by_date_end,   ->(date_end) { where('brb_invoices.created_at::date <= ?', Date.parse(date_end))}
+
+      def presenter
+        call_presenter('Support::Brb::InvoicePresenter', self)
+      end
 
       private
 

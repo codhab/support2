@@ -2,7 +2,6 @@ require_dependency 'support/application_presenter'
 module Support
   module Candidate
     class CadastrePresenter < ApplicationPresenter # :nodoc:
-
       def name_camel_case
         name.to_s.mb_chars.downcase.titleize
       end
