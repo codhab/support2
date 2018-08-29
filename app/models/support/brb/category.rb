@@ -4,13 +4,11 @@ module Support
   module Brb
     class Category < ApplicationRecord # :nodoc:
       self.table_name = 'extranet.brb_categories'
+      belongs_to :invoice_type, required: false, class_name: 'Support::Brb::InvoiceType'
+
       has_many :invoices, class_name: 'Support::Brb::Invoice'
 
-      scope :active, -> { where(status: true).order(:name) }
-      scope :by_id,  ->(id) { where(id: id) }
-
-      validates :name, :default_value, presence: true
-      validates :name, uniqueness: true
+      scope :by_id,  ->(id) { where(id: id) }      
 
       def name_with_value
         "#{self.name} - R$ #{self.default_value.round(2)}"

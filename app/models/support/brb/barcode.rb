@@ -33,7 +33,6 @@ module Support
         @value        = options[:value]           ||= 100
       end
 
-
       #agência / código do beneficário
       def agency_and_benefict_code_formated
         "000 - #{@bank_agency} - #{@bank_account}"
@@ -56,7 +55,7 @@ module Support
       end
 
       def key
-        "#{agency_and_benefict_code}#{our_number}"
+        "#{agency_and_benefict_code}#{number_our}"
       end
 
       def barcode_without_digit
@@ -113,9 +112,7 @@ module Support
         @key_digit_two = digit[:digit_two]
       end
 
-
       protected
-
 
       def barcode_digit
         barcode = self.barcode_without_digit

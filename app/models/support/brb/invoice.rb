@@ -5,11 +5,13 @@ module Support
     class Invoice < ApplicationRecord # :nodoc:
       self.table_name = 'extranet.brb_invoices'
       belongs_to :category,  required: false, class_name: 'Support::Brb::Category'
-      belongs_to :situation, required: false, class_name: 'Support::Brb::InvoiceSituation'
-      belongs_to :type,      required: false, class_name: 'Support::Brb::InvoiceType'
+      belongs_to :situation, required: false, class_name: 'Support::Brb::InvoiceSituation'      
       belongs_to :state,     required: false, class_name: 'Support::Common::State'
 
       scope :paids, -> { where(status: 1) }
+
+      after_create :generate_invoice!,        if: -> { category.invoice_type_id == 2 }
+      after_create :generate_simple_invoice!, if: -> { category.invoice_type_id == 1 }
 
       scope :by_name,       ->(name) { where('name ilike ?' "%#{name}%") }
       scope :by_cpf,        ->(cpf) { where(cpf: cpf.gsub('.','').gsub('-','')) }
@@ -24,17 +26,16 @@ module Support
 
       def generate_simple_invoice!
         barcode = Support::Brb::CreatingSimpleBarcodeService.new(
-          due: self.due.strftime('%d/%m/%Y'),
-          value: self.value,
-          sequential: self.id
+          due: due.strftime('%d/%m/%Y'),
+          value: value.present? ? value : category.default_value,
+          sequential: id
         )
 
         self.update(
           barcode: barcode.barcode_without_format,
-          barcode_with_format: barcode.barcode_with_format,
           value: self.value,
-          our_number: barcode.sequential,
-          document_number: barcode.sequential
+          number_our: barcode.sequential,
+          number_document: barcode.sequential
         )
       end
 
@@ -58,13 +59,12 @@ module Support
      @coin         = options[:coin]            ||= '9'
      @value        = options[:value]           ||= 100
 =end
-        self.update({
+        self.update(
           barcode: barcode.barcode_with_digit,
-          barcode_with_format: barcode.barcode_with_regex,
           value: (category.default_value.to_i == 0) ? value.to_f : category.default_value,
-          our_number: barcode.our_number_with_digits,
-          document_number: barcode.sequential
-        })
+          number_our: barcode.our_number_with_digits,
+          number_document: barcode.sequential
+        )
       end
     end
   end

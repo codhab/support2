@@ -9,7 +9,9 @@ module Support
         date_start = "#{date} 00:00:00"
         date_end   = "#{date} 23:59:59"
 
-        invoices = Support::Brb::Invoice.where(created_at: date_start..date_end, invoice_type_id: 1).order('id ASC')
+        invoices = Support::Brb::Invoice.joins(:category).where(created_at: date_start..date_end)
+                                                         .where('brb_categories.invoice_type_id = 2')
+                                                         .order('id ASC')
         text   = Array.new
 
         header = " " * 39
@@ -41,7 +43,7 @@ module Support
           line[112..113]   = i.state.acronym.mb_chars.upcase.ljust(2)
           line[114..121]   = i.cep.ljust(8)
           line[122]       = "1"
-          line[123..135]  = "#{i.document_number}".ljust(13)
+          line[123..135]  = "#{i.number_document}".ljust(13)
           line[136]       = "1"
           line[137..144]  = i.created_at.strftime('%d%m%Y')
           line[145..146]  = "21"
@@ -53,7 +55,7 @@ module Support
           line[158..187]  = I18n.transliterate(i.city.mb_chars.ljust(30)).upcase
           line[188..195]  = i.due.strftime('%d%m%Y')
           line[196..209]  = "#{'%014d' % value.to_s.gsub('.','').to_i}"
-          line[210..221]  = "#{i.our_number}".ljust(12, ' ')
+          line[210..221]  = "#{i.number_our}".ljust(12, ' ')
           line[222..223]  = "00"
           line[224..237]  = "0".ljust(14, '0')
           line[238..251]  = "0".ljust(14, '0')
