@@ -2,7 +2,7 @@ class CreateSupportPivotalUserGroups < ActiveRecord::Migration[5.2]
   def change
     create_table 'extranet.pivotal_user_groups' do |t|
       t.text    :observation
-      t.integer :profile_id
+      t.integer :group_id
       t.integer :user_id
       t.integer :sponsor_id
 
