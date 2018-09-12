@@ -9,6 +9,7 @@ class CreateSupportCandidateConvocations < ActiveRecord::Migration[5.2] # :nodoc
       t.text    :justify
       t.boolean :status, default: true
       t.integer :program_id
+      t.integer :sub_program_id
       t.integer :user_id
       t.string  :document
       t.date    :document_date

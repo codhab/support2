@@ -3,6 +3,7 @@ class CreateSupportCandidatePrograms < ActiveRecord::Migration[5.2] # :nodoc:
     create_table 'sihab.candidate_programs' do |t|
       t.string  :name
       t.text    :description
+      t.boolean :sub_program, default: false
       t.boolean :status, default: true
 
       t.timestamps

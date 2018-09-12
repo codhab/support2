@@ -1,6 +1,7 @@
-class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
+class CreateSupportCandidateCadastreMirrors < ActiveRecord::Migration[5.2]
   def change
-    create_table 'sihab.candidate_cadastres' do |t|
+    create_table 'sihab.candidate_cadastre_mirrors' do |t|
+      t.integer :cadastre_id
       t.string  :name
       t.string  :cpf
       t.integer :gender_id
@@ -17,7 +18,6 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
       t.string  :email
       t.boolean :special_condition, default: false
       t.integer :special_condition_type_id
-      t.boolean :adapted_property, default: false 
       t.string  :cep
       t.integer :city_id
       t.integer :state_id
@@ -36,18 +36,12 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
       t.integer :civil_state_id
       t.integer :program_id
       t.integer :sub_program_id
-      t.string  :password
-      t.string  :password_token, default: nil
-      t.datetime :password_token_expires_at, default: nil
-      t.string  :session_token, default: nil
       t.text    :introduce
       t.string  :nationality
       t.string  :wedding_regime
       t.date    :wedding_date, default: nil
-      t.date    :admission_date, default: nil
+      t.date    :admission_date
       t.string  :avatar
-      t.string  :app_push_token, default: nil
-      t.string  :app_user_token, default: nil
       
       t.timestamps
 
