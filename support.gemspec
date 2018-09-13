@@ -23,4 +23,5 @@ Gem::Specification.new do |s|
   s.add_dependency "pg"
   s.add_dependency "bcrypt"
   s.add_dependency "audited", "~> 4.7"
+  s.add_dependency "logging"
 end
