@@ -6,7 +6,7 @@ class CreateSupportAddressEnterpriseTypologies < ActiveRecord::Migration[5.2]
       t.string  :name
       t.text    :description
       t.string  :home_type
-      t.stirng  :private_area
+      t.string  :private_area
       t.boolean :status, default: false
       t.decimal :value_start, precision: 8, scale: 2
       t.decimal :value_end, precision: 8, scale: 2
