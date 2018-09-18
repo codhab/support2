@@ -12,12 +12,12 @@ class CreateSupportCandidateCadastreInheritors < ActiveRecord::Migration[5.2]
       t.string  :single_name
       t.decimal :percentage, precision: 8, scale: 2
       t.text    :observation
-      t.boolean :spoll, default: false
-    
+      t.boolean :estate, default: false
+
       t.timestamps
 
       t.boolean  :deleted, default: false
-      t.datetime :deleted_at, default: nil      
+      t.datetime :deleted_at, default: nil
     end
   end
 end

@@ -4,6 +4,8 @@ module Support
   module Cms
     class PostCategory < ApplicationRecord
       self.table_name = 'extranet.cms_post_categories'
+
+      audited
     end
   end
 end

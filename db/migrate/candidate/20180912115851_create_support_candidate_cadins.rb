@@ -15,12 +15,12 @@ class CreateSupportCandidateCadins < ActiveRecord::Migration[5.2]
       t.date    :distribution_date
       t.decimal :percentege, precision: 8, scale: 2
       t.text    :observation
-      t.boolean :spoll, default: false
+      t.boolean :estate, default: false
 
       t.timestamps
 
       t.boolean  :deleted, default: false
-      t.datetime :deleted_at, default: nil      
+      t.datetime :deleted_at, default: nil
     end
   end
 end
