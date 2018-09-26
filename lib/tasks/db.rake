@@ -13,7 +13,7 @@ namespace :db do
 
   task reload: :environment do
     #system('rails db:environment:set RAILS_ENV=development')
-    
+
     Rake::Task["db:drop"].invoke
     Rake::Task["db:create"].invoke
     Rake::Task["db:schema:create"].invoke
@@ -24,7 +24,6 @@ namespace :db do
     Rake::Task['populate_common:populate'].invoke
     Rake::Task['populate_person:populate'].invoke
     Rake::Task['populate_pivotal:populate'].invoke
-    Rake::Task['populate_sei:populate'].invoke
   end
 
   task populate_minimal: :environment do

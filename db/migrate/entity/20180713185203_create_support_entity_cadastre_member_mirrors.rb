@@ -1,4 +1,4 @@
-class CreateSupportEntityMemberMirrors < ActiveRecord::Migration[5.2]
+class CreateSupportEntityCadastreMemberMirrors < ActiveRecord::Migration[5.2]
   def change
     create_table 'sihab.entity_cadastre_member_mirrors' do |t|
       t.integer  :member_id
