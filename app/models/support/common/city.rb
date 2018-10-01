@@ -10,6 +10,10 @@ module Support
       scope :by_state, -> (state_id) {
         where(state_id: state_id)
       }
+
+      scope :federal_district, -> {
+        where(state_id: 7)
+      }
     end
   end
 end
