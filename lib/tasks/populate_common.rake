@@ -13,6 +13,7 @@ namespace :populate_common do
     Rake::Task["populate_common:participant"].invoke
     Rake::Task["populate_common:assessment"].invoke
     Rake::Task["populate_common:candidate"].invoke
+    Rake::Task["populate_common:candidate_mirror"].invoke
 
     p 'Common populado.'
   end
@@ -155,8 +156,25 @@ namespace :populate_common do
 
   task candidate: :environment do
     object = Support::Candidate::Cadastre.new
+    object.id = 1
     object.name = 'Fulano de Tal'
     object.cpf = '13615303083'
+    object.arrival_df = Date.parse('2001-01-10')
+    object.born = Date.parse('1984-03-23')
+    object.family_income = '100'
+    object.special_condition = false
+    object.save(validate: false)
+  end
+
+  task candidate_mirror: :environment do
+    object = Support::Candidate::CadastreMirror.new
+    object.cadastre_id = 1
+    object.name = 'Fulano de Tal'
+    object.cpf = '13615303083'
+    object.arrival_df = Date.parse('2001-01-10')
+    object.born = Date.parse('1984-03-23')
+    object.family_income = '100'
+    object.special_condition = false
     object.save(validate: false)
   end
 

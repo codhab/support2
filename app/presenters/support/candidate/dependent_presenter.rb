@@ -17,7 +17,7 @@ module Support
       def kinship_name
         kinship.name
       rescue StandardError
-        'Sem informção'
+        'Sem informação'
       end
     end
   end

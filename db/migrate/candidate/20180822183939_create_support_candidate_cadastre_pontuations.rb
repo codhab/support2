@@ -4,12 +4,12 @@ class CreateSupportCandidateCadastrePontuations < ActiveRecord::Migration[5.2] #
       t.integer :cadastre_id
       t.integer :cadastre_mirror_id
       t.integer :code
-      t.decimal :bsb, precision: 10, scale: 10
-      t.decimal :dependent, precision: 10, scale: 10
-      t.decimal :timelist, precision: 10, scale: 10
-      t.decimal :special_condition, precision: 10, scale: 10
-      t.decimal :income, precision: 10, scale: 10
-      t.decimal :total, precision: 10, scale: 10
+      t.decimal :bsb
+      t.decimal :dependent
+      t.decimal :timelist
+      t.decimal :special_condition
+      t.decimal :income
+      t.decimal :total
       t.integer :program_id
       t.integer :situation_type_id
 

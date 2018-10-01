@@ -4,6 +4,8 @@ module Support
   module Brb
     class Invoice < ApplicationRecord # :nodoc:
       self.table_name = 'extranet.brb_invoices'
+      audited
+      
       belongs_to :category,  required: false, class_name: 'Support::Brb::Category'
       belongs_to :situation, required: false, class_name: 'Support::Brb::InvoiceSituation'
       belongs_to :state,     required: false, class_name: 'Support::Common::State'
@@ -39,7 +41,8 @@ module Support
           barcode: barcode.barcode_without_format,
           value: self.value,
           number_our: barcode.sequential,
-          number_document: barcode.sequential
+          number_document: barcode.sequential,
+          situation_id: 1
         )
       end
 
@@ -67,7 +70,8 @@ module Support
           barcode: barcode.barcode_with_digit,
           value: (category.default_value.to_i == 0) ? value.to_f : category.default_value,
           number_our: barcode.our_number_with_digits,
-          number_document: barcode.sequential
+          number_document: barcode.sequential,
+          situation_id: 1
         )
       end
     end
