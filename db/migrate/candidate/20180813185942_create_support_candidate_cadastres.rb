@@ -17,7 +17,7 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
       t.string  :email
       t.boolean :special_condition, default: false
       t.integer :special_condition_type_id
-      t.boolean :adapted_property, default: false 
+      t.boolean :adapted_property, default: false
       t.string  :cep
       t.integer :city_id
       t.integer :state_id
@@ -48,7 +48,8 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
       t.string  :avatar
       t.string  :app_push_token, default: nil
       t.string  :app_user_token, default: nil
-      
+      t.boolean :scoring, default: false 
+
       t.timestamps
 
       t.boolean  :deleted, default: false

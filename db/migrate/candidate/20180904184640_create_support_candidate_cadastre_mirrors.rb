@@ -1,4 +1,4 @@
-class CreateSupportCandidateCadastreMirrors < ActiveRecord::Migration[5.2]
+class CreateSupportCandidateCadastreMirrors < ActiveRecord::Migration[5.2] # :nodoc:
   def change
     create_table 'sihab.candidate_cadastre_mirrors' do |t|
       t.integer :cadastre_id
@@ -18,6 +18,7 @@ class CreateSupportCandidateCadastreMirrors < ActiveRecord::Migration[5.2]
       t.string  :email
       t.boolean :special_condition, default: false
       t.integer :special_condition_type_id
+      t.boolean :adapted_property, default: false
       t.string  :cep
       t.integer :city_id
       t.integer :state_id
@@ -40,9 +41,7 @@ class CreateSupportCandidateCadastreMirrors < ActiveRecord::Migration[5.2]
       t.string  :nationality
       t.string  :wedding_regime
       t.date    :wedding_date, default: nil
-      t.date    :admission_date
-      t.string  :avatar
-      
+
       t.timestamps
 
       t.boolean  :deleted, default: false
