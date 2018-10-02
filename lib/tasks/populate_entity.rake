@@ -1,11 +1,8 @@
 require 'net/http'
 
-namespace :populate_person do 
+namespace :populate_entity do 
   task populate: :environment do 
-    Rake::Task["populate_person:contract_type"].invoke
-    Rake::Task["populate_person:sector"].invoke
-    Rake::Task["populate_person:job"].invoke
-    Rake::Task["populate_person:staff"].invoke
+    Rake::Task["populate_entity:cadastre"].invoke
 
     p 'Entity populado.'
   end
@@ -15,13 +12,11 @@ namespace :populate_person do
 
     populate.data['entity'].each do |sector|
       object = Support::Entity::Cadastre.new
-      object.id     = sector['id']
-      object.name   = sector['name']
-      object.name   = sector['cnpj']
-      object.acron  = sector['fantasy_name']
-      object.telephone  = sector['telephone']
+      object.name                = sector['name']
+      object.fantasy_name        = sector['fantasy_name']
+      object.cnpj                = sector['cnpj']
+      object.telephone           = sector['telephone']
       object.telephone_optional  = sector['telephone_optional']
-      object.acron  = sector['fantasy_name']
       object.save(validate: false)
     end
   end

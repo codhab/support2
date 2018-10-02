@@ -4,6 +4,8 @@ module Support
   module Entity
     class Cadastre < ApplicationRecord
       self.table_name = 'sihab.entity_cadastres'
+
+      audited
     end
   end
 end

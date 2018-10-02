@@ -11,9 +11,9 @@ module Support
         where(state_id: state_id)
       }
 
-      scope :federal_district, -> { joins(:state)
-                                  .where(state_id: 7)
-                                  .order(:name) }
+      scope :federal_district, -> {
+        where(state_id: 7)
+      }
     end
   end
 end

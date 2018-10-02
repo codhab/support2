@@ -10,7 +10,7 @@ class CreateSupportAttendanceDailies < ActiveRecord::Migration[5.2]
       t.integer :category_id
       t.integer :daily_type_id
       t.boolean :preferential
-      t.integer :preferential_id
+      t.integer :daily_preferential_id
       t.boolean :special_condition
       t.integer :special_condition_id
 
