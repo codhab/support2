@@ -44,6 +44,7 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
       t.string  :nationality
       t.string  :wedding_regime
       t.date    :wedding_date, default: nil
+      t.date    :admission_date, default: nil
       t.string  :avatar
       t.string  :app_push_token, default: nil
       t.string  :app_user_token, default: nil

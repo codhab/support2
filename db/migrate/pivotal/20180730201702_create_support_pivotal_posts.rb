@@ -1,12 +1,16 @@
 class CreateSupportPivotalPosts < ActiveRecord::Migration[5.2]
   def change
     create_table 'extranet.pivotal_posts' do |t|
-      t.string  :title
-      t.string  :resume
+      t.string    :title
+      t.text      :content
+      t.string    :description
       t.string    :image
-      t.text    :content
-      t.boolean :status, default: true
-      t.integer :user_id
+      t.boolean   :image_header
+      t.string    :flickr
+      t.integer   :user_id
+      t.integer   :count_view
+      t.datetime  :publish_date
+      t.boolean   :publish, default: false
       
       t.timestamps
       

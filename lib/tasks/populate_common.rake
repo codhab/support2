@@ -14,6 +14,7 @@ namespace :populate_common do
     Rake::Task["populate_common:assessment"].invoke
     Rake::Task["populate_common:candidate"].invoke
     Rake::Task["populate_common:candidate_mirror"].invoke
+    Rake::Task["populate_common:address_unit"].invoke
 
     p 'Common populado.'
   end
@@ -176,6 +177,29 @@ namespace :populate_common do
     object.family_income = '100'
     object.special_condition = false
     object.save(validate: false)
+  end
+
+  task address_unit: :environment do
+
+    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/sihab/address/units.json')
+    populate.data['address'].each do |unit|
+      object = Support::Address::Unit.new
+      object.id = unit['id']
+      object.acron_block = unit['acron_block']
+      object.block = unit['block']
+      object.group = unit['group']
+      object.unit = unit['unit']
+      object.area = unit['area']
+      object.complete_address = unit['complete_address']
+      object.city_id = unit['city_id']
+      object.iptu_number = unit['iptu_number']
+      object.burgh = unit['burgh']
+      object.unit_code = unit['unit_code']
+      object.notary_office = unit['notary_office']
+      object.declaratory_act_number = unit['declaratory_act_number']
+      object.rejection_number = unit['rejection_number']
+      object.save(validate: false)
+    end
   end
 
   task shared_tables: :environment do
