@@ -202,6 +202,18 @@ namespace :populate_common do
     end
   end
 
+  task situation_type: :environment do
+
+    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/sihab/address/situation_types.json')
+    populate.data['situation_types'].each do |unit|
+      object = Support::Address::UnitSituationType.new
+      object.id = unit['id']
+      object.name = unit['name']
+      object.status = true
+      object.save(validate: false)
+    end
+  end
+
   task shared_tables: :environment do
     populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/common/shared_tables.json')
 
