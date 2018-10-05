@@ -4,6 +4,8 @@ module Support
   module Address
     class OwnershipType < ApplicationRecord # :nodoc:
       self.table_name = 'sihab.address_ownership_types'
+
+      audited
     end
   end
 end
