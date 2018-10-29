@@ -8,8 +8,8 @@ namespace :populate_entity do
   end
 
   task cadastre: :environment do 
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/sihab/entity/cadastre.json')
-
+    populate = JSON.parse(File.open('../files/sihab/entity/cadastre.json').read)
+    
     populate.data['entity'].each do |sector|
       object = Support::Entity::Cadastre.new
       object.name                = sector['name']

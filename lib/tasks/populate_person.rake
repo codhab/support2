@@ -11,8 +11,8 @@ namespace :populate_person do
   end
 
   task contract_type: :environment do 
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/person/contract_type.json')
-
+    populate = JSON.parse(File.open('../files/extranet/person/contract_type.json').read)
+    
     populate.data['contract_types'].each do |sector|
       object = Support::Person::ContractType.new
       object.id     = sector['id']
@@ -20,9 +20,9 @@ namespace :populate_person do
       object.save(validate: false)
     end
   end
-
+  
   task sector: :environment do 
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/person/sectors.json')
+    populate = JSON.parse(File.open('../files/extranet/person/sectors.json').read)
 
     populate.data['sector'].each do |sector|
       object = Support::Person::Sector.new
@@ -37,7 +37,7 @@ namespace :populate_person do
   end
 
   task job: :environment do 
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/person/job.json')
+    populate = JSON.parse(File.open('../files/extranet/person/job.json').read)
 
     populate.data['job'].each do |sector|
       object = Support::Person::Job.new
@@ -51,7 +51,7 @@ namespace :populate_person do
 
 
   task staff: :environment do 
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/person/staffs.json')
+    populate = JSON.parse(File.open('../files/extranet/person/staffs.json').read)
 
     populate.data['staff'].each do |sector|
       object = Support::Person::Staff.new

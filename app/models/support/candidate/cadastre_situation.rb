@@ -5,6 +5,8 @@ module Support
     class CadastreSituation < ApplicationRecord # :nodoc:
       self.table_name = 'sihab.candidate_cadastre_situations'
 
+      belongs_to :situation_type
+
       audited
     end
   end

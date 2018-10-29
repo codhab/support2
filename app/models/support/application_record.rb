@@ -8,7 +8,9 @@ module Support
     scope :not_deleted,   -> { where(deleted: false) }
 
     def destroy
-      self.update(deleted: true, deleted_at: Time.now)
+      self.deleted    = true
+      self.deleted_at = Time.now
+      self.save(validate: false)
     end
 
     private 

@@ -6,21 +6,17 @@ namespace :populate_common do
     Rake::Task["populate_common:shared_tables"].invoke
     Rake::Task["populate_common:subject"].invoke
     Rake::Task["populate_common:document_type"].invoke
-    Rake::Task["populate_common:situation_type"].invoke
-    Rake::Task["populate_common:procedural_type"].invoke
     Rake::Task["populate_common:cpl_document_type"].invoke
     Rake::Task["populate_common:notice"].invoke
     Rake::Task["populate_common:participant"].invoke
     Rake::Task["populate_common:assessment"].invoke
-    Rake::Task["populate_common:candidate"].invoke
-    Rake::Task["populate_common:candidate_mirror"].invoke
     Rake::Task["populate_common:address_unit"].invoke
 
     p 'Common populado.'
   end
 
   task state_and_city: :environment do
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/common/state_and_cities.json')
+    populate = JSON.parse(File.open('../files/common/state_and_cities.json').read)
 
     populate.data.each do |state|
       state_obj = Support::Common::State.new(acronym: state['acronym'],name: state['name'])
@@ -36,8 +32,8 @@ namespace :populate_common do
   end
 
   task subject: :environment do
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/protocol/subject.json')
-
+    populate = JSON.parse(File.open('../files/extranet/protocol/subject.json').read)
+    
     populate.data['subjects'].each do |subject|
       object = Support::Protocol::Subject.new
       object.id     = subject['id']
@@ -46,9 +42,9 @@ namespace :populate_common do
       object.save(validate: false)
     end
   end
-
+  
   task document_type: :environment do
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/protocol/document_type.json')
+    populate = JSON.parse(File.open('../files/extranet/protocol/document_type.json').read)
 
     populate.data['document_types'].each do |document_type|
       object = Support::Protocol::DocumentType.new
@@ -59,31 +55,9 @@ namespace :populate_common do
     end
   end
 
-  task situation_type: :environment do
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/sihab/candidate/situation_types.json')
-
-    populate.data['situations'].each do |situation_type|
-      object = Support::Candidate::SituationType.new
-      object.id     = situation_type['id']
-      object.name   = situation_type['name']
-      object.save(validate: false)
-    end
-  end
-
-  task procedural_type: :environment do
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/sihab/candidate/procedural_types.json')
-
-    populate.data['procedurals'].each do |procedural_type|
-      object = Support::Candidate::ProceduralType.new
-      object.id     = procedural_type['id']
-      object.name   = procedural_type['name']
-      object.status = procedural_type['status']
-      object.save(validate: false)
-    end
-  end
-
+ 
   task assessment: :environment do
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/protocol/assessment.json')
+    populate = JSON.parse(File.open('../files/extranet/protocol/assessment.json').read)
 
     populate.data['assessments'].each do |assessment|
       state_obj = Support::Protocol::Assessment.new
@@ -113,7 +87,7 @@ namespace :populate_common do
   end
 
   task cpl_document_type: :environment do
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/cpl/document_types.json')
+    populate = JSON.parse(File.open('../files/sihab/extranet/cpl/document_types.json').read)
 
     populate.data['document_types'].each do |document_type|
       object = Support::Cpl::DocumentType.new
@@ -125,7 +99,7 @@ namespace :populate_common do
   end
 
   task notice: :environment do
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/cpl/notices.json')
+    populate = JSON.parse(File.open('../files/extranet/cpl/notices.json').read)
 
     populate.data['notices'].each do |document_type|
       object = Support::Cpl::Notice.new
@@ -143,7 +117,7 @@ namespace :populate_common do
   end
 
   task participant: :environment do
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/cpl/participants.json')
+    populate = JSON.parse(File.open('../files/extranet/cpl/participants.json').read)
 
     populate.data['participants'].each do |document_type|
       object = Support::Cpl::Participant.new
@@ -155,33 +129,11 @@ namespace :populate_common do
     end
   end
 
-  task candidate: :environment do
-    object = Support::Candidate::Cadastre.new
-    object.id = 1
-    object.name = 'Fulano de Tal'
-    object.cpf = '13615303083'
-    object.arrival_df = Date.parse('2001-01-10')
-    object.born = Date.parse('1984-03-23')
-    object.family_income = '100'
-    object.special_condition = false
-    object.save(validate: false)
-  end
-
-  task candidate_mirror: :environment do
-    object = Support::Candidate::CadastreMirror.new
-    object.cadastre_id = 1
-    object.name = 'Fulano de Tal'
-    object.cpf = '13615303083'
-    object.arrival_df = Date.parse('2001-01-10')
-    object.born = Date.parse('1984-03-23')
-    object.family_income = '100'
-    object.special_condition = false
-    object.save(validate: false)
-  end
+ 
 
   task address_unit: :environment do
-
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/sihab/address/units.json')
+    populate = JSON.parse(File.open('../files/sihab/address/units.json').read)
+    
     populate.data['address'].each do |unit|
       object = Support::Address::Unit.new
       object.id = unit['id']
@@ -202,20 +154,9 @@ namespace :populate_common do
     end
   end
 
-  task situation_type: :environment do
-
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/sihab/address/situation_types.json')
-    populate.data['situation_types'].each do |unit|
-      object = Support::Address::UnitSituationType.new
-      object.id = unit['id']
-      object.name = unit['name']
-      object.status = true
-      object.save(validate: false)
-    end
-  end
-
+ 
   task shared_tables: :environment do
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/common/shared_tables.json')
+    populate = JSON.parse(File.open('../files/common/shared_tables.json').read)
 
     array = ['civil_states', 'kinships', 'special_condition_types', 'genders', 'education_backgrounds', 'programs']
 

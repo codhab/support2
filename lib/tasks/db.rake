@@ -27,6 +27,4 @@ namespace :db do
     Rake::Task['populate_entity:populate'].invoke
   end
 
-  task populate_minimal: :environment do
-  end
 end

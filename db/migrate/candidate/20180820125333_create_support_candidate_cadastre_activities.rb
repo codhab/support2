@@ -10,6 +10,7 @@ class CreateSupportCandidateCadastreActivities < ActiveRecord::Migration[5.2]
       t.boolean  :computer, default: false
       t.string   :title
       t.text     :justify
+      t.string   :document
       t.boolean  :critical, default: false
 
       t.timestamps

@@ -8,7 +8,7 @@ namespace :populate_pivotal do
   end
 
   task nav: :environment do 
-    populate = Support::HttpService.new('raw.githubusercontent.com', '/codhab/populate/master/extranet/pivotal/navs.json')
+    populate = JSON.parse(File.open('../files/extranet/person/navs.json').read)
 
     populate.data['navs'].each do |nav|
       object = Support::Pivotal::Nav.new

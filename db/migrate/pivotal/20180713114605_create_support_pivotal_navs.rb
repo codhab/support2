@@ -8,6 +8,7 @@ class CreateSupportPivotalNavs < ActiveRecord::Migration[5.2]
       t.integer :group_permission_id
       t.text    :permission_ids, array: true
       t.string  :url
+      t.integer :position, default: 0
 
       t.timestamps
 
