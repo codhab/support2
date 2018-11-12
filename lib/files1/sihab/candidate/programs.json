@@ -1,0 +1,20 @@
+{
+  "situations": [
+    {
+      "id": 1,
+      "name": "RII"
+    },
+    {
+      "id": 2,
+      "name": "RIE"
+    },
+    {
+      "id": 3,
+      "name": "Regularização"
+    },
+    {
+      "id": 4,
+      "name": "Vulnerabilidade"
+    }
+  ]
+}

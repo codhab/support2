@@ -1,0 +1,32 @@
+{
+  "participants": [
+    {
+      "name": "CTX TECNOLOGIA E EQUIPAMENTOS EIRELI-EPP",
+      "cnpj": "72645872000118",
+      "email": "ctxtecnologia@hotmail.com",
+      "password": "123456",
+      "status": true
+    },
+    {
+      "name": "Betta Instalação, Manutenção e Comércio Ltda",
+      "cnpj": "0323136800159",
+      "email": "bettalicitacao@gmail.com",
+      "password": "123456",
+      "status": true
+    },
+    {
+      "name": "Amanda",
+      "cnpj": "73086630191",
+      "email": "AMANDA@GMAIL.COM",
+      "password": "123456",
+      "status": true
+    },
+    {
+      "name": "Maria Clara",
+      "cnpj": "05785370107",
+      "email": "claralps@gmail.com",
+      "password": "123456",
+      "status": true
+    }
+  ]
+}

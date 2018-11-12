@@ -1,0 +1,248 @@
+{
+  "navs": [
+    {
+      "label": "Atendimento",
+      "description": "Gestão de atendimento",
+      "father_id": "",
+      "status": true,
+      "group_permission_id": "",
+      "permission_ids": "",
+      "url": "#",
+      "childrens": [
+        {
+          "label": "Postos de atendimento",
+          "status": true,
+          "url": "/atendimento/postos"
+        },
+        {
+          "label": "Agendamento",
+          "status": true,
+          "url": "/atendimento/agendas"
+        },
+        {
+          "label": "Requerimentos",
+          "status": true,
+          "url": "/atendimento/requerimentos"
+        },
+        {
+          "label": "Selagens",
+          "status": true,
+          "url": "/atendimento/selagens"
+        },
+        {
+          "label": "Diário",
+          "status": true,
+          "url": "/atendimento/diarios"
+        },
+        {
+          "label": "Atendimentos",
+          "status": true,
+          "url": "/atendimento/atendimentos"
+        },
+        {
+          "label": "Inscrição eventual",
+          "status": true,
+          "url": "/atendimento/inscricao-eventual"
+        },
+        {
+          "label": "Troca de titularidade",
+          "status": true,
+          "url": "/atendimento/troca-titularidade/new"
+        },
+        {
+          "label": "Conversas",
+          "status": true,
+          "url": "/atendimento/conversas"
+        }
+      ]
+    },
+
+    {
+      "label": "Cadastro",
+      "description": "Gestão cadastral",
+      "father_id": "",
+      "status": true,
+      "group_permission_id": "",
+      "permission_ids": "",
+      "url": "#",
+      "childrens": [
+        {
+          "label": "Cadastro",
+          "status": true,
+          "url": "/candidato",
+          "position": 0
+        },
+        {
+          "label": "Entidades",
+          "status": true,
+          "url": "/entidade",
+          "position": 1
+        },
+        {
+          "label": "Indicacões",
+          "status": true,
+          "url": "/empreendimento/indicacoes",
+          "position": 2
+        },        
+        {
+          "label": "ITBI/ITCD",
+          "status": true,
+          "url": "/sefaz",
+          "position": 3
+        },
+        {
+          "label": "Ocorrências",
+          "status": true,
+          "url": "/candidato/ocorrencias",
+          "position": 4
+        },
+        {
+          "label": "Comunicação",
+          "status": true,
+          "url": "/candidato/comunicacoes",
+          "position": 5
+        }
+      ]
+    },
+
+    {
+      "label": "Imóveis",
+      "status": true,
+      "father_id": "",
+      "group_permission_id": "",
+      "permission_ids": "",
+      "url": "#",
+      "childrens": [
+        {
+          "label": "Cadastro imobiliário",
+          "status": true,
+          "url": "/endereco/cadastro-imobiliario"
+        },
+        {
+          "label": "Endereços",
+          "status": true,
+          "url": "/endereco/unidades"
+        },
+        {
+          "label": "Empreendimentos",
+          "status": true,
+          "url": "/endereco/empreendimentos"
+        },
+        {
+          "label": "Controle de escrituras",
+          "status": true,
+          "url": "#"
+        }
+      ]
+    },
+
+    {
+      "label": "Comunicação",
+      "status": true,
+      "url": "#",
+      "father_id": "",
+      "group_permission_id": "",
+      "permission_ids": "",
+      "childrens": [
+        {
+          "label": "Portal",
+          "status": true,
+          "url": "/cms/postagens",
+          "position": 0
+        },
+        {
+          "label": "Extranet",
+          "status": true,
+          "url": "/nucleo/postagens",
+          "position": 1
+        }
+      ]
+    },
+
+    {
+      "label": "Outros sistemas",
+      "status": true,
+      "father_id": "",
+      "group_permission_id": "",
+      "permission_ids": "",
+      "url": "#",
+      "childrens": [
+        {
+          "label": "Gestão de pessoas",
+          "status": true,
+          "url": "/gestao-pessoa"
+        },
+        {
+          "label": "Concursos de projeto",
+          "status": true,
+          "url": "/concursos"
+        },
+        {
+          "label": "Jurídico",
+          "status": true,
+          "url": "/juridico"
+        },
+        {
+          "label": "HelpDesk",
+          "status": true,
+          "url": "/helpdesk"
+        },
+        {
+          "label": "Protocolo",
+          "status": true,
+          "url": "/protocolo"
+        },
+        {
+          "label": "Financeiro",
+          "status": true,
+          "url": "#"
+        },
+        {
+          "label": "Núcleo",
+          "status": true,
+          "url": "#"
+        },
+        {
+          "label": "Melhorias habitacionais",
+          "status": true,
+          "url": "/melhorias-habitacionais"
+        },
+        {
+          "label": "Integração SEI",
+          "status": true,
+          "url": "/sei"
+        },
+        {
+          "label": "Monitoramento de projetos",
+          "status": true,
+          "url": "/monitoramento"
+        }
+
+      ]
+    },
+    {
+      "label": "Relatórios",
+      "status": true,
+      "father_id": "",
+      "group_permission_id": "",
+      "permission_ids": "",
+      "url": "#"
+    },
+    {
+      "label": "SEI",
+      "status": true,
+      "father_id": "",
+      "group_permission_id": "",
+      "permission_ids": "",
+      "url": "#"
+    },
+    {
+      "label": "Documentos",
+      "status": true,
+      "father_id": "",
+      "group_permission_id": "",
+      "permission_ids": "",
+      "url": "#"
+    }
+  ]
+}

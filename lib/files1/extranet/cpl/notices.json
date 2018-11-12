@@ -1,0 +1,50 @@
+{
+  "notices": [
+    {
+      "name": "Edital de Licitação P.E 005/2018 - Passagens",
+      "document_number": "392.002.889/2017",
+      "proposal_date": "2018-04-12",
+      "proposal_hour": "09:59",
+      "open_date": "2018-04-12",
+      "open_hour": "10:00",
+      "session_date": "2018-04-12",
+      "session_hour": "10:00",
+      "status": true
+
+    },
+    {
+      "name": "Edital de Licitação P.E 007/2018",
+      "document_number": "392.002.231/2017",
+      "proposal_date": "2018-09-12",
+      "proposal_hour": "09:59",
+      "open_date": "2018-09-12",
+      "open_hour": "10:00",
+      "session_date": "2018-09-12",
+      "session_hour": "10:00",
+      "status": true
+
+    },
+    {
+      "name": "Edital de licitação P.E 001/2018 - Seguro de Veículos",
+      "document_number": "392.004.661/2017",
+      "proposal_date": "2018-01-04",
+      "proposal_hour": "09:59",
+      "open_date": "2018-01-04",
+      "open_hour": "10:00",
+      "session_date": "2018-01-04",
+      "session_hour": "10:00",
+      "status": true
+    },
+    {
+      "name": "Edital de Licitação P.E 019/2018",
+      "document_number": "392.002.889/2017",
+      "proposal_date": "2018-08-12",
+      "proposal_hour": "09:59",
+      "open_date": "2018-08-13",
+      "open_hour": "10:00",
+      "session_date": "2018-08-13",
+      "session_hour": "10:00",
+      "status": true
+    }
+  ]
+}

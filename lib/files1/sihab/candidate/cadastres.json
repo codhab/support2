@@ -1,0 +1,144 @@
+{
+  "cadastre": [
+    {
+      "name": "MARIA SANTA DA SILVA",
+      "cpf": "00000000015",
+      "gender_id": "feminino",
+      "born": "1979-12-09",
+      "born_uf_id": "DF",
+      "rg": "89875",
+      "rg_org": null,
+      "rg_uf_id": null,
+      "place_birth": null,
+      "arrival_df": "1979-12-09",
+      "telephone": null,
+      "telephone_optional": null,
+      "celphone": null,
+      "email": null,
+      "special_condition": false,
+      "special_condition_type_id": null,
+      "cep": "7300000",
+      "program_id": 2,
+      "civil_state_id": 1,
+      "city_id": 804,
+      "address": "AR 08 CONJ 08 CASA",
+      "address_complement": null,
+      "family_income": 900.0,
+      "personal_income": 900.0,
+      "work_cep": null,
+      "work_city_id": null,
+      "work_address": "AR 09 CONJ 077 CASA",
+      "lat": null,
+      "lng": null,
+      "nis": null,
+      "cid": null,
+      "dependents": [
+
+      ],
+      "mirror": [
+        {
+          "name": "MARIA SANTA DA SILVA",
+          "cpf": "02457825598",
+          "gender_id": "feminino",
+          "born": "1979-12-09",
+          "born_uf_id": "DF",
+          "rg": "89875",
+          "rg_org": null,
+          "rg_uf_id": null,
+          "place_birth": null,
+          "arrival_df": "1979-12-09",
+          "telephone": null,
+          "telephone_optional": null,
+          "celphone": null,
+          "email": null,
+          "special_condition": false,
+          "special_condition_type_id": null,
+          "cep": "7300000",
+          "program_id": 2,
+          "civil_state_id": 1,
+          "city_id": 804,
+          "address": "AR 08 CONJ 08 CASA",
+          "address_complement": null,
+          "family_income": 900.0,
+          "personal_income": 900.0,
+          "work_cep": null,
+          "work_city_id": null,
+          "work_address": "AR 09 CONJ 077 CASA",
+          "lat": null,
+          "lng": null,
+          "nis": null,
+          "cid": null,
+          "dependent_mirrors": [
+
+          ]
+        },
+        {
+          "name": "MARIA SANTA DA SILVA",
+          "cpf": "02457825598",
+          "gender_id": "feminino",
+          "born": "1979-12-09",
+          "born_uf_id": "DF",
+          "rg": "89875",
+          "rg_org": null,
+          "rg_uf_id": null,
+          "place_birth": null,
+          "arrival_df": "1979-12-09",
+          "telephone": null,
+          "telephone_optional": null,
+          "celphone": null,
+          "email": null,
+          "special_condition": false,
+          "special_condition_type_id": null,
+          "cep": "7300000",
+          "program_id": 2,
+          "civil_state_id": 1,
+          "city_id": 804,
+          "address": "AR 08 CONJ 08 CASA",
+          "address_complement": null,
+          "family_income": 900.0,
+          "personal_income": 900.0,
+          "work_cep": null,
+          "work_city_id": null,
+          "work_address": "AR 09 CONJ 077 CASA",
+          "lat": null,
+          "lng": null,
+          "nis": null,
+          "cid": null,
+          "dependent_mirrors": [
+
+          ]
+        }
+      ],
+      "situaitons": [
+        {
+          "situation_type_id": 47,
+          "observation": "SITUAÇÃO CADASTRAL ALTERADA A PEDIDO DA DIMOB, POR MEIO DO CHAMADO 1677 ABERTO EM 14/03/2017",
+          "created_at": "2015-07-01T00:00:00.992-03:00"
+        },
+        {
+          "situation_type_id": 3,
+          "observation": null,
+          "created_at": "2014-04-07T00:00:00.000-03:00"
+        },
+        {
+          "situation_type_id": 2,
+          "observation": null,
+          "created_at": "2012-08-30T13:07:12.933-03:00"
+        }
+      ],
+      "pontuaitons": [
+        {
+          "code": 20120915,
+          "bsb": 2414.9622443367,
+          "dependent": 0.0,
+          "timelist": 1.2801920288,
+          "special_condition": 0.0,
+          "income": 439.7106109325,
+          "total": 2855.953047298,
+          "program_id": 2,
+          "created_at": "2012-09-15T00:00:00.000-03:00"
+        }
+      ]
+    }
+  ]
+}

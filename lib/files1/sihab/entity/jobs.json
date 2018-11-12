@@ -1,0 +1,28 @@
+{
+  "job": [
+    {
+      "id": 2,
+      "name": "Presidente",
+      "code": 1,
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "Vice-presidente",
+      "code": 2,
+      "status": true
+    },
+    {
+      "id": 4,
+      "name": "Assessor(a)",
+      "code": 3,
+      "status": true
+    },
+    {
+      "id": 5,
+      "name": "Diretor(a)",
+      "code": 4,
+      "status": true
+    }
+  ]
+}

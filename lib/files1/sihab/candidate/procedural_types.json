@@ -1,0 +1,399 @@
+{
+  "procedurals": [
+    {
+      "id": 19,
+      "name": "aguardando nova convocação",
+      "status": true
+    },
+    {
+      "id": 35,
+      "name": "anÁlise-jm",
+      "status": true
+    },
+    {
+      "id": 68,
+      "name": "análise - nova regularização",
+      "status": true
+    },
+    {
+      "id": 13,
+      "name": "cancelado (adin) ação ind. insconst",
+      "status": true
+    },
+    {
+      "id": 57,
+      "name": "cancelado administrativamente",
+      "status": true
+    },
+    {
+      "id": 25,
+      "name": "cancelado: por editais",
+      "status": true
+    },
+    {
+      "id": 12,
+      "name": "cancelado: por nao comparecimento",
+      "status": true
+    },
+    {
+      "id": 54,
+      "name": "candidato substituido",
+      "status": true
+    },
+    {
+      "id": 42,
+      "name": "contrato assinado",
+      "status": true
+    },
+    {
+      "id": 60,
+      "name": "convocação cancelada",
+      "status": true
+    },
+    {
+      "id": 1,
+      "name": "convocado - não formalizou processo",
+      "status": true
+    },
+    {
+      "id": 50,
+      "name": "dacao de pagamento pela terracap",
+      "status": true
+    },
+    {
+      "id": 15,
+      "name": "desistente",
+      "status": true
+    },
+    {
+      "id": 43,
+      "name": "duplo beneficio/lote",
+      "status": true
+    },
+    {
+      "id": 10,
+      "name": "em analise",
+      "status": true
+    },
+    {
+      "id": 9,
+      "name": "em exigencia",
+      "status": true
+    },
+    {
+      "id": 7,
+      "name": "em ordem",
+      "status": true
+    },
+    {
+      "id": 8,
+      "name": "em ordem (com endereço)",
+      "status": true
+    },
+    {
+      "id": 33,
+      "name": "em ordem - jm",
+      "status": true
+    },
+    {
+      "id": 38,
+      "name": "em ordem - jm",
+      "status": true
+    },
+    {
+      "id": 55,
+      "name": "em ordem: mangueiral-  contratar",
+      "status": true
+    },
+    {
+      "id": 47,
+      "name": "em ordem- mutirao riacho fundo ii",
+      "status": true
+    },
+    {
+      "id": 14,
+      "name": "em ordem para publicação",
+      "status": true
+    },
+    {
+      "id": 39,
+      "name": "em ordem - recurso acatado - jm",
+      "status": true
+    },
+    {
+      "id": 56,
+      "name": "em ordem- sub-judice",
+      "status": true
+    },
+    {
+      "id": 79,
+      "name": "excluído por decisão judicial",
+      "status": false
+    },
+    {
+      "id": 34,
+      "name": "exigencia-jm",
+      "status": true
+    },
+    {
+      "id": 65,
+      "name": "habilitado para compra",
+      "status": true
+    },
+    {
+      "id": 67,
+      "name": "habilitado para compra",
+      "status": true
+    },
+    {
+      "id": 64,
+      "name": "habilitado para doação",
+      "status": true
+    },
+    {
+      "id": 66,
+      "name": "habilitado para licitação (preferência)",
+      "status": true
+    },
+    {
+      "id": 4,
+      "name": "imóvel distribuido",
+      "status": true
+    },
+    {
+      "id": 48,
+      "name": "imÓvel distribuÍdo-t.c.",
+      "status": true
+    },
+    {
+      "id": 77,
+      "name": "imóvel transferido",
+      "status": true
+    },
+    {
+      "id": 11,
+      "name": "indeferido",
+      "status": true
+    },
+    {
+      "id": 53,
+      "name": "indeferido: assoc. desclas.-edit 01/05.",
+      "status": true
+    },
+    {
+      "id": 18,
+      "name": "indeferido: com endereco",
+      "status": true
+    },
+    {
+      "id": 28,
+      "name": "indeferido: com.sindicancia(retomado)",
+      "status": true
+    },
+    {
+      "id": 32,
+      "name": "indeferido (constou imóvel) - jm",
+      "status": true
+    },
+    {
+      "id": 76,
+      "name": "indeferido - em análise",
+      "status": true
+    },
+    {
+      "id": 22,
+      "name": "indeferido: ex-proprietÁrio de imovel",
+      "status": true
+    },
+    {
+      "id": 23,
+      "name": "indeferido: menos de 5 anos no d.federal",
+      "status": true
+    },
+    {
+      "id": 44,
+      "name": "indeferido: nao comprova 25 anos em bsb",
+      "status": true
+    },
+    {
+      "id": 24,
+      "name": "indeferido: não comprov.dados declarados",
+      "status": true
+    },
+    {
+      "id": 26,
+      "name": "indeferido-nao cumprimento de exigencias",
+      "status": true
+    },
+    {
+      "id": 31,
+      "name": "indeferido-nao reside no lote.",
+      "status": true
+    },
+    {
+      "id": 36,
+      "name": "indeferido (pela análise)-jm",
+      "status": true
+    },
+    {
+      "id": 58,
+      "name": "indeferido (pontuaÇÃo insuficiente)",
+      "status": true
+    },
+    {
+      "id": 21,
+      "name": "indeferido: proprietario de imovel",
+      "status": true
+    },
+    {
+      "id": 40,
+      "name": "indeferido - recurso nÃo acatado - jm",
+      "status": true
+    },
+    {
+      "id": 27,
+      "name": "indeferido: regul.nao concluida(escrit)",
+      "status": true
+    },
+    {
+      "id": 20,
+      "name": "indeferido: renda superior ao limite",
+      "status": true
+    },
+    {
+      "id": 30,
+      "name": "indeferido: retomado decisao judicial.",
+      "status": true
+    },
+    {
+      "id": 41,
+      "name": "indeferimento publicado no dodf - jm",
+      "status": true
+    },
+    {
+      "id": 62,
+      "name": "jard.mangueiral - sem convoc. publicada",
+      "status": true
+    },
+    {
+      "id": 52,
+      "name": "lote retomado portaria 48/2005.",
+      "status": true
+    },
+    {
+      "id": 29,
+      "name": "militar-solteiro sem dependente.",
+      "status": true
+    },
+    {
+      "id": 78,
+      "name": "não compareceu para formalizar processo",
+      "status": true
+    },
+    {
+      "id": 61,
+      "name": "não cumprimento prazo regimental",
+      "status": true
+    },
+    {
+      "id": 51,
+      "name": "ocup.a regularizar loteamento sub judice",
+      "status": true
+    },
+    {
+      "id": 5,
+      "name": "para indeferir",
+      "status": true
+    },
+    {
+      "id": 37,
+      "name": "para indeferir-jm",
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "pesquisa cadastral",
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "processo para autuar",
+      "status": true
+    },
+    {
+      "id": 6,
+      "name": "recebido shis/idhab-redistribuido",
+      "status": true
+    },
+    {
+      "id": 45,
+      "name": "recebido terracap-redistribuido",
+      "status": true
+    },
+    {
+      "id": 59,
+      "name": "reclassificar",
+      "status": true
+    },
+    {
+      "id": 73,
+      "name": "revisado (contemplado)",
+      "status": true
+    },
+    {
+      "id": 72,
+      "name": "revisado (em ordem)",
+      "status": true
+    },
+    {
+      "id": 69,
+      "name": "revisado (em ordem analista)",
+      "status": true
+    },
+    {
+      "id": 70,
+      "name": "revisado (em ordem com endereço)",
+      "status": true
+    },
+    {
+      "id": 74,
+      "name": "revisado (para indeferir analista)",
+      "status": true
+    },
+    {
+      "id": 75,
+      "name": "revisado (para indeferir supervisor)",
+      "status": true
+    },
+    {
+      "id": 71,
+      "name": "revisado (pendente)",
+      "status": true
+    },
+    {
+      "id": 16,
+      "name": "sobrestado",
+      "status": true
+    },
+    {
+      "id": 46,
+      "name": "tcu-(contrato oneroso)",
+      "status": true
+    },
+    {
+      "id": 63,
+      "name": "transferencia desfeita - sÚmula 02/2012",
+      "status": true
+    },
+    {
+      "id": 49,
+      "name": "vila planalto-fixacao/terracap",
+      "status": true
+    },
+    {
+      "id": 17,
+      "name": "vistoriar",
+      "status": true
+    }
+  ]
+}

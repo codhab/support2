@@ -1,0 +1,36 @@
+{
+  "contract_types": [
+    {
+      "id": "1",
+      "name": "Incluído no mês"
+    },
+    {
+      "id": "2",
+      "name": "CLT"
+    },
+    {
+      "id": "3",
+      "name": "Afastado"
+    },
+    {
+      "id": "4",
+      "name": "Estagiário - CODHAB"
+    },
+    {
+      "id": "5",
+      "name": "Estagiário - SEPLAG"
+    },
+    {
+      "id": "6",
+      "name": "FUNAP"
+    },
+    {
+      "id": "7",
+      "name": "Estatutário"
+    },
+    {
+      "id": "8",
+      "name": "Terracap"
+    }
+  ]
+}

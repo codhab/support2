@@ -1,0 +1,142 @@
+{
+  "job": [
+    {
+      "id": 15,
+      "name": "Estagiário",
+      "salary": null,
+      "function_code": null
+    },
+    {
+      "id": 16,
+      "name": "Colaborador",
+      "salary": null,
+      "function_code": null
+    },
+    {
+      "id": 17,
+      "name": "FUNAP",
+      "salary": null,
+      "function_code": null
+    },
+    {
+      "id": 18,
+      "name": "Motorista",
+      "salary": null,
+      "function_code": null
+    },
+    {
+      "id": 20,
+      "name": "Jovem Candango",
+      "salary": "",
+      "function_code": ""
+    },
+    {
+      "id": 22,
+      "name": "Estagiário SEPLAG",
+      "salary": "",
+      "function_code": ""
+    },
+    {
+      "id": 23,
+      "name": "Voluntário",
+      "salary": "",
+      "function_code": "24"
+    },
+    {
+      "id": 1,
+      "name": "Diretor Presidente",
+      "salary": "18000,00",
+      "function_code": "EC-01"
+    },
+    {
+      "id": 2,
+      "name": "Secretário Executivo",
+      "salary": "9000,00",
+      "function_code": "EC-04"
+    },
+    {
+      "id": 3,
+      "name": "Procurador Chefe",
+      "salary": "9000,00",
+      "function_code": "EC-04"
+    },
+    {
+      "id": 4,
+      "name": "Auditor Chefe",
+      "salary": "9000,00",
+      "function_code": "EC-04"
+    },
+    {
+      "id": 6,
+      "name": "Diretor",
+      "salary": "16200,00",
+      "function_code": "EC-02"
+    },
+    {
+      "id": 7,
+      "name": "Gerente",
+      "salary": "7200,00",
+      "function_code": "EC-05"
+    },
+    {
+      "id": 8,
+      "name": "Chefe de Núcleo",
+      "salary": "5400,00",
+      "function_code": "EC-07"
+    },
+    {
+      "id": 11,
+      "name": "Assessor Pleno",
+      "salary": "3600,00",
+      "function_code": "EC-08"
+    },
+    {
+      "id": 12,
+      "name": "Assessor",
+      "salary": "2300,00",
+      "function_code": "EC-09"
+    },
+    {
+      "id": 13,
+      "name": "Assessor Júnior I ",
+      "salary": "1800,00",
+      "function_code": "EC-10"
+    },
+    {
+      "id": 14,
+      "name": "Assessor Júnior II ",
+      "salary": "1500,00",
+      "function_code": "EC-11"
+    },
+    {
+      "id": 19,
+      "name": "Chefe de Ouvidoria",
+      "salary": "6300,00",
+      "function_code": "EC-06"
+    },
+    {
+      "id": 9,
+      "name": "Assessor Master I",
+      "salary": "9000,00",
+      "function_code": "EC-04"
+    },
+    {
+      "id": 21,
+      "name": "Assessor Master II",
+      "salary": "7200,00",
+      "function_code": "EC-05"
+    },
+    {
+      "id": 10,
+      "name": "Assessor Sênior",
+      "salary": "6300,00",
+      "function_code": "EC-06"
+    },
+    {
+      "id": 5,
+      "name": "Chefe de Assessoria",
+      "salary": "",
+      "function_code": ""
+    }
+  ]
+}

@@ -1,0 +1,7934 @@
+{
+  "assessments": [
+    {
+      "id": 13118,
+      "number": 416,
+      "year": 1972,
+      "prefex": 102,
+      "document_number": "102-000.416/1972",
+      "recipient": "JOSE CARLOS LOBO BARDAWIL",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 1,
+      "subject_id": 452,
+      "staff_id": 513,
+      "sector_id": 211,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 13118,
+          "staff_id": 448,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 13118,
+          "staff_id": 513,
+          "sector_id": 1,
+          "conduct_type": 1
+        }
+      ]
+    },
+    {
+      "id": 858931,
+      "number": 1218,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.218/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858931,
+          "staff_id": 1390,
+          "sector_id": 43732,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858931,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858931,
+          "staff_id": 1621,
+          "sector_id": 43732,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858931,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858932,
+      "number": 1219,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.219/2016",
+      "recipient": "Direg",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1373,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858932,
+          "staff_id": 1390,
+          "sector_id": 43705,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858932,
+          "staff_id": 1373,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858932,
+          "staff_id": 1624,
+          "sector_id": 43705,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858932,
+          "staff_id": 1373,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858935,
+      "number": 6128,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.128/2016",
+      "recipient": "P/P MARIA GERALDA RODRIGUES DA SILVAREPRESENTANTE DA BEM ESTAR SOCIAL",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1200,
+      "staff_id": 1518,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858935,
+          "staff_id": 1639,
+          "sector_id": 43810,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858935,
+          "staff_id": 1379,
+          "sector_id": 43742,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858935,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858935,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858935,
+          "staff_id": 1379,
+          "sector_id": 43810,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858935,
+          "staff_id": 1319,
+          "sector_id": 43742,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858935,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858935,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858936,
+      "number": 6129,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.129/2016",
+      "recipient": "MARIA GERALDA RODRIGUES DA SILVAREPRESENTANTE",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858936,
+          "staff_id": 1639,
+          "sector_id": 43810,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858936,
+          "staff_id": 1379,
+          "sector_id": 43742,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858936,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858936,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858936,
+          "staff_id": 1379,
+          "sector_id": 43810,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858936,
+          "staff_id": 1319,
+          "sector_id": 43742,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858936,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858936,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858938,
+      "number": 6131,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.131/2016",
+      "recipient": "SELMA IOLANDA DE MATOSREPRESENTANTE",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858938,
+          "staff_id": 821,
+          "sector_id": 43806,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858938,
+          "staff_id": 1379,
+          "sector_id": 43742,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858938,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858938,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858938,
+          "staff_id": 1379,
+          "sector_id": 43806,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858938,
+          "staff_id": 1319,
+          "sector_id": 43742,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858938,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858938,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858940,
+      "number": 6133,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.133/2016",
+      "recipient": "SELMA IOLANDA DE MATOSREPRESENTANTE",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858940,
+          "staff_id": 821,
+          "sector_id": 43806,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858940,
+          "staff_id": 1379,
+          "sector_id": 43742,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858940,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858940,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858940,
+          "staff_id": 1379,
+          "sector_id": 43806,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858940,
+          "staff_id": 1319,
+          "sector_id": 43742,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858940,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858940,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858941,
+      "number": 6134,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.134/2016",
+      "recipient": "SELMA IOLANDA DE MATOSREPRESENTANTE LEGAL DO COMUSA/DF",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1518,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858941,
+          "staff_id": 821,
+          "sector_id": 43806,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858941,
+          "staff_id": 1379,
+          "sector_id": 43742,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858941,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858941,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858941,
+          "staff_id": 1379,
+          "sector_id": 43806,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858941,
+          "staff_id": 1319,
+          "sector_id": 43742,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858941,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858941,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858942,
+      "number": 1220,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.220/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858942,
+          "staff_id": 1390,
+          "sector_id": 43732,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858942,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858942,
+          "staff_id": 1621,
+          "sector_id": 43732,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858942,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858943,
+      "number": 6135,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.135/2016",
+      "recipient": "SELMA IOLANDA DE MATOS REPRESENTANTE",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858943,
+          "staff_id": 821,
+          "sector_id": 43806,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858943,
+          "staff_id": 1379,
+          "sector_id": 43742,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858943,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858943,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858943,
+          "staff_id": 1379,
+          "sector_id": 43806,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858943,
+          "staff_id": 1319,
+          "sector_id": 43742,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858943,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858943,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858944,
+      "number": 1221,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.221/2016",
+      "recipient": "DIMOB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858944,
+          "staff_id": 818,
+          "sector_id": 43737,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858944,
+          "staff_id": 1379,
+          "sector_id": 43730,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858944,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858944,
+          "staff_id": 818,
+          "sector_id": 43800,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858944,
+          "staff_id": 1379,
+          "sector_id": 43737,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858944,
+          "staff_id": 1621,
+          "sector_id": 43730,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858944,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858945,
+      "number": 6136,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.136/2016",
+      "recipient": "SELMA IOLANDA DE MATOS REPRESENTANTE PP DA ASTRARSAMA/DF",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1518,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858945,
+          "staff_id": 821,
+          "sector_id": 43806,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858945,
+          "staff_id": 1379,
+          "sector_id": 43742,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858945,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858945,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858945,
+          "staff_id": 1379,
+          "sector_id": 43806,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858945,
+          "staff_id": 1319,
+          "sector_id": 43742,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858945,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858945,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858946,
+      "number": 1222,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.222/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858946,
+          "staff_id": 1390,
+          "sector_id": 43732,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858946,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858946,
+          "staff_id": 1621,
+          "sector_id": 43732,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858946,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858947,
+      "number": 6137,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.137/2016",
+      "recipient": "SELMA IOLANDA DE MATOSREPRESENTANTE LEGAL DO COMUSA/DF",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1518,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858947,
+          "staff_id": 821,
+          "sector_id": 43806,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858947,
+          "staff_id": 1379,
+          "sector_id": 43742,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858947,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858947,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858947,
+          "staff_id": 1379,
+          "sector_id": 43806,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858947,
+          "staff_id": 1319,
+          "sector_id": 43742,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858947,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858947,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858948,
+      "number": 6138,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.138/2016",
+      "recipient": "APOLINI DA SILVA FONTENELE",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858948,
+          "staff_id": 1122,
+          "sector_id": 43760,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858948,
+          "staff_id": 1332,
+          "sector_id": 43739,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858948,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858948,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858948,
+          "staff_id": 1332,
+          "sector_id": 43760,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858948,
+          "staff_id": 1319,
+          "sector_id": 43739,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858948,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858948,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858951,
+      "number": 6141,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.141/2016",
+      "recipient": "ARNALDO DE SOUZA ARAUJORG:1290719 SSP DFCPF:777.660831-91TELEFONE: 61 982346243 61 982346244",
+      "cpf": "777.662.831-91",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1672,
+      "sector_id": 203,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858951,
+          "staff_id": 1672,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858951,
+          "staff_id": 1672,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 3860,
+      "number": 3769,
+      "year": 2001,
+      "prefex": 92,
+      "document_number": "092-003.769/2001",
+      "recipient": "DVPE",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 1,
+      "subject_id": 475,
+      "staff_id": 513,
+      "sector_id": 211,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 3860,
+          "staff_id": 448,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 3860,
+          "staff_id": 513,
+          "sector_id": 1,
+          "conduct_type": 1
+        }
+      ]
+    },
+    {
+      "id": 858954,
+      "number": 6144,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.144/2016",
+      "recipient": "CELSO DANIEL LELIS VIEIRAOAB/DF Nº 34.475",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1518,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858954,
+          "staff_id": 1653,
+          "sector_id": 43738,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858954,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858954,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858954,
+          "staff_id": 1319,
+          "sector_id": 43738,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858954,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858954,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858928,
+      "number": 6123,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.123/2016",
+      "recipient": "RAFAELA ABREU RIBEIROTEL: 61-991119840   61-984251740",
+      "cpf": "00304807109",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1345,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858928,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858928,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858930,
+      "number": 6125,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.125/2016",
+      "recipient": "LARISSA MAIANA SEÁRA DE LIMARG:2.321.806CPF:010.997.081-093253.9340 8599.6571 8599.6572",
+      "cpf": "01099708109",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1672,
+      "sector_id": 203,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858930,
+          "staff_id": 1672,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858930,
+          "staff_id": 1672,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858933,
+      "number": 6126,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.126/2016",
+      "recipient": "ALESSANDRO DA SILVA LOPESTEL: 61-34686983  61-993282899",
+      "cpf": "79761534120",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1345,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858933,
+          "staff_id": 1384,
+          "sector_id": 43816,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858933,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858933,
+          "staff_id": 1313,
+          "sector_id": 43816,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858933,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858934,
+      "number": 6127,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.127/2016",
+      "recipient": "NOME: ALDECIR MOREIRA DOS SANTOS   RG: 1.188.453 DF   TELEFONE: (61) 3613-5882 / 9682-6263",
+      "cpf": "47803185134",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1641,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858934,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858934,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858937,
+      "number": 6130,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.130/2016",
+      "recipient": "LUCIANO BATISTA COSTA - END: QUADRA 06 CONJUNTO G LOTE 59 CASA 01 SOBRADINHO I/DF FONE(61)8436-5804/8552-0218",
+      "cpf": "47382147134",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1357,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858937,
+          "staff_id": 1357,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858937,
+          "staff_id": 1357,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858950,
+      "number": 6140,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.140/2016",
+      "recipient": "ANDREIA DE FREITAS SILVA MONTEIRO - NÚCLEO RURAL RAJADINHA I DF 250 CHÁCARA 22 PLANALTINA-DF FONE(61) 9224-5454/9385-6585",
+      "cpf": "99679280187",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1357,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858950,
+          "staff_id": 1357,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858950,
+          "staff_id": 1357,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858952,
+      "number": 6142,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.142/2016",
+      "recipient": "NOME: BÁRBARA SILVA SANTOS   RG: 1.903.984 DF   TELEFONE: (61) 9513-0407 / 8649-4619",
+      "cpf": "70146578104",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1641,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858952,
+          "staff_id": 1384,
+          "sector_id": 43755,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858952,
+          "staff_id": 1379,
+          "sector_id": 43726,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858952,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858952,
+          "staff_id": 1379,
+          "sector_id": 43755,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858952,
+          "staff_id": 1641,
+          "sector_id": 43726,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858952,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858953,
+      "number": 6143,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.143/2016",
+      "recipient": "ANA PAULA DE MIRANDA RODRIGUESTEL: 61-991493293   61-981473068",
+      "cpf": "72269650115",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1345,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858953,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858953,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858956,
+      "number": 1223,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.223/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858956,
+          "staff_id": 1390,
+          "sector_id": 43732,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858956,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858956,
+          "staff_id": 1621,
+          "sector_id": 43732,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858956,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858961,
+      "number": 15,
+      "year": 2016,
+      "prefex": 240,
+      "document_number": "240-000.015/2016",
+      "recipient": "REUNIÃO QUINHAO",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 563,
+      "staff_id": 1463,
+      "sector_id": 24,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858961,
+          "staff_id": 1463,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858961,
+          "staff_id": 1463,
+          "sector_id": 43717,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858961,
+          "staff_id": 1463,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858962,
+      "number": 1224,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.224/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858962,
+          "staff_id": 1390,
+          "sector_id": 43732,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858962,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858962,
+          "staff_id": 1621,
+          "sector_id": 43732,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858962,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858964,
+      "number": 1225,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.225/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858964,
+          "staff_id": 1390,
+          "sector_id": 43732,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858964,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858964,
+          "staff_id": 1621,
+          "sector_id": 43732,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858964,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858966,
+      "number": 301,
+      "year": 2016,
+      "prefex": 110,
+      "document_number": "110-000.301/2016",
+      "recipient": "DIPRO",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1077,
+      "sector_id": 3,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858966,
+          "staff_id": 917,
+          "sector_id": 43723,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858966,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858966,
+          "staff_id": 1077,
+          "sector_id": 43723,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858966,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858968,
+      "number": 302,
+      "year": 2016,
+      "prefex": 110,
+      "document_number": "110-000.302/2016",
+      "recipient": "DIMOB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1644,
+      "staff_id": 1077,
+      "sector_id": 3,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858968,
+          "staff_id": 821,
+          "sector_id": 43796,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858968,
+          "staff_id": 1379,
+          "sector_id": 43722,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858968,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858968,
+          "staff_id": 1379,
+          "sector_id": 43796,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858968,
+          "staff_id": 1077,
+          "sector_id": 43722,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858968,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858971,
+      "number": 1491,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.491/2016",
+      "recipient": "ROSALINO CORREIA DA CRUZPRESIDENTE DA ASS. DE DEUS - IADFJ",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1200,
+      "staff_id": 1518,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858971,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858971,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858971,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858971,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858972,
+      "number": 1226,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.226/2016",
+      "recipient": "DIMOB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1422,
+      "staff_id": 1619,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858972,
+          "staff_id": 818,
+          "sector_id": 43775,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858972,
+          "staff_id": 1379,
+          "sector_id": 43766,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858972,
+          "staff_id": 1619,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858972,
+          "staff_id": 818,
+          "sector_id": 43799,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858972,
+          "staff_id": 1379,
+          "sector_id": 43775,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858972,
+          "staff_id": 1624,
+          "sector_id": 43766,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858972,
+          "staff_id": 1619,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858973,
+      "number": 1492,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.492/2016",
+      "recipient": "SOLANGE STELA SERRA MARTINSSUBSECRETARIA DE ASSISTÊNCIA SOCIAL",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858973,
+          "staff_id": 563,
+          "sector_id": 43804,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858973,
+          "staff_id": 1379,
+          "sector_id": 43742,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858973,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858973,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858973,
+          "staff_id": 1379,
+          "sector_id": 43804,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858973,
+          "staff_id": 1319,
+          "sector_id": 43742,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858973,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858973,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858974,
+      "number": 6153,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.153/2016",
+      "recipient": "LOURENÇO FURTADO AMARALPRESIDENTE",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858974,
+          "staff_id": 1506,
+          "sector_id": 43807,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858974,
+          "staff_id": 1379,
+          "sector_id": 43742,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858974,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858974,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858974,
+          "staff_id": 1379,
+          "sector_id": 43807,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858974,
+          "staff_id": 1319,
+          "sector_id": 43742,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858974,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858974,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858976,
+      "number": 1227,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.227/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1287,
+      "staff_id": 1619,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858976,
+          "staff_id": 1299,
+          "sector_id": 43765,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858976,
+          "staff_id": 1619,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858976,
+          "staff_id": 1624,
+          "sector_id": 43765,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858976,
+          "staff_id": 1619,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858957,
+      "number": 6146,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.146/2016",
+      "recipient": "MARIA ZENEIDE DA SILVA ROCHA .3404 08 30,8467 79 45 O 99872.94 53 NUCLO RURAL PONTE ALTA NORTE Q 02 CHACRA 05 CASA 03 AVENIDA DAS PALMEIRAS GAMA .",
+      "cpf": "88904032172",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1355,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858957,
+          "staff_id": 1384,
+          "sector_id": 43729,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858957,
+          "staff_id": 1355,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858957,
+          "staff_id": 1347,
+          "sector_id": 43729,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858957,
+          "staff_id": 1355,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858960,
+      "number": 6149,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.149/2016",
+      "recipient": "ELI CARVALHO DE SOUZARG 2697974CPF 995806321-0061 9107-1007 61 9992.6234",
+      "cpf": "99580632120",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1672,
+      "sector_id": 203,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858960,
+          "staff_id": 1672,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858960,
+          "staff_id": 1672,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858965,
+      "number": 6150,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.150/2016",
+      "recipient": "PATRICIA SOARES DE LIMA RG:2122715 SSP DFCPF 717.520.301-2561 9249-6164 61 3541-7942",
+      "cpf": "71752030125",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1672,
+      "sector_id": 203,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858965,
+          "staff_id": 1384,
+          "sector_id": 43831,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858965,
+          "staff_id": 1672,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858965,
+          "staff_id": 1363,
+          "sector_id": 43831,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858965,
+          "staff_id": 1672,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858967,
+      "number": 6151,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.151/2016",
+      "recipient": "NOME: JOAREZ LUCIANO NASCIMENTO. END: QNN 03 CJ G LOTE 34A. TELEFONE: 61 81934164 / 85360904",
+      "cpf": "29142032172",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1152,
+      "staff_id": 1348,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858967,
+          "staff_id": 1333,
+          "sector_id": 43721,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858967,
+          "staff_id": 1348,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858967,
+          "staff_id": 1348,
+          "sector_id": 43721,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858967,
+          "staff_id": 1348,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858970,
+      "number": 6152,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.152/2016",
+      "recipient": "NOME: EDVALSO FARIA DOS SANTOS   RG: 1.021.915 DF   TELEFONE: (61) 3374-4568 / 98605-7636   ENDEREÇO: QNO 07 - CONJUNTO A - CASA 40A CEILÂNDIA/DF   PROCESSO: 260-005.250/00.",
+      "cpf": "55314210100",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1641,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858970,
+          "staff_id": 1333,
+          "sector_id": 43725,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858970,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858970,
+          "staff_id": 1641,
+          "sector_id": 43725,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858970,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858975,
+      "number": 6154,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.154/2016",
+      "recipient": "NOME: DALMIR GONÇALVES DA SILVA   RG: 1.262.882 DF   TELEFONE: (61) 9154-8846 / 8208-2911",
+      "cpf": "53704363120",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1641,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858975,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858975,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858977,
+      "number": 6155,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.155/2016",
+      "recipient": "JACKSON FERNANDO DOS SANTOS LEÃORG:22803150SSP DFCPF 991827421-2061 9228-7172 61 95875338",
+      "cpf": "99182742120",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1354,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858977,
+          "staff_id": 1354,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858977,
+          "staff_id": 1354,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858978,
+      "number": 6156,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.156/2016",
+      "recipient": "JOSE MARTINS FERREIRA NETOTEL: 61-981828683",
+      "cpf": "99983010178",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1345,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858978,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858978,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858979,
+      "number": 6157,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.157/2016",
+      "recipient": "ANA LUCIA DA COSTA SILVA DE OLIVEIRATEL: 61-984324147",
+      "cpf": "90097742104",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1345,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858979,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858979,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858981,
+      "number": 6158,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.158/2016",
+      "recipient": "NOME: EDMILSON DOMINGOS DOS PASSOS CPF: 810.252.201-10RG: 1509203 SSP/DFCONTATO (61) 99632-5098",
+      "cpf": "81025220110",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1459,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858981,
+          "staff_id": 1459,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858981,
+          "staff_id": 1459,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858982,
+      "number": 6159,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.159/2016",
+      "recipient": "NOME: JOSEMBERG FARIAS FERREIRA   RG: 3.230.273 DF   TELEFONE: (61) 8410-3446 / 8410-3700",
+      "cpf": "00392893118",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1641,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858982,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858982,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858983,
+      "number": 6160,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.160/2016",
+      "recipient": "NOME: MARIA RITA DE CARVALHOENDEREÇO: QUADRA 111 CONJ 04 CASA 18TELEFONE: 33321914",
+      "cpf": "93497474134",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1634,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858983,
+          "staff_id": 1634,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858983,
+          "staff_id": 1634,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858984,
+      "number": 6161,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.161/2016",
+      "recipient": "JANAINA DE FATIMA ANTUNES DE PAIVA SANTOSTELEFONE: 3376-6355 OU 98628-8104EMAIL: janainapaivasantos@gmail.com",
+      "cpf": "00766090140",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1071,
+      "sector_id": 203,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858984,
+          "staff_id": 1071,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858984,
+          "staff_id": 1071,
+          "sector_id": 43809,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858984,
+          "staff_id": 1071,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858959,
+      "number": 6148,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.148/2016",
+      "recipient": "MARIA LUCIA SILVEIRAVICE-PRESIDENTE DA ASMIR",
+      "cpf": null,
+      "cnpj": "06179614000169",
+      "document_type_id": 26,
+      "subject_id": 1200,
+      "staff_id": 1518,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858959,
+          "staff_id": 821,
+          "sector_id": 43806,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858959,
+          "staff_id": 1379,
+          "sector_id": 43742,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858959,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858959,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858959,
+          "staff_id": 1379,
+          "sector_id": 43806,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858959,
+          "staff_id": 1319,
+          "sector_id": 43742,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858959,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858959,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858958,
+      "number": 6147,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.147/2016",
+      "recipient": "MARIA LUCIA SILVEIRAVICE-PRESIDENTE DA ASMIR",
+      "cpf": null,
+      "cnpj": "06179614000169",
+      "document_type_id": 26,
+      "subject_id": 1200,
+      "staff_id": 1518,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858958,
+          "staff_id": 821,
+          "sector_id": 43806,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858958,
+          "staff_id": 1379,
+          "sector_id": 43742,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858958,
+          "staff_id": 1077,
+          "sector_id": 43724,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858958,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858958,
+          "staff_id": 1379,
+          "sector_id": 43806,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858958,
+          "staff_id": 1319,
+          "sector_id": 43742,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858958,
+          "staff_id": 1518,
+          "sector_id": 43724,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858958,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858991,
+      "number": 208,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-000.208/2016",
+      "recipient": "CODHAB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 45,
+      "subject_id": 1065,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858991,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858991,
+          "staff_id": 1383,
+          "sector_id": 43736,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858991,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858993,
+      "number": 209,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-000.209/2016",
+      "recipient": "CODHAB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 45,
+      "subject_id": 1278,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858993,
+          "staff_id": 795,
+          "sector_id": 43895,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858993,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858993,
+          "staff_id": 1077,
+          "sector_id": 43895,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858993,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858995,
+      "number": 1493,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.493/2016",
+      "recipient": "LEANY BARREIRO DE SOUSA LEMOSSECRETARIA",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858995,
+          "staff_id": 1332,
+          "sector_id": 43784,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858995,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858995,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858995,
+          "staff_id": 1332,
+          "sector_id": 43794,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858995,
+          "staff_id": 1623,
+          "sector_id": 43784,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858995,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858995,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858996,
+      "number": 1494,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.494/2016",
+      "recipient": "CARLOS TOME CHEFE DO GABINETE DA GOVERNADORIA",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858996,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858996,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858996,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858996,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858997,
+      "number": 1495,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.495/2016",
+      "recipient": "HENRIQUE MORAES ZILLER CONTROLADOR-GERAL DO DISTRITO FEDERAL",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858997,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858997,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858997,
+          "staff_id": 1623,
+          "sector_id": 43787,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858997,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858997,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858998,
+      "number": 1496,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.496/2016",
+      "recipient": "HELEN CRISTINA RODRIGUES DA SILVATÉCNICO JURÍDICO/PROFIS",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858998,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858998,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858998,
+          "staff_id": 1623,
+          "sector_id": 43789,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858998,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858998,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858999,
+      "number": 1228,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.228/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858999,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858999,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859002,
+      "number": 1459,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.459/2016",
+      "recipient": "CARLOS CASSIO RAMALHO CAIXA",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859002,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859002,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859003,
+      "number": 77,
+      "year": 2016,
+      "prefex": 160,
+      "document_number": "160-000.077/2016",
+      "recipient": "DIMOB/CODHAB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1435,
+      "sector_id": 9,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859003,
+          "staff_id": 1435,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859003,
+          "staff_id": 1435,
+          "sector_id": 43743,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859003,
+          "staff_id": 1435,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859004,
+      "number": 1460,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.460/2016",
+      "recipient": "MARINALVA ROGER ASSOCIAÇÃO AMETUR",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859004,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859004,
+          "staff_id": 1077,
+          "sector_id": 43767,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859004,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 3971,
+      "number": 16759,
+      "year": 1986,
+      "prefex": 93,
+      "document_number": "093-016.759/1986",
+      "recipient": "CEB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 1,
+      "subject_id": 307,
+      "staff_id": 513,
+      "sector_id": 211,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 3971,
+          "staff_id": 448,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 3971,
+          "staff_id": 513,
+          "sector_id": 1,
+          "conduct_type": 1
+        }
+      ]
+    },
+    {
+      "id": 859005,
+      "number": 1461,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.461/2016",
+      "recipient": "CÁSSIO RAMALHO CAIXA",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859005,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859005,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859006,
+      "number": 1462,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.462/2016",
+      "recipient": "ARI DA SILVA CEB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859006,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859006,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859007,
+      "number": 78,
+      "year": 2016,
+      "prefex": 160,
+      "document_number": "160-000.078/2016",
+      "recipient": "DIMOB/CODHAB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1435,
+      "sector_id": 9,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859007,
+          "staff_id": 1379,
+          "sector_id": 43751,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859007,
+          "staff_id": 1435,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859007,
+          "staff_id": 1379,
+          "sector_id": 43834,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859007,
+          "staff_id": 1435,
+          "sector_id": 43751,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859007,
+          "staff_id": 1435,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859008,
+      "number": 1229,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.229/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859008,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859008,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859009,
+      "number": 79,
+      "year": 2016,
+      "prefex": 160,
+      "document_number": "160-000.079/2016",
+      "recipient": "DIRAD/CODHAB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1435,
+      "sector_id": 9,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859009,
+          "staff_id": 795,
+          "sector_id": 43752,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859009,
+          "staff_id": 1435,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859009,
+          "staff_id": 1435,
+          "sector_id": 43752,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859009,
+          "staff_id": 1435,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859010,
+      "number": 1463,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.463/2016",
+      "recipient": "HENRIQUE LUDUVICE - CAESB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859010,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859010,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859011,
+      "number": 1464,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.464/2016",
+      "recipient": "WALDIR CORDEIRO ADM REG SÃO SEBASTIÃO",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859011,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859011,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859012,
+      "number": 1230,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.230/2016",
+      "recipient": "DIMOB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859012,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859012,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859013,
+      "number": 1465,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.465/2016",
+      "recipient": "JANE VILAS BOAS IBRAM",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859013,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859013,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859015,
+      "number": 1231,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.231/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1653,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859015,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859015,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859016,
+      "number": 1467,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.467/2016",
+      "recipient": "JULIO CESAR REIS TERRACAP",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859016,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859016,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859017,
+      "number": 1232,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.232/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1653,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859017,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859017,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859138,
+      "number": 34,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-000.034/2016",
+      "recipient": "HÉLIO MENDONÇA ESCREVENTE",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 21,
+      "subject_id": 1200,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859138,
+          "staff_id": 1122,
+          "sector_id": 43864,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859138,
+          "staff_id": 1332,
+          "sector_id": 43857,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859138,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859138,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859138,
+          "staff_id": 1332,
+          "sector_id": 43864,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859138,
+          "staff_id": 1623,
+          "sector_id": 43857,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859138,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859138,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858987,
+      "number": 6164,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.164/2016",
+      "recipient": "JAQUELINE DO ESPIRITO SANTO MARIANO",
+      "cpf": "80790798549",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858987,
+          "staff_id": 563,
+          "sector_id": 43804,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858987,
+          "staff_id": 1379,
+          "sector_id": 43791,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858987,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858987,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858987,
+          "staff_id": 1379,
+          "sector_id": 43804,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858987,
+          "staff_id": 1623,
+          "sector_id": 43791,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858987,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858987,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858988,
+      "number": 2,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-000.002/2016",
+      "recipient": "NIVALDO VIEIRA DE ANDRADE JUNIOR",
+      "cpf": "93297408553",
+      "cnpj": null,
+      "document_type_id": 33,
+      "subject_id": 1200,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858988,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858988,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858989,
+      "number": 65,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-000.065/2016",
+      "recipient": "NIVALDO VIEIRA DE ANDRADE JUNUIOR",
+      "cpf": "93297408553",
+      "cnpj": null,
+      "document_type_id": 8,
+      "subject_id": 1200,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858989,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858989,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858990,
+      "number": 66,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-000.066/2016",
+      "recipient": "RUBEN CARLOS OTERO MÁRQUEZ",
+      "cpf": "22950243827",
+      "cnpj": null,
+      "document_type_id": 8,
+      "subject_id": 1200,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858990,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858990,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858992,
+      "number": 6165,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.165/2016",
+      "recipient": "MARIA DO SOCORRO DOS SANTOSTEL: 61-33338336  61-984870825",
+      "cpf": "64608085115",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1345,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858992,
+          "staff_id": 1384,
+          "sector_id": 43816,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858992,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858992,
+          "staff_id": 1313,
+          "sector_id": 43816,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 858992,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 858994,
+      "number": 67,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-000.067/2016",
+      "recipient": "RUBEN CARLOS OTERO MÁRQUES",
+      "cpf": "22950243827",
+      "cnpj": null,
+      "document_type_id": 8,
+      "subject_id": 1200,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 858994,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 858994,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859000,
+      "number": 6166,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.166/2016",
+      "recipient": "LUCIANO NASCIMENTO CAMPELOTELEFONE: 3551-5847 OU 98385-1060EMAIL: luttianunascaopelo@gmail.com",
+      "cpf": "70510113168",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1071,
+      "sector_id": 203,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859000,
+          "staff_id": 1071,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859000,
+          "staff_id": 1071,
+          "sector_id": 43809,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859000,
+          "staff_id": 1071,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859014,
+      "number": 1466,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.466/2016",
+      "recipient": "MARCOS SANTANA - ASSOCIAÇÃO HABITRAU",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1445,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": "DOCUMENTO RESTITUÍDO POR MEIO DO MEMO SECEX 110.000.320-2016 - DEVOLUÇÃO PELOS CORREIOS.",
+      "conducts": [
+        {
+          "assessment_id": 859014,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859014,
+          "staff_id": 1077,
+          "sector_id": 43767,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859014,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859018,
+      "number": 1468,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.468/2016",
+      "recipient": "BRUNA PERES - AGEFIS",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1422,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859018,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859018,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859019,
+      "number": 1233,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.233/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1653,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859019,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859019,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859020,
+      "number": 1497,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.497/2016",
+      "recipient": "STEFANO BORGES PEDROSO DEFENSOR PÚBLICO DO DF",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1519,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859020,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859020,
+          "staff_id": 1519,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859020,
+          "staff_id": 1623,
+          "sector_id": 43789,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859020,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859020,
+          "staff_id": 1519,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859022,
+      "number": 1234,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.234/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859022,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859022,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859023,
+      "number": 1498,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.498/2016",
+      "recipient": "ESTEVÃO REIS ADMINISTRADOR REGIONAL DE SOBRADINHO II",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1033,
+      "staff_id": 1519,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859023,
+          "staff_id": 1390,
+          "sector_id": 43786,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859023,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859023,
+          "staff_id": 1519,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859023,
+          "staff_id": 1390,
+          "sector_id": 43852,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859023,
+          "staff_id": 1623,
+          "sector_id": 43786,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859023,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859023,
+          "staff_id": 1519,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859024,
+      "number": 1499,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.499/2016",
+      "recipient": "STEFANO BORGES PEDROSO DEFENSOR PÚBLICO DO DF",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1033,
+      "staff_id": 1519,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859024,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859024,
+          "staff_id": 1519,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859024,
+          "staff_id": 1623,
+          "sector_id": 43789,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859024,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859024,
+          "staff_id": 1519,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859025,
+      "number": 1500,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.500/2016",
+      "recipient": "RAQUEL TIVERON PROMOTOR DE JUSTIÇAMPDFT",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859025,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859025,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859025,
+          "staff_id": 1623,
+          "sector_id": 43789,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859025,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859025,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859026,
+      "number": 1501,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.501/2016",
+      "recipient": "RAQUEL TIVERONPROMOTORA DE JUSTIÇA MPDFT",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859026,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859026,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859026,
+          "staff_id": 1623,
+          "sector_id": 43789,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859026,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859026,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859027,
+      "number": 1235,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.235/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1653,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859027,
+          "staff_id": 1774,
+          "sector_id": 58901,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859027,
+          "staff_id": 1774,
+          "sector_id": 58901,
+          "conduct_type": 1
+        },
+        {
+          "assessment_id": 859027,
+          "staff_id": 1352,
+          "sector_id": 58901,
+          "conduct_type": 5
+        },
+        {
+          "assessment_id": 859027,
+          "staff_id": 1390,
+          "sector_id": 43880,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859027,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859027,
+          "staff_id": 1653,
+          "sector_id": 43880,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859027,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859029,
+      "number": 303,
+      "year": 2016,
+      "prefex": 110,
+      "document_number": "110-000.303/2016",
+      "recipient": "DIMOB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1177,
+      "staff_id": 1319,
+      "sector_id": 3,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859029,
+          "staff_id": 1319,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859029,
+          "staff_id": 1319,
+          "sector_id": 43754,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859029,
+          "staff_id": 1319,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859030,
+      "number": 304,
+      "year": 2016,
+      "prefex": 110,
+      "document_number": "110-000.304/2016",
+      "recipient": "DIMOB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1177,
+      "staff_id": 1319,
+      "sector_id": 3,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859030,
+          "staff_id": 1319,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859030,
+          "staff_id": 1319,
+          "sector_id": 43754,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859030,
+          "staff_id": 1319,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859031,
+      "number": 1502,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.502/2016",
+      "recipient": "RAQUEL TIVERONPROMOTORA DE JUSTIÇAMPDFT",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859031,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859031,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859031,
+          "staff_id": 1623,
+          "sector_id": 43789,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859031,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859031,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859033,
+      "number": 305,
+      "year": 2016,
+      "prefex": 110,
+      "document_number": "110-000.305/2016",
+      "recipient": "DIMOB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1177,
+      "staff_id": 1319,
+      "sector_id": 3,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859033,
+          "staff_id": 1319,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859033,
+          "staff_id": 1319,
+          "sector_id": 43754,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859033,
+          "staff_id": 1319,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859034,
+      "number": 306,
+      "year": 2016,
+      "prefex": 110,
+      "document_number": "110-000.306/2016",
+      "recipient": "DIMOB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1177,
+      "staff_id": 1319,
+      "sector_id": 3,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859034,
+          "staff_id": 1319,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859034,
+          "staff_id": 1319,
+          "sector_id": 43754,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859034,
+          "staff_id": 1319,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859035,
+      "number": 1236,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.236/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1653,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859035,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859035,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859036,
+      "number": 6170,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.170/2016",
+      "recipient": "FERNANDO SOARES MORAES E OUTROS",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859036,
+          "staff_id": 1513,
+          "sector_id": 43854,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859036,
+          "staff_id": 1390,
+          "sector_id": 43786,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859036,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859036,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859036,
+          "staff_id": 1513,
+          "sector_id": 43874,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859036,
+          "staff_id": 1390,
+          "sector_id": 43854,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859036,
+          "staff_id": 1623,
+          "sector_id": 43786,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859036,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859036,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 13378,
+      "number": 449,
+      "year": 1968,
+      "prefex": 102,
+      "document_number": "102-000.449/1968",
+      "recipient": "ROSCOE S/A",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 1,
+      "subject_id": 307,
+      "staff_id": 513,
+      "sector_id": 211,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 13378,
+          "staff_id": 448,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 13378,
+          "staff_id": 513,
+          "sector_id": 1,
+          "conduct_type": 1
+        }
+      ]
+    },
+    {
+      "id": 859037,
+      "number": 1237,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.237/2016",
+      "recipient": "DIFIN",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859037,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859037,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859038,
+      "number": 56,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-000.056/2016",
+      "recipient": "SÉRGIO SAMPAIO CONTREIRAS DE ALMEIDA SECRETÁRIO DE ESTADO",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 10,
+      "subject_id": 1200,
+      "staff_id": 1519,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859038,
+          "staff_id": 795,
+          "sector_id": 43788,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859038,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859038,
+          "staff_id": 1519,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859038,
+          "staff_id": 1623,
+          "sector_id": 43788,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859038,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859038,
+          "staff_id": 1519,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859040,
+      "number": 1238,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.238/2016",
+      "recipient": "DIRAD",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859040,
+          "staff_id": 795,
+          "sector_id": 43757,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859040,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859040,
+          "staff_id": 1621,
+          "sector_id": 43757,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859040,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859042,
+      "number": 1239,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.239/2016",
+      "recipient": "direg",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1287,
+      "staff_id": 514,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859042,
+          "staff_id": 514,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859042,
+          "staff_id": 514,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859043,
+      "number": 210,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-000.210/2016",
+      "recipient": "GEPES/DIRAD",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 45,
+      "subject_id": 532,
+      "staff_id": 1077,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859043,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859043,
+          "staff_id": 1077,
+          "sector_id": 43762,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859043,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859044,
+      "number": 1503,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.503/2016",
+      "recipient": "MAURICIO DE SOUZA SANTOS DR. PRESIDENTE",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1519,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859044,
+          "staff_id": 563,
+          "sector_id": 43804,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859044,
+          "staff_id": 1379,
+          "sector_id": 43790,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859044,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859044,
+          "staff_id": 1519,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859044,
+          "staff_id": 1379,
+          "sector_id": 43804,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859044,
+          "staff_id": 1623,
+          "sector_id": 43790,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859044,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859044,
+          "staff_id": 1519,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859045,
+      "number": 1240,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.240/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859045,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859045,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859046,
+      "number": 59,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-000.059/2016",
+      "recipient": "ENG° CIVIL ROBERTO PARRELLA",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 34,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859046,
+          "staff_id": 917,
+          "sector_id": 43819,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859046,
+          "staff_id": 1383,
+          "sector_id": 43801,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859046,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859046,
+          "staff_id": 1319,
+          "sector_id": 43819,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859046,
+          "staff_id": 1518,
+          "sector_id": 43801,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859046,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859047,
+      "number": 1241,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.241/2016",
+      "recipient": "DIMOB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1653,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859047,
+          "staff_id": 1379,
+          "sector_id": 43879,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859047,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859047,
+          "staff_id": 1653,
+          "sector_id": 43879,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859047,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859049,
+      "number": 546,
+      "year": 2016,
+      "prefex": 304,
+      "document_number": "304-000.546/2016",
+      "recipient": "DIPRO",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1300,
+      "staff_id": 1390,
+      "sector_id": 30,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859049,
+          "staff_id": 917,
+          "sector_id": 43768,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859049,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859049,
+          "staff_id": 1390,
+          "sector_id": 43768,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859049,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859051,
+      "number": 547,
+      "year": 2016,
+      "prefex": 304,
+      "document_number": "304-000.547/2016",
+      "recipient": "OUVIDORIA",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1445,
+      "staff_id": 1390,
+      "sector_id": 30,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859051,
+          "staff_id": 1448,
+          "sector_id": 43780,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859051,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859051,
+          "staff_id": 1390,
+          "sector_id": 43780,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859051,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859401,
+      "number": 300,
+      "year": 2016,
+      "prefex": 569,
+      "document_number": "300-000.569/2016",
+      "recipient": "PROJU",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 245,
+      "staff_id": 1379,
+      "sector_id": 27,
+      "observation": "",
+      "conducts": [
+        {
+          "assessment_id": 859401,
+          "staff_id": 1379,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859401,
+          "staff_id": 1379,
+          "sector_id": 43914,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859401,
+          "staff_id": 1379,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859032,
+      "number": 6169,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.169/2016",
+      "recipient": "RICARDO ROCHA DE AZEVEDO",
+      "cpf": "79434606187",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1200,
+      "staff_id": 1519,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859032,
+          "staff_id": 736,
+          "sector_id": 43805,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859032,
+          "staff_id": 1379,
+          "sector_id": 43790,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859032,
+          "staff_id": 1319,
+          "sector_id": 43759,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859032,
+          "staff_id": 1519,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859032,
+          "staff_id": 1379,
+          "sector_id": 43805,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859032,
+          "staff_id": 1623,
+          "sector_id": 43790,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859032,
+          "staff_id": 1439,
+          "sector_id": 43759,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859032,
+          "staff_id": 1519,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859041,
+      "number": 6171,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.171/2016",
+      "recipient": "NOME: ADRIANA LIMA GOMESCPF: 934.843.481-00 RG: 2160183 SSP/DFCONTATO (61) 3021-9374",
+      "cpf": "93484348100",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1459,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859041,
+          "staff_id": 1459,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859041,
+          "staff_id": 1459,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859048,
+      "number": 6172,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.172/2016",
+      "recipient": "ANDREIA ALESSANDRA CASSIMIRO  RG 1336742END: COND. BURITIS CHAC.02 CJ.B1 LOTE 05 CEILANDIA/ SOL NASCENTEFONE: 95917982/33767669",
+      "cpf": "58379711149",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1171,
+      "staff_id": 1050,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859048,
+          "staff_id": 1050,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859048,
+          "staff_id": 1050,
+          "sector_id": 43812,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859048,
+          "staff_id": 1050,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859053,
+      "number": 24,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-000.024/2016",
+      "recipient": "SECEX",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 43,
+      "subject_id": 25,
+      "staff_id": 1619,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859053,
+          "staff_id": 1619,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859053,
+          "staff_id": 1619,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859054,
+      "number": 6175,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.175/2016",
+      "recipient": "JOÃO ARNALDO DO NASCIMENTO",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859054,
+          "staff_id": 1384,
+          "sector_id": 43830,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859054,
+          "staff_id": 1379,
+          "sector_id": 43820,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859054,
+          "staff_id": 1383,
+          "sector_id": 43801,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859054,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859054,
+          "staff_id": 1379,
+          "sector_id": 43830,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859054,
+          "staff_id": 1319,
+          "sector_id": 43820,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859054,
+          "staff_id": 1518,
+          "sector_id": 43801,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859054,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859055,
+      "number": 1504,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.504/2016",
+      "recipient": "DEPUTADO DELMASSOPTN/DF",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859055,
+          "staff_id": 795,
+          "sector_id": 43813,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859055,
+          "staff_id": 1383,
+          "sector_id": 43801,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859055,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859055,
+          "staff_id": 1319,
+          "sector_id": 43813,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859055,
+          "staff_id": 1518,
+          "sector_id": 43801,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859055,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859060,
+      "number": 250,
+      "year": 2016,
+      "prefex": 110,
+      "document_number": "110-000.250/2016",
+      "recipient": "GUILHERME HAMU DODF",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1383,
+      "sector_id": 3,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859060,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859060,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859061,
+      "number": 189,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-000.189/2016",
+      "recipient": "DIRAD",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 32,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859061,
+          "staff_id": 795,
+          "sector_id": 43769,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859061,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859061,
+          "staff_id": 1621,
+          "sector_id": 43769,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859061,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859063,
+      "number": 13,
+      "year": 2016,
+      "prefex": 110,
+      "document_number": "110-000.013/2016",
+      "recipient": "COMUNICAÇÃO E PLANEJAMENTO",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 10,
+      "subject_id": 1498,
+      "staff_id": 1383,
+      "sector_id": 3,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859063,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859063,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859064,
+      "number": 33,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-000.033/2016",
+      "recipient": "PAULA DUARTE DE ANDRDEANALISTA JUNIOR 4229 C",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 21,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859064,
+          "staff_id": 1122,
+          "sector_id": 43821,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859064,
+          "staff_id": 1332,
+          "sector_id": 43814,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859064,
+          "staff_id": 1383,
+          "sector_id": 43801,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859064,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859064,
+          "staff_id": 1332,
+          "sector_id": 43821,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859064,
+          "staff_id": 1319,
+          "sector_id": 43814,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859064,
+          "staff_id": 1518,
+          "sector_id": 43801,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859064,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859066,
+      "number": 190,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-000.190/2016",
+      "recipient": "DIRAD",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 32,
+      "subject_id": 1200,
+      "staff_id": 1624,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859066,
+          "staff_id": 795,
+          "sector_id": 43797,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859066,
+          "staff_id": 1624,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859066,
+          "staff_id": 1653,
+          "sector_id": 43797,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859066,
+          "staff_id": 1624,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859067,
+      "number": 191,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-000.191/2016",
+      "recipient": "CPL",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 32,
+      "subject_id": 1200,
+      "staff_id": 1624,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859067,
+          "staff_id": 1624,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859067,
+          "staff_id": 1624,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859068,
+      "number": 1505,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.505/2016",
+      "recipient": "SILVANO SILVÉRIO DA COSTADIRETOR ADJUNTO",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1200,
+      "staff_id": 1518,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859068,
+          "staff_id": 1390,
+          "sector_id": 43815,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859068,
+          "staff_id": 1383,
+          "sector_id": 43801,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859068,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859068,
+          "staff_id": 1390,
+          "sector_id": 43852,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859068,
+          "staff_id": 1319,
+          "sector_id": 43815,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859068,
+          "staff_id": 1518,
+          "sector_id": 43801,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859068,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859069,
+      "number": 179,
+      "year": 2016,
+      "prefex": 423,
+      "document_number": "423-000.179/2016",
+      "recipient": "PROJU",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1448,
+      "sector_id": 62,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859069,
+          "staff_id": 1624,
+          "sector_id": 43773,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859069,
+          "staff_id": 1448,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859069,
+          "staff_id": 1436,
+          "sector_id": 43853,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859069,
+          "staff_id": 1448,
+          "sector_id": 43773,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859069,
+          "staff_id": 1448,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859072,
+      "number": 548,
+      "year": 2016,
+      "prefex": 304,
+      "document_number": "304-000.548/2016",
+      "recipient": "proju",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1445,
+      "staff_id": 1390,
+      "sector_id": 30,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859072,
+          "staff_id": 1624,
+          "sector_id": 43781,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859072,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859072,
+          "staff_id": 1390,
+          "sector_id": 43781,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859072,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859073,
+      "number": 549,
+      "year": 2016,
+      "prefex": 304,
+      "document_number": "304-000.549/2016",
+      "recipient": "proju",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1445,
+      "staff_id": 1390,
+      "sector_id": 30,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859073,
+          "staff_id": 1624,
+          "sector_id": 43781,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859073,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859073,
+          "staff_id": 1390,
+          "sector_id": 43781,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859073,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859074,
+      "number": 550,
+      "year": 2016,
+      "prefex": 304,
+      "document_number": "304-000.550/2016",
+      "recipient": "proju",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1445,
+      "staff_id": 1390,
+      "sector_id": 30,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859074,
+          "staff_id": 1624,
+          "sector_id": 43781,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859074,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859074,
+          "staff_id": 1390,
+          "sector_id": 43781,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859074,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859075,
+      "number": 551,
+      "year": 2016,
+      "prefex": 304,
+      "document_number": "304-000.551/2016",
+      "recipient": "proju",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1445,
+      "staff_id": 1390,
+      "sector_id": 30,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859075,
+          "staff_id": 1624,
+          "sector_id": 43781,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859075,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859075,
+          "staff_id": 1390,
+          "sector_id": 43781,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859075,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859076,
+      "number": 552,
+      "year": 2016,
+      "prefex": 304,
+      "document_number": "304-000.552/2016",
+      "recipient": "proju",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1445,
+      "staff_id": 1390,
+      "sector_id": 30,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859076,
+          "staff_id": 1624,
+          "sector_id": 43781,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859076,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859076,
+          "staff_id": 1390,
+          "sector_id": 43781,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859076,
+          "staff_id": 1390,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859079,
+      "number": 144,
+      "year": 2016,
+      "prefex": 402,
+      "document_number": "402-000.144/2016",
+      "recipient": "assistência tecnica",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1445,
+      "staff_id": 795,
+      "sector_id": 56,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859079,
+          "staff_id": 795,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859079,
+          "staff_id": 795,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859082,
+      "number": 180,
+      "year": 2016,
+      "prefex": 423,
+      "document_number": "423-000.180/2016",
+      "recipient": "DIMOB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1448,
+      "sector_id": 62,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859082,
+          "staff_id": 736,
+          "sector_id": 43828,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859082,
+          "staff_id": 1379,
+          "sector_id": 43793,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859082,
+          "staff_id": 1448,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859082,
+          "staff_id": 1379,
+          "sector_id": 43828,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859082,
+          "staff_id": 1448,
+          "sector_id": 43793,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859082,
+          "staff_id": 1448,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859083,
+      "number": 51,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-000.051/2016",
+      "recipient": "ROSALICE FERREIRA DE ARAÚJO SILVA",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 7,
+      "subject_id": 1200,
+      "staff_id": 1518,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859083,
+          "staff_id": 821,
+          "sector_id": 43829,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859083,
+          "staff_id": 1379,
+          "sector_id": 43820,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859083,
+          "staff_id": 1383,
+          "sector_id": 43801,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859083,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859083,
+          "staff_id": 1379,
+          "sector_id": 43829,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859083,
+          "staff_id": 1319,
+          "sector_id": 43820,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859083,
+          "staff_id": 1518,
+          "sector_id": 43801,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859083,
+          "staff_id": 1518,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 750099,
+      "number": 38255,
+      "year": 2014,
+      "prefex": 392,
+      "document_number": "392-038.255/2014",
+      "recipient": "ANTONIA ROSELI PAULO DE ASSUNCAO",
+      "cpf": "00220962138",
+      "cnpj": null,
+      "document_type_id": 1,
+      "subject_id": 124,
+      "staff_id": 928,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 750099,
+          "staff_id": 928,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 750099,
+          "staff_id": 928,
+          "sector_id": 1,
+          "conduct_type": 1
+        }
+      ]
+    },
+    {
+      "id": 859056,
+      "number": 6176,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.176/2016",
+      "recipient": "NOME: MARIA FAUSTA NERI MOTA   RG: 2.938.757 DF   TELEFONE: (61) 3026-4281 / 98478-6433",
+      "cpf": "36365580134",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1641,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859056,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859056,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859057,
+      "number": 6177,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.177/2016",
+      "recipient": "NOME:ANTONIO LINDOMAR LOPES392-053.289/13",
+      "cpf": "14393018168",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1638,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859057,
+          "staff_id": 1384,
+          "sector_id": 43816,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859057,
+          "staff_id": 1638,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859057,
+          "staff_id": 1313,
+          "sector_id": 43816,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859057,
+          "staff_id": 1638,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859058,
+      "number": 6178,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.178/2016",
+      "recipient": "ALEXANDRE CARDOSO DE SOUZATELEFONE. 991892103 OU 33573152",
+      "cpf": "61133159168",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1354,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859058,
+          "staff_id": 1354,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859058,
+          "staff_id": 1354,
+          "sector_id": 43802,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859058,
+          "staff_id": 1354,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859059,
+      "number": 6179,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.179/2016",
+      "recipient": "JONAS PEREIRA DA SILVARG: 309.281 SSP-DFCPF: 055.330.741-04FONE:61 8605-2491 61 3358-08566",
+      "cpf": "05533074104",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1672,
+      "sector_id": 203,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859059,
+          "staff_id": 1672,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859059,
+          "staff_id": 1672,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859062,
+      "number": 6180,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.180/2016",
+      "recipient": "NOME:ERICK ROBSTON GUIMARÃES BASTOSTEL:61 99284-7114",
+      "cpf": "02556984104",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1638,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859062,
+          "staff_id": 1638,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859062,
+          "staff_id": 1638,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859065,
+      "number": 6181,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.181/2016",
+      "recipient": "NOME: DENISE LÓ DA SILVA  CPF: 011.158.591-02RG: 1332831 SSP/DFCONTATO (61) 99228-1913",
+      "cpf": "01115859102",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1459,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859065,
+          "staff_id": 1459,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859065,
+          "staff_id": 1459,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859070,
+      "number": 6182,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.182/2016",
+      "recipient": "LUZIA RIBEIRO SILVA 999382702 / 98581-2402 CI 3.094.229",
+      "cpf": "01157020160",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1637,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859070,
+          "staff_id": 1637,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859070,
+          "staff_id": 1637,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859071,
+      "number": 6183,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.183/2016",
+      "recipient": "NOME: JOSE ROBERTO GONÇALVES DOS SANTOS   RG: 1543086/DF TELEFONE: 61 93257911 / 82092864",
+      "cpf": "83547150191",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1641,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859071,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859071,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859080,
+      "number": 6184,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.184/2016",
+      "recipient": "ALESSANDRA CAVALCANTE CHIRICHO 9211-3039 / 3359-3111 CI 1.758.629",
+      "cpf": "70319367134",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1637,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859080,
+          "staff_id": 1637,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859080,
+          "staff_id": 1637,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859084,
+      "number": 6185,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.185/2016",
+      "recipient": "NOME: LEILA COSTA DE JESUS   RG: 991.116 DF   TELEFONE: (61) 99178-5111 / 98669-1159",
+      "cpf": "65775171187",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1641,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859084,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859084,
+          "staff_id": 1641,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859087,
+      "number": 15,
+      "year": 2016,
+      "prefex": 800,
+      "document_number": "800-000.015/2016",
+      "recipient": "AUDIN/CODHAB",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1445,
+      "staff_id": 1671,
+      "sector_id": 200,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859087,
+          "staff_id": 1671,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859087,
+          "staff_id": 1671,
+          "sector_id": 43798,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859087,
+          "staff_id": 1671,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859089,
+      "number": 611,
+      "year": 2016,
+      "prefex": 392,
+      "document_number": "392-000.611/2016",
+      "recipient": "DANIELE MOREIRA CARNEIRO AZEVEDO",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 1,
+      "subject_id": 767,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859089,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859089,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859090,
+      "number": 41,
+      "year": 2016,
+      "prefex": 300,
+      "document_number": "300-000.041/2016",
+      "recipient": "SECEX",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 43,
+      "subject_id": 220,
+      "staff_id": 237,
+      "sector_id": 27,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859090,
+          "staff_id": 237,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859090,
+          "staff_id": 237,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859091,
+      "number": 192,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-000.192/2016",
+      "recipient": "SECEX",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 32,
+      "subject_id": 1200,
+      "staff_id": 1621,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859091,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859091,
+          "staff_id": 1653,
+          "sector_id": 43808,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859091,
+          "staff_id": 1621,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 750060,
+      "number": 38234,
+      "year": 2014,
+      "prefex": 392,
+      "document_number": "392-038.234/2014",
+      "recipient": "LUANA ANDRADE DA SILVA",
+      "cpf": "02078628182",
+      "cnpj": null,
+      "document_type_id": 1,
+      "subject_id": 124,
+      "staff_id": 788,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 750060,
+          "staff_id": 788,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 750060,
+          "staff_id": 788,
+          "sector_id": 1,
+          "conduct_type": 1
+        }
+      ]
+    },
+    {
+      "id": 859085,
+      "number": 610,
+      "year": 2016,
+      "prefex": 392,
+      "document_number": "392-000.610/2016",
+      "recipient": "ASSOCIAÇÃO HABITACIONAL DOS MORADORES PIONEIROS E INQUILINOS DO NÚCLEO BANDEIRANTE-DF- AMPIMETRO",
+      "cpf": null,
+      "cnpj": "04090264000134",
+      "document_type_id": 1,
+      "subject_id": 1665,
+      "staff_id": 1343,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859085,
+          "staff_id": 1343,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859085,
+          "staff_id": 1343,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859081,
+      "number": 609,
+      "year": 2016,
+      "prefex": 392,
+      "document_number": "392-000.609/2016",
+      "recipient": "ASSOCIAÇÃO COMUNITÁRIA BRASIL 500 ANOS-",
+      "cpf": null,
+      "cnpj": "02529657000176",
+      "document_type_id": 1,
+      "subject_id": 1665,
+      "staff_id": 1343,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859081,
+          "staff_id": 1343,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859081,
+          "staff_id": 1343,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859096,
+      "number": 211,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-000.211/2016",
+      "recipient": "CODHAB DODF",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 45,
+      "subject_id": 195,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859096,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859096,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859097,
+      "number": 614,
+      "year": 2016,
+      "prefex": 392,
+      "document_number": "392-000.614/2016",
+      "recipient": "JOÃO ALVES FILHO",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 1,
+      "subject_id": 25,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859097,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859097,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859098,
+      "number": 615,
+      "year": 2016,
+      "prefex": 392,
+      "document_number": "392-000.615/2016",
+      "recipient": "ROZANGELA ALVES DE ALBUQUERQUE",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 1,
+      "subject_id": 25,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859098,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859098,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859099,
+      "number": 6190,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.190/2016",
+      "recipient": "ALDECI LINA PEREREIRA",
+      "cpf": "135.304.920-62",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1363,
+      "sector_id": 203,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859099,
+          "staff_id": 1363,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859099,
+          "staff_id": 1363,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859102,
+      "number": 1506,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.506/2016",
+      "recipient": "CRISTINA DE SABOYA GOUVEIA SANTOSDIRETORA DE ADMINISTRATIVA DE FINANÇAS DIRETORA",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859102,
+          "staff_id": 795,
+          "sector_id": 43855,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859102,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859102,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859102,
+          "staff_id": 1623,
+          "sector_id": 43855,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859102,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859102,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859104,
+      "number": 1507,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.507/2016",
+      "recipient": "JÚLIO CÉSAR MENEGOTTODIRETOR-PRESIDENTE",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1200,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859104,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859104,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859104,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859104,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859105,
+      "number": 1508,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.508/2016",
+      "recipient": "WAGNER ROCHA DE OLIVEIRADEFENSOR PÚBLICO DO DISTRITO FEDERAL",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859105,
+          "staff_id": 1624,
+          "sector_id": 43860,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859105,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859105,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859105,
+          "staff_id": 1623,
+          "sector_id": 43860,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859105,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859105,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859107,
+      "number": 307,
+      "year": 2016,
+      "prefex": 110,
+      "document_number": "110-000.307/2016",
+      "recipient": "DIRAD",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1077,
+      "sector_id": 3,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859107,
+          "staff_id": 795,
+          "sector_id": 43827,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859107,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859107,
+          "staff_id": 795,
+          "sector_id": 43898,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859107,
+          "staff_id": 1077,
+          "sector_id": 43827,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859107,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859108,
+      "number": 41,
+      "year": 2016,
+      "prefex": 420,
+      "document_number": "420-000.041/2016",
+      "recipient": "DIRAD",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 136,
+      "staff_id": 0,
+      "sector_id": 59,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859108,
+          "staff_id": 0,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859108,
+          "staff_id": 0,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859110,
+      "number": 251,
+      "year": 2016,
+      "prefex": 110,
+      "document_number": "110-000.251/2016",
+      "recipient": "GUILHERME HAMÚ - DODF",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 195,
+      "staff_id": 1077,
+      "sector_id": 3,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859110,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859110,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859112,
+      "number": 1509,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.509/2016",
+      "recipient": "HELEN CRISTINA RODRIGUES DA SILVATÉCNICO JURÍDICO/PROFIS",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1200,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859112,
+          "staff_id": 1624,
+          "sector_id": 43860,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859112,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859112,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859112,
+          "staff_id": 1623,
+          "sector_id": 43860,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859112,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859112,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859113,
+      "number": 1510,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.510/2016",
+      "recipient": "JARDINS MANGUEIRAL EMPREENDIMENTO IMOBILIÁRIO S.A",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 245,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859113,
+          "staff_id": 917,
+          "sector_id": 43859,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859113,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859113,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859113,
+          "staff_id": 1623,
+          "sector_id": 43859,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859113,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859113,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859103,
+      "number": 617,
+      "year": 2016,
+      "prefex": 392,
+      "document_number": "392-000.617/2016",
+      "recipient": "COOPERATIVA HABITACIONAL JARDIM RORIZ- COHAJR",
+      "cpf": null,
+      "cnpj": "01888295000147",
+      "document_type_id": 1,
+      "subject_id": 1665,
+      "staff_id": 1343,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859103,
+          "staff_id": 1343,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859103,
+          "staff_id": 1343,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859109,
+      "number": 618,
+      "year": 2016,
+      "prefex": 392,
+      "document_number": "392-000.618/2016",
+      "recipient": "Assinplan - Associação dos inquilinos de Planaltina Df",
+      "cpf": null,
+      "cnpj": "01600907000154",
+      "document_type_id": 1,
+      "subject_id": 1665,
+      "staff_id": 1344,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859109,
+          "staff_id": 1344,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859109,
+          "staff_id": 1344,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859088,
+      "number": 6187,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.187/2016",
+      "recipient": "LEONARDO HADDAD ROCHATELEFONE.33061238  OU 81353797",
+      "cpf": "27962270144",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1354,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859088,
+          "staff_id": 1354,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859088,
+          "staff_id": 1354,
+          "sector_id": 43803,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859088,
+          "staff_id": 1354,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859092,
+      "number": 6188,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.188/2016",
+      "recipient": "NOME:LUCIANA FERNANDES DE SOUSAEND: QNN 23 CONJUNTO E LOTE 44 APT 101 CEILANDIA TEL: 61 9357 3711",
+      "cpf": "01124697101",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1348,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859092,
+          "staff_id": 1348,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859092,
+          "staff_id": 1348,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859094,
+      "number": 6189,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.189/2016",
+      "recipient": "EURINETE LIMA ARAÚJOTEL: 61-991649100  61-32576154",
+      "cpf": "01867774186",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1345,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859094,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859094,
+          "staff_id": 1345,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859100,
+      "number": 6191,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.191/2016",
+      "recipient": "NOME:EDILSON SEBASTIAO VILHENA LIMAEND: QE 18 CONJUNTO C CASA 45 GUARA ITEL: 61 9179 5602 / 8110 8807",
+      "cpf": "05900905349",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1348,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859100,
+          "staff_id": 1348,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859100,
+          "staff_id": 1348,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859106,
+      "number": 6192,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.192/2016",
+      "recipient": "MARILIA GOMES VENCESLAU",
+      "cpf": "01621743144",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1200,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859106,
+          "staff_id": 1379,
+          "sector_id": 43858,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859106,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859106,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859106,
+          "staff_id": 1623,
+          "sector_id": 43858,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859106,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859106,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859101,
+      "number": 616,
+      "year": 2016,
+      "prefex": 392,
+      "document_number": "392-000.616/2016",
+      "recipient": "COOPHAJK - COOPERATIVA HABITACIONAL JUSCELINO KUBITSCHEK DE PLANALTINA -DF",
+      "cpf": null,
+      "cnpj": "04135272000150",
+      "document_type_id": 1,
+      "subject_id": 1665,
+      "staff_id": 1344,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859101,
+          "staff_id": 1344,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859101,
+          "staff_id": 1344,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859115,
+      "number": 1511,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.511/2016",
+      "recipient": "JARDINS MANGUEIRAL EMPREENDIMENTO IMOBILIÁRIO S.A",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 245,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859115,
+          "staff_id": 917,
+          "sector_id": 43859,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859115,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859115,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859115,
+          "staff_id": 1623,
+          "sector_id": 43859,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859115,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859115,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859116,
+      "number": 1512,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.512/2016",
+      "recipient": "VICENTE SALGUEIRO BANÕ SALGADOADMINISTRADOR REGIONAL DE PLANALTINA",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859116,
+          "staff_id": 1390,
+          "sector_id": 43856,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859116,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859116,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859116,
+          "staff_id": 1390,
+          "sector_id": 43891,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859116,
+          "staff_id": 1623,
+          "sector_id": 43856,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859116,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859116,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859119,
+      "number": 6195,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.195/2016",
+      "recipient": "VERONICA BARBOSA SOUTO LIMA  RG 2074677/DFEND: QR 103 CJ. B CASA 03 SANTA MARIAFONE  33932670/99642264/85427906/96266311",
+      "cpf": "803.154.644-87",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1171,
+      "staff_id": 1050,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859119,
+          "staff_id": 1050,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859119,
+          "staff_id": 1050,
+          "sector_id": 43833,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859119,
+          "staff_id": 1050,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859120,
+      "number": 1513,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.513/2016",
+      "recipient": "STEFANO BORGES PEDROSODEFENSOR PUBLICO DF",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859120,
+          "staff_id": 1624,
+          "sector_id": 43860,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859120,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859120,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859120,
+          "staff_id": 1623,
+          "sector_id": 43860,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859120,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859120,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859122,
+      "number": 1514,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.514/2016",
+      "recipient": "JOSÉ EUSTÁQUIO DE CASTRO TEIXEIRAJUIZ DE DIREITO",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1200,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859122,
+          "staff_id": 1624,
+          "sector_id": 43860,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859122,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859122,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859122,
+          "staff_id": 1623,
+          "sector_id": 43860,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859122,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859122,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859124,
+      "number": 1515,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.515/2016",
+      "recipient": "STEFANO BORGES PEDROSO DEFENSOR PÚBLICO DO DISTRITO FEDERAL",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859124,
+          "staff_id": 1624,
+          "sector_id": 43860,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859124,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859124,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859124,
+          "staff_id": 1623,
+          "sector_id": 43860,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859124,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859124,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859126,
+      "number": 1242,
+      "year": 2016,
+      "prefex": 120,
+      "document_number": "120-001.242/2016",
+      "recipient": "DIREG",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1200,
+      "staff_id": 1653,
+      "sector_id": 5,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859126,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859126,
+          "staff_id": 1653,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859127,
+      "number": 1516,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.516/2016",
+      "recipient": "JULIO CESAR DE AZEVEDO REISPRESIDENTE",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859127,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859127,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859127,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859127,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859128,
+      "number": 1517,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-001.517/2016",
+      "recipient": "CÍNTIA COSTA DA SILVAPROMOTORA DE JUSTIÇA",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859128,
+          "staff_id": 1383,
+          "sector_id": 43867,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859128,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859128,
+          "staff_id": 1319,
+          "sector_id": 43881,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859128,
+          "staff_id": 1518,
+          "sector_id": 43867,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859128,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859129,
+      "number": 167,
+      "year": 2016,
+      "prefex": 402,
+      "document_number": "402-000.167/2016",
+      "recipient": "seplag",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 795,
+      "sector_id": 56,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859129,
+          "staff_id": 795,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859129,
+          "staff_id": 795,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859130,
+      "number": 1470,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.470/2016",
+      "recipient": "LANDERSON CAMPOS PROFIS PGDF",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1445,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859130,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859130,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859131,
+      "number": 1471,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.471/2016",
+      "recipient": "LANDERSON CAMPOS PROFIS PGDF",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1445,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859131,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859131,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859132,
+      "number": 1472,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.472/2016",
+      "recipient": "JÚLIO GREGÓRIO - SEC EDUCAÇÃO",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1077,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859132,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859132,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859133,
+      "number": 1473,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.473/2016",
+      "recipient": "ESTEVÃO REIS ADM REG SOBRADINHO II",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1445,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859133,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859133,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859134,
+      "number": 1474,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.474/2016",
+      "recipient": "RODRIGO DELMASSO - CÂMARA LEGISLATIVA",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1445,
+      "staff_id": 1077,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859134,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859134,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859135,
+      "number": 1475,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.475/2016",
+      "recipient": "HELEN CRISTINA - PGDF",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1445,
+      "staff_id": 1077,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859135,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859135,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859136,
+      "number": 1476,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.476/2016",
+      "recipient": "BRUNA MARIA PERES AGEFIS",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1445,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859136,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859136,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859121,
+      "number": 620,
+      "year": 2016,
+      "prefex": 392,
+      "document_number": "392-000.620/2016",
+      "recipient": "ASSOCIAÇÃO DOS MICRO E PEQUENO EMPRESÁRIOS DO GUARA E DO DISTRITO FEDERAL- AMPEG",
+      "cpf": null,
+      "cnpj": "04896782000100",
+      "document_type_id": 1,
+      "subject_id": 1665,
+      "staff_id": 1343,
+      "sector_id": 37,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859121,
+          "staff_id": 1343,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859121,
+          "staff_id": 1343,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859123,
+      "number": 621,
+      "year": 2016,
+      "prefex": 392,
+      "document_number": "392-000.621/2016",
+      "recipient": "ASSOCIAÇÃO PRÓ-MORADIA DOS INQUILINOS DE SAMAMBAIA",
+      "cpf": null,
+      "cnpj": "04069158000179",
+      "document_type_id": 1,
+      "subject_id": 1665,
+      "staff_id": 1316,
+      "sector_id": 27,
+      "observation": "RECREDENCIAMENTO DA ENTIDADE ASSOCIAÇÃO PRÓ-MORADIA DOS INQUILINOS DE SAMAMBAIA. CNPJ: 04.069.158/0001-79. PRESIDENTE DA ENTIDADE: ANTONIO EUGÊNIO RODRIGUES.",
+      "conducts": [
+        {
+          "assessment_id": 859123,
+          "staff_id": 1316,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859123,
+          "staff_id": 1316,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859137,
+      "number": 1477,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.477/2016",
+      "recipient": "LUCIANA GOMES - 4ª VARA CEILANDIA",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1445,
+      "staff_id": 1077,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859137,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859137,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859402,
+      "number": 300,
+      "year": 2016,
+      "prefex": 570,
+      "document_number": "300-000.570/2016",
+      "recipient": "PROJU",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 245,
+      "staff_id": 1379,
+      "sector_id": 27,
+      "observation": "",
+      "conducts": [
+        {
+          "assessment_id": 859402,
+          "staff_id": 1379,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859402,
+          "staff_id": 1379,
+          "sector_id": 43914,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859402,
+          "staff_id": 1379,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859114,
+      "number": 6194,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-006.194/2016",
+      "recipient": "MORAR BEM-          DJALMA MORURA DE SOUSACOLONIA AGUAS CLARAS CHACARA 36 LOTE 10 GUARA 2 DFTELEFONE- 3381-3196- 8462-9285",
+      "cpf": "81092792104",
+      "cnpj": null,
+      "document_type_id": 26,
+      "subject_id": 1498,
+      "staff_id": 1640,
+      "sector_id": 37,
+      "observation": "SEGUE EM ANEXO RG E CPF E COMPROVANTE DA RENDA.",
+      "conducts": [
+        {
+          "assessment_id": 859114,
+          "staff_id": 1640,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859114,
+          "staff_id": 1640,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859117,
+      "number": 60,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-000.060/2016",
+      "recipient": "CARLOS ANTONIO LEALDIRETOR TECNICO",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 34,
+      "subject_id": 1200,
+      "staff_id": 1439,
+      "sector_id": 64,
+      "observation": "DOCUMENTO ORIGINAL ENCAMINHADO POR MEIO DO OFICIO 1681 PRESI",
+      "conducts": [
+        {
+          "assessment_id": 859117,
+          "staff_id": 1390,
+          "sector_id": 43856,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859117,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859117,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859117,
+          "staff_id": 1390,
+          "sector_id": 43891,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859117,
+          "staff_id": 1623,
+          "sector_id": 43856,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859117,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859117,
+          "staff_id": 1439,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859125,
+      "number": 1469,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.469/2016",
+      "recipient": "JAIME CARDOSO DIRETOR REGIONAL ECT CORREIOS",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1498,
+      "staff_id": 1383,
+      "sector_id": 2,
+      "observation": "DOCUMENTO RESTITUÍDO POR MEIO DO MEMO SECEX 110.000.319-2016 - DEVOLUÇÃO PELOS CORREIOS.",
+      "conducts": [
+        {
+          "assessment_id": 859125,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859125,
+          "staff_id": 1383,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859140,
+      "number": 1478,
+      "year": 2016,
+      "prefex": 100,
+      "document_number": "100-001.478/2016",
+      "recipient": "THIAGO TEIXEIRA - SEGETH",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 3,
+      "subject_id": 1200,
+      "staff_id": 1077,
+      "sector_id": 2,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859140,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859140,
+          "staff_id": 1077,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859141,
+      "number": 68,
+      "year": 2016,
+      "prefex": 777,
+      "document_number": "777-000.068/2016",
+      "recipient": "BRB-BANCO DE BRASILIA",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 8,
+      "subject_id": 1200,
+      "staff_id": 1491,
+      "sector_id": 64,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859141,
+          "staff_id": 1319,
+          "sector_id": 43837,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859141,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859141,
+          "staff_id": 1319,
+          "sector_id": 43839,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859141,
+          "staff_id": 1439,
+          "sector_id": 43837,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859141,
+          "staff_id": 1491,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    },
+    {
+      "id": 859144,
+      "number": 565,
+      "year": 2016,
+      "prefex": 300,
+      "document_number": "300-000.565/2016",
+      "recipient": "PROJU",
+      "cpf": null,
+      "cnpj": null,
+      "document_type_id": 4,
+      "subject_id": 1419,
+      "staff_id": 237,
+      "sector_id": 27,
+      "observation": null,
+      "conducts": [
+        {
+          "assessment_id": 859144,
+          "staff_id": 1653,
+          "sector_id": 43838,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859144,
+          "staff_id": 237,
+          "sector_id": 1,
+          "conduct_type": 4
+        },
+        {
+          "assessment_id": 859144,
+          "staff_id": 1379,
+          "sector_id": 43838,
+          "conduct_type": 0
+        },
+        {
+          "assessment_id": 859144,
+          "staff_id": 237,
+          "sector_id": 1,
+          "conduct_type": 0
+        }
+      ]
+    }
+  ]
+}

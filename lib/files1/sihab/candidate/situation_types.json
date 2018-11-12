@@ -1,0 +1,276 @@
+{
+  "situations": [
+    {
+      "id": 31,
+      "name": "cadastrado-cooperativa desclassificada"
+    },
+    {
+      "id": 19,
+      "name": "cadastro inativo - sem cpf"
+    },
+    {
+      "id": 34,
+      "name": "cadastro sub-judice"
+    },
+    {
+      "id": 43,
+      "name": "candidato impugnado pela entidade"
+    },
+    {
+      "id": 29,
+      "name": "constou em outra inscricao"
+    },
+    {
+      "id": 23,
+      "name": "constou em outra inscrição"
+    },
+    {
+      "id": 20,
+      "name": "constou imóvel no df"
+    },
+    {
+      "id": 24,
+      "name": "constou imóvel no df"
+    },
+    {
+      "id": 63,
+      "name": "contemplado-cancelado por edital"
+    },
+    {
+      "id": 5,
+      "name": "contemplado (cheque-lote)"
+    },
+    {
+      "id": 41,
+      "name": "contemplado c/imóvel outro programa"
+    },
+    {
+      "id": 12,
+      "name": "contemplado (devolvido)"
+    },
+    {
+      "id": 33,
+      "name": "contemplado (duplo benefÍcio)"
+    },
+    {
+      "id": 44,
+      "name": "contemplado - imóvel distribuÍdo"
+    },
+    {
+      "id": 7,
+      "name": "contemplado - imóvel entregue"
+    },
+    {
+      "id": 9,
+      "name": "contemplado (quitado)"
+    },
+    {
+      "id": 10,
+      "name": "contemplado (sec. desenv. social)"
+    },
+    {
+      "id": 45,
+      "name": "contemplado - sobrestado"
+    },
+    {
+      "id": 32,
+      "name": "contemplado sub-judice"
+    },
+    {
+      "id": 8,
+      "name": "contemplado (transferido)"
+    },
+    {
+      "id": 49,
+      "name": "Conv Antiga Liberado Recadastrar MB"
+    },
+    {
+      "id": 73,
+      "name": "Convocação cancelada por edital"
+    },
+    {
+      "id": 13,
+      "name": "convocado c/ imovel designado"
+    },
+    {
+      "id": 37,
+      "name": "convocado com processo em andamento"
+    },
+    {
+      "id": 47,
+      "name": "convocado e não habilitado - não compareceu"
+    },
+    {
+      "id": 3,
+      "name": "convocado para entrega de documentação"
+    },
+    {
+      "id": 30,
+      "name": "cpf com dados inconsistentes"
+    },
+    {
+      "id": 40,
+      "name": "dependente em cadastro de convocado"
+    },
+    {
+      "id": 36,
+      "name": "desclassificado pela entidade"
+    },
+    {
+      "id": 51,
+      "name": "Desistente"
+    },
+    {
+      "id": 25,
+      "name": "em habilitação"
+    },
+    {
+      "id": 14,
+      "name": "excluido"
+    },
+    {
+      "id": 56,
+      "name": "excluído - 3 recusas"
+    },
+    {
+      "id": 46,
+      "name": "excluído a pedido"
+    },
+    {
+      "id": 55,
+      "name": "excluído por edital"
+    },
+    {
+      "id": 64,
+      "name": "falecido"
+    },
+    {
+      "id": 65,
+      "name": "habilitação cancelada por edital"
+    },
+    {
+      "id": 4,
+      "name": "habilitado - documentação aprovada"
+    },
+    {
+      "id": 67,
+      "name": "habilitado - em análise"
+    },
+    {
+      "id": 70,
+      "name": "habilitado - em atendimento"
+    },
+    {
+      "id": 15,
+      "name": "habilitado - indeferido"
+    },
+    {
+      "id": 68,
+      "name": "habilitado - pendente de atualização"
+    },
+    {
+      "id": 54,
+      "name": "habilitado - sobrestado"
+    },
+    {
+      "id": 50,
+      "name": "indeferido - documentação reprovada"
+    },
+    {
+      "id": 71,
+      "name": "indeferido - imóvel retomado"
+    },
+    {
+      "id": 72,
+      "name": "Indeferido - não habilitado"
+    },
+    {
+      "id": 2,
+      "name": "inscrito - cadastro inicial"
+    },
+    {
+      "id": 69,
+      "name": "inscrito - eventual entidade"
+    },
+    {
+      "id": 35,
+      "name": "inscrito-pontuacao alterada(dec.judicial)"
+    },
+    {
+      "id": 48,
+      "name": "liberado para recadastramento"
+    },
+    {
+      "id": 39,
+      "name": "menos de 5 anos de df"
+    },
+    {
+      "id": 38,
+      "name": "não compareceu p/formalizar proc"
+    },
+    {
+      "id": 1,
+      "name": "não se recadastrou"
+    },
+    {
+      "id": 74,
+      "name": "Realocação"
+    },
+    {
+      "id": 52,
+      "name": "Recadastramento (Morar Bem)"
+    },
+    {
+      "id": 6,
+      "name": "regularizacao condominios"
+    },
+    {
+      "id": 17,
+      "name": "regularização não concluida."
+    },
+    {
+      "id": 53,
+      "name": "remoção"
+    },
+    {
+      "id": 11,
+      "name": "remocao/fixacao"
+    },
+    {
+      "id": 22,
+      "name": "renda familiar superior 12 sm"
+    },
+    {
+      "id": 27,
+      "name": "renda superior 12 sm e constou imóvel"
+    },
+    {
+      "id": 42,
+      "name": "requereu regularização lote"
+    },
+    {
+      "id": 21,
+      "name": "reside fora do df"
+    },
+    {
+      "id": 26,
+      "name": "reside fora do df e constou imóvel"
+    },
+    {
+      "id": 28,
+      "name": "reside fora do df e renda superior 12 sm"
+    },
+    {
+      "id": 16,
+      "name": "retomado"
+    },
+    {
+      "id": 66,
+      "name": "titularidade alterada"
+    },
+    {
+      "id": 18,
+      "name": "transferido cadastro unico"
+    }
+  ]
+}

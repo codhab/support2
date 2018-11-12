@@ -1,0 +1,20 @@
+{
+  "situations": [
+    {
+      "id": 1,
+      "name": "Informação"
+    },
+    {
+      "id": 2,
+      "name": "Judicial"
+    },
+    {
+      "id": 3,
+      "name": "Alteração"
+    },
+    {
+      "id": 4,
+      "name": "Correção"
+    }
+  ]
+}

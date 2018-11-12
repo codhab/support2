@@ -1,0 +1,53 @@
+
+{
+  "situation_types": [
+    {
+      "id": 1,
+      "name": "imóvel vago"
+    },
+    {
+      "id": 2,
+      "name": "emitir tcu"
+    },
+    {
+      "id": 3,
+      "name": "imóvel distribuido"
+    },
+    {
+      "id": 4,
+      "name": "regularização terracap"
+    },
+    {
+      "id": 5,
+      "name": "imóvel interditado"
+    },
+    {
+      "id": 6,
+      "name": "imóvel reservado"
+    },
+    {
+      "id": 7,
+      "name": "imóvel retomado (em processo)"
+    },
+    {
+      "id": 8,
+      "name": "fixação shb q 02 - sobradinho II"
+    },
+    {
+      "id": 9,
+      "name": "imóvel invadido"
+    },
+    {
+      "id": 10,
+      "name": "imóvel sub judice"
+    },
+    {
+      "id": 11,
+      "name": "lei 2.731/01 - decreto 23.593/03 (comreg)"
+    },
+    {
+      "id": 12,
+      "name": "cadastramento em depuração"
+    }
+  ]
+}

@@ -1,0 +1,2004 @@
+{
+  "sector": [
+    {
+      "id": 191,
+      "name": "ADASA",
+      "acron": null,
+      "prefex": "693",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 230,
+      "name": "ADMINISTRAÇÃO / ESTRUTURAL",
+      "acron": null,
+      "prefex": "1023",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 95,
+      "name": "ADMINISTRAÇÃO REGIONAL BRASÍLIA",
+      "acron": null,
+      "prefex": "596",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 188,
+      "name": "ADMINISTRAÇÃO REGIONAL BRAZLANDIA",
+      "acron": null,
+      "prefex": "690",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 174,
+      "name": "ADMINISTRAÇÃO REGIONAL CANDANGOLANDIA",
+      "acron": null,
+      "prefex": "676",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 102,
+      "name": "ADMINISTRAÇÃO REGIONAL CEILÂNDIA",
+      "acron": null,
+      "prefex": "604",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 104,
+      "name": "ADMINISTRAÇÃO REGIONAL CRUZEIRO",
+      "acron": null,
+      "prefex": "606",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 196,
+      "name": "ADMINISTRAÇÃO REGIONAL ESTRUTURAL",
+      "acron": null,
+      "prefex": "698",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 96,
+      "name": "ADMINISTRAÇÃO REGIONAL GAMA",
+      "acron": null,
+      "prefex": "597",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 103,
+      "name": "ADMINISTRAÇÃO REGIONAL GUARÁ",
+      "acron": null,
+      "prefex": "605",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 131,
+      "name": "ADMINISTRAÇÃO REGIONAL ITAPOÃ",
+      "acron": null,
+      "prefex": "633",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 101,
+      "name": "ADMINISTRAÇÃO REGIONAL NÚCLEO BANDEIRANTE",
+      "acron": null,
+      "prefex": "603",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 100,
+      "name": "ADMINISTRAÇÃO REGIONAL PARANOÁ",
+      "acron": null,
+      "prefex": "602",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 99,
+      "name": "ADMINISTRAÇÃO REGIONAL PLANALTINA",
+      "acron": null,
+      "prefex": "601",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 173,
+      "name": "ADMINISTRAÇÃO REGIONAL RECANTO DAS EMAS",
+      "acron": null,
+      "prefex": "675",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 187,
+      "name": "ADMINISTRAÇÃO REGIONAL RIACHO FUNDO II",
+      "acron": null,
+      "prefex": "689",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 136,
+      "name": "ADMINISTRAÇÃO REGIONAL SAMAMBAIA",
+      "acron": null,
+      "prefex": "638",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 228,
+      "name": "ADMINISTRAÇÃO REGIONAL SANTA MARIA",
+      "acron": null,
+      "prefex": "1021",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 231,
+      "name": "ADMINISTRAÇÃO REGIONAL SÃO SEBASTIÃO",
+      "acron": null,
+      "prefex": "1024",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 154,
+      "name": "ADMINISTRAÇÃO REGIONAL SIA",
+      "acron": null,
+      "prefex": "656",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 98,
+      "name": "ADMINISTRAÇÃO REGIONAL SOBRADINHO",
+      "acron": null,
+      "prefex": "600",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 152,
+      "name": "ADMINISTRAÇÃO REGIONAL SOBRADINHO II",
+      "acron": null,
+      "prefex": "654",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 97,
+      "name": "ADMINISTRAÇÃO REGIONAL TAGUATINGA",
+      "acron": null,
+      "prefex": "598",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 125,
+      "name": "ADMINISTRAÇÃO REGIONAL VARJÃO",
+      "acron": null,
+      "prefex": "627",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 142,
+      "name": "AGBRA",
+      "acron": null,
+      "prefex": "644",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 118,
+      "name": "AGEFIS",
+      "acron": null,
+      "prefex": "620",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 130,
+      "name": "AGUARDANDO DOCUMENTO SIA",
+      "acron": null,
+      "prefex": "632",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 129,
+      "name": "AGUARDANDO PROCESSO REQUISITADO ARQ.SIA PROTOCOLO",
+      "acron": null,
+      "prefex": "631",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 186,
+      "name": "ANEXADO AO MEMORANDO",
+      "acron": null,
+      "prefex": "688",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 116,
+      "name": "ANEXADO AO PROCESSO",
+      "acron": null,
+      "prefex": "618",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 192,
+      "name": "ANEXADO MEMORANDO",
+      "acron": null,
+      "prefex": "694",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 164,
+      "name": "APENSADO AO PROCESSO",
+      "acron": null,
+      "prefex": "666",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 121,
+      "name": "ARQUIVO CODHAB/DF",
+      "acron": null,
+      "prefex": "623",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 93,
+      "name": "ARQUIVO DA ÁREA",
+      "acron": null,
+      "prefex": "594",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 57,
+      "name": "ARQUIVO-DIRAD",
+      "acron": "ARQUIVO-DIRAD",
+      "prefex": "410",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 139,
+      "name": "ARQUIVO DOCUMENTOS GERADOS NO PROTOCOLO",
+      "acron": null,
+      "prefex": "641",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 22,
+      "name": "ARQUIVO SECEX",
+      "acron": "NOVO",
+      "prefex": "233",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 138,
+      "name": "ARQUIVO SIA/SEDHAB",
+      "acron": null,
+      "prefex": "640",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 242,
+      "name": "ASCOM - ASSESSORIA DE COMUNICAÇÃO",
+      "acron": "ASCOM",
+      "prefex": "307",
+      "father_id": 2,
+      "responsible_id": 1769
+    },
+    {
+      "id": 198,
+      "name": "ASPLA - ASSESSORIA DE PLANEJAMENTO",
+      "acron": "ASPLA",
+      "prefex": "700",
+      "father_id": 2,
+      "responsible_id": 1630
+    },
+    {
+      "id": 171,
+      "name": "ASSISTÊNCIA TÉCNICA",
+      "acron": "ASSISTÊNCIA TÉCNICA",
+      "prefex": "673",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 249,
+      "name": "Atendimento - 156",
+      "acron": "156",
+      "prefex": "001",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 9,
+      "name": "AUDIN - AUDITORIA INTERNA",
+      "acron": "AUDIN",
+      "prefex": "160",
+      "father_id": 2,
+      "responsible_id": 1475
+    },
+    {
+      "id": 111,
+      "name": "BSB SUSTENTÁVEL",
+      "acron": null,
+      "prefex": "613",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 92,
+      "name": "CAESB - COMPANHIA DE SANEAMENTO AMBIENTAL DO DF",
+      "acron": null,
+      "prefex": "593",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 175,
+      "name": "CAIXA ECONOMICA",
+      "acron": null,
+      "prefex": "677",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 190,
+      "name": "CAMARA FEDERAL",
+      "acron": null,
+      "prefex": "692",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 163,
+      "name": "CANCELADA TRAMITAÇÃO",
+      "acron": null,
+      "prefex": "665",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 11,
+      "name": "CCHAB-COORDENADORIA DE COOPERATIVAS HABITACIONAIS",
+      "acron": null,
+      "prefex": "180",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 183,
+      "name": "CEAJUR",
+      "acron": null,
+      "prefex": "685",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 90,
+      "name": "CEB - CENTRAIS ELÉTRICAS DE BRASÍLIA",
+      "acron": null,
+      "prefex": "591",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 124,
+      "name": "CELIC - CENTRAL DE COMPRAS",
+      "acron": null,
+      "prefex": "626",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 128,
+      "name": "CGDF",
+      "acron": null,
+      "prefex": "630",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 161,
+      "name": "CHEQUE MORADIA",
+      "acron": null,
+      "prefex": "663",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 176,
+      "name": "CLDF - CAMARA LEGISLATIVA",
+      "acron": null,
+      "prefex": "678",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 182,
+      "name": "CODEPLAN",
+      "acron": null,
+      "prefex": "684",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 217,
+      "name": "CODHAB",
+      "acron": null,
+      "prefex": "1010",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 252,
+      "name": "CODHAB",
+      "acron": "CODHAB",
+      "prefex": "702",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 202,
+      "name": "COMISSÃO DE PTTS",
+      "acron": "COMISSÃO DE PTTS",
+      "prefex": "820",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 29,
+      "name": "COMISSÃO DE PTTS",
+      "acron": "COMISSÃO DE PTTS",
+      "prefex": "303",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 141,
+      "name": "COMISSÃO SOCORRO SOCIAL E EMERGENCIAL",
+      "acron": null,
+      "prefex": "643",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 229,
+      "name": "CONSELHO TUTELAR / CEILÂNDIA",
+      "acron": null,
+      "prefex": "1022",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 112,
+      "name": "COORDENADORIA DAS CIDADES",
+      "acron": null,
+      "prefex": "614",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 10,
+      "name": "COPES - COORDENADORIA DE PROJETOS ESPECIAIS",
+      "acron": null,
+      "prefex": "170",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 28,
+      "name": "CPL - COMISSÃO PERMANENTE DE LICITAÇÃO",
+      "acron": "CPL",
+      "prefex": "301",
+      "father_id": 2,
+      "responsible_id": 1830
+    },
+    {
+      "id": 201,
+      "name": "CPL - COMISSÃO PERMANENTE DE LICITAÇÃO - ANTERIOR",
+      "acron": "ANTERIOR",
+      "prefex": "810",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 94,
+      "name": "CPL - COMISSÃO PERMANENTE DE LICITAÇÃO - ANTIGO",
+      "acron": "ANTIGO",
+      "prefex": "595",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 137,
+      "name": "CRAS RIACHO FUNDO I",
+      "acron": null,
+      "prefex": "639",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 239,
+      "name": "DAGES - DIRETORIA DE ADMINISTRAÇÃO E GESTÃO",
+      "acron": "DAGES",
+      "prefex": "204",
+      "father_id": 2,
+      "responsible_id": 1732
+    },
+    {
+      "id": 225,
+      "name": "DEPÓSITO/SIA",
+      "acron": null,
+      "prefex": "1018",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 224,
+      "name": "DEPÓSITO VILA PLANALTO",
+      "acron": null,
+      "prefex": "1017",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 157,
+      "name": "DER/DF",
+      "acron": null,
+      "prefex": "659",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 81,
+      "name": "DESABILITADA ASDIF-ASSESSORIA DIRETORIA FINANCEIRA",
+      "acron": null,
+      "prefex": "510",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 32,
+      "name": "DESABILITADA - ASDIM - ASSESSORIA DIMOB",
+      "acron": null,
+      "prefex": "310",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 8,
+      "name": "DESABILITADA - ASGAN - ASSESSORIA GABINETE",
+      "acron": null,
+      "prefex": "150",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 6,
+      "name": "DESABILITADA - ASPRE - ASSESSORIA DA PRESIDÊNCIA",
+      "acron": null,
+      "prefex": "130",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 13,
+      "name": "DESABILITADA -ASTEC - ASSESSORIA DIRETORIA TÉCNICA",
+      "acron": null,
+      "prefex": "210",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 1,
+      "name": "DESABILITADA-CEB - CENTRAIS ELÉTRICAS DE BRASÍLIA",
+      "acron": null,
+      "prefex": "59",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 135,
+      "name": "DESABILITADA-DIAFI-DIR.ADMINISTRATIVO-FINANCEIRA",
+      "acron": null,
+      "prefex": "637",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 184,
+      "name": "DESABILITADA-DIAFI-MARCELO",
+      "acron": null,
+      "prefex": "686",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 79,
+      "name": "DESABILITADA- DIFIN - DIRETORIA FINANCEIRA",
+      "acron": null,
+      "prefex": "500",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 54,
+      "name": "DESABILITADA- DIRETORIA ADMINISTRATIVA",
+      "acron": null,
+      "prefex": "400",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 7,
+      "name": "DESABILITADA - SEPRE - SECRETARIA PRESIDÊNCIA",
+      "acron": null,
+      "prefex": "140",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 165,
+      "name": "DESABILITADO AJL/SEHAB",
+      "acron": null,
+      "prefex": "667",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 77,
+      "name": "DESABILITADO-NUADE",
+      "acron": null,
+      "prefex": "472",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 87,
+      "name": "DESABILITADO NUADE-NÚCLEO DE ANÁLISE DE DESEMPENHO",
+      "acron": null,
+      "prefex": "532",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 73,
+      "name": "DESABILITADO-NUDOC",
+      "acron": null,
+      "prefex": "443",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 68,
+      "name": "DESABILITADO NUDOC-NÚCLEO DOCUMENTAÇÃO COMUNICAÇÃO",
+      "acron": null,
+      "prefex": "433",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 75,
+      "name": "DESABILITADO-NUFIN",
+      "acron": null,
+      "prefex": "462",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 84,
+      "name": "DESABILITADO NUFIN - NÚCLEO EXEC ORÇ FINANCEIRA",
+      "acron": null,
+      "prefex": "522",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 69,
+      "name": "DESABILITADO-NULOG",
+      "acron": null,
+      "prefex": "434",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 70,
+      "name": "DESABILITADO-NULOG - NÚCLEO DE SERVIÇOS GERAIS",
+      "acron": null,
+      "prefex": "435",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 66,
+      "name": "DESABILITADO NUPRS - NÚCLEO DE PROCESSOS SISTEMAS",
+      "acron": null,
+      "prefex": "431",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 72,
+      "name": "DESABILITADO-NUSOP",
+      "acron": null,
+      "prefex": "442",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 134,
+      "name": "DESABILITADO - PROCESSOS COM RASURAS PROTOCOLO",
+      "acron": null,
+      "prefex": "636",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 113,
+      "name": "DESABILITADO SEHAB - PROTOCOLO",
+      "acron": null,
+      "prefex": "615",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 123,
+      "name": "DESABILITADO - SEOPS - ANTIGA CGDF",
+      "acron": null,
+      "prefex": "625",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 168,
+      "name": "DESABILITADO SUPOL/SEHAB",
+      "acron": null,
+      "prefex": "670",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 55,
+      "name": "DIAFI - DIRETORIA ADMINISTRATIVA/FINANCEIRA",
+      "acron": null,
+      "prefex": "401",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 236,
+      "name": "DIATE - DIRETORIA DE ASSISTENCIA TÉCNICA",
+      "acron": "DIATE",
+      "prefex": "201",
+      "father_id": 2,
+      "responsible_id": 1689
+    },
+    {
+      "id": 80,
+      "name": "DIFIN - DIRETORIA FINANCEIRA",
+      "acron": "DIFIN",
+      "prefex": "501",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 27,
+      "name": "DIMOB - DIRETORIA IMOBILIÁRIA",
+      "acron": "DIMOB",
+      "prefex": "300",
+      "father_id": 2,
+      "responsible_id": 1294
+    },
+    {
+      "id": 213,
+      "name": "DIPRO - DIRETOIRA DE PRODUçãO HABITACIONAL",
+      "acron": "DIPRO",
+      "prefex": "1005",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 204,
+      "name": "DIPRO - DIRETOIRA DE PRODUçãO HABITACIONAL",
+      "acron": "DIPRO",
+      "prefex": "840",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 31,
+      "name": "DIPRO - DIRETORIA DE PRODUÇÃO HABITACIONAL",
+      "acron": "DIPRO",
+      "prefex": "305",
+      "father_id": 2,
+      "responsible_id": 1365
+    },
+    {
+      "id": 56,
+      "name": "DIRAD - DIRETORIA ADMINISTRATIVA",
+      "acron": "DIRAD",
+      "prefex": "402",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 221,
+      "name": "DIREG - ATENDIMENTO REGULARIZAçãO",
+      "acron": "DIREG",
+      "prefex": "1014",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 212,
+      "name": "DIREG - DIR. DE REG. DE INTERESSE SOCIAL",
+      "acron": "DIREG",
+      "prefex": "1004",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 30,
+      "name": "DIREG - DIRETORIA DE REGULARIZAÇÃO DE INTERESSE SOCIAL",
+      "acron": "DIREG",
+      "prefex": "304",
+      "father_id": 2,
+      "responsible_id": 1370
+    },
+    {
+      "id": 12,
+      "name": "DITEC - DIRETORIA TÉCNICA",
+      "acron": null,
+      "prefex": "200",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 110,
+      "name": "DPDF - DEFENSORIA PÚBLICA DO DISTRITO FEDERAL",
+      "acron": null,
+      "prefex": "612",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 143,
+      "name": "DPDF PARANOÁ",
+      "acron": null,
+      "prefex": "645",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 145,
+      "name": "DPDF SOBRADINHO",
+      "acron": null,
+      "prefex": "647",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 144,
+      "name": "DPDF TAGUATINGA",
+      "acron": null,
+      "prefex": "646",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 172,
+      "name": "EMPRESA MEHTA",
+      "acron": null,
+      "prefex": "674",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 17,
+      "name": "EQUIPE DE MONITORAMENTO",
+      "acron": "MONIT",
+      "prefex": "223",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 180,
+      "name": "EXTREMA",
+      "acron": null,
+      "prefex": "682",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 146,
+      "name": "FORUM PARANOÁ",
+      "acron": null,
+      "prefex": "648",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 148,
+      "name": "FORUM SOBRADINHO",
+      "acron": null,
+      "prefex": "650",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 149,
+      "name": "FORUM STª MARIA",
+      "acron": null,
+      "prefex": "651",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 147,
+      "name": "FORUM TAGUATINGA",
+      "acron": null,
+      "prefex": "649",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 127,
+      "name": "GAG - GABINETE GOVERNADOR",
+      "acron": null,
+      "prefex": "629",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 50,
+      "name": "GCOOP - GERÊNCIA DE ASSOCIAÇÕES E COOPERATIVAS HAB",
+      "acron": "GCOOP",
+      "prefex": "350",
+      "father_id": 27,
+      "responsible_id": null
+    },
+    {
+      "id": 33,
+      "name": "GEALI - GERÊNCIA DE ALIENAÇÃO DE IMÓVEIS",
+      "acron": "GEALI",
+      "prefex": "320",
+      "father_id": 30,
+      "responsible_id": 1665
+    },
+    {
+      "id": 237,
+      "name": "GEASC - GERÊNCIA DE ASSITÊNCIA, CONVÊNIOS E PARCERIAS",
+      "acron": "GEASC",
+      "prefex": "202",
+      "father_id": 236,
+      "responsible_id": 1311
+    },
+    {
+      "id": 238,
+      "name": "GEASP - GERÊNCIA DE ASSISTÊNCIA EM PROJETOS E OBRAS",
+      "acron": "GEASP",
+      "prefex": "203",
+      "father_id": 236,
+      "responsible_id": 1658
+    },
+    {
+      "id": 51,
+      "name": "GECAD - GERÊNCIA DE CADASTRAMENTO EM HABITAÇÃO",
+      "acron": "GECAD",
+      "prefex": "360",
+      "father_id": 27,
+      "responsible_id": 1330
+    },
+    {
+      "id": 26,
+      "name": "GECAR - GERÊNCIA DE CADASTRAMENTO EM REGULARIZAÇÃO",
+      "acron": "GECAR",
+      "prefex": "260",
+      "father_id": 30,
+      "responsible_id": 1378
+    },
+    {
+      "id": 65,
+      "name": "GECOM - GERÊNCIA DE COMPUTAÇÃO E COMUNICAÇÃO",
+      "acron": null,
+      "prefex": "430",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 25,
+      "name": "GECON - GERÊNCIA DE OBRAS E CONTRATOS",
+      "acron": "GECON",
+      "prefex": "250",
+      "father_id": 31,
+      "responsible_id": 1722
+    },
+    {
+      "id": 85,
+      "name": "GECOT - GERÊNCIA DE CONTABILIDADE E CUSTOS",
+      "acron": null,
+      "prefex": "530",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 234,
+      "name": "GECOT - GERÊNCIA DE CONTABILIDADE E TRIBUTOS",
+      "acron": "GECOT",
+      "prefex": "410",
+      "father_id": 239,
+      "responsible_id": 582
+    },
+    {
+      "id": 89,
+      "name": "GECRI - GERÊNCIA DE CRÉDITO IMOBILIARIO",
+      "acron": "GECRI",
+      "prefex": "550",
+      "father_id": 239,
+      "responsible_id": 442
+    },
+    {
+      "id": 245,
+      "name": "GEFIS - GERÊNCIA DE FISCALIZAÇÃO E RETOMADA DE IMÓVEIS",
+      "acron": "GEFIS",
+      "prefex": "313",
+      "father_id": 27,
+      "responsible_id": 1817
+    },
+    {
+      "id": 41,
+      "name": "GEMAN - GERÊNCIA DE MANUTENÇÃO DE CONTRATOS",
+      "acron": null,
+      "prefex": "330",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 219,
+      "name": "GEMOB - GERENCIA DE MOBILIZACAO SOCIAL",
+      "acron": "GEMOB",
+      "prefex": "1012",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 208,
+      "name": "GEMOB - GERENCIA DE MOBILIZACAO SOCIAL",
+      "acron": "GEMOB",
+      "prefex": "880",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 205,
+      "name": "GEMOB - GERÊNCIA DE MOBILIZAÇÃO SOCIAL",
+      "acron": "GEMOB",
+      "prefex": "850",
+      "father_id": 27,
+      "responsible_id": 1315
+    },
+    {
+      "id": 88,
+      "name": "GEOFI - GERÊNCIA DE EXECUÇÃO ORÇAMENTÁRIA E FINANCEIRA",
+      "acron": "GEOFI",
+      "prefex": "540",
+      "father_id": 239,
+      "responsible_id": 351
+    },
+    {
+      "id": 82,
+      "name": "GEOFI - GERÊNCIA DE ORÇAMENTO E FINANÇAS",
+      "acron": null,
+      "prefex": "520",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 71,
+      "name": "GEPES - GERÊNCIA DE PESSOAS",
+      "acron": "GEPES",
+      "prefex": "440",
+      "father_id": 239,
+      "responsible_id": 1310
+    },
+    {
+      "id": 218,
+      "name": "GEPHAB - GERENCIA DE PLANEJAMENTO HABITACIONAL",
+      "acron": "GEPHAB",
+      "prefex": "1011",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 243,
+      "name": "GEPHAB - GERÊNCIA DE PROVISÃO HABITACIONAL",
+      "acron": "GEPHAB",
+      "prefex": "311",
+      "father_id": 31,
+      "responsible_id": 827
+    },
+    {
+      "id": 14,
+      "name": "GEPLA - GERÊNCIA DE PLANEJAMENTO E PROJETOS",
+      "acron": null,
+      "prefex": "220",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 207,
+      "name": "GEPLAN - GERENCIA DE PLANEJAMENTO HABITACIONAL",
+      "acron": "GEPLAN",
+      "prefex": "870",
+      "father_id": 31,
+      "responsible_id": 574
+    },
+    {
+      "id": 46,
+      "name": "GEPRI - GERÊNCIA DE PRODUÇÃO DE IMÓVEIS",
+      "acron": null,
+      "prefex": "340",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 222,
+      "name": "GEPRO - GERENCIA DE PROJETO",
+      "acron": "GEPRO",
+      "prefex": "1015",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 52,
+      "name": "GERAT - GERÊNCIA DE ATENDIMENTO E MOBILIZAÇÃO SOCI",
+      "acron": null,
+      "prefex": "370",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 24,
+      "name": "GEREC - GERÊNCIA DE REGULARIZAÇÃO FUNDIÁRIA",
+      "acron": "GEREC",
+      "prefex": "240",
+      "father_id": 30,
+      "responsible_id": 1335
+    },
+    {
+      "id": 19,
+      "name": "GEREF - GERÊNCIA DE REGULARIZAÇÃO FUNDIÁRIA",
+      "acron": null,
+      "prefex": "230",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 210,
+      "name": "GEREG - GERENCIA DE REGULARIZAÇÃO",
+      "acron": "GEREG",
+      "prefex": "890",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 220,
+      "name": "GEREG - GERENCIA DE REGULARIZAÇÃO",
+      "acron": "GEREG",
+      "prefex": "1013",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 117,
+      "name": "GERENCIA DE PATRIMONIO DA UNIÃO",
+      "acron": null,
+      "prefex": "619",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 59,
+      "name": "GESOP - GERÊNCIA DE SUPORTE OPERACIONAL",
+      "acron": "GESOP",
+      "prefex": "420",
+      "father_id": 239,
+      "responsible_id": 1650
+    },
+    {
+      "id": 200,
+      "name": "GETEC - GERÊNCIA DE TECNOLOGIA DA INFORMAÇÃO",
+      "acron": "GETEC",
+      "prefex": "800",
+      "father_id": 239,
+      "responsible_id": 1490
+    },
+    {
+      "id": 156,
+      "name": "GIDUR - CAIXA ECONÔMICA",
+      "acron": null,
+      "prefex": "658",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 91,
+      "name": "GRUPAR",
+      "acron": null,
+      "prefex": "592",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 193,
+      "name": "GT MANGUEIRAL RP 162/10/NUHAB",
+      "acron": null,
+      "prefex": "695",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 179,
+      "name": "GVG - VICE GOVERNADORIA",
+      "acron": null,
+      "prefex": "681",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 155,
+      "name": "IBAMA",
+      "acron": null,
+      "prefex": "657",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 119,
+      "name": "IBRAM",
+      "acron": "IBRAM",
+      "prefex": "621",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 194,
+      "name": "INCRA",
+      "acron": null,
+      "prefex": "696",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 226,
+      "name": "JARDIM BOTÂNICO",
+      "acron": null,
+      "prefex": "1019",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 166,
+      "name": "METRO-DF",
+      "acron": null,
+      "prefex": "668",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 151,
+      "name": "MPDFT",
+      "acron": null,
+      "prefex": "653",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 160,
+      "name": "NA HORA CEILANDIA",
+      "acron": null,
+      "prefex": "662",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 159,
+      "name": "NA HORA TAGUATINGA",
+      "acron": null,
+      "prefex": "661",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 120,
+      "name": "NOVACAP",
+      "acron": null,
+      "prefex": "622",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 246,
+      "name": "NUAC - NÚCLEO DE ACOMPANHAMENTO E MONITORAMENTO DE LICENÇAS",
+      "acron": "NUAC",
+      "prefex": "315",
+      "father_id": 24,
+      "responsible_id": 1043
+    },
+    {
+      "id": 203,
+      "name": "NUAR - NÚCLEO DE ATENDIMENTO A REGULARIZAÇÃO",
+      "acron": "NUAR",
+      "prefex": "830",
+      "father_id": 26,
+      "responsible_id": 1719
+    },
+    {
+      "id": 39,
+      "name": "NUATE/114 SUL",
+      "acron": null,
+      "prefex": "326",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 215,
+      "name": "NUATE/EMBAIXADOR",
+      "acron": null,
+      "prefex": "1008",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 40,
+      "name": "NUATE/EMBAIXADOR",
+      "acron": null,
+      "prefex": "327",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 37,
+      "name": "NUATE - NÚCLEO DE ATENDIMENTO AO PÚBLICO",
+      "acron": "NUATE",
+      "prefex": "324",
+      "father_id": 51,
+      "responsible_id": 1451
+    },
+    {
+      "id": 38,
+      "name": "NUATE/SEDE",
+      "acron": null,
+      "prefex": "325",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 214,
+      "name": "NUATE/SEDE",
+      "acron": null,
+      "prefex": "1006",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 35,
+      "name": "NUCAD - NÚCLEO DE CADASTRO DA DEMANDA HABITACIONAL",
+      "acron": null,
+      "prefex": "322",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 36,
+      "name": "NUCAL - NÚCLEO DE CÁLCULOS E CONTRATOS",
+      "acron": null,
+      "prefex": "323",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 18,
+      "name": "NUCEM-NÚCLEO DE CONSTRUÇÃO E URBANIZAÇÃO DE EMPR.",
+      "acron": null,
+      "prefex": "224",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 23,
+      "name": "NUCER-NÚCLEO DE CONSTRUÇÃO E URBANIZAÇÃO DE REGUL.",
+      "acron": null,
+      "prefex": "234",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 48,
+      "name": "NUCLE - NÚCLEO DE CONTROLE",
+      "acron": null,
+      "prefex": "342",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 241,
+      "name": "NÚCLEO DE TESOURARIA",
+      "acron": "TESOURARIA",
+      "prefex": "206",
+      "father_id": 88,
+      "responsible_id": 413
+    },
+    {
+      "id": 44,
+      "name": "NUCOB - NÚCLEO DE DE COBRANÇA E RENEGOCIAÇÃO",
+      "acron": null,
+      "prefex": "333",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 49,
+      "name": "NUCON - NÚCLEO DE CONTRATOS",
+      "acron": null,
+      "prefex": "343",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 86,
+      "name": "NUCOT - NÚCLEO DE CONTABILIDADE E CONTROLE",
+      "acron": null,
+      "prefex": "531",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 43,
+      "name": "NUDEP - NÚCLEO DE DEPURAÇÃO DE CONTRATOS",
+      "acron": null,
+      "prefex": "332",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 250,
+      "name": "NUESCRI - NÚCLEO DE ANÁLISE E ESCRITURAÇÃO",
+      "acron": "NESCRI",
+      "prefex": "860",
+      "father_id": 26,
+      "responsible_id": 1513
+    },
+    {
+      "id": 206,
+      "name": "NUESCRI - NÚCLEO DE ESCRITURAÇÃO",
+      "acron": "NUESCRI",
+      "prefex": "860",
+      "father_id": 30,
+      "responsible_id": null
+    },
+    {
+      "id": 76,
+      "name": "NUEXC - NÚCLEO DE EXECUÇÃO",
+      "acron": null,
+      "prefex": "463",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 60,
+      "name": "NUGEP - NÚCLEO DE GESTÃO DE PESSOAL",
+      "acron": null,
+      "prefex": "421",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 47,
+      "name": "NUGES - NÚCLEO DE GESTÃO",
+      "acron": null,
+      "prefex": "341",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 16,
+      "name": "NUGET-NÚCLEO DE GESTÃO DE PLANEJAMENTO E PROJETOS",
+      "acron": null,
+      "prefex": "222",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 34,
+      "name": "NUHAB - NÚCLEO DE HABITAÇÃO E DISTRIBUIÇÃO",
+      "acron": null,
+      "prefex": "321",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 74,
+      "name": "NUINF - NÚCLEO DE INFORMÁTICA",
+      "acron": null,
+      "prefex": "444",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 244,
+      "name": "NULIC - NÚCLEO DE LICENCIAMENTO E MONITORAMENTO AMBIENTAL",
+      "acron": "NULIC",
+      "prefex": "312",
+      "father_id": 207,
+      "responsible_id": 1662
+    },
+    {
+      "id": 61,
+      "name": "NULIC - NÚCLEO DE LICITAÇÕES,CONTRATOS E CONVENIOS",
+      "acron": null,
+      "prefex": "422",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 21,
+      "name": "NUMOS - NÚCLEO DE MOBILIZAÇÃO SOCIAL",
+      "acron": null,
+      "prefex": "232",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 240,
+      "name": "NUPAM - NÚCLEO DE PATRIMÔNIO, MATERIAL E SERVIÇOS",
+      "acron": "NUPAM",
+      "prefex": "205",
+      "father_id": 59,
+      "responsible_id": 1362
+    },
+    {
+      "id": 15,
+      "name": "NUPLA - NÚCLEO DE PLANEJAMENTO",
+      "acron": null,
+      "prefex": "221",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 83,
+      "name": "NUPRO - NÚCLEO DE PROGRAMAÇÃO",
+      "acron": null,
+      "prefex": "521",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 247,
+      "name": "NUPRO - NÚCLEO DE PROJETO DE REGULARIZAÇÃO ",
+      "acron": "NUPRO - DIREG",
+      "prefex": "314",
+      "father_id": 24,
+      "responsible_id": 1712
+    },
+    {
+      "id": 64,
+      "name": "NUPRO - NÚCLEO DE PROTOCOLO E ARQUIVO",
+      "acron": "NUPRO - DAGES",
+      "prefex": "425",
+      "father_id": 59,
+      "responsible_id": 1509
+    },
+    {
+      "id": 20,
+      "name": "NUREF - NÚCLEO DE REGULARIZAÇÃO",
+      "acron": null,
+      "prefex": "231",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 45,
+      "name": "NUREG - NÚCLEO DE REGISTRO CARTORÁRIO",
+      "acron": null,
+      "prefex": "334",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 42,
+      "name": "NUSEG - NÚCLEO DE SEGUROS E GARANTIAS",
+      "acron": null,
+      "prefex": "331",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 63,
+      "name": "NUSER - NÚCLEO DE SERVIÇOS GERAIS",
+      "acron": null,
+      "prefex": "424",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 67,
+      "name": "NUSOP - NÚCLEO DE SUPORTE E OPERAÇÃO",
+      "acron": null,
+      "prefex": "432",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 78,
+      "name": "NUTES - NÚCLEO DE TESOURARIA",
+      "acron": null,
+      "prefex": "473",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 223,
+      "name": "ÓRGÃO EXTERNO",
+      "acron": "EXTERNO",
+      "prefex": "1016",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 62,
+      "name": "OUVIDORIA",
+      "acron": "OUVIDORIA",
+      "prefex": "423",
+      "father_id": 2,
+      "responsible_id": 568
+    },
+    {
+      "id": 185,
+      "name": "PGDF",
+      "acron": null,
+      "prefex": "687",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 189,
+      "name": "PMDF",
+      "acron": null,
+      "prefex": "691",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 216,
+      "name": "PRESI",
+      "acron": null,
+      "prefex": "1009",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 2,
+      "name": "PRESIDÊNCIA",
+      "acron": "PRESI",
+      "prefex": "100",
+      "father_id": null,
+      "responsible_id": 1298
+    },
+    {
+      "id": 178,
+      "name": "PROCAD",
+      "acron": null,
+      "prefex": "680",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 232,
+      "name": "PROFLORA",
+      "acron": null,
+      "prefex": "1025",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 5,
+      "name": "PROJU - PROCURADORIA JURÍDICA",
+      "acron": "PROJU",
+      "prefex": "120",
+      "father_id": 2,
+      "responsible_id": 1498
+    },
+    {
+      "id": 114,
+      "name": "PROMAI",
+      "acron": null,
+      "prefex": "616",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 58,
+      "name": "PROTOCOLO-NÚCLEO DE PROTOCOLO E EXPEDIENTE",
+      "acron": null,
+      "prefex": "412",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 105,
+      "name": "RASCIA",
+      "acron": null,
+      "prefex": "607",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 106,
+      "name": "SEAPA",
+      "acron": null,
+      "prefex": "608",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 3,
+      "name": "SECEX - SECRETARIA EXECUTIVA",
+      "acron": "SECEX",
+      "prefex": "110",
+      "father_id": 2,
+      "responsible_id": 1684
+    },
+    {
+      "id": 140,
+      "name": "SEDEST",
+      "acron": null,
+      "prefex": "642",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 53,
+      "name": "SEDHAB",
+      "acron": null,
+      "prefex": "390",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 126,
+      "name": "SEF",
+      "acron": null,
+      "prefex": "628",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 153,
+      "name": "SEG DODF-CENTRO ADM.",
+      "acron": null,
+      "prefex": "655",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 251,
+      "name": "SEGETH",
+      "acron": "SEGETH",
+      "prefex": "701",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 109,
+      "name": "SEG - SECRETARIA DE ESTADO DE GOVERNO",
+      "acron": null,
+      "prefex": "611",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 177,
+      "name": "SEJUS",
+      "acron": null,
+      "prefex": "679",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 169,
+      "name": "SEM SETOR",
+      "acron": null,
+      "prefex": "671",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 197,
+      "name": "SEPLAG PROTOCOLO",
+      "acron": null,
+      "prefex": "699",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 133,
+      "name": "SEPLAG / SELIC",
+      "acron": null,
+      "prefex": "635",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 162,
+      "name": "SE - SECRETARIA EDUCAÇÃO",
+      "acron": null,
+      "prefex": "664",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 199,
+      "name": "SETOR EXTERNO",
+      "acron": "NULL",
+      "prefex": "777",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 170,
+      "name": "SETOR NÃO CADASTRADO",
+      "acron": null,
+      "prefex": "672",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 107,
+      "name": "SITTRATER-DF",
+      "acron": null,
+      "prefex": "609",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 115,
+      "name": "SLU - SERVIÇO DE LIMPEZA URBANA DF",
+      "acron": null,
+      "prefex": "617",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 227,
+      "name": "SOBRELOJA/SEDUMA",
+      "acron": null,
+      "prefex": "1020",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 108,
+      "name": "SODF - SECRETARIA DE OBRAS DO DF",
+      "acron": null,
+      "prefex": "610",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 132,
+      "name": "SUDESA",
+      "acron": null,
+      "prefex": "634",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 158,
+      "name": "SUSDEC",
+      "acron": null,
+      "prefex": "660",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 122,
+      "name": "TCDF",
+      "acron": null,
+      "prefex": "624",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 4,
+      "name": "TERRACAP",
+      "acron": null,
+      "prefex": "111",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 150,
+      "name": "TJDFT",
+      "acron": null,
+      "prefex": "652",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 167,
+      "name": "TOPOCART",
+      "acron": null,
+      "prefex": "669",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 233,
+      "name": "TRÂMITE EXTERNO",
+      "acron": "NOVO",
+      "prefex": "1026",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 195,
+      "name": "TRIBUNAL JUSTIÇA RONDONIA",
+      "acron": null,
+      "prefex": "697",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 181,
+      "name": "UAG CPAS",
+      "acron": null,
+      "prefex": "683",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 211,
+      "name": "VER MOVIMENTAÇÃO NO PROTOCOLO DA SEDHAB",
+      "acron": null,
+      "prefex": "999",
+      "father_id": null,
+      "responsible_id": null
+    },
+    {
+      "id": 209,
+      "name": "VER MOVIMENTAÇAO SICOP",
+      "acron": null,
+      "prefex": "888",
+      "father_id": null,
+      "responsible_id": null
+    }
+  ]
+}

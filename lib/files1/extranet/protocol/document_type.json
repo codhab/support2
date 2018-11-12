@@ -1,0 +1,339 @@
+{
+  "document_types": [
+    {
+      "id": 49,
+      "name": "Ação Anulatória",
+      "status": true
+    },
+    {
+      "id": 9,
+      "name": "Aviso",
+      "status": true
+    },
+    {
+      "id": 19,
+      "name": "Bloqueio de Crédito",
+      "status": true
+    },
+    {
+      "id": 39,
+      "name": "Boletim de Medição",
+      "status": true
+    },
+    {
+      "id": 7,
+      "name": "Carta",
+      "status": true
+    },
+    {
+      "id": 10,
+      "name": "Circular",
+      "status": true
+    },
+    {
+      "id": 25,
+      "name": "Circular",
+      "status": true
+    },
+    {
+      "id": 15,
+      "name": "Citação",
+      "status": true
+    },
+    {
+      "id": 38,
+      "name": "Comunicação de Audiência",
+      "status": true
+    },
+    {
+      "id": 54,
+      "name": "Contrato",
+      "status": true
+    },
+    {
+      "id": 59,
+      "name": "Contrato de Escritura",
+      "status": true
+    },
+    {
+      "id": 30,
+      "name": "Convite",
+      "status": true
+    },
+    {
+      "id": 61,
+      "name": "DDP - Resumo Despesa",
+      "status": true
+    },
+    {
+      "id": 34,
+      "name": "Despacho",
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "Diversos",
+      "status": true
+    },
+    {
+      "id": 46,
+      "name": "Edital",
+      "status": true
+    },
+    {
+      "id": 50,
+      "name": "Edital Chamamamento",
+      "status": true
+    },
+    {
+      "id": 51,
+      "name": "Edital Credenciamento",
+      "status": true
+    },
+    {
+      "id": 37,
+      "name": "E-mail",
+      "status": true
+    },
+    {
+      "id": 57,
+      "name": "Envelope Comissão",
+      "status": true
+    },
+    {
+      "id": 53,
+      "name": "Envelope dos Documentos da Proposta de Projeto e Preço",
+      "status": true
+    },
+    {
+      "id": 52,
+      "name": "Envelope dos Documentos de Habilitação",
+      "status": true
+    },
+    {
+      "id": 18,
+      "name": "Expediente",
+      "status": true
+    },
+    {
+      "id": 11,
+      "name": "Exposição de Motivos",
+      "status": true
+    },
+    {
+      "id": 21,
+      "name": "Fatura",
+      "status": true
+    },
+    {
+      "id": 31,
+      "name": "Informação",
+      "status": true
+    },
+    {
+      "id": 36,
+      "name": "Informativo Jurídico TC",
+      "status": true
+    },
+    {
+      "id": 35,
+      "name": "Informativo Jurídico TJ",
+      "status": true
+    },
+    {
+      "id": 20,
+      "name": "Intimação",
+      "status": true
+    },
+    {
+      "id": 42,
+      "name": "Laudo Avaliação",
+      "status": true
+    },
+    {
+      "id": 14,
+      "name": "Mandado",
+      "status": true
+    },
+    {
+      "id": 4,
+      "name": "Memorando",
+      "status": true
+    },
+    {
+      "id": 22,
+      "name": "Mensagem",
+      "status": true
+    },
+    {
+      "id": 48,
+      "name": "Nota",
+      "status": true
+    },
+    {
+      "id": 24,
+      "name": "Nota de Auditoria",
+      "status": true
+    },
+    {
+      "id": 40,
+      "name": "Nota de Empenho",
+      "status": true
+    },
+    {
+      "id": 16,
+      "name": "Nota de Inspeção",
+      "status": true
+    },
+    {
+      "id": 12,
+      "name": "Nota Técnica",
+      "status": true
+    },
+    {
+      "id": 17,
+      "name": "Notificação",
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "Oficio",
+      "status": true
+    },
+    {
+      "id": 44,
+      "name": "Ordem de Serviço",
+      "status": true
+    },
+    {
+      "id": 8,
+      "name": "Outros",
+      "status": true
+    },
+    {
+      "id": 5,
+      "name": "Ouvidoria Reclamação",
+      "status": true
+    },
+    {
+      "id": 27,
+      "name": "Ouvidoria Solicitação",
+      "status": true
+    },
+    {
+      "id": 32,
+      "name": "Parecer",
+      "status": true
+    },
+    {
+      "id": 13,
+      "name": "Pedido de Compra/Serviços",
+      "status": true
+    },
+    {
+      "id": 1,
+      "name": "Processo",
+      "status": true
+    },
+    {
+      "id": 58,
+      "name": "Projeto Básico",
+      "status": true
+    },
+    {
+      "id": 33,
+      "name": "Proposta",
+      "status": true
+    },
+    {
+      "id": 62,
+      "name": "Publicação",
+      "status": true
+    },
+    {
+      "id": 41,
+      "name": "Recomendação",
+      "status": true
+    },
+    {
+      "id": 56,
+      "name": "Recurso Administrativo",
+      "status": true
+    },
+    {
+      "id": 29,
+      "name": "Relatório",
+      "status": true
+    },
+    {
+      "id": 28,
+      "name": "Relatório Vistoria",
+      "status": true
+    },
+    {
+      "id": 66,
+      "name": "Requerimento de Regularização",
+      "status": true
+    },
+    {
+      "id": 26,
+      "name": "Requerimento Externo",
+      "status": true
+    },
+    {
+      "id": 67,
+      "name": "Requerimento Morar Bem",
+      "status": false
+    },
+    {
+      "id": 65,
+      "name": "Requisição",
+      "status": true
+    },
+    {
+      "id": 45,
+      "name": "Resolução",
+      "status": true
+    },
+    {
+      "id": 23,
+      "name": "Solicitação",
+      "status": true
+    },
+    {
+      "id": 6,
+      "name": "Solicitação de Auditoria",
+      "status": true
+    },
+    {
+      "id": 43,
+      "name": "Sumula",
+      "status": true
+    },
+    {
+      "id": 55,
+      "name": "Termo Aditivo",
+      "status": true
+    },
+    {
+      "id": 47,
+      "name": "Termo CDRU",
+      "status": true
+    },
+    {
+      "id": 60,
+      "name": "Termo de Cessão de Uso",
+      "status": true
+    },
+    {
+      "id": 63,
+      "name": "Termo de Compromisso",
+      "status": true
+    },
+    {
+      "id": 64,
+      "name": "Termo de Permissão de Uso",
+      "status": true
+    }
+  ]
+}

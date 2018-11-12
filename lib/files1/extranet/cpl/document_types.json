@@ -1,0 +1,20 @@
+{
+  "document_types": [
+    {
+      "name": "CPF",
+      "status": true
+    },
+    {
+      "name": "RG",
+      "status": true
+    },
+    {
+      "name": "Document A",
+      "status": true
+    },
+    {
+      "name": "Documento B",
+      "status": true
+    }
+  ]
+}

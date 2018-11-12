@@ -1,0 +1,168 @@
+{
+  "civil_states":[
+    {
+      "id": "1",
+      "name": "Solteiro(a)"
+    },
+    {
+      "id": "2",
+      "name": "Casado(a)"
+    },
+    {
+      "id": "3",
+      "name": "Separado/Divorciado(a)"
+    },
+    {
+      "id": "4",
+      "name": "Viuvo(a)"
+    },
+    {
+      "id": "7",
+      "name": "União Estável"
+    }
+  ],
+  
+  "kinships":[
+    {
+      "id": "1",
+      "name": "Pai/Mãe/Avô/Avó"
+    },
+    {
+      "id": "2",
+      "name": "Irmão/Neto/Bisneto"
+    },
+    {
+      "id": "3",
+      "name": "Filho(a)/Enteado"
+    },
+    {
+      "id": "5",
+      "name": "Tutela/Curatela"
+    },
+    {
+      "id": "6",
+      "name": "Cônjuge/Companheiro"
+    }
+  ],
+  
+  "special_condition_types":[
+    {
+      "id": "1",
+      "name": "Física"
+    },
+    {
+      "id": "2",
+      "name": "Auditiva"
+    },
+    {
+      "id": "3",
+      "name": "Visual"
+    },
+    {
+      "id": "4",
+      "name": "Intelectual"
+    },
+    {
+      "id": "5",
+      "name": "Surdocegueira"
+    },
+    {
+      "id": "6",
+      "name": "Autismo"
+    },
+    {
+      "id": "7",
+      "name": "Condutas típicas"
+    },
+    {
+      "id": "8",
+      "name": "Múltipla"
+    }
+  ],
+  
+  "genders":[
+    {
+      "id": "1",
+      "name": "Masculino"
+    },
+    {
+      "id": "2",
+      "name": "Feminino"
+    }
+  ],
+  
+  "education_backgrounds":[
+    {
+      "id": "1",
+      "name": "Nivel Médio"
+    },
+    {
+      "id": "2",
+      "name": "Superior"
+    },
+    {
+      "id": "3",
+      "name": "Pós-graduação"
+    }
+  ],
+  
+  "programs":[
+    {
+      "id": "1",
+      "name": "RII"
+    },
+    {
+      "id": "2",
+      "name": "RIE"
+    },
+    {
+      "id": "3",
+      "name": "REGULARIZAÇÃO"
+    },
+    {
+      "id": "4",
+      "name": "VULNERAVEIS"
+    },
+    {
+      "id": "5",
+      "name": "DEFICIENTES"
+    },
+    {
+      "id": "6",
+      "name": "CADASTRO ANTIGO"
+    },
+    {
+      "id": "7",
+      "name": "IDOSO"
+    },
+    {
+      "id": "8",
+      "name": "SEM VÍNCULO"
+    },
+    {
+      "id": "9",
+      "name": "AMMVS-RF II 4a. ETAPA"
+    },
+    {
+      "id": "10",
+      "name": "H4 SAMAMBAIA"
+    },
+    {
+      "id": "11",
+      "name": "REMAS"
+    },
+    {
+      "id": "12",
+      "name": "REALOCAÇÃO (GÊNESIS)"
+    },
+    {
+      "id": "13",
+      "name": "REALOCAÇÃO (CH. PADRE)"
+    },
+    {
+      "id": "14",
+      "name": "MTST"
+    }
+  ]
+  
+}
