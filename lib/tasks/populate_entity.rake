@@ -8,9 +8,9 @@ namespace :populate_entity do
   end
 
   task cadastre: :environment do 
-    populate = JSON.parse(File.open('../files/sihab/entity/cadastre.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/entity/cadastre.json").read)
     
-    populate.data['entity'].each do |sector|
+    populate['entity'].each do |sector|
       object = Support::Entity::Cadastre.new
       object.name                = sector['name']
       object.fantasy_name        = sector['fantasy_name']

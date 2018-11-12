@@ -10,7 +10,7 @@ namespace :populate_candidate do
   end
 
   task program: :environment do
-    populate = JSON.parse(File.open('../files/sihab/candidate/programs.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/candidate/programs.json").read)
 
     populate.data['situations'].each do |situation_type|
       object = Support::Candidate::Program.new
@@ -22,7 +22,7 @@ namespace :populate_candidate do
   
 
   task situation_type: :environment do
-    populate = JSON.parse(File.open('../files/sihab/candidate/situation_types.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/candidate/situation_types.json").read)
 
     populate.data['situations'].each do |situation_type|
       object = Support::Candidate::SituationType.new
@@ -34,7 +34,7 @@ namespace :populate_candidate do
   
 
   task procedural_type: :environment do
-    populate = JSON.parse(File.open('../files/sihab/candidate/procedural_types.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/candidate/procedural_types.json").read)
 
     populate.data['procedurals'].each do |procedural_type|
       object = Support::Candidate::ProceduralType.new

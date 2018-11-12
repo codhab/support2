@@ -11,9 +11,9 @@ namespace :populate_person do
   end
 
   task contract_type: :environment do 
-    populate = JSON.parse(File.open('../files/extranet/person/contract_type.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/person/contract_type.json").read)
     
-    populate.data['contract_types'].each do |sector|
+    populate['contract_types'].each do |sector|
       object = Support::Person::ContractType.new
       object.id     = sector['id']
       object.name   = sector['name']
@@ -22,9 +22,9 @@ namespace :populate_person do
   end
   
   task sector: :environment do 
-    populate = JSON.parse(File.open('../files/extranet/person/sectors.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/person/sectors.json").read)
 
-    populate.data['sector'].each do |sector|
+    populate['sector'].each do |sector|
       object = Support::Person::Sector.new
       object.id     = sector['id']
       object.name   = sector['name']
@@ -37,9 +37,9 @@ namespace :populate_person do
   end
 
   task job: :environment do 
-    populate = JSON.parse(File.open('../files/extranet/person/job.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/person/job.json").read)
 
-    populate.data['job'].each do |sector|
+    populate['job'].each do |sector|
       object = Support::Person::Job.new
       object.id     = sector['id']
       object.name   = sector['name']
@@ -51,9 +51,9 @@ namespace :populate_person do
 
 
   task staff: :environment do 
-    populate = JSON.parse(File.open('../files/extranet/person/staffs.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/person/staffs.json").read)
 
-    populate.data['staff'].each do |sector|
+    populate['staff'].each do |sector|
       object = Support::Person::Staff.new
       object.code     = sector['code']
       object.name   = sector['name']

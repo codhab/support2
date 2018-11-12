@@ -8,9 +8,9 @@ namespace :populate_pivotal do
   end
 
   task nav: :environment do 
-    populate = JSON.parse(File.open('../files/extranet/person/navs.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/pivotal/navs.json").read)
 
-    populate.data['navs'].each do |nav|
+    populate['navs'].each do |nav|
       object = Support::Pivotal::Nav.new
       object.label         = nav['label']
       object.description   = nav['description']

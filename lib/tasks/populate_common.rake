@@ -16,9 +16,9 @@ namespace :populate_common do
   end
 
   task state_and_city: :environment do
-    populate = JSON.parse(File.open('../files/common/state_and_cities.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/common/state_and_cities.json").read)
 
-    populate.data.each do |state|
+    populate.each do |state|
       state_obj = Support::Common::State.new(acronym: state['acronym'],name: state['name'])
       state_obj.save
       state['cities'].each do |city|
@@ -32,9 +32,9 @@ namespace :populate_common do
   end
 
   task subject: :environment do
-    populate = JSON.parse(File.open('../files/extranet/protocol/subject.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/protocol/subject.json").read)
     
-    populate.data['subjects'].each do |subject|
+    populate['subjects'].each do |subject|
       object = Support::Protocol::Subject.new
       object.id     = subject['id']
       object.name   = subject['name']
@@ -44,9 +44,9 @@ namespace :populate_common do
   end
   
   task document_type: :environment do
-    populate = JSON.parse(File.open('../files/extranet/protocol/document_type.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/protocol/document_type.json").read)
 
-    populate.data['document_types'].each do |document_type|
+    populate['document_types'].each do |document_type|
       object = Support::Protocol::DocumentType.new
       object.id     = document_type['id']
       object.name   = document_type['name']
@@ -57,9 +57,9 @@ namespace :populate_common do
 
  
   task assessment: :environment do
-    populate = JSON.parse(File.open('../files/extranet/protocol/assessment.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/protocol/assessment.json").read)
 
-    populate.data['assessments'].each do |assessment|
+    populate['assessments'].each do |assessment|
       state_obj = Support::Protocol::Assessment.new
       state_obj.id               = assessment['id']
       state_obj.number           = assessment['number']
@@ -87,9 +87,9 @@ namespace :populate_common do
   end
 
   task cpl_document_type: :environment do
-    populate = JSON.parse(File.open('../files/sihab/extranet/cpl/document_types.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/cpl/document_types.json").read)
 
-    populate.data['document_types'].each do |document_type|
+    populate['document_types'].each do |document_type|
       object = Support::Cpl::DocumentType.new
       object.id     = document_type['id']
       object.name   = document_type['name']
@@ -99,9 +99,9 @@ namespace :populate_common do
   end
 
   task notice: :environment do
-    populate = JSON.parse(File.open('../files/extranet/cpl/notices.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/cpl/notices.json").read)
 
-    populate.data['notices'].each do |document_type|
+    populate['notices'].each do |document_type|
       object = Support::Cpl::Notice.new
       object.name   = document_type['name']
       object.document_number = document_type['document_number']
@@ -117,9 +117,9 @@ namespace :populate_common do
   end
 
   task participant: :environment do
-    populate = JSON.parse(File.open('../files/extranet/cpl/participants.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/cpl/participants.json").read)
 
-    populate.data['participants'].each do |document_type|
+    populate['participants'].each do |document_type|
       object = Support::Cpl::Participant.new
       object.name = document_type['name']
       object.cnpj = document_type['cnpj']
@@ -132,9 +132,9 @@ namespace :populate_common do
  
 
   task address_unit: :environment do
-    populate = JSON.parse(File.open('../files/sihab/address/units.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/address/units.json").read)
     
-    populate.data['address'].each do |unit|
+    populate['address'].each do |unit|
       object = Support::Address::Unit.new
       object.id = unit['id']
       object.acron_block = unit['acron_block']
@@ -156,12 +156,12 @@ namespace :populate_common do
 
  
   task shared_tables: :environment do
-    populate = JSON.parse(File.open('../files/common/shared_tables.json').read)
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/common/shared_tables.json").read)
 
     array = ['civil_states', 'kinships', 'special_condition_types', 'genders', 'education_backgrounds', 'programs']
 
     array.each do |arr|
-      populate.data[arr].each do |item|
+      populate[arr].each do |item|
         obj = "Support::Common::#{arr.singularize.camelize}".constantize.new(id: item['id'], name: item['name'])
         obj.save!
       end
