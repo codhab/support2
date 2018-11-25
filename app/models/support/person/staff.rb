@@ -12,6 +12,10 @@ module Support
       def presenter
         call_presenter('Support::Person::StaffPresenter', self)
       end
+      
+      def policy
+        call_policy('Support::Person::StaffPolicy', self)
+      end
     end
   end
 end

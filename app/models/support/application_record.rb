@@ -18,5 +18,9 @@ module Support
     def call_presenter(presenter_class, model, view = nil)
       presenter_class.constantize.new(model, view)
     end
+
+    def call_policy(policy_class, model)
+      policy_class.constantize.new(model)
+    end
   end
 end
