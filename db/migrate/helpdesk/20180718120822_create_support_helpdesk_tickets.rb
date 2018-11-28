@@ -8,8 +8,9 @@ class CreateSupportHelpdeskTickets < ActiveRecord::Migration[5.2]
       t.string  :contact
       t.date    :date
       t.time    :hour
-      t.integer :attendant_id
       t.text    :description
+      t.integer :attendant_id
+      t.integer :situation_type_id
 
       t.timestamps
 

@@ -1,6 +1,6 @@
-class CreateSupportHelpdeskSituationTypes < ActiveRecord::Migration[5.2]
+class CreateSupportHelpdeskTicketSituationTypes < ActiveRecord::Migration[5.2]
   def change
-    create_table 'extranet.helpdesk_situation_types' do |t|
+    create_table 'extranet.helpdesk_ticket_situation_types' do |t|
       t.string :name
       t.boolean :status, default: true
 

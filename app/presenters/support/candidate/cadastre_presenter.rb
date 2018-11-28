@@ -1,11 +1,17 @@
 require_dependency 'support/application_presenter'
 require_dependency 'support/candidate/cadastre_situation'
 require_dependency 'support/candidate/cadastre_procedural'
+require_dependency 'support/application_presenter'
 
 module Support
   module Candidate
     class CadastrePresenter < ApplicationPresenter # :nodoc:
-      def name_camel_case
+      def short_name
+        short = self.name.split(' ')
+        "#{short[0].humanize} #{short[-1].humanize}"
+      end
+      
+      def camel_case_name
         name.to_s.mb_chars.downcase.titleize
       end
 

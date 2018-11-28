@@ -33,6 +33,7 @@ module Support
 
       def initialize(options = {})
         @cadastre_mirror = Support::Candidate::CadastreMirror.find(options[:cadastre_mirror_id])
+        
         return nil if @cadastre_mirror.nil?
 
         # => SAL_MIM é o valor do salário mínimo na data de geração dos pontos.
