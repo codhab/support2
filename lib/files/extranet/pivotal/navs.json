@@ -8,6 +8,8 @@
       "group_permission_id": "",
       "permission_ids": "",
       "url": "#",
+      "position": 2,
+      "icon": "ei-file-edit",
       "childrens": [
         {
           "label": "Postos de atendimento",
@@ -65,6 +67,8 @@
       "group_permission_id": "",
       "permission_ids": "",
       "url": "#",
+      "position": 1,
+      "icon": "ei-users",
       "childrens": [
         {
           "label": "Cadastro",
@@ -112,6 +116,8 @@
       "group_permission_id": "",
       "permission_ids": "",
       "url": "#",
+      "position": 3,
+      "icon": "ei-home",
       "childrens": [
         {
           "label": "Cadastro imobiliário",
@@ -143,6 +149,8 @@
       "father_id": "",
       "group_permission_id": "",
       "permission_ids": "",
+      "position": 4,
+      "icon": "ei-megaphone",
       "childrens": [
         {
           "label": "Portal",
@@ -166,6 +174,8 @@
       "group_permission_id": "",
       "permission_ids": "",
       "url": "#",
+      "position": 5,
+      "icon": "ei-folder",
       "childrens": [
         {
           "label": "Gestão de pessoas",
@@ -226,7 +236,9 @@
       "father_id": "",
       "group_permission_id": "",
       "permission_ids": "",
-      "url": "#"
+      "url": "#",
+      "position": 6,
+      "icon": "ei-bar-chart"
     },
     {
       "label": "SEI",
@@ -234,7 +246,9 @@
       "father_id": "",
       "group_permission_id": "",
       "permission_ids": "",
-      "url": "#"
+      "url": "#",
+      "position": 7,
+      "icon": "ei-file-text"
     },
     {
       "label": "Documentos",
@@ -242,7 +256,9 @@
       "father_id": "",
       "group_permission_id": "",
       "permission_ids": "",
-      "url": "#"
+      "url": "#",
+      "position": 8,
+      "icon": "ei-paperclip"
     }
   ]
 }

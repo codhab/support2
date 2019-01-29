@@ -6,8 +6,10 @@ class CreateSupportHelpdeskTickets < ActiveRecord::Migration[5.2]
       t.integer :staff_id
       t.integer :location_id
       t.string  :contact
-      t.date    :date
-      t.time    :hour
+      t.boolean :schedule, default: false
+      t.date    :schedule_date
+      t.time    :schedule_hour
+      t.date    :due
       t.text    :description
       t.integer :attendant_id
       t.integer :situation_type_id

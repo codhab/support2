@@ -13,6 +13,9 @@ namespace :populate_pivotal do
     populate['navs'].each do |nav|
       object = Support::Pivotal::Nav.new
       object.label         = nav['label']
+      object.icon          = nav['icon']
+      object.icon          = nav['icon']
+      object.position      = nav['position']
       object.description   = nav['description']
       object.save!
       
