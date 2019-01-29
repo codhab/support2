@@ -3,7 +3,6 @@ class CreateSupportBrbInvoiceTypes < ActiveRecord::Migration[5.2] # :nodoc:
     create_table 'extranet.brb_invoice_types' do |t|
       t.string  :name
       t.boolean :status, default: true
-      t.string  :invoice
       t.string  :account
 
       t.timestamps
