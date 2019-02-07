@@ -2,7 +2,6 @@ class CreateSupportJuridicalInstancyPlaces < ActiveRecord::Migration[5.2] # :nod
   def change
     create_table 'extranet.juridical_instancy_places' do |t|
       t.string  :name
-      t.text    :description
       t.boolean :status, default: true
       t.integer :instancy_id
 

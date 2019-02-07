@@ -13,6 +13,7 @@ class CreateSupportBrbInvoices < ActiveRecord::Migration[5.2] # :nodoc:
       t.string   :city
       t.string   :cep
       t.integer  :situation_id
+      t.integer  :invoice_type_id
       t.date     :due
       t.decimal  :value, precision: 8, scale: 2
       t.text     :message
