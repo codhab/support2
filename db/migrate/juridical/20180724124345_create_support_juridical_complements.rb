@@ -5,8 +5,6 @@ class CreateSupportJuridicalComplements < ActiveRecord::Migration[5.2] # :nodoc:
       t.integer :lawsuit_id
       t.integer :instancy_place_id
       t.date    :distribution_date
-      t.date    :deadline
-      t.integer :days
       t.date    :end_date
       t.text    :complement
       t.integer :responsible_lawyer_id
