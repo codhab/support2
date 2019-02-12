@@ -6,6 +6,7 @@ class CreateSupportCplNoticeParticipants < ActiveRecord::Migration[5.2] # :nodoc
       t.boolean  :status, default: true
       t.boolean  :certificate, default: false
       t.datetime :doc_sent_at, default: nil
+      t.datetime :proposal_sent_at, default: nil
 
       t.timestamps
 
