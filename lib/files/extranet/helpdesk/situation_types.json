@@ -1,0 +1,20 @@
+{
+  "situation_types": [
+    {
+      "name": "aberto",
+      "status": true
+    },
+    {
+      "name": "em execução",
+      "status": true
+    },
+    {
+      "name": "agendado",
+      "status": true
+    },
+    {
+      "name": "cancelado",
+      "status": true
+    }
+  ]
+}

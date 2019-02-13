@@ -25,6 +25,7 @@ namespace :db do
     Rake::Task['populate_person:populate'].invoke
     Rake::Task['populate_pivotal:populate'].invoke
     Rake::Task['populate_entity:populate'].invoke
+    Rake::Task['populate_helpdesk:populate'].invoke
   end
 
 end
