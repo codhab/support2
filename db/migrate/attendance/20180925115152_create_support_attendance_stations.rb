@@ -5,7 +5,8 @@ class CreateSupportAttendanceStations < ActiveRecord::Migration[5.2]
       t.text    :description
       t.string  :lat
       t.string  :lng
-      t.boolean :status
+      t.integer :responsible_id
+      t.boolean :status, default: true
 
       t.timestamps
 

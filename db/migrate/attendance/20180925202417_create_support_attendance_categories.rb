@@ -2,7 +2,7 @@ class CreateSupportAttendanceCategories < ActiveRecord::Migration[5.2]
   def change
     create_table 'sihab.attendance_categories' do |t|
       t.string  :name
-      t.boolean :status
+      t.boolean :status,  default: true
 
       t.timestamps
 

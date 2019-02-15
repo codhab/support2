@@ -3,7 +3,7 @@ class CreateSupportAttendanceDailyTypes < ActiveRecord::Migration[5.2]
     create_table 'sihab.attendance_daily_types' do |t|
       t.string  :name
       t.text    :description
-      t.boolean :status
+      t.boolean :status, default: true
 
       t.timestamps
 
