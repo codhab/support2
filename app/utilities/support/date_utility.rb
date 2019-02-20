@@ -1,14 +1,14 @@
 module Support
   module DateUtility
-    def formatted_datetime
+    def format_datetime
       self.strftime("%d/%m/%Y %H:%M")
     end
     
-    def formatted_date
+    def format_date
       self.strftime("%d/%m/%Y")
     end
     
-    def formatted_time
+    def format_time
       self.strftime("%H:%M")
     end
   end
