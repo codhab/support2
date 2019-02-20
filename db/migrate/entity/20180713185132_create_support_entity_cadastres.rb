@@ -1,9 +1,10 @@
 class CreateSupportEntityCadastres < ActiveRecord::Migration[5.2]
   def change
     create_table 'sihab.entity_cadastres' do |t|
+      t.uuid    :uuid, default: "uuid_generate_v4()", null: false
       t.string  :name
       t.string  :cnpj
-      t.string  :fantasy_name
+      t.string  :acron
       t.string  :telephone
       t.string  :telephone_optional
       t.string  :cell_phone
@@ -17,7 +18,6 @@ class CreateSupportEntityCadastres < ActiveRecord::Migration[5.2]
       t.boolean :status, default: true
       t.string  :password
       t.string  :reset_token
-      t.boolean :old, default: false
       t.string  :lat
       t.string  :lng
       
@@ -26,5 +26,9 @@ class CreateSupportEntityCadastres < ActiveRecord::Migration[5.2]
       t.boolean  :deleted, default: false
       t.datetime :deleted_at, default: nil
     end
+
+    add_index 'sihab.entity_cadastres', :uuid, unique: true
+    add_index 'sihab.entity_cadastres', :cnpj
+    add_index 'sihab.entity_cadastres', :city_id
   end
 end

@@ -10,13 +10,13 @@ namespace :populate_entity do
   task cadastre: :environment do 
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/entity/cadastre.json").read)
     
-    populate['entity'].each do |sector|
+    populate['entity'].each do |entity|
       object = Support::Entity::Cadastre.new
-      object.name                = sector['name']
-      object.fantasy_name        = sector['fantasy_name']
-      object.cnpj                = sector['cnpj']
-      object.telephone           = sector['telephone']
-      object.telephone_optional  = sector['telephone_optional']
+      object.name                = entity['name']
+      object.acron               = entity['acron']
+      object.cnpj                = entity['cnpj']
+      object.telephone           = entity['telephone']
+      object.telephone_optional  = entity['telephone_optional']
       object.save(validate: false)
     end
   end

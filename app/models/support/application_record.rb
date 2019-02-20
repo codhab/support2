@@ -19,9 +19,10 @@ module Support
     end
 
     private 
-
+    
     def call_presenter(presenter_class, model, view = nil)
-      presenter_class.constantize.new(model, view)
+      presenter = presenter_class.constantize.new(model, view)
+      block_given? ? yield(presenter) : presenter
     end
 
     def call_policy(policy_class, model)

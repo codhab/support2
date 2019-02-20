@@ -1,6 +1,6 @@
-class CreateSupportEntitySituationTypes < ActiveRecord::Migration[5.2]
+class CreateSupportEntityCadastreSituations < ActiveRecord::Migration[5.2]
   def change
-    create_table 'sihab.entity_situation_types' do |t|
+    create_table 'sihab.entity_cadastre_situations' do |t|
       t.string  :name
       t.text    :description
       t.boolean :status, default: true
