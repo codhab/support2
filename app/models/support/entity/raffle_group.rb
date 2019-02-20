@@ -4,6 +4,8 @@ module Support
   module Entity
     class RaffleGroup < ApplicationRecord
       self.table_name = 'sihab.entity_raffle_groups'
+
+      audited
     end
   end
 end

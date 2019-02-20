@@ -4,7 +4,6 @@ class CreateSupportEntityCadastreSituations < ActiveRecord::Migration[5.2]
       t.string  :name
       t.text    :description
       t.boolean :status, default: true
-      t.integer :user_id
 
       t.timestamps
 

@@ -20,6 +20,7 @@ class CreateSupportEntityCadastres < ActiveRecord::Migration[5.2]
       t.string  :reset_token
       t.string  :lat
       t.string  :lng
+      t.integer :situation_id
       
       t.timestamps
 

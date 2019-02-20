@@ -4,6 +4,10 @@ require 'openssl'
 module Support
   module StringUtility
 
+    def format_empty
+      (self.empty? || self.blank?) ? "Sem informação" : self
+    end
+
     def percent_string_of(n)
       if n == 0
         "0 %"
