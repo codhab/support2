@@ -1,10 +1,11 @@
-class CreateSupportPivotalPermissions < ActiveRecord::Migration[5.2]
+class CreateSupportPivotalEngines < ActiveRecord::Migration[5.2]
   def change
-    create_table 'extranet.pivotal_permissions' do |t|
+    create_table 'extranet.pivotal_engines' do |t|
       t.string  :name
       t.text    :description
-      t.integer :group_id
-
+      t.string  :code 
+      t.boolean :status, default: true 
+      
       t.timestamps
 
       t.boolean  :deleted, default: false

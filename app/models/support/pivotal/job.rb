@@ -2,8 +2,8 @@ require_dependency 'support/application_record'
 
 module Support
   module Pivotal
-    class UserGroup < ApplicationRecord
-      self.table_name = 'extranet.pivotal_user_groups'
+    class Job < ApplicationRecord
+      self.table_name = 'extranet.pivotal_jobs'
     end
   end
 end

@@ -5,11 +5,8 @@
       "description": "Gestão de atendimento",
       "father_id": "",
       "status": true,
-      "group_permission_id": "",
-      "permission_ids": "",
       "url": "#",
       "position": 2,
-      "icon": "ei-file-edit",
       "childrens": [
         {
           "label": "Postos de atendimento",
@@ -64,12 +61,9 @@
       "description": "Gestão cadastral",
       "father_id": "",
       "status": true,
-      "group_permission_id": "",
-      "permission_ids": "",
       "url": "#",
       "position": 1,
-      "icon": "ei-users",
-      "childrens": [
+         "childrens": [
         {
           "label": "Cadastro",
           "status": true,
@@ -113,12 +107,9 @@
       "label": "Imóveis",
       "status": true,
       "father_id": "",
-      "group_permission_id": "",
-      "permission_ids": "",
       "url": "#",
       "position": 3,
-      "icon": "ei-home",
-      "childrens": [
+        "childrens": [
         {
           "label": "Cadastro imobiliário",
           "status": true,
@@ -147,10 +138,7 @@
       "status": true,
       "url": "#",
       "father_id": "",
-      "group_permission_id": "",
-      "permission_ids": "",
       "position": 4,
-      "icon": "ei-megaphone",
       "childrens": [
         {
           "label": "Portal",
@@ -171,17 +159,9 @@
       "label": "Outros sistemas",
       "status": true,
       "father_id": "",
-      "group_permission_id": "",
-      "permission_ids": "",
       "url": "#",
       "position": 5,
-      "icon": "ei-folder",
-      "childrens": [
-        {
-          "label": "Gestão de pessoas",
-          "status": true,
-          "url": "/gestao-pessoa"
-        },
+        "childrens": [
         {
           "label": "Concursos de projeto",
           "status": true,
@@ -234,31 +214,23 @@
       "label": "Relatórios",
       "status": true,
       "father_id": "",
-      "group_permission_id": "",
-      "permission_ids": "",
       "url": "#",
-      "position": 6,
-      "icon": "ei-bar-chart"
+      "position": 6
     },
+
     {
       "label": "SEI",
       "status": true,
       "father_id": "",
-      "group_permission_id": "",
-      "permission_ids": "",
       "url": "#",
-      "position": 7,
-      "icon": "ei-file-text"
+      "position": 7
     },
     {
       "label": "Documentos",
       "status": true,
       "father_id": "",
-      "group_permission_id": "",
-      "permission_ids": "",
       "url": "#",
-      "position": 8,
-      "icon": "ei-paperclip"
+      "position": 8
     }
   ]
 }

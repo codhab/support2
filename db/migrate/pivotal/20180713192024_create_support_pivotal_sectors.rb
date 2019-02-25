@@ -1,6 +1,6 @@
-class CreateSupportPersonSectors < ActiveRecord::Migration[5.2]
+class CreateSupportPivotalSectors < ActiveRecord::Migration[5.2]
   def change
-    create_table 'extranet.person_sectors' do |t|
+    create_table 'extranet.pivotal_sectors' do |t|
       t.string  :name
       t.string  :acron
       t.string  :prefex

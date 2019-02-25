@@ -1,6 +1,6 @@
-class CreateSupportPersonJobs < ActiveRecord::Migration[5.2]
+class CreateSupportPivotalJobs < ActiveRecord::Migration[5.2]
   def change
-    create_table 'extranet.person_jobs' do |t|
+    create_table 'extranet.pivotal_jobs' do |t|
       t.string  :name
       t.string  :code
       t.boolean :status, default: false
