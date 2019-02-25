@@ -4,9 +4,9 @@ class CreateSupportPivotalEnginePermissions < ActiveRecord::Migration[5.2]
       t.integer :engine_id
       t.string  :name
       t.text    :description
-      t.string  :code 
       t.boolean :status, default: true
       
+      t.string  :code 
       t.string  :controller
       t.string  :action
       t.string  :path

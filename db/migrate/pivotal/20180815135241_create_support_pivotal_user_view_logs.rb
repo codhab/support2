@@ -1,5 +1,5 @@
 class CreateSupportPivotalUserViewLogs < ActiveRecord::Migration[5.2]
-  def changepivotal
+  def change
     create_table 'extranet.pivotal_user_view_logs', id: false do |t|
       t.primary_key :id, :uuid, default: "uuid_generate_v4()", null: false
       t.integer :user_id
