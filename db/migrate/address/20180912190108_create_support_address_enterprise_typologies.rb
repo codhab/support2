@@ -7,16 +7,16 @@ class CreateSupportAddressEnterpriseTypologies < ActiveRecord::Migration[5.2]
       t.text    :description
       t.string  :home_type
       t.string  :private_area
-      t.boolean :status, default: false
+      t.boolean :status, default: true
       t.decimal :value_start, precision: 8, scale: 2
       t.decimal :value_end, precision: 8, scale: 2
       t.decimal :value_general, precision: 8, scale: 2
       t.integer :user_id
-      
+
       t.timestamps
 
       t.boolean  :deleted, default: false
-      t.datetime :deleted_at, default: nil 
+      t.datetime :deleted_at, default: nil
     end
   end
 end
