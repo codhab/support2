@@ -2,7 +2,7 @@ class CreateSupportJuridicalDefendants < ActiveRecord::Migration[5.2] # :nodoc:
   def change
     create_table 'extranet.juridical_defendants' do |t|
       t.string  :name
-      t.integer :staff_id
+      t.integer :user_id
       t.integer :legal_advice_id
 
       t.timestamps

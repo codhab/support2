@@ -9,6 +9,8 @@ class CreateSupportSefazAllotments < ActiveRecord::Migration[5.2] # :nodoc:
       t.text     :observation
       t.integer  :request_situation_id
       t.integer  :request_type_id
+      t.date     :send_date
+      t.integer  :send_staff_id
 
       t.timestamps
 

@@ -12,7 +12,7 @@ class CreateSupportJuridicalLegalAdvices < ActiveRecord::Migration[5.2] # :nodoc
       t.decimal :condemnation_value, precision: 8, scale: 2
       t.decimal :lawsuit_value, precision: 8, scale: 2
       t.string  :assessment_number
-      t.integer :staff_id
+      t.integer :user_id
       t.integer :advice_type_id
       t.boolean :free_justice, default: false
       t.boolean :veredict

@@ -9,7 +9,7 @@ class CreateSupportProtocolLocations < ActiveRecord::Migration[5.2] # :nodoc:
       t.string  :network_path
       t.integer :assessment_id
       t.integer :sector_id
-      t.integer :staff_id
+      t.integer :user_id
 
       t.timestamps
 

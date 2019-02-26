@@ -13,7 +13,7 @@ class CreateSupportJuridicalComplements < ActiveRecord::Migration[5.2] # :nodoc:
       t.boolean :status, default: true
       t.integer :complement_father_id
       t.integer :legal_advice_id
-      t.integer :staff_id
+      t.integer :user_id
 
       t.timestamps
 

@@ -4,7 +4,7 @@ class CreateSupportProtocolConducts < ActiveRecord::Migration[5.2] # :nodoc:
       t.text    :description
       t.integer :conduct_type
       t.integer :assessment_id
-      t.integer :staff_id
+      t.integer :user_id
       t.integer :sector_id
       t.integer :allotment_id
       t.date    :replay_date

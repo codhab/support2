@@ -4,7 +4,7 @@ class CreateSupportProtocolDigitalDocuments < ActiveRecord::Migration[5.2] # :no
       t.integer :page_number
       t.string  :doc_path
       t.integer :assessment_id
-      t.integer :staff_id
+      t.integer :user_id
 
       t.timestamps
 

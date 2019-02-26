@@ -33,7 +33,7 @@ namespace :populate_common do
 
   task subject: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/protocol/subject.json").read)
-    
+
     populate['subjects'].each do |subject|
       object = Support::Protocol::Subject.new
       object.id     = subject['id']
@@ -42,7 +42,7 @@ namespace :populate_common do
       object.save(validate: false)
     end
   end
-  
+
   task document_type: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/protocol/document_type.json").read)
 
@@ -55,7 +55,7 @@ namespace :populate_common do
     end
   end
 
- 
+
   task assessment: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/protocol/assessment.json").read)
 
@@ -71,14 +71,14 @@ namespace :populate_common do
       state_obj.cnpj             = assessment['cnpj']
       state_obj.document_type_id = assessment['document_type_id']
       state_obj.subject_id       = assessment['subject_id']
-      state_obj.staff_id         = assessment['staff_id']
+      state_obj.user_id          = assessment['staff_id']
       state_obj.sector_id        = assessment['sector_id']
       state_obj.observation      = assessment['observation']
       state_obj.save(validate: false)
       assessment['conducts'].each do |conduct|
         c = Support::Protocol::Conduct.new
         c.assessment_id = conduct['assessment_id']
-        c.staff_id = conduct['staff_id']
+        c.user_id   = conduct['staff_id']
         c.sector_id = conduct['sector_id']
         c.conduct_type = conduct['conduct_type']
         c.save(validate: false)
@@ -129,11 +129,11 @@ namespace :populate_common do
     end
   end
 
- 
+
 
   task address_unit: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/address/units.json").read)
-    
+
     populate['address'].each do |unit|
       object = Support::Address::Unit.new
       object.id = unit['id']
@@ -154,7 +154,7 @@ namespace :populate_common do
     end
   end
 
- 
+
   task shared_tables: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/common/shared_tables.json").read)
 

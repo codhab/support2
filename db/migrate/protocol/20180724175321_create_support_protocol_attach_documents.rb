@@ -5,7 +5,7 @@ class CreateSupportProtocolAttachDocuments < ActiveRecord::Migration[5.2] # :nod
       t.integer :document_child_id
       t.integer :attach_type
       t.integer :sector_id
-      t.integer :staff_id
+      t.integer :user_id
       t.text    :observation
 
       t.timestamps

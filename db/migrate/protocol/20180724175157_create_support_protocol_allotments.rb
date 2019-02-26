@@ -7,7 +7,7 @@ class CreateSupportProtocolAllotments < ActiveRecord::Migration[5.2] # :nodoc:
       t.integer :amount_docs
       t.boolean :status, default: false
       t.integer :sector_id
-      t.integer :staff_id
+      t.integer :user_id
 
       t.timestamps
 

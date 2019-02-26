@@ -19,7 +19,7 @@ class CreateSupportProtocolAssessments < ActiveRecord::Migration[5.2] # :nodoc:
       t.integer  :id_old
       t.integer  :document_type_id
       t.integer  :subject_id
-      t.integer  :staff_id
+      t.integer  :user_id
       t.integer  :sector_id
       t.boolean  :external_petition
       t.integer  :responded_staff_id
