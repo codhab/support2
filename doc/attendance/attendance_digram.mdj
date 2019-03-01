@@ -3224,21 +3224,6 @@
 										},
 										{
 											"_type": "ERDColumnView",
-											"_id": "AAAAAAFmEIikPWvb7/4=",
-											"_parent": {
-												"$ref": "AAAAAAFmEIfnyGujfmk="
-											},
-											"model": {
-												"$ref": "AAAAAAFmEIikHGvYTkM="
-											},
-											"font": "Arial;13;0",
-											"left": 717,
-											"top": 1183,
-											"width": 165.208984375,
-											"height": 13
-										},
-										{
-											"_type": "ERDColumnView",
 											"_id": "AAAAAAFmEIi38Wvic2A=",
 											"_parent": {
 												"$ref": "AAAAAAFmEIfnyGujfmk="
@@ -3248,7 +3233,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 717,
-											"top": 1198,
+											"top": 1183,
 											"width": 165.208984375,
 											"height": 13
 										},
@@ -3263,7 +3248,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 717,
-											"top": 1213,
+											"top": 1198,
 											"width": 165.208984375,
 											"height": 13
 										},
@@ -3278,7 +3263,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 717,
-											"top": 1228,
+											"top": 1213,
 											"width": 165.208984375,
 											"height": 13
 										},
@@ -3293,7 +3278,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 717,
-											"top": 1243,
+											"top": 1228,
 											"width": 165.208984375,
 											"height": 13
 										},
@@ -3308,7 +3293,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 717,
-											"top": 1258,
+											"top": 1243,
 											"width": 165.208984375,
 											"height": 13
 										}
@@ -3317,7 +3302,7 @@
 									"left": 712,
 									"top": 1103,
 									"width": 175.208984375,
-									"height": 173
+									"height": 158
 								}
 							],
 							"font": "Arial;13;0",
@@ -7663,16 +7648,6 @@
 							},
 							"name": "lng",
 							"type": "string",
-							"length": 0
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAFmEIikHGvYTkM=",
-							"_parent": {
-								"$ref": "AAAAAAFmEIfnyGufIDw="
-							},
-							"name": "responsible_id",
-							"type": "integer",
 							"length": 0
 						},
 						{
