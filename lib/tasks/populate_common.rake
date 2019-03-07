@@ -151,6 +151,11 @@ namespace :populate_common do
       object.declaratory_act_number = unit['declaratory_act_number']
       object.rejection_number = unit['rejection_number']
       object.save(validate: false)
+
+      object1 = Support::Address::UnitSituation.new
+      object1.situation_type_id = unit['situation']
+      object1.unit_id = object.id
+      object1.save(validate: false)
     end
   end
 

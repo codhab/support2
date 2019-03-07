@@ -262,6 +262,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt (~> 3.1.12)
   byebug (= 9.1.0)
   capybara
   cpf_faker
@@ -280,4 +281,4 @@ DEPENDENCIES
   support!
 
 BUNDLED WITH
-   1.16.1
+   1.16.6
