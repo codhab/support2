@@ -158,29 +158,6 @@ ActiveRecord::Schema.define(version: 2019_03_01_175402) do
     t.datetime "deleted_at"
   end
 
-  create_table "address_unit_cadastre_situations", force: :cascade do |t|
-    t.string "name"
-    t.boolean "status", default: true
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.boolean "deleted", default: false
-    t.datetime "deleted_at"
-  end
-
-  create_table "address_unit_cadastres", force: :cascade do |t|
-    t.integer "unit_id"
-    t.integer "cadastre_id"
-    t.integer "cadastre_mirror_id"
-    t.integer "situation_id"
-    t.integer "user_id"
-    t.boolean "external", default: false
-    t.boolean "computer", default: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.boolean "deleted", default: false
-    t.datetime "deleted_at"
-  end
-
   create_table "address_unit_images", force: :cascade do |t|
     t.integer "unit_id"
     t.string "image"
@@ -228,6 +205,10 @@ ActiveRecord::Schema.define(version: 2019_03_01_175402) do
     t.integer "user_id"
     t.string "document"
     t.text "observation"
+    t.integer "cadastre_id"
+    t.integer "cadastre_mirror_id"
+    t.boolean "computer"
+    t.boolean "external"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.boolean "deleted", default: false

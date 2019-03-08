@@ -2,11 +2,9 @@ require 'rails_helper'
 
 describe 'Address::BookingSpec' do
   context 'Validações' do
-
     it 'Reservar imóvel vago' do
-      @service = Support::Address::BookingService.new(1,223823,1)
-      @return = @service.book!("Teste")
-      expect(@return).to be true
+      @booking = Support::Address::Booking.new(cpf: '71263063187', observation: 'teste', unit_id: 223823)
+      expect(@booking.valid?).to be true
     end
   end
 end

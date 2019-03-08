@@ -6,6 +6,10 @@ class CreateSupportAddressUnitSituations < ActiveRecord::Migration[5.2]
       t.integer :user_id
       t.string  :document
       t.text    :observation
+      t.integer :cadastre_id
+      t.integer :cadastre_mirror_id
+      t.boolean :computer
+      t.boolean :external
 
       t.timestamps
 

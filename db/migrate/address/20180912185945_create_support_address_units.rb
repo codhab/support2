@@ -14,7 +14,6 @@ class CreateSupportAddressUnits < ActiveRecord::Migration[5.2]
       t.boolean :donate
       t.date    :iptu_date
       t.string  :iptu_number
-      t.integer :use_type_id
       t.integer :city_id
       t.integer :program_id
       t.integer :sub_program_id
@@ -50,7 +49,6 @@ class CreateSupportAddressUnits < ActiveRecord::Migration[5.2]
       t.string  :rejection_number
       t.date    :rejection_date
       t.string  :endorsement
-      t.integer :ownership_type_id
       t.string  :urbanistic_project
 
       t.timestamps

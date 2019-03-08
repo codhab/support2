@@ -17,7 +17,11 @@ module Support
       end
 
       def unit_void?
-        self.current_unit_situation == 1 && (current_unit_cadastre.nil? || current_unit_cadastre.distrato?)
+        self.current_unit_situation.situation_type_id == 1 && (current_unit_cadastre.nil? || current_unit_cadastre.situation_id == 3)
+      end
+
+      def unit_book?
+        self.current_unit_situation.situation_type_id == 6 && (current_unit_cadastre.present? && current_unit_cadastre.situation_id == 1)
       end
     end
   end
