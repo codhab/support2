@@ -4,6 +4,25 @@ module Support
   module Address
     class Unit < ApplicationRecord # :nodoc:
       self.table_name = 'sihab.address_units'
+
+      has_many :unit_cadastres
+      has_many :unit_situations
+
+      def current_unit_cadastre
+        self.unit_cadastres.order('created_at ASC').last rescue nil
+      end
+
+      def current_unit_situation
+        self.unit_situations.order('created_at ASC').last rescue nil
+      end
+
+      def unit_void?
+        self.current_unit_situation.situation_type_id == 1 && (current_unit_cadastre.nil? || current_unit_cadastre.situation_id == 3)
+      end
+
+      def unit_book?
+        self.current_unit_situation.situation_type_id == 6 && (current_unit_cadastre.present? && current_unit_cadastre.situation_id == 1)
+      end
     end
   end
 end

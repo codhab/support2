@@ -18,3 +18,7 @@ gem 'rspec-rails'
 gem 'rubocop'
 gem 'savon'
 gem 'simplecov', require: false
+
+group :test do
+  gem 'bcrypt', '~> 3.1.12'
+end
