@@ -6,7 +6,11 @@ class CreateSupportCandidateOccurrenceTargets < ActiveRecord::Migration[5.2]
       t.text    :observation
       t.boolean :status, default: false
       t.integer :user_id
+
       t.timestamps
+
+      t.boolean  :deleted, default: false
+      t.datetime :deleted_at, default: nil
     end
   end
 end

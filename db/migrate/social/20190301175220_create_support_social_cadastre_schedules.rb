@@ -3,7 +3,7 @@ class CreateSupportSocialCadastreSchedules < ActiveRecord::Migration[5.2]
     create_table 'generic.social_cadastre_schedules' do |t|
       t.integer :cadastre_id
       t.date    :date
-      t.hour    :hour
+      t.time    :hour
       t.text    :observation
       t.integer :order
       t.integer :situation_id

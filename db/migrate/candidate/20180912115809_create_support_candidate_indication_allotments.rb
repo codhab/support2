@@ -17,7 +17,7 @@ class CreateSupportCandidateIndicationAllotments < ActiveRecord::Migration[5.2]
       t.integer :filter_city_id
 
       t.boolean :ignore_active_indicated, default: false
-      t.boolean :ignore_occurence,        default: false
+      t.boolean :ignore_occurrence,        default: false
       
       t.integer :demand,     default: 0
       t.integer :rii,        default: 0

@@ -6,7 +6,7 @@ class CreateSupportSocialCadastreActivities < ActiveRecord::Migration[5.2]
       t.string  :attachment_one
       t.string  :attachment_two
       t.date    :date
-      t.hour    :hour
+      t.time    :hour
       t.integer :activity_type_id
 
       t.timestamps
