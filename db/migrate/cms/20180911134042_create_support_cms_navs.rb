@@ -3,7 +3,7 @@ class CreateSupportCmsNavs < ActiveRecord::Migration[5.2]
     create_table 'extranet.cms_navs' do |t|
       t.string  :name
       t.string  :url
-      t.integer :nav_category_id
+      t.integer :category_id
       t.integer :order
       t.integer :user_id
       t.boolean :publish, default: false
