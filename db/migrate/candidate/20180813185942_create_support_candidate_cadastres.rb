@@ -24,8 +24,8 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
       t.integer :state_id
       t.string  :address
       t.string  :address_complement
-      t.decimal :family_income, precision: 8, scale: 2
-      t.decimal :personal_income, precision: 8, scale: 2
+      t.decimal :family_income, precision: 8, scale: 2, default: 0
+      t.decimal :personal_income, precision: 8, scale: 2, default: 0
       t.string  :work_cep
       t.integer :work_city_id
       t.integer :work_state_id
@@ -49,7 +49,7 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
       t.string  :avatar
       t.string  :app_push_token, default: nil
       t.string  :app_user_token, default: nil
-      t.boolean :scoring, default: false 
+      t.boolean :scoring, default: false
 
       t.timestamps
 
