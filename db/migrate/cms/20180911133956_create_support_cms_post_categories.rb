@@ -3,7 +3,7 @@ class CreateSupportCmsPostCategories < ActiveRecord::Migration[5.2]
     create_table 'extranet.cms_post_categories' do |t|
       t.string  :name
       t.boolean :status, default: true
-      t.integer :post_category_type_id
+      t.integer :category_type_id
 
       t.timestamps
 
