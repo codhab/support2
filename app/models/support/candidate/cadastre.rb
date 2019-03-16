@@ -7,7 +7,6 @@ module Support
 
       has_many :cadastre_pontuations
       has_many :cadastre_procedurals
-      has_many :cadastre_situations
       has_many :cadastre_activities
       has_many :cadastre_indications
 
@@ -20,7 +19,11 @@ module Support
       end
 
       def current_situation
-        self.cadastre_situations.order(created_at: :asc).last rescue nil
+        self.cadastre_situations.order(created_at: :asc).last.situation_type.name rescue nil
+      end
+      
+      def current_convocation
+        self.cadastre_convocations.order(created_at: :asc).where(status: true).last.convocation.name rescue nil
       end
     end
   end
