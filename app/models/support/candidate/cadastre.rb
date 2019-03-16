@@ -6,16 +6,12 @@ module Support
       self.table_name = 'sihab.candidate_cadastres'
 
       has_many :cadastre_pontuations
-      has_many :cadastre_procedurals
+      has_many :cadastre_situations
       has_many :cadastre_activities
       has_many :cadastre_indications
 
       def presenter
         call_presenter('Support::Candidate::CadastrePresenter', self)
-      end
-
-      def current_procedural
-        self.cadastre_procedurals.order(created_at: :asc).last rescue nil
       end
 
       def current_situation
@@ -24,6 +20,10 @@ module Support
       
       def current_convocation
         self.cadastre_convocations.order(created_at: :asc).where(status: true).last.convocation.name rescue nil
+      end
+
+      def enabled?
+        self.current_situation.situation_type_id == 4
       end
     end
   end

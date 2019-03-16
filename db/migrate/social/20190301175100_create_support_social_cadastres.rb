@@ -4,6 +4,7 @@ class CreateSupportSocialCadastres < ActiveRecord::Migration[5.2]
       t.string  :name
       t.string  :cpf
       t.integer :gender_id
+      t.integer :civil_state_id
       t.date    :born
       t.string  :rg
       t.string  :rg_org
@@ -27,10 +28,11 @@ class CreateSupportSocialCadastres < ActiveRecord::Migration[5.2]
       t.boolean :pension, default: false
       t.integer :pension_id
       t.boolean :benefit, default: false
-      t.integer :bnefit_id
+      t.integer :benefit_id
       t.integer :education_id
       t.boolean :course_interest, default: false
       t.string  :course_name
+      t.integer :order
 
       t.timestamps
 

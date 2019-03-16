@@ -77,7 +77,7 @@ namespace :populate_pivotal do
 
     populate['user'].each do |sector|
       object = Support::Pivotal::User.new
-      object.code     = sector['code']
+      object.username = sector['username']
       object.name     = sector['name']
       object.status   = sector['status']
       object.administrator = sector['administrator']

@@ -1,6 +1,7 @@
 class CreateSupportPivotalUsers < ActiveRecord::Migration[5.2] # :nodoc:
   def change
     create_table 'extranet.pivotal_users' do |t|
+      t.string  :username
       t.string  :code
       t.string  :name
       t.string  :cpf
@@ -41,5 +42,7 @@ class CreateSupportPivotalUsers < ActiveRecord::Migration[5.2] # :nodoc:
       t.boolean  :deleted, default: false
       t.datetime :deleted_at, default: nil
     end
+
+    add_index 'extranet.pivotal_users', :username, unique: true
   end
 end
