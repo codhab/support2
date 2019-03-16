@@ -15,7 +15,11 @@ module Support
       end
 
       def current_situation
-        self.cadastre_situations.order(created_at: :asc).last rescue nil
+        self.cadastre_situations.order(created_at: :asc).last.situation_type.name rescue nil
+      end
+      
+      def current_convocation
+        self.cadastre_convocations.order(created_at: :asc).where(status: true).last.convocation.name rescue nil
       end
 
       def enabled?
