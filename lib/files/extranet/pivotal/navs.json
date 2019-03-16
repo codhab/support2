@@ -11,47 +11,50 @@
         {
           "label": "Postos de atendimento",
           "status": true,
-          "url": "/atendimento/postos"
+          "url": "/atendimento/postos",
+          "position": 0
         },
         {
           "label": "Agendamento",
           "status": true,
-          "url": "/atendimento/agendas"
+          "url": "/atendimento/agendas",
+          "position": 1
         },
         {
           "label": "Requerimentos",
           "status": true,
-          "url": "/atendimento/requerimentos"
+          "url": "/atendimento/requerimentos",
+          "position": 2
         },
         {
           "label": "Selagens",
           "status": true,
-          "url": "/atendimento/selagens"
+          "url": "/atendimento/selagens",
+          "position": 3
         },
         {
           "label": "Diário",
           "status": true,
-          "url": "/atendimento/postos/diario-inicio"
+          "url": "/atendimento/diarios",
+          "position": 4
         },
         {
           "label": "Atendimentos",
           "status": true,
-          "url": "/atendimento/atendimentos"
+          "url": "/atendimento/atendimentos",
+          "position": 5
         },
         {
           "label": "Inscrição eventual",
           "status": true,
-          "url": "/atendimento/inscricao-eventual"
+          "url": "/atendimento/inscricao-eventual",
+          "position": 6
         },
         {
           "label": "Troca de titularidade",
           "status": true,
-          "url": "/atendimento/troca-titularidade/new"
-        },
-        {
-          "label": "Conversas",
-          "status": true,
-          "url": "/atendimento/conversas"
+          "url": "/atendimento/troca-titularidades",
+          "position": 7
         }
       ]
     },
@@ -67,38 +70,50 @@
         {
           "label": "Cadastro",
           "status": true,
-          "url": "/candidato",
+          "url": "/candidato/cadastros",
           "position": 0
         },
+        {
+          "label": "Convocações",
+          "status": true,
+          "url": "/candidato/convocacoes",
+          "position": 1
+        },
+        {
+          "label": "Listas",
+          "status": true,
+          "url": "/candidato/listas",
+          "position": 2
+        },        
         {
           "label": "Entidades",
           "status": true,
           "url": "/entidade",
-          "position": 1
+          "position": 3
         },
         {
           "label": "Indicacões",
           "status": true,
-          "url": "/empreendimento/indicacoes",
-          "position": 2
-        },        
+          "url": "/candidato/indicacao-lotes",
+          "position": 4
+        },
         {
           "label": "ITBI/ITCD",
           "status": true,
           "url": "/sefaz",
-          "position": 3
+          "position": 5
         },
         {
           "label": "Ocorrências",
           "status": true,
           "url": "/candidato/ocorrencias",
-          "position": 4
+          "position": 6
         },
         {
           "label": "Comunicação",
           "status": true,
-          "url": "/candidato/comunicacoes",
-          "position": 5
+          "url": "/candidato/notificacoes",
+          "position": 7
         }
       ]
     },
@@ -111,12 +126,7 @@
       "position": 3,
         "childrens": [
         {
-          "label": "Cadastro imobiliário",
-          "status": true,
-          "url": "/endereco/cadastro-imobiliario"
-        },
-        {
-          "label": "Endereços",
+          "label": "Endereços / Imóveis",
           "status": true,
           "url": "/endereco/unidades"
         },
@@ -141,17 +151,24 @@
       "position": 4,
       "childrens": [
         {
-          "label": "Portal",
+          "label": "Postagens",
           "status": true,
           "url": "/cms/postagens",
           "position": 0
         },
         {
-          "label": "Extranet",
+          "label": "Portal / Menus",
           "status": true,
-          "url": "/nucleo/postagens",
-          "position": 1
-        }
+          "url": "/cms/menus",
+          "position": 0
+        },
+        {
+          "label": "Portal / Conteúdo estático",
+          "status": true,
+          "url": "/cms/menus",
+          "position": 0
+        },
+        
       ]
     },
 
@@ -163,49 +180,40 @@
       "position": 5,
         "childrens": [
         {
-          "label": "Concursos de projeto",
-          "status": true,
-          "url": "/concursos"
-        },
-        {
           "label": "Jurídico",
           "status": true,
-          "url": "/juridico"
+          "url": "/juridico",
+          "position": 0
         },
         {
           "label": "HelpDesk",
           "status": true,
-          "url": "/helpdesk"
+          "url": "/helpdesk",
+          "position": 1
         },
         {
-          "label": "Protocolo",
+          "label": "Protocolo (Antigo)",
           "status": true,
-          "url": "/protocolo"
+          "url": "/protocolo",
+          "position": 2
         },
         {
           "label": "Financeiro",
           "status": true,
-          "url": "#"
+          "url": "/brb",
+          "position": 3
         },
         {
           "label": "Núcleo",
           "status": true,
-          "url": "#"
+          "url": "/pivotal",
+          "position": 4
         },
         {
           "label": "Melhorias habitacionais",
           "status": true,
-          "url": "/melhorias-habitacionais"
-        },
-        {
-          "label": "Integração SEI",
-          "status": true,
-          "url": "/sei"
-        },
-        {
-          "label": "Monitoramento de projetos",
-          "status": true,
-          "url": "/monitoramento"
+          "url": "/melhorias-habitacionais",
+          "position": 5
         }
 
       ]
@@ -226,7 +234,7 @@
       "position": 7
     },
     {
-      "label": "Documentos",
+      "label": "Modelos / Documentos",
       "status": true,
       "father_id": "",
       "url": "#",
