@@ -66,7 +66,7 @@
       "status": true,
       "url": "#",
       "position": 1,
-         "childrens": [
+      "childrens": [
         {
           "label": "Cadastro",
           "status": true,
@@ -124,7 +124,7 @@
       "father_id": "",
       "url": "#",
       "position": 3,
-        "childrens": [
+      "childrens": [
         {
           "label": "Endereços / Imóveis",
           "status": true,
@@ -167,8 +167,7 @@
           "status": true,
           "url": "/cms/menus",
           "position": 0
-        },
-        
+        }        
       ]
     },
 

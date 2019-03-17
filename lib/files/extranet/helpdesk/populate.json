@@ -1,0 +1,128 @@
+{
+  "situation_types": [
+    {
+      "name": "aberto",
+      "status": true
+    },
+    {
+      "name": "em execução",
+      "status": true
+    },
+    {
+      "name": "agendado",
+      "status": true
+    },
+    {
+      "name": "cancelado",
+      "status": true
+    }
+  ],
+
+  "locations": [
+    {
+      "name": "CODHAB (Sede)",
+      "status": true
+    },
+    {
+      "name": "posto 112 Sul",
+      "status": true
+    }
+  ],
+
+  "types": [
+    {
+      "id": 1,
+      "name": "informática (Sistemas)",
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "informática (Manutenção)",
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "apoio operacional",
+      "status": true
+    }
+  ],
+
+  "type_subjects": [
+    {
+      "ticket_type_id": 1,
+      "name": "extração de informações",
+      "status": true
+    },
+
+    {
+      "ticket_type_id": 1,
+      "name": "solicitação de acessos",
+      "status": true
+    },   
+    {
+      "ticket_type_id": 1,
+      "name": "correção de cadastral",
+      "status": true
+    }, 
+    {
+      "ticket_type_id": 1,
+      "name": "execução judicial",
+      "status": true
+    },
+    {
+      "ticket_type_id": 1,
+      "name": "indicação de candidatos",
+      "status": true
+    },
+    {
+      "ticket_type_id": 1,
+      "name": "alterações de informações",
+      "status": true
+    },   
+    {
+      "ticket_type_id": 1,
+      "name": "cadastro de informações",
+      "status": true
+    },
+    {
+      "ticket_type_id": 2,
+      "name": "instalação de software",
+      "status": true
+    },
+    {
+      "ticket_type_id": 2,
+      "name": "problemas com a máquina",
+      "status": true
+    },
+    {
+      "ticket_type_id": 2,
+      "name": "solicitação de acesso a pasta",
+      "status": true
+    },
+    {
+      "ticket_type_id": 2,
+      "name": "problemas com E-mail",
+      "status": true
+    },
+    {
+      "ticket_type_id": 2,
+      "name": "problemas com internet",
+      "status": true
+    },
+    {
+      "ticket_type_id": 2,
+      "name": "problemas com impressoras",
+      "status": true
+    },
+    {
+      "ticket_type_id": 3,
+      "name": "solicitação de Voucher",
+      "status": true
+    },
+    {
+      "ticket_type_id": 3,
+      "name": "reserva de veículo",
+      "status": true
+    }    
+  ]
+}

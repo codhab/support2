@@ -1,6 +1,6 @@
 class CreateSupportCandidateProgramUsers < ActiveRecord::Migration[5.2]
   def change
-    create_table 'sihab.candidate_program_users' do |
+    create_table 'sihab.candidate_program_users' do |t|
       
       t.integer :program_id
       t.integer :user_id
