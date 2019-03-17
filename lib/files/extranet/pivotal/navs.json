@@ -167,7 +167,7 @@
           "status": true,
           "url": "/cms/menus",
           "position": 0
-        },
+        }
         
       ]
     },
@@ -178,7 +178,7 @@
       "father_id": "",
       "url": "#",
       "position": 5,
-        "childrens": [
+      "childrens": [
         {
           "label": "Jurídico",
           "status": true,
