@@ -9,6 +9,7 @@ module Support
       has_many :cadastre_situations
       has_many :cadastre_activities
       has_many :cadastre_indications
+      has_many :cadastre_mirrors
 
       def presenter
         call_presenter('Support::Candidate::CadastrePresenter', self)
@@ -16,6 +17,10 @@ module Support
 
       def current_situation
         self.cadastre_situations.order(created_at: :asc).last.situation_type.name rescue nil
+      end
+
+      def current_valid_mirror
+        self.cadastre_mirrors.order(created_at: :asc, status: true).last rescue nil
       end
       
       def current_convocation
