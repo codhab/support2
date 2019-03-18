@@ -17,6 +17,7 @@ class CreateSupportAttendanceAgendaSchedules < ActiveRecord::Migration[5.2]
       t.integer :situation_id
       t.integer :attendant_id
       t.text    :attendant_observation
+      t.text    :disable_dates
       
       t.timestamps
       
