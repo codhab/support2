@@ -2348,21 +2348,6 @@
 										},
 										{
 											"_type": "ERDColumnView",
-											"_id": "AAAAAAFf2VSwLL+wEfI=",
-											"_parent": {
-												"$ref": "AAAAAAFfKoO/cddZAlk="
-											},
-											"model": {
-												"$ref": "AAAAAAFf2VSwDL+tyRM="
-											},
-											"font": "Arial;13;0",
-											"left": 357,
-											"top": 642,
-											"width": 233,
-											"height": 13
-										},
-										{
-											"_type": "ERDColumnView",
 											"_id": "AAAAAAFlxSCH3LOPB08=",
 											"_parent": {
 												"$ref": "AAAAAAFfKoO/cddZAlk="
@@ -2372,7 +2357,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 357,
-											"top": 657,
+											"top": 642,
 											"width": 233,
 											"height": 13
 										},
@@ -2387,7 +2372,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 357,
-											"top": 672,
+											"top": 657,
 											"width": 233,
 											"height": 13
 										},
@@ -2402,7 +2387,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 357,
-											"top": 687,
+											"top": 672,
 											"width": 233,
 											"height": 13
 										},
@@ -2417,7 +2402,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 357,
-											"top": 702,
+											"top": 687,
 											"width": 233,
 											"height": 13
 										}
@@ -2426,14 +2411,14 @@
 									"left": 352,
 									"top": 487,
 									"width": 243,
-									"height": 233
+									"height": 218
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 352,
 							"top": 464,
 							"width": 243,
-							"height": 256,
+							"height": 241,
 							"nameLabel": {
 								"$ref": "AAAAAAFfKoO/cddYkDk="
 							},
@@ -9714,7 +9699,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 401,
-									"top": 738,
+									"top": 723,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -9731,7 +9716,7 @@
 								"$ref": "AAAAAAFfKnSUcNXBQoU="
 							},
 							"lineStyle": 2,
-							"points": "120:912;120:768;416:768;416:719",
+							"points": "120:912;120:768;416:768;416:704",
 							"nameLabel": {
 								"$ref": "AAAAAAFpXael85k3aVA="
 							},
@@ -12384,16 +12369,6 @@
 							},
 							"name": "process_number",
 							"type": "string",
-							"length": 0
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAFf2VSwDL+tyRM=",
-							"_parent": {
-								"$ref": "AAAAAAFfKoO/cddV/6c="
-							},
-							"name": "process_sei",
-							"type": "boolean",
 							"length": 0
 						},
 						{

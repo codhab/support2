@@ -19,7 +19,7 @@ module Support
       end
       
       def current_convocation
-        self.cadastre_convocations.order(created_at: :asc).where(status: true).last.convocation.name rescue nil
+        self.cadastre_convocations.order(created_at: :asc).where(status: true).last.convocation rescue nil
       end
 
       def enabled?

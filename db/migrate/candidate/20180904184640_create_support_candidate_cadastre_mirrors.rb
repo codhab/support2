@@ -41,6 +41,7 @@ class CreateSupportCandidateCadastreMirrors < ActiveRecord::Migration[5.2] # :no
       t.string  :nationality
       t.string  :wedding_regime
       t.date    :wedding_date, default: nil
+      t.boolean :status, default: false
 
       t.timestamps
 
