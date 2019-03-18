@@ -7,10 +7,10 @@ class CreateSupportCandidateCadastreSituations < ActiveRecord::Migration[5.2]
       t.integer :subscribe_id
       t.integer :user_id
       t.text    :observation
+      t.date    :date
       t.boolean :computer, default: false
       t.integer :cadastre_convocation_id
       t.string  :process_number
-      t.string  :process_sei
             
       t.timestamps
 

@@ -1,7 +1,7 @@
 class CreateSupportCandidateActivityDocuments < ActiveRecord::Migration[5.2]
   def change
     create_table 'sihab.candidate_activity_documents' do |t|
-      t.integer :activity_id
+      t.integer :cadastre_activity_id
       t.string  :document
       t.string  :description
       t.integer :user_id 
