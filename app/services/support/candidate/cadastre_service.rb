@@ -4,7 +4,7 @@ module Support
 
       attr_accessor :cadastre_id, :cadastre_mirror_id
 
-      def initialize(cadastre_id, cadastre_mirror_id nil)
+      def initialize(cadastre_id: nil, cadastre_mirror_id: nil)
         @cadastre_id        = cadastre_id
         @cadastre_mirror_id = cadastre_mirror_id
       end
