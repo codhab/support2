@@ -68,7 +68,16 @@ module Support
       # => Deverá ser validado para que o mesmo seja coerente com a pontuação dos candidatos
       def proc_dsp
         # Refatorar para rodar anualmente nesta mesma data
-        Date.parse('2017-04-03').strftime('%Y-%m-%d')
+        # Todo ano a data deverá ser atualizada com o ano corrente
+        # A data base é ano-04-03
+        
+        year = Date.today.year
+
+        last_date_year    = Date.parse("#{(year.to_i - 1)}-04-03")
+        current_date_year = Date.parse("#{year}-04-03")
+
+        current_year = (Date.today < current_date_year) ? last_date_year : current_date_year
+        current_date_year.strftime('%Y-%m-%d')
       end
 
       def dsp

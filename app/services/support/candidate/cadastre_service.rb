@@ -2,15 +2,15 @@ module Support
   module Candidate
     class CadastreService
 
-      attr_accessor :cadastre, :cadastre_mirror
+      attr_accessor :cadastre_id, :cadastre_mirror_id
 
-      def initialize(cadastre, cadastre_mirror = nil)
-        @cadastre = cadastre
-        @cadastre_mirror = cadastre_mirror
+      def initialize(cadastre_id: nil, cadastre_mirror_id: nil)
+        @cadastre_id        = cadastre_id
+        @cadastre_mirror_id = cadastre_mirror_id
       end
 
-      # => Realizar criacao de cadastro espelho
       def create_mirror!
+        @cadastre = Support::Candidate::Cadastre.find_by(@cadastre_id)
         @cadastre_mirror = @cadastre.cadastre_mirrors.new
 
         @cadastre_mirror.attributes.each do |key, value|
@@ -21,6 +21,7 @@ module Support
           end
         end
 
+        @cadastre_mirror.status = true
         @cadastre_mirror.save(validate: false)
 
         @cadastre.dependents.each do |dependent|
@@ -34,6 +35,7 @@ module Support
             end
           end
 
+          dependent_mirror.status = true
           dependent_mirror.save(validate: false)
         end
 

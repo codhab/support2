@@ -17,9 +17,13 @@ module Support
     end
 
     def format_cpf
-      @cpf  = self
-      @cpf  =~ /(\d{3})\.?(\d{3})\.?(\d{3})-?(\d{2})/
-      @cpf  = "#{$1}.#{$2}.#{$3}-#{$4}"
+      unless (self.empty? || self.blank?)
+        @cpf  = self
+        @cpf  =~ /(\d{3})\.?(\d{3})\.?(\d{3})-?(\d{2})/
+        @cpf  = "#{$1}.#{$2}.#{$3}-#{$4}"
+      else
+        self.format_empty
+      end
     end
 
     def unformat_cpf
@@ -34,9 +38,13 @@ module Support
 
     def format_cnpj
       # => 00.000.000/0000-00
-      @cpf  = self
-      @cpf  =~ /(\d{2})\.?(\d{3})\.?(\d{3})\.?(\d{4})-?(\d{2})/
-      @cpf  = "#{$1}.#{$2}.#{$3}/#{$4}-#{$5}"
+      unless (self.empty? || self.blank?)
+        @cnpj  = self
+        @cnpj  =~ /(\d{2})\.?(\d{3})\.?(\d{3})\.?(\d{4})-?(\d{2})/
+        @cnpj  = "#{$1}.#{$2}.#{$3}/#{$4}-#{$5}"
+      else   
+        self.format_empty
+      end 
     end
 
     def unformat_cnpj
@@ -44,7 +52,7 @@ module Support
     end
 
     def underline_array
-    self.split('_')
+      self.split('_')
     end
 
 

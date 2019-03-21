@@ -1,15 +1,15 @@
 module Attendance
   class TicketService
     
-    attr_accessor :ticket
+    attr_accessor :ticket_id
 
-    def initialize(ticket)
-      @ticket = ticket
+    def initialize(ticket_id)
+      @ticket_id = ticket_id
     end
 
     def set_cadastre_mirror!
-      cadastre = @ticket.cadastre
-      service  = Candidate::CadastreService.new(cadastre)
+      ticket   = Support::Attendance::Ticket.find_by(@ticket_id)
+      service  = Candidate::CadastreService.new(ticket.cadastre_id)
 
       service.create_mirror!
 
