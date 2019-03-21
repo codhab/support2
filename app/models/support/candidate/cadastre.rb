@@ -20,7 +20,7 @@ module Support
       end
 
       def current_valid_mirror
-        self.cadastre_mirrors.order(created_at: :asc, status: true).last rescue nil
+        self.cadastre_mirrors.order(created_at: :asc, status: true).last.id rescue nil
       end
       
       def current_convocation
