@@ -163,7 +163,7 @@ namespace :populate_common do
   task shared_tables: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/common/shared_tables.json").read)
 
-    array = ['civil_states', 'kinships', 'special_condition_types', 'genders', 'education_backgrounds', 'programs']
+    array = ['civil_states', 'kinships', 'special_condition_types', 'genders', 'education_backgrounds']
 
     array.each do |arr|
       populate[arr].each do |item|

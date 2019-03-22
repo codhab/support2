@@ -104,65 +104,6 @@
       "id": "3",
       "name": "Pós-graduação"
     }
-  ],
-  
-  "programs":[
-    {
-      "id": "1",
-      "name": "RII"
-    },
-    {
-      "id": "2",
-      "name": "RIE"
-    },
-    {
-      "id": "3",
-      "name": "REGULARIZAÇÃO"
-    },
-    {
-      "id": "4",
-      "name": "VULNERAVEIS"
-    },
-    {
-      "id": "5",
-      "name": "DEFICIENTES"
-    },
-    {
-      "id": "6",
-      "name": "CADASTRO ANTIGO"
-    },
-    {
-      "id": "7",
-      "name": "IDOSO"
-    },
-    {
-      "id": "8",
-      "name": "SEM VÍNCULO"
-    },
-    {
-      "id": "9",
-      "name": "AMMVS-RF II 4a. ETAPA"
-    },
-    {
-      "id": "10",
-      "name": "H4 SAMAMBAIA"
-    },
-    {
-      "id": "11",
-      "name": "REMAS"
-    },
-    {
-      "id": "12",
-      "name": "REALOCAÇÃO (GÊNESIS)"
-    },
-    {
-      "id": "13",
-      "name": "REALOCAÇÃO (CH. PADRE)"
-    },
-    {
-      "id": "14",
-      "name": "MTST"
-    }
   ]
   
 }
