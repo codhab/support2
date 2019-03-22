@@ -128,12 +128,12 @@
         {
           "label": "Endereços / Imóveis",
           "status": true,
-          "url": "/endereco/unidades"
+          "url": "/imoveis/unidades"
         },
         {
           "label": "Empreendimentos",
           "status": true,
-          "url": "/endereco/empreendimentos"
+          "url": "/imoveis/empreendimentos"
         },
         {
           "label": "Controle de escrituras",
