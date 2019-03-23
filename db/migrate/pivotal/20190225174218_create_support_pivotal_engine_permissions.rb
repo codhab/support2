@@ -1,7 +1,7 @@
 class CreateSupportPivotalEnginePermissions < ActiveRecord::Migration[5.2]
   def change
     create_table 'extranet.pivotal_engine_permissions' do |t|
-      t.integer :engine_id
+      t.integer :system_engine_id
       t.string  :name
       t.boolean :status, default: true
       
