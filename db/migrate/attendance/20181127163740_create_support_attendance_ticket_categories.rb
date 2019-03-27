@@ -9,13 +9,16 @@ class CreateSupportAttendanceTicketCategories < ActiveRecord::Migration[5.2]
       t.boolean :unique,  default: false
 
       t.boolean :filter_situation,    default: false
-      t.text    :filter_situation_id
+      t.text    :filter_situation_id, array: true
 
       t.boolean :filter_convocation,    default: false
-      t.text    :filter_convocation_id
+      t.text    :filter_convocation_id, array: true
 
       t.boolean :filter_program,    default: false
-      t.text    :filter_program_id
+      t.text    :filter_program_id, array: true
+
+      t.boolean :filter_sub_program, default: false
+      t.text    :filter_sub_program_id, array: true
       
       t.boolean :filter_sql, default: false
       t.text    :filter_sql_content

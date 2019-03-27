@@ -47,7 +47,6 @@ namespace :populate_candidate do
 
   task candidate: :environment do
     object = Support::Candidate::Cadastre.new
-    object.id = 1
     object.name = 'Fulano de Tal'
     object.cpf = '13615303083'
     object.arrival_df = Date.parse('2001-01-10')
@@ -57,7 +56,6 @@ namespace :populate_candidate do
     object.save(validate: false)
 
     object1 = Support::Candidate::Cadastre.new
-    object1.id = 2
     object1.name = 'Siclano de Tal'
     object1.cpf = '71263063187'
     object1.arrival_df = Date.parse('2000-01-10')
@@ -67,7 +65,6 @@ namespace :populate_candidate do
     object1.save(validate: false)
 
     object2 = Support::Candidate::CadastreProcedural.new
-    object2.cadastre_id = 2
     object2.procedural_type_id = 14
     object2.process_number = '2313132132131312'
     object2.cadastre_convocation_id = 2

@@ -1,0 +1,17 @@
+{
+  "ticket_categories": [
+    {
+      "name": "Habilitação",
+      "status": true,
+      "only_one": true,
+      "unique": true,
+      "filter_situation": true,
+      "filter_situation_id": "3",
+      "filter_convocation": true,
+      "filter_convocation_id": 1456,
+      "filter_program": true,
+      "filter_program_id": 1,
+      "filter_sub_program": false
+    }
+  ]
+}
