@@ -1,6 +1,6 @@
-class CreateSupportAttendanceRequerimentDocuments < ActiveRecord::Migration[5.2]
+class CreateSupportAttendanceRequerimentAttachments < ActiveRecord::Migration[5.2]
   def change
-    create_table 'sihab.attendance_requeriment_documents' do |t|
+    create_table 'sihab.attendance_requeriment_attachments' do |t|
       t.integer :requeriment_id
       t.string  :attachment
     
