@@ -2,6 +2,7 @@ class CreateSupportAddressEnterpriseCompanyUsers < ActiveRecord::Migration[5.2]
   def change
     create_table 'sihab.address_enterprise_company_users' do |t|
       t.string  :name
+      t.string  :enterprise_company_id
       t.string  :email
       t.boolean :administrator, default: false
       t.string  :password
