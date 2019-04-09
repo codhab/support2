@@ -8,6 +8,7 @@ PATH
       pg
       rails (~> 5.2.0)
       rake
+      rmagick
 
 GEM
   remote: https://rubygems.org/
@@ -92,7 +93,7 @@ GEM
     ffi (1.9.25)
     foobar (0.0.1)
     formatador (0.2.5)
-    globalid (0.4.1)
+    globalid (0.4.2)
       activesupport (>= 4.2.0)
     guard (2.14.2)
       formatador (>= 0.2.4)
@@ -132,12 +133,12 @@ GEM
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     lumberjack (1.0.13)
-    mail (2.7.0)
+    mail (2.7.1)
       mini_mime (>= 0.1.1)
-    marcel (0.3.2)
+    marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (0.9.0)
-    mimemagic (0.3.2)
+    mimemagic (0.3.3)
     mini_mime (1.0.0)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
@@ -153,7 +154,7 @@ GEM
     parallel (1.12.1)
     parser (2.5.1.2)
       ast (~> 2.4.0)
-    pg (1.1.3)
+    pg (1.1.4)
     powerpack (0.1.2)
     pry (0.11.3)
       coderay (~> 1.1.0)
@@ -191,6 +192,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+    rmagick (3.0.0)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)

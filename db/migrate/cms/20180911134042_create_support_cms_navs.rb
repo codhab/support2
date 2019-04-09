@@ -4,10 +4,12 @@ class CreateSupportCmsNavs < ActiveRecord::Migration[5.2]
       t.string  :name
       t.string  :url
       t.integer :category_id
-      t.integer :order
+      t.integer :father_id
+      t.integer :position
       t.integer :user_id
       t.boolean :publish, default: false
       t.boolean :target_blank, default: true
+      t.string  :color
 
       t.timestamps
 

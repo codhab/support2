@@ -205,7 +205,7 @@
         {
           "label": "Núcleo",
           "status": true,
-          "url": "/pivotal",
+          "url": "/nucleo/usuarios",
           "position": 4
         },
         {
@@ -213,6 +213,18 @@
           "status": true,
           "url": "/melhorias-habitacionais",
           "position": 5
+        },
+        {
+          "label": "CPL",
+          "status": true,
+          "url": "/cpl",
+          "position": 6
+        },
+        {
+          "label": "Wiki",
+          "status": true,
+          "url": "/wiki",
+          "position": 7
         }
 
       ]

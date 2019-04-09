@@ -1,0 +1,235 @@
+{
+  "category_types": [
+    {
+      "name": "princial (portal)",
+      "categories": [
+        {
+          "name": "menu superior",
+          "navs": [
+            {
+              "name": "Portal de Brasília",
+              "position": 0,
+              "publish": true,
+              "target_blank": true,
+              "url": "http://www.df.gov.br/"
+            },
+            {
+              "name": "Sobre a CODHAB",
+              "position": 1,
+              "publish": true,
+              "target_blank": false
+            },
+            {
+              "name": "Impresa",
+              "position": 2,
+              "publish": true,
+              "target_blank": false
+            },
+            {
+              "name": "Perguntas frequentes",
+              "position": 3,
+              "publish": true,
+              "target_blank": false
+            },
+            {
+              "name": "TAC",
+              "position": 4,
+              "publish": true,
+              "target_blank": false
+            },
+            {
+              "name": "Fale conosco",
+              "position": 5,
+              "publish": true,
+              "target_blank": false
+            },
+            {
+              "name": "Libras",
+              "position": 6,
+              "publish": true,
+              "target_blank": false
+            }
+          ]
+        },
+        {
+          "name": "menu princial",
+          "navs": [
+            {
+              "name": "Habitação",
+              "position": 0,
+              "publish": true,
+              "target_blank": false,
+              "color": "#289728"
+            },
+            {
+              "name": "Regularização",
+              "position": 1,
+              "publish": true,
+              "target_blank": false,
+              "color": "#f5b711",
+              "childrens": [
+                { 
+                  "name": "Conheça o programa",
+                  "position": 0,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas"
+                },
+                {
+                  "name": "Documentação necessária",
+                  "position": 1,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas"
+                },
+                {
+                  "name": "Documentação cadastral",
+                  "position": 2,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas"
+                },
+                {
+                  "name": "Formulários",
+                  "position": 3,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas"
+                },
+                {
+                  "name": "Acompanhe",
+                  "position": 4,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas"
+                }                                                            
+              ]             
+            },
+            {
+              "name": "Assistência técnica",
+              "position": 2,
+              "publish": true,
+              "target_blank": false,
+              "color": "#c9155c",
+              "childrens": [
+                {
+                  "name": "Imersão comunitária",
+                  "position": 0,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas",
+                  "childrens": [
+                    {
+                      "name": "Postos de assistência técnica",
+                      "position": 0,
+                      "publish": true,
+                      "target_blank": false,
+                      "url": "/imoveis/empresas"               
+                    }
+                  ]                  
+                },
+                {
+                  "name": "Programas",
+                  "position": 0,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas",
+                  "childrens": [
+                    {
+                      "name": "Ações urbanas comunitárias",
+                      "position": 0,
+                      "publish": true,
+                      "target_blank": false,
+                      "url": "/imoveis/empresas"
+                    },
+                    {
+                      "name": "Melhorias habitacionais",
+                      "position": 1,
+                      "publish": true,
+                      "target_blank": false,
+                      "url": "/imoveis/empresas"
+                    }
+                  ]
+                }                
+              ]
+            },
+            {
+              "name": "Serviços",
+              "position": 3,
+              "publish": true,
+              "target_blank": false,
+              "color": "#337ea1",
+              "childrens": [
+                {
+                  "name": "Aplicativo",
+                  "position": 0,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas"
+                },
+                {
+                  "name": "Carta de serviço",
+                  "position": 1,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas"
+                },
+                {
+                  "name": "Informações",
+                  "position": 2,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas"
+                },
+                {
+                  "name": "Emitir certidão",
+                  "position": 3,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas"
+                },
+                {
+                  "name": "Validar documento",
+                  "position": 4,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas"
+                },
+                {
+                  "name": "Contratos & Convênios",
+                  "position": 5,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas"
+                },                
+                {
+                  "name": "Gestão de candidatos (Externo)",
+                  "position": 6,
+                  "publish": true,
+                  "target_blank": false,
+                  "url": "/imoveis/empresas"
+                }
+              ]
+            },
+            {
+              "name": "Agendamentos",
+              "position": 4,
+              "publish": true,
+              "target_blank": false,
+              "color": "#82847b"
+            },
+            {
+              "name": "Área do beneficiário",
+              "position": 5,
+              "publish": true,
+              "target_blank": false,
+              "color": "#bb1530"
+            }            
+
+          ]
+        }
+      ]
+    }
+  ]
+}
+
