@@ -6,6 +6,7 @@ class CreateSupportCandidateCadastreConvocations < ActiveRecord::Migration[5.2] 
       t.boolean :status, default: true
       t.integer :user_id
       t.text    :observation
+      t.boolean :computer, default: false
 
       t.timestamps
 

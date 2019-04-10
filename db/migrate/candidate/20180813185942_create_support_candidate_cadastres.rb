@@ -26,10 +26,6 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
       t.string  :address_complement
       t.decimal :family_income, precision: 8, scale: 2, default: 0
       t.decimal :personal_income, precision: 8, scale: 2, default: 0
-      t.string  :work_cep
-      t.integer :work_city_id
-      t.integer :work_state_id
-      t.integer :work_address
       t.string  :work_employment
       t.string  :nis
       t.string  :cid
@@ -40,16 +36,14 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
       t.string  :password
       t.string  :password_token, default: nil
       t.datetime :password_token_expires_at, default: nil
-      t.string  :session_token, default: nil
-      t.text    :introduce
-      t.string  :nationality
-      t.string  :wedding_regime
-      t.date    :wedding_date, default: nil
-      t.date    :admission_date, default: nil
-      t.string  :avatar
-      t.string  :app_push_token, default: nil
-      t.string  :app_user_token, default: nil
-      t.boolean :scoring, default: false
+      t.text     :introduce
+      t.string   :nationality
+      t.string   :wedding_regime
+      t.date     :wedding_date, default: nil
+      t.date     :admission_date, default: nil
+      t.string   :avatar
+      t.boolean  :add_score, default: false
+      t.integer  :add_score_id
 
       t.timestamps
 

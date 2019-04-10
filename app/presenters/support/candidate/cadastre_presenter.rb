@@ -6,6 +6,7 @@ require_dependency 'support/application_presenter'
 module Support
   module Candidate
     class CadastrePresenter < ApplicationPresenter # :nodoc:
+      
       def short_name
         short = self.name.split(' ')
         "#{short[0].humanize} #{short[-1].humanize}"
@@ -15,13 +16,11 @@ module Support
         name.to_s.mb_chars.downcase.titleize
       end
 
-      # Situacao cadastral
       def current_situation
         Support::Candidate::CadastreSituation.where(cadastre_id: self.id).order(created_at: :asc).last
       rescue Exception => e
         'Sem informação de situação cadastral'
       end
-
 
       def current_situation_id
         current_situation.situation_type.id
@@ -32,9 +31,15 @@ module Support
       rescue StandardError
         'Sem informação de situação cadastral'
       end
+
+      def current_convocation
+        Support::Candidate::CadastreConvocation.where(cadastre_id: self.id, status: true).order(created_at: :asc).last
+      end
+
+      def current_convocation_id
+        current_convocation.id
+      end
       
-      
-      # Dados básicos
       def age
         born.present? ? ((Date.today - born).to_i / 365.25).to_i : 'Sem informação de idade.'
       end
@@ -44,6 +49,7 @@ module Support
         sub_prog = "(#{sub_program.name})" if sub_program.present?
         result = prog.present? || sub_prog.present? ? "#{prog} #{sub_prog}" : 'Sem informação de programa'
       end
+
     end
   end
 end
