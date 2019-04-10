@@ -10,6 +10,18 @@ module Support
         @errors   = []
       end
 
+      def create_ticket
+        return false if @ticket.nil?
+        return false if @cadastre.nil?
+
+        # criacao do atendimento
+
+        
+        # criacao do mirror
+        # generate_cadastre_mirror
+
+      end
+
       def categories_allowed
         categories = Support::Attendance::TicketCategory.status_active.all
 

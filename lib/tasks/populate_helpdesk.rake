@@ -15,6 +15,7 @@ namespace :populate_helpdesk do
     
     populate['situation_types'].each do |type|
       object = Support::Helpdesk::TicketSituationType.new
+      object.id                  = type['id']
       object.name                = type['name']
       object.status              = type['status']
       object.save(validate: false)
