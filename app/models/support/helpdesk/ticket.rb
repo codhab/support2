@@ -6,6 +6,7 @@ module Support
       self.table_name = 'extranet.helpdesk_tickets'
 
       audited
+      
     end
   end
 end

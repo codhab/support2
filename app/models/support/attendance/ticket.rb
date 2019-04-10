@@ -5,6 +5,8 @@ module Support
     class Ticket < ApplicationRecord
       self.table_name = 'sihab.attendance_tickets'
 
+      has_many :ticket_steps
+      
       scope :no_internal, -> { where(internal: false) }
     end
   end
