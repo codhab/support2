@@ -11,6 +11,10 @@ module Support
       has_many :cadastre_indications
       has_many :cadastre_mirrors
 
+      def password=(value)
+        self[:password] = BCrypt::Password.create(value)
+      end
+
       def presenter
         call_presenter('Support::Candidate::CadastrePresenter', self)
       end
