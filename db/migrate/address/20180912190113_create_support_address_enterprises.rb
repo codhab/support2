@@ -15,6 +15,7 @@ class CreateSupportAddressEnterprises < ActiveRecord::Migration[5.2]
       t.string  :lng
       t.integer :city_id
       t.integer :user_id
+      t.integer :unit_quantity
 
       t.timestamps
 

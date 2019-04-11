@@ -19,6 +19,8 @@ class CreateSupportCandidateCadastreIndications < ActiveRecord::Migration[5.2]
 
       t.boolean  :cadastre_answer, default: nil
       t.datetime :cadastre_answered_at
+
+      t.text     :justify
     
       t.timestamps
 
