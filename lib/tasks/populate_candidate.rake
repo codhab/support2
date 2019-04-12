@@ -2,8 +2,8 @@ require 'net/http'
 
 namespace :populate_candidate do
   task populate: :environment do
-    Rake::Task["populate_candidate:candidate"].invoke
-    Rake::Task["populate_candidate:candidate_mirror"].invoke
+    #Rake::Task["populate_candidate:candidate"].invoke
+    #Rake::Task["populate_candidate:candidate_mirror"].invoke
     Rake::Task["populate_candidate:situation_type"].invoke
     Rake::Task["populate_candidate:procedural_type"].invoke
     Rake::Task["populate_candidate:program"].invoke

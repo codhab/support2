@@ -37,7 +37,7 @@ class CreateSupportAddressUnits < ActiveRecord::Migration[5.2]
       t.string  :notary_office
       t.date    :contract_date
       t.date    :code_date
-      t.date    :contract_office
+      t.string  :contract_office
       t.date    :petition_date
       t.date    :signature_date
       t.date    :anoreg_date

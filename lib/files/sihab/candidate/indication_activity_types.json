@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Não compareceu",
+    "description": "Desistencia",
+    "status": true,
+    "created_at": "2016-06-05T21:00:00.000-03:00",
+    "updated_at": "2016-06-05T21:00:00.000-03:00",
+    "waiver": true,
+    "situation_action_id": 2
+  },
+  {
+    "id": 2,
+    "name": "Informação sigilosa",
+    "description": "Desistencia",
+    "status": true,
+    "created_at": "2016-06-05T21:00:00.000-03:00",
+    "updated_at": "2016-06-05T21:00:00.000-03:00",
+    "waiver": true,
+    "situation_action_id": 2
+  },
+  {
+    "id": 3,
+    "name": "Não houve mais interesse",
+    "description": "Desistencia",
+    "status": true,
+    "created_at": "2016-06-05T21:00:00.000-03:00",
+    "updated_at": "2016-06-05T21:00:00.000-03:00",
+    "waiver": true,
+    "situation_action_id": 2
+  },
+  {
+    "id": 4,
+    "name": "Compremetimento de renda",
+    "description": "Desistencia",
+    "status": true,
+    "created_at": "2016-06-05T21:00:00.000-03:00",
+    "updated_at": "2016-06-05T21:00:00.000-03:00",
+    "waiver": true,
+    "situation_action_id": 2
+  },
+  {
+    "id": 5,
+    "name": "Restrição cadastral",
+    "description": "Desistencia",
+    "status": true,
+    "created_at": "2016-06-05T21:00:00.000-03:00",
+    "updated_at": "2016-06-05T21:00:00.000-03:00",
+    "waiver": true,
+    "situation_action_id": 2
+  },
+  {
+    "id": 6,
+    "name": "Todos os imóveis foram vendidos",
+    "description": "Desistencia",
+    "status": true,
+    "created_at": "2016-06-05T21:00:00.000-03:00",
+    "updated_at": "2016-06-05T21:00:00.000-03:00",
+    "waiver": true,
+    "situation_action_id": 2
+  },
+  {
+    "id": 7,
+    "name": "Distrato",
+    "description": "Desistencia",
+    "status": true,
+    "created_at": "2016-06-05T21:00:00.000-03:00",
+    "updated_at": "2016-06-05T21:00:00.000-03:00",
+    "waiver": true,
+    "situation_action_id": 2
+  },
+  {
+    "id": 8,
+    "name": "Desistência - Outro",
+    "description": "Desistencia",
+    "status": true,
+    "created_at": "2016-06-05T21:00:00.000-03:00",
+    "updated_at": "2016-06-05T21:00:00.000-03:00",
+    "waiver": true,
+    "situation_action_id": 2
+  },
+  {
+    "id": 9,
+    "name": "Contactado",
+    "description": null,
+    "status": true,
+    "created_at": "2016-06-05T21:00:00.000-03:00",
+    "updated_at": "2016-06-05T21:00:00.000-03:00",
+    "waiver": null,
+    "situation_action_id": 0
+  },
+  {
+    "id": 10,
+    "name": "Reservado",
+    "description": null,
+    "status": null,
+    "created_at": "2016-06-05T21:00:00.000-03:00",
+    "updated_at": "2016-06-05T21:00:00.000-03:00",
+    "waiver": null,
+    "situation_action_id": 1
+  },
+  {
+    "id": 11,
+    "name": "Vendido",
+    "description": null,
+    "status": null,
+    "created_at": "2016-06-05T21:00:00.000-03:00",
+    "updated_at": "2016-06-05T21:00:00.000-03:00",
+    "waiver": null,
+    "situation_action_id": 1
+  },
+  {
+    "id": 12,
+    "name": "Informação",
+    "description": null,
+    "status": true,
+    "created_at": "2016-06-05T21:00:00.000-03:00",
+    "updated_at": "2016-06-05T21:00:00.000-03:00",
+    "waiver": null,
+    "situation_action_id": 1
+  },
+  {
+    "id": 13,
+    "name": "Não aproveitado",
+    "description": null,
+    "status": true,
+    "created_at": "2016-07-13T21:00:00.000-03:00",
+    "updated_at": "2016-07-13T21:00:00.000-03:00",
+    "waiver": true,
+    "situation_action_id": 2
+  },
+  {
+    "id": 14,
+    "name": "Liberação de reserva",
+    "description": null,
+    "status": true,
+    "created_at": "2016-11-11T01:00:00.000-02:00",
+    "updated_at": "2016-11-11T01:00:00.000-02:00",
+    "waiver": null,
+    "situation_action_id": 1
+  },
+  {
+    "id": 15,
+    "name": "Já comprou em outro empreendiemnto",
+    "description": null,
+    "status": true,
+    "created_at": "2017-02-08T22:00:00.000-02:00",
+    "updated_at": "2017-02-08T22:00:00.000-02:00",
+    "waiver": true,
+    "situation_action_id": 2
+  },
+  {
+    "id": 16,
+    "name": "Não se enquadra no programa",
+    "description": null,
+    "status": true,
+    "created_at": "2017-08-25T00:00:00.000-03:00",
+    "updated_at": "2017-08-24T21:00:00.000-03:00",
+    "waiver": true,
+    "situation_action_id": 2
+  },
+  {
+    "id": 17,
+    "name": "Imóvel Entregue",
+    "description": null,
+    "status": true,
+    "created_at": "2017-09-14T21:00:00.000-03:00",
+    "updated_at": "2017-09-14T21:00:00.000-03:00",
+    "waiver": null,
+    "situation_action_id": 1
+  },
+  {
+    "id": 18,
+    "name": "Ultrapassou o limite de renda",
+    "description": null,
+    "status": true,
+    "created_at": "2018-08-12T21:00:00.000-03:00",
+    "updated_at": "2018-08-12T21:00:00.000-03:00",
+    "waiver": true,
+    "situation_action_id": 2
+  }
+]

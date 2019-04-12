@@ -2,15 +2,15 @@ require 'net/http'
 
 namespace :populate_common do
   task populate: :environment do
-    Rake::Task["populate_common:state_and_city"].invoke
+    #Rake::Task["populate_common:state_and_city"].invoke
     Rake::Task["populate_common:shared_tables"].invoke
     Rake::Task["populate_common:subject"].invoke
     Rake::Task["populate_common:document_type"].invoke
     Rake::Task["populate_common:cpl_document_type"].invoke
     Rake::Task["populate_common:notice"].invoke
     Rake::Task["populate_common:participant"].invoke
-    Rake::Task["populate_common:assessment"].invoke
-    Rake::Task["populate_common:address_unit"].invoke
+    #Rake::Task["populate_common:assessment"].invoke
+    #Rake::Task["populate_common:address_unit"].invoke
 
     p 'Common populado.'
   end

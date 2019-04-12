@@ -1,16 +1,16 @@
 require 'net/http'
 
-namespace :populate_entity do 
-  task populate: :environment do 
-    Rake::Task["populate_entity:cadastre"].invoke
+namespace :populate_entity do
+  task populate: :environment do
+    #Rake::Task["populate_entity:cadastre"].invoke
     Rake::Task["populate_entity:job"].invoke
 
     p 'Entity populado.'
   end
 
-  task cadastre: :environment do 
+  task cadastre: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/entity/cadastre.json").read)
-    
+
     populate['entity'].each do |entity|
       object = Support::Entity::Cadastre.new
       object.id                  = entity['id']
@@ -22,8 +22,8 @@ namespace :populate_entity do
       object.save(validate: false)
     end
   end
-  
-  task job: :environment do 
+
+  task job: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/entity/jobs.json").read)
 
     populate['job'].each do |entity|

@@ -1,0 +1,243 @@
+// 20190412112909
+// http://localhost:3001/cms/testes
+
+[
+  {
+    "id": 39,
+    "name": "RA XXXI Fercal",
+    "description": null,
+    "created_at": "2016-12-08T01:00:00.000-02:00",
+    "updated_at": "2016-12-08T01:00:00.000-02:00"
+  },
+  {
+    "id": 16,
+    "name": "RA I Plano Piloto",
+    "description": "Unidade de Planejamento Territorial Central",
+    "created_at": "2016-12-05T11:34:23.602-02:00",
+    "updated_at": "2016-12-05T11:34:23.602-02:00"
+  },
+  {
+    "id": 40,
+    "name": "RA XI Cruzeiro",
+    "description": "Unidade de Planejamento Territorial Central",
+    "created_at": "2017-12-20T01:00:00.000-02:00",
+    "updated_at": "2017-12-20T01:00:00.000-02:00"
+  },
+  {
+    "id": 23,
+    "name": "RA XIX Candangolândia",
+    "description": "Unidade de Planejamento Territorial Central",
+    "created_at": "2016-12-05T11:34:23.675-02:00",
+    "updated_at": "2016-12-05T11:34:23.675-02:00"
+  },
+  {
+    "id": 41,
+    "name": "RA XXII Sudoeste/Octogonal",
+    "description": "Unidade de Planejamento Territorial Central",
+    "created_at": "2017-12-20T01:00:00.000-02:00",
+    "updated_at": "2017-12-20T01:00:00.000-02:00"
+  },
+  {
+    "id": 45,
+    "name": "RA XVIII Lago Norte",
+    "description": "Unidade de Planejamento Territorial Central-Adjacente 1",
+    "created_at": "2017-12-20T01:00:00.000-02:00",
+    "updated_at": "2017-12-20T01:00:00.000-02:00"
+  },
+  {
+    "id": 43,
+    "name": "RA XVI Lago Sul",
+    "description": "Unidade de Planejamento Territorial Central-Adjacente 1",
+    "created_at": "2017-12-20T01:00:00.000-02:00",
+    "updated_at": "2017-12-20T01:00:00.000-02:00"
+  },
+  {
+    "id": 46,
+    "name": "RA XXIII Varjão",
+    "description": "Unidade de Planejamento Territorial Central-Adjacente 1",
+    "created_at": "2017-12-20T01:00:00.000-02:00",
+    "updated_at": "2017-12-20T01:00:00.000-02:00"
+  },
+  {
+    "id": 47,
+    "name": "RA XXIV Park Way",
+    "description": "Unidade de Planejamento Territorial Central-Adjacente 1",
+    "created_at": "2017-12-20T01:00:00.000-02:00",
+    "updated_at": "2017-12-20T01:00:00.000-02:00"
+  },
+  {
+    "id": 35,
+    "name": "RA XXIX SIA",
+    "description": "Unidade de Planejamento Territorial Central-Adjacente 2",
+    "created_at": "2016-12-05T11:34:23.786-02:00",
+    "updated_at": "2016-12-05T11:34:23.786-02:00"
+  },
+  {
+    "id": 48,
+    "name": "RA XXV SCIA",
+    "description": "Unidade de Planejamento Territorial Central-Adjacente 2",
+    "created_at": "2017-12-20T01:00:00.000-02:00",
+    "updated_at": "2017-12-20T01:00:00.000-02:00"
+  },
+  {
+    "id": 26,
+    "name": "RA VIII Núcleo Bandeirante",
+    "description": "Unidade de Planejamento Territorial Central-Adjacente 2",
+    "created_at": "2016-12-05T11:34:23.703-02:00",
+    "updated_at": "2016-12-05T11:34:23.703-02:00"
+  },
+  {
+    "id": 22,
+    "name": "RA XVII Riacho Fundo",
+    "description": "Unidade de Planejamento Territorial Central-Adjacente 2",
+    "created_at": "2016-12-05T11:34:23.663-02:00",
+    "updated_at": "2016-12-05T11:34:23.663-02:00"
+  },
+  {
+    "id": 29,
+    "name": "RA X Guará",
+    "description": "Unidade de Planejamento Territorial Central-Adjacente 2",
+    "created_at": "2016-12-05T11:34:23.730-02:00",
+    "updated_at": "2016-12-05T11:34:23.730-02:00"
+  },
+  {
+    "id": 15,
+    "name": "RA X Guará",
+    "description": "Unidade de Planejamento Territorial Central-Adjacente 2",
+    "created_at": "2016-12-05T11:34:23.593-02:00",
+    "updated_at": "2016-12-05T11:34:23.593-02:00"
+  },
+  {
+    "id": 13,
+    "name": "RA XX Águas Claras",
+    "description": "Unidade de Planejamento Territorial Central-Adjacente 2",
+    "created_at": "2016-12-05T11:34:23.571-02:00",
+    "updated_at": "2016-12-05T11:34:23.571-02:00"
+  },
+  {
+    "id": 31,
+    "name": "RA XXX Vicente Pires",
+    "description": "Unidade de Planejamento Territorial Central-Adjacente 2",
+    "created_at": "2016-12-05T11:34:23.748-02:00",
+    "updated_at": "2016-12-05T11:34:23.748-02:00"
+  },
+  {
+    "id": 28,
+    "name": "RA III Taguatinga",
+    "description": "Unidade de Planejamento Territorial Oeste",
+    "created_at": "2016-12-05T11:34:23.721-02:00",
+    "updated_at": "2016-12-05T11:34:23.721-02:00"
+  },
+  {
+    "id": 19,
+    "name": "RA IX Ceilândia",
+    "description": "Unidade de Planejamento Territorial Oeste",
+    "created_at": "2016-12-05T11:34:23.631-02:00",
+    "updated_at": "2016-12-05T11:34:23.631-02:00"
+  },
+  {
+    "id": 14,
+    "name": "RA XII Samambaia",
+    "description": "Unidade de Planejamento Territorial Oeste",
+    "created_at": "2016-12-05T11:34:23.584-02:00",
+    "updated_at": "2016-12-05T11:34:23.584-02:00"
+  },
+  {
+    "id": 33,
+    "name": "RA IV Brazlândia",
+    "description": "Unidade de Planejamento Territorial Oeste",
+    "created_at": "2016-12-05T11:34:23.767-02:00",
+    "updated_at": "2016-12-05T11:34:23.767-02:00"
+  },
+  {
+    "id": 12,
+    "name": "RA V Sobradinho",
+    "description": "Unidade de Planejamento Territorial Norte",
+    "created_at": "2016-12-05T11:34:23.550-02:00",
+    "updated_at": "2016-12-05T11:34:23.550-02:00"
+  },
+  {
+    "id": 17,
+    "name": "RA XXVI Sobradinho II",
+    "description": "Unidade de Planejamento Territorial Norte",
+    "created_at": "2016-12-05T11:34:23.612-02:00",
+    "updated_at": "2016-12-05T11:34:23.612-02:00"
+  },
+  {
+    "id": 18,
+    "name": "RA VI Planaltina",
+    "description": "Unidade de Planejamento Territorial Norte",
+    "created_at": "2016-12-05T11:34:23.621-02:00",
+    "updated_at": "2016-12-05T11:34:23.621-02:00"
+  },
+  {
+    "id": 49,
+    "name": "RA VII Paranoá",
+    "description": "Unidade de Planejamento Territorial Leste",
+    "created_at": "2017-12-20T01:00:00.000-02:00",
+    "updated_at": "2017-12-20T01:00:00.000-02:00"
+  },
+  {
+    "id": 30,
+    "name": "RA VII Paranoá",
+    "description": "Unidade de Planejamento Territorial Leste",
+    "created_at": "2016-12-05T11:34:23.739-02:00",
+    "updated_at": "2016-12-05T11:34:23.739-02:00"
+  },
+  {
+    "id": 20,
+    "name": "RA XIV São Sebastião",
+    "description": "Unidade de Planejamento Territorial Leste",
+    "created_at": "2016-12-05T11:34:23.641-02:00",
+    "updated_at": "2016-12-05T11:34:23.641-02:00"
+  },
+  {
+    "id": 34,
+    "name": "RA XXVII Jardim Botânico",
+    "description": "Unidade de Planejamento Territorial Leste",
+    "created_at": "2016-12-05T11:34:23.776-02:00",
+    "updated_at": "2016-12-05T11:34:23.776-02:00"
+  },
+  {
+    "id": 36,
+    "name": "RA XXVIII Itapoã",
+    "description": "Unidade de Planejamento Territorial Leste",
+    "created_at": "2016-12-05T11:34:23.791-02:00",
+    "updated_at": "2016-12-05T11:34:23.791-02:00"
+  },
+  {
+    "id": 25,
+    "name": "RA XV Recanto das Emas",
+    "description": "Unidade de Planejamento Territorial Sul",
+    "created_at": "2016-12-05T11:34:23.693-02:00",
+    "updated_at": "2016-12-05T11:34:23.693-02:00"
+  },
+  {
+    "id": 21,
+    "name": "RA XXI Riacho Fundo II",
+    "description": "Unidade de Planejamento Territorial Sul",
+    "created_at": "2016-12-05T11:34:23.651-02:00",
+    "updated_at": "2016-12-05T11:34:23.651-02:00"
+  },
+  {
+    "id": 24,
+    "name": "RA II Gama",
+    "description": "Unidade de Planejamento Territorial Sul",
+    "created_at": "2016-12-05T11:34:23.684-02:00",
+    "updated_at": "2016-12-05T11:34:23.684-02:00"
+  },
+  {
+    "id": 32,
+    "name": "RA XIII Santa Maria",
+    "description": "Unidade de Planejamento Territorial Sul",
+    "created_at": "2016-12-05T11:34:23.758-02:00",
+    "updated_at": "2016-12-05T11:34:23.758-02:00"
+  },
+  {
+    "id": 27,
+    "name": "RA XIII Santa Maria",
+    "description": "Unidade de Planejamento Territorial Sul",
+    "created_at": "2016-12-05T11:34:23.713-02:00",
+    "updated_at": "2016-12-05T11:34:23.713-02:00"
+  }
+]

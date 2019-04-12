@@ -1,0 +1,28 @@
+{
+  "registry_types": [
+    {
+      "id": 1,
+      "name": "Não"
+    },
+    {
+      "id": 2,
+      "name": "Em fase"
+    },
+    {
+      "id": 3,
+      "name": "Registrado"
+    },
+    {
+      "id": 4,
+      "name": "Escritura de doação"
+    },
+    {
+      "id": 5,
+      "name": "Reconhecimento de ocupação"
+    },
+    {
+      "id": 6,
+      "name": "Legitimação de posse"
+    }
+  ]
+}

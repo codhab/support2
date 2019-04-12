@@ -1,0 +1,201 @@
+// 20190412112756
+// http://localhost:3001/cms/testes
+
+[
+  {
+    "id": 1,
+    "name": "Acre",
+    "acronym": "AC",
+    "created_at": "2015-08-07T16:04:23.716-03:00",
+    "updated_at": "2015-08-07T16:04:23.716-03:00"
+  },
+  {
+    "id": 2,
+    "name": "Alagoas",
+    "acronym": "AL",
+    "created_at": "2015-08-07T16:04:23.853-03:00",
+    "updated_at": "2015-08-07T16:04:23.853-03:00"
+  },
+  {
+    "id": 3,
+    "name": "Amazonas",
+    "acronym": "AM",
+    "created_at": "2015-08-07T16:04:24.226-03:00",
+    "updated_at": "2015-08-07T16:04:24.226-03:00"
+  },
+  {
+    "id": 4,
+    "name": "Amapá",
+    "acronym": "AP",
+    "created_at": "2015-08-07T16:04:24.458-03:00",
+    "updated_at": "2015-08-07T16:04:24.458-03:00"
+  },
+  {
+    "id": 5,
+    "name": "Bahia",
+    "acronym": "BA",
+    "created_at": "2015-08-07T16:04:24.517-03:00",
+    "updated_at": "2015-08-07T16:04:24.517-03:00"
+  },
+  {
+    "id": 6,
+    "name": "Ceará",
+    "acronym": "CE",
+    "created_at": "2015-08-07T16:04:26.010-03:00",
+    "updated_at": "2015-08-07T16:04:26.010-03:00"
+  },
+  {
+    "id": 7,
+    "name": "Distrito Federal",
+    "acronym": "DF",
+    "created_at": "2015-08-07T16:04:26.780-03:00",
+    "updated_at": "2015-08-07T16:04:26.780-03:00"
+  },
+  {
+    "id": 8,
+    "name": "Espírito Santo",
+    "acronym": "ES",
+    "created_at": "2015-08-07T16:04:26.962-03:00",
+    "updated_at": "2015-08-07T16:04:26.962-03:00"
+  },
+  {
+    "id": 9,
+    "name": "Goiás",
+    "acronym": "GO",
+    "created_at": "2015-08-07T16:04:27.257-03:00",
+    "updated_at": "2015-08-07T16:04:27.257-03:00"
+  },
+  {
+    "id": 10,
+    "name": "Maranhão",
+    "acronym": "MA",
+    "created_at": "2015-08-07T16:04:28.115-03:00",
+    "updated_at": "2015-08-07T16:04:28.115-03:00"
+  },
+  {
+    "id": 11,
+    "name": "Minas Gerais",
+    "acronym": "MG",
+    "created_at": "2015-08-07T16:04:28.826-03:00",
+    "updated_at": "2015-08-07T16:04:28.826-03:00"
+  },
+  {
+    "id": 12,
+    "name": "Mato Grosso do Sul",
+    "acronym": "MS",
+    "created_at": "2015-08-07T16:04:31.811-03:00",
+    "updated_at": "2015-08-07T16:04:31.811-03:00"
+  },
+  {
+    "id": 13,
+    "name": "Mato Grosso",
+    "acronym": "MT",
+    "created_at": "2015-08-07T16:04:32.063-03:00",
+    "updated_at": "2015-08-07T16:04:32.063-03:00"
+  },
+  {
+    "id": 14,
+    "name": "Pará",
+    "acronym": "PA",
+    "created_at": "2015-08-07T16:04:32.538-03:00",
+    "updated_at": "2015-08-07T16:04:32.538-03:00"
+  },
+  {
+    "id": 15,
+    "name": "Paraíba",
+    "acronym": "PB",
+    "created_at": "2015-08-07T16:04:33.013-03:00",
+    "updated_at": "2015-08-07T16:04:33.013-03:00"
+  },
+  {
+    "id": 16,
+    "name": "Pernambuco",
+    "acronym": "PE",
+    "created_at": "2015-08-07T16:04:33.775-03:00",
+    "updated_at": "2015-08-07T16:04:33.775-03:00"
+  },
+  {
+    "id": 17,
+    "name": "Piauí",
+    "acronym": "PI",
+    "created_at": "2015-08-07T16:04:34.435-03:00",
+    "updated_at": "2015-08-07T16:04:34.435-03:00"
+  },
+  {
+    "id": 18,
+    "name": "Paraná",
+    "acronym": "PR",
+    "created_at": "2015-08-07T16:04:35.243-03:00",
+    "updated_at": "2015-08-07T16:04:35.243-03:00"
+  },
+  {
+    "id": 19,
+    "name": "Rio de Janeiro",
+    "acronym": "RJ",
+    "created_at": "2015-08-07T16:04:36.993-03:00",
+    "updated_at": "2015-08-07T16:04:36.993-03:00"
+  },
+  {
+    "id": 20,
+    "name": "Rio Grande do Norte",
+    "acronym": "RN",
+    "created_at": "2015-08-07T16:04:37.459-03:00",
+    "updated_at": "2015-08-07T16:04:37.459-03:00"
+  },
+  {
+    "id": 21,
+    "name": "Rondônia",
+    "acronym": "RO",
+    "created_at": "2015-08-07T16:04:38.098-03:00",
+    "updated_at": "2015-08-07T16:04:38.098-03:00"
+  },
+  {
+    "id": 22,
+    "name": "Roraima",
+    "acronym": "RR",
+    "created_at": "2015-08-07T16:04:38.291-03:00",
+    "updated_at": "2015-08-07T16:04:38.291-03:00"
+  },
+  {
+    "id": 23,
+    "name": "Rio Grande do Sul",
+    "acronym": "RS",
+    "created_at": "2015-08-07T16:04:38.348-03:00",
+    "updated_at": "2015-08-07T16:04:38.348-03:00"
+  },
+  {
+    "id": 24,
+    "name": "Santa Catarina",
+    "acronym": "SC",
+    "created_at": "2015-08-07T16:04:40.072-03:00",
+    "updated_at": "2015-08-07T16:04:40.072-03:00"
+  },
+  {
+    "id": 25,
+    "name": "Sergipe",
+    "acronym": "SE",
+    "created_at": "2015-08-07T16:04:41.110-03:00",
+    "updated_at": "2015-08-07T16:04:41.110-03:00"
+  },
+  {
+    "id": 26,
+    "name": "São Paulo",
+    "acronym": "SP",
+    "created_at": "2015-08-07T16:04:41.390-03:00",
+    "updated_at": "2015-08-07T16:04:41.390-03:00"
+  },
+  {
+    "id": 27,
+    "name": "Tocantins",
+    "acronym": "TO",
+    "created_at": "2015-08-07T16:04:44.367-03:00",
+    "updated_at": "2015-08-07T16:04:44.367-03:00"
+  },
+  {
+    "id": 28,
+    "name": "Estrangeiro",
+    "acronym": "EXT",
+    "created_at": "2015-08-06T21:00:00.000-03:00",
+    "updated_at": "2015-08-06T21:00:00.000-03:00"
+  }
+]
