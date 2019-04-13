@@ -27,7 +27,11 @@ namespace :db do
     Rake::Task['populate_entity:populate'].invoke
     Rake::Task['populate_helpdesk:populate'].invoke
     Rake::Task['populate_cms:populate'].invoke
+<<<<<<< HEAD
     Rake::Task['populate_attendance:populate'].invoke
+=======
+    Rake::Task['migrate_address:populate'].invoke
+>>>>>>> 0f6bf887cfefae8bdd4e6ccfd271db74f1d54dce
   end
 
 end

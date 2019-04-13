@@ -13,24 +13,24 @@ class CreateSupportPivotalUsers < ActiveRecord::Migration[5.2] # :nodoc:
       t.string  :curriculum
       t.string  :email
       t.string  :private_email
-      
-      t.boolean :status, default: false
+
+      t.boolean :status, default: true
       t.boolean :administrator, default: false
-      
+
       t.string  :password
       t.integer :job_id
-      
+
       t.integer :civil_state_id
       t.string  :birth_place
-      
+
       t.string  :telephone
       t.string  :celphone
-      
+
       t.string  :mobile_user_token
       t.string  :mobile_push_token
-      
+
       t.integer :sector_id
-      
+
       t.string   :remember_token, default: nil
       t.datetime :remember_token_expires_at, default: nil
 
