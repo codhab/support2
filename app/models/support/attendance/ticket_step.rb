@@ -2,9 +2,9 @@ require_dependency 'support/application_record'
 
 module Support
   module Attendance
-    class StepDocument < ApplicationRecord
-      self.table_name = 'sihab.attendance_step_documents'
-      
+    class TicketStep < ApplicationRecord
+      self.table_name = 'sihab.attendance_ticket_steps'
+
       audited
     end
   end

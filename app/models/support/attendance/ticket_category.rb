@@ -4,6 +4,23 @@ module Support
   module Attendance
     class TicketCategory < ApplicationRecord
       self.table_name = 'sihab.attendance_ticket_categories'
+
+          
+      def filter_program_id=(value)
+        self[:filter_program_id] = value.to_s.split(';')
+      end
+
+      def filter_program_id
+        self[:filter_program_id].to_a.join(';')
+      end
+      
+      def filter_situation_id=(value)
+        self[:filter_situation_id] = value.to_s.split(';')
+      end
+
+      def filter_situation_id
+        self[:filter_situation_id].to_a.join(';')
+      end      
     end
   end
 end

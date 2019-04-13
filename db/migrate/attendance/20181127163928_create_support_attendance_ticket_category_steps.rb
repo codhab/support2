@@ -11,9 +11,7 @@ class CreateSupportAttendanceTicketCategorySteps < ActiveRecord::Migration[5.2]
       t.integer :screen_order, default: 0
       t.boolean :allow_confirmation, default: false
       t.boolean :status, default: false
-      t.text    :message_success  
-      t.text    :message_pendent  
-
+      
       t.timestamps
 
       t.boolean  :deleted, default: false

@@ -5,15 +5,15 @@ class CreateSupportAttendanceDocumentTypes < ActiveRecord::Migration[5.2]
       t.integer :code, default: 0
 
       t.string  :name
-      t.text    :observation
-      t.string  :label
-      t.text    :description
+      t.text    :introduction
       t.text    :help_text
       
       t.boolean :status, default: true
       
+      t.integer :sei_group_id
       t.integer :sei_tranning_id
       t.integer :sei_production_id
+      t.string  :sei_label
 
       t.timestamps
 
