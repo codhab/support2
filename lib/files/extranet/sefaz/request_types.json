@@ -1,0 +1,19 @@
+{
+  "request_types": [
+    {
+      "id": "1",
+      "name": "Pedido de isenção",
+      "status": true
+    },
+    {
+      "id": "2",
+      "name": "Cancelamento parcial",
+      "status": true
+    },
+    {
+      "id": "3",
+      "name": "Cancelamento total",
+      "status": true
+    }
+  ]
+}
