@@ -4,37 +4,44 @@
     { 
       "id": 1,
       "name": "pendente com candidato",
-      "code": "pendente_com_candidato",
+      "code": "candidate_pendent",
       "status": true,
       "label_view_candidate": "Pendente"
     },
     {
       "id": 2,
       "name": "pendente com atendente",
-      "code": "pendente_com_atendente",
+      "code": "attendant_pendent",
       "status": true,
       "label_view_candidate": "Em análise pela CODHAB"
     },
     {
       "id": 3,
       "name": "pendente com supervisor",
-      "code": "pendente_com_supervisor",
+      "code": "supervisor_pendent",
       "status": true,
       "label_view_candidate": "Em análise pela CODHAB"
     },
     {
       "id": 4,
       "name": "deferido",
-      "code": "deferido",
+      "code": "accepted",
       "status": true,
       "label_view_candidate": "Finalizado (Deferido)"
     },
     {
       "id": 5,
       "name": "indeferido",
-      "code": "indeferido",
+      "code": "decline",
       "status": true,
       "label_view_candidate": "Finalizado (Indeferido)"
+    },
+    {
+      "id": 6,
+      "name": "cancelado",
+      "code": "cancel",
+      "status": true,
+      "label_view_candidate": "Cancelado"
     }
   ],
   "document_types": [
@@ -359,7 +366,7 @@
     },
     {
       "id": 30,
-      "code": 27,
+      "code": 28,
       "name": "Documentação de divórcio",
       "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
       "status": true,

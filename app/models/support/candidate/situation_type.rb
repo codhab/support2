@@ -6,6 +6,12 @@ module Support
       self.table_name = 'sihab.candidate_situation_types'
 
       audited
+
+      belongs_to :program
+
+      scope :by_program_id, -> (value) {
+        where(program_id: value)
+      }
     end
   end
 end

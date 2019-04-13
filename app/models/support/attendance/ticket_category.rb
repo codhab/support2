@@ -11,7 +11,8 @@ module Support
       end
 
       def filter_program_id
-        self[:filter_program_id].to_a.join(';')
+        value = self[:filter_program_id].to_a.join(';')
+        value.class.is_a?(Array) ? value : [value]
       end
       
       def filter_situation_id=(value)
@@ -19,8 +20,10 @@ module Support
       end
 
       def filter_situation_id
-        self[:filter_situation_id].to_a.join(';')
-      end      
+        value = self[:filter_situation_id].to_a.join(';')
+        value.class.is_a?(Array) ? value : [value]
+      end
+
     end
   end
 end
