@@ -1,0 +1,28 @@
+{
+  "notifiers": [
+    {
+      "id": "1",
+      "name": "CODHAB",
+      "cnpj": "09335575000130",
+      "status": true
+    },
+    {
+      "id": "2",
+      "name": "GOVERNO DO DISTRITO FEDERAL",
+      "cnpj": "00394601000126",
+      "status": true
+    },
+    {
+      "id": "3",
+      "name": "SECRETARIA DE PATRIMONIO DA UNIÃO",
+      "cnpj": "00489828002018",
+      "status": true
+    },
+    {
+      "id": "4",
+      "name": "GOVERNO DO DISTRITO FEDERAL",
+      "cnpj": "03333825000116",
+      "status": true
+    }
+  ]
+}

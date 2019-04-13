@@ -1,0 +1,14 @@
+{
+  "exemption_types": [
+    {
+      "id": "1",
+      "name": "ITBI",
+      "status": true
+    },
+    {
+      "id": "2",
+      "name": "ITCD",
+      "status": true
+    }
+  ]
+}

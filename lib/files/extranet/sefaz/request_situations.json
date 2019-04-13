@@ -1,0 +1,24 @@
+{
+  "request_situation": [
+    {
+      "id": "1",
+      "name": "Lote criado",
+      "status": true
+    },
+    {
+      "id": "2",
+      "name": "Enviar lote",
+      "status": true
+    },
+    {
+      "id": "3",
+      "name": "Lote enviado",
+      "status": true
+    },
+    {
+      "id": "4",
+      "name": "Lote Processado",
+      "status": true
+    }
+  ]
+}
