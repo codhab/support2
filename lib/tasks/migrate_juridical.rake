@@ -105,7 +105,7 @@ namespace :migrate_juridical do
         updated_at: row[17],
         status: row[8]
       )
-
+      object.save(validate: false)
     end
   end
 
