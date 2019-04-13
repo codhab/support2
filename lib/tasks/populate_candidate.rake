@@ -4,9 +4,17 @@ namespace :populate_candidate do
   task populate: :environment do
     #Rake::Task["populate_candidate:candidate"].invoke
     #Rake::Task["populate_candidate:candidate_mirror"].invoke
+<<<<<<< HEAD
     #Rake::Task["populate_candidate:situation_type"].invoke
     #Rake::Task["populate_candidate:procedural_type"].invoke
     #Rake::Task["populate_candidate:program"].invoke
+=======
+    Rake::Task["populate_candidate:situation_type"].invoke
+    Rake::Task["populate_candidate:procedural_type"].invoke
+    Rake::Task["populate_candidate:program"].invoke
+
+    p 'Candidate populado.'
+>>>>>>> ff8297a6725d39edf131711cb9bf48e3ba991b8f
   end
 
   task program: :environment do
