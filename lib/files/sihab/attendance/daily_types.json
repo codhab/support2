@@ -1,0 +1,235 @@
+{
+  "daily_types": [
+    {
+      "id": 1,
+      "name": "Andamento de Processo",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 2,
+      "name": "Aplicativo CODHAB",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 3,
+      "name": "Atualização Cadastral",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 4,
+      "name": "Candidato Impugnado",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 5,
+      "name": "Carteira Imobiliária",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 6,
+      "name": "Certidão Positiva",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 7,
+      "name": "Consta Imóvel",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 8,
+      "name": "Consta IPTU",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 9,
+      "name": "Candidato Contemplado",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 10,
+      "name": "Candidato Convocado",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 11,
+      "name": "Convocação Específica",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 12,
+      "name": "Cópia de Processo",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 13,
+      "name": "Escritura",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 14,
+      "name": "Candidato Excluido",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 15,
+      "name": "Formalização de Processo",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 16,
+      "name": "Candidato Impugnado",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 17,
+      "name": "Inclusão de Deficiente",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 18,
+      "name": "Inscrição Inicial",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 19,
+      "name": "Candidato Indeferido",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 20,
+      "name": "Candidato Inscrito",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 21,
+      "name": "Lote Legal",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 22,
+      "name": "Candidato Habilitado",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 23,
+      "name": "Candidato Não Habilitado",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 24,
+      "name": "Candidato Não se Recadastrou",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 25,
+      "name": "Candidato Não Compareceu",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 26,
+      "name": "Pontuação/Classificação",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 27,
+      "name": "Projeto na Medida",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 28,
+      "name": "Indicação Empreendimento",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 29,
+      "name": "Assistencia Técnica",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 30,
+      "name": "Regularização",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 31,
+      "name": "Produção Habitacional",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 32,
+      "name": "Solução de Requerimento Online",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 33,
+      "name": "Realocação",
+      "status": true,
+      "created_at": "2018-05-02T21:00:00.000-03:00",
+      "updated_at": "2018-05-02T21:00:00.000-03:00"
+    }
+  ]
+}

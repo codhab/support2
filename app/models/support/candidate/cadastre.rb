@@ -14,6 +14,7 @@ module Support
       has_many :cadastre_mirrors
       has_many :dependents
 
+
       def password=(value)
         self[:password] = BCrypt::Password.create(value)
       end

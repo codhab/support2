@@ -7,6 +7,8 @@ namespace :populate_candidate do
     Rake::Task["populate_candidate:situation_type"].invoke
     Rake::Task["populate_candidate:procedural_type"].invoke
     Rake::Task["populate_candidate:program"].invoke
+
+    p 'Candidate populado.'
   end
 
   task program: :environment do
