@@ -9,7 +9,7 @@ namespace :migrate_candidate do
     Rake::Task["migrate_candidate:situation_type"].invoke
     Rake::Task["migrate_candidate:indication_activity_type"].invoke
 
-    p 'Address populado.'
+    p 'Candidate populado.'
   end
 
   task activity_type: :environment do
@@ -87,9 +87,9 @@ namespace :migrate_candidate do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/candidate/indication_activity_types.json").read)
 
     populate.each do |state|
-      state_obj = Support::Candidate::SituationType.new(
+      state_obj = Support::Candidate::IndicationActivityType.new(
         name: state['name'],
-        description: state['description'],
+        status: state['status'],
         waiver: state['waiver'],
         created_at: state['created_at'],
         updated_at: state['updated_at'],

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "1ª Instância",
+    "description": "1ª Instância",
+    "status": true,
+    "created_at": "2016-10-05T21:00:00.000-03:00",
+    "updated_at": "2016-10-05T21:00:00.000-03:00"
+  },
+  {
+    "id": 2,
+    "name": "2ª Instância",
+    "description": "2ª Instância",
+    "status": true,
+    "created_at": "2016-10-05T21:00:00.000-03:00",
+    "updated_at": "2016-10-05T21:00:00.000-03:00"
+  },
+  {
+    "id": 3,
+    "name": "Outros",
+    "description": "Outros",
+    "status": true,
+    "created_at": "2016-10-05T21:00:00.000-03:00",
+    "updated_at": "2016-10-05T21:00:00.000-03:00"
+  }
+]
