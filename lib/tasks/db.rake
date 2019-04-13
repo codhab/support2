@@ -21,7 +21,9 @@ namespace :db do
   end
 
   task populate: :environment do
+
     Rake::Task['populate_candidate:populate'].invoke
+    Rake::Task['populate_attendance:populate'].invoke
     Rake::Task['populate_common:populate'].invoke
     Rake::Task['populate_pivotal:populate'].invoke
     Rake::Task['populate_entity:populate'].invoke
@@ -29,6 +31,10 @@ namespace :db do
     Rake::Task['populate_cms:populate'].invoke
     Rake::Task['populate_attendance:populate'].invoke
     Rake::Task['migrate_address:populate'].invoke
+    Rake::Task['migrate_candidate:populate'].invoke
+    #Rake::Task['migrate_pivotal:populate'].invoke
+    Rake::Task['migrate_sefaz:populate'].invoke
+    Rake::Task['migrate_juridical:populate'].invoke
   end
 
 end

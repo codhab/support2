@@ -2,6 +2,7 @@ require 'net/http'
 
 namespace :populate_attendance do
   task populate: :environment do
+<<<<<<< HEAD
     Rake::Task["populate_attendance:document_types"].invoke
     Rake::Task["populate_attendance:ticket_categories"].invoke
     Rake::Task["populate_attendance:situation_types"].invoke
@@ -20,10 +21,29 @@ namespace :populate_attendance do
       object.status                 = d['status']
       object.label_view_candidate   = d['label_view_candidate']
 
+=======
+    Rake::Task["populate_attendance:categories"].invoke
+    Rake::Task["populate_attendance:daily_types"].invoke
+    Rake::Task["populate_attendance:daily_preferential_types"].invoke
+    Rake::Task["populate_attendance:stations"].invoke
+    p 'Attendance populado.'
+  end
+
+  
+  task categories: :environment do
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/categories.json").read)
+
+    populate['categories'].each do |category|
+      object = Support::Attendance::Category.new
+      object.id                  = category['id']
+      object.name                = category['name']
+      object.status              = category['status']
+>>>>>>> 5c9031e901e893e7f069da318e40097c762f777c
       object.save(validate: false)
     end
   end
 
+<<<<<<< HEAD
   
   task document_types: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/tickets.json").read)
@@ -39,10 +59,21 @@ namespace :populate_attendance do
       object.sei_tranning_id  = d['sei_tranning_id']
       object.sei_label        = d['sei_label']
       
+=======
+  task daily_types: :environment do
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/daily_types.json").read)
+
+    populate['daily_types'].each do |daily_type|
+      object = Support::Attendance::DailyType.new
+      object.id                  = daily_type['id']
+      object.name                = daily_type['name']
+      object.status              = daily_type['status']
+>>>>>>> 5c9031e901e893e7f069da318e40097c762f777c
       object.save(validate: false)
     end
   end
 
+<<<<<<< HEAD
 
   task ticket_categories: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/tickets.json").read)
@@ -93,4 +124,33 @@ namespace :populate_attendance do
 
     end
   end
+=======
+  task daily_preferential_types: :environment do
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/daily_preferential_types.json").read)
+
+    populate['daily_preferential_types'].each do |daily_preferential_type|
+      object = Support::Attendance::DailyPreferentialType.new
+      object.id                  = daily_preferential_type['id']
+      object.name                = daily_preferential_type['name']
+      object.status              = daily_preferential_type['status']
+      object.save(validate: false)
+    end
+  end
+
+  task stations: :environment do
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/stations.json").read)
+
+    populate['stations'].each do |staion|
+      object = Support::Attendance::Station.new
+      object.id               = staion['id']
+      object.name             = staion['name']
+      object.status           = staion['status']
+      object.description      = staion['description']
+      object.lat              = staion['latitude']
+      object.lng              = staion['longitude']
+      object.save(validate: false)
+    end
+  end
+
+>>>>>>> 5c9031e901e893e7f069da318e40097c762f777c
 end

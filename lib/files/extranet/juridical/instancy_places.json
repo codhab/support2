@@ -1,0 +1,551 @@
+[
+  {
+    "id": 61,
+    "name": "10ª VARA DO TRABALHO DE BRASÍLIA",
+    "description": "10ª VARA DO TRABALHO DE BRASÍLIA",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.138-03:00",
+    "updated_at": "2016-10-06T18:13:51.138-03:00"
+  },
+  {
+    "id": 49,
+    "name": "11ª VARA DO TRABALHO",
+    "description": "11ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.094-03:00",
+    "updated_at": "2016-10-06T18:13:51.094-03:00"
+  },
+  {
+    "id": 29,
+    "name": "13ª VARA DO TRABALHO DE BRASÍLIA",
+    "description": "13ª VARA DO TRABALHO DE BRASÍLIA",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.031-03:00",
+    "updated_at": "2016-10-06T18:13:51.031-03:00"
+  },
+  {
+    "id": 31,
+    "name": "14ª VARA DO TRABALHO",
+    "description": "14ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.039-03:00",
+    "updated_at": "2016-10-06T18:13:51.039-03:00"
+  },
+  {
+    "id": 35,
+    "name": "15ª VARA DO TRABALHO",
+    "description": "15ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.055-03:00",
+    "updated_at": "2016-10-06T18:13:51.055-03:00"
+  },
+  {
+    "id": 50,
+    "name": "16ª VARA CÍVEL DE BRASÍLIA",
+    "description": "16ª VARA CÍVEL DE BRASÍLIA",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.098-03:00",
+    "updated_at": "2016-10-06T18:13:51.098-03:00"
+  },
+  {
+    "id": 45,
+    "name": "16ª VARA DO TRABALHO",
+    "description": "16ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.083-03:00",
+    "updated_at": "2016-10-06T18:13:51.083-03:00"
+  },
+  {
+    "id": 30,
+    "name": "17ª VARA DO TRABALHO",
+    "description": "17ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.035-03:00",
+    "updated_at": "2016-10-06T18:13:51.035-03:00"
+  },
+  {
+    "id": 60,
+    "name": "18ª VARA DO TRABALHO",
+    "description": "18ª VT",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.134-03:00",
+    "updated_at": "2016-10-06T18:13:51.134-03:00"
+  },
+  {
+    "id": 25,
+    "name": "19ª VARA DO TRABALHO",
+    "description": "19ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.014-03:00",
+    "updated_at": "2016-10-06T18:13:51.014-03:00"
+  },
+  {
+    "id": 10,
+    "name": "1ª Turma Cível",
+    "description": ".",
+    "status": true,
+    "instancy_id": 3,
+    "created_at": "2016-10-06T18:13:51.141-03:00",
+    "updated_at": "2016-10-06T18:13:51.141-03:00"
+  },
+  {
+    "id": 47,
+    "name": "1ª VARA CÍVEL, DE FAMÍLIA E DE ÓRFÃOS E SUCESSÕES DE BRAZLÂNDIA",
+    "description": "1ª VARA CÍVEL, DE FAMÍLIA E DE ÓRFÃOS E SUCESSÕES DE BRAZLÂNDIA",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.091-03:00",
+    "updated_at": "2016-10-06T18:13:51.091-03:00"
+  },
+  {
+    "id": 38,
+    "name": "1ª VARA CÍVEL DE SOBRADINHO",
+    "description": "1ª VARA CÍVEL DE SOBRADINHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.065-03:00",
+    "updated_at": "2016-10-06T18:13:51.065-03:00"
+  },
+  {
+    "id": 34,
+    "name": "1ª VARA CÍVEL DE SOBRADINHO",
+    "description": "1ª VARA CÍVEL DE SOBRADINHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.051-03:00",
+    "updated_at": "2016-10-06T18:13:51.051-03:00"
+  },
+  {
+    "id": 58,
+    "name": "1ª Vara Cível do Gama",
+    "description": "1ª Vara Cível do Gama",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.127-03:00",
+    "updated_at": "2016-10-06T18:13:51.127-03:00"
+  },
+  {
+    "id": 1,
+    "name": "1ª VARA DA FAZENDA PÚBLICA DO DF",
+    "description": ".",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:50.952-03:00",
+    "updated_at": "2016-10-06T18:13:50.952-03:00"
+  },
+  {
+    "id": 32,
+    "name": "1ª VARA DE EXECUÇÃO DE TÍTULOS EXTRAJUDICIAIS",
+    "description": "1ª VARA DE EXECUÇÃO DE TÍTULOS EXTRAJUDICIAIS",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.043-03:00",
+    "updated_at": "2016-10-06T18:13:51.043-03:00"
+  },
+  {
+    "id": 46,
+    "name": "1ª VARA DO TRABALHO BRASÍLIA",
+    "description": "1ª VARA DO TRABALHO BRASÍLIA",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.087-03:00",
+    "updated_at": "2016-10-06T18:13:51.087-03:00"
+  },
+  {
+    "id": 55,
+    "name": "1º JUIZADO ESPECIAL DA FAZENDA PÚBLICA DO DF",
+    "description": "1º JUIZADO ESPECIAL DA FAZENDA PÚBLICA DO DF",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.116-03:00",
+    "updated_at": "2016-10-06T18:13:51.116-03:00"
+  },
+  {
+    "id": 41,
+    "name": "20ª VARA FEDERAL",
+    "description": "20ª VARA FEDERAL",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.075-03:00",
+    "updated_at": "2016-10-06T18:13:51.075-03:00"
+  },
+  {
+    "id": 11,
+    "name": "2ª Turma Cível",
+    "description": ".",
+    "status": true,
+    "instancy_id": 2,
+    "created_at": "2016-10-06T18:13:51.145-03:00",
+    "updated_at": "2016-10-06T18:13:51.145-03:00"
+  },
+  {
+    "id": 48,
+    "name": "2ª TURMA - STJ",
+    "description": "2ª TURMA - STJ",
+    "status": true,
+    "instancy_id": 2,
+    "created_at": "2016-10-06T18:13:51.179-03:00",
+    "updated_at": "2016-10-06T18:13:51.179-03:00"
+  },
+  {
+    "id": 40,
+    "name": "2ª VARA CÍVEL CEILÂNDIA",
+    "description": "2ª VARA CÍVEL CEILÂNDIA",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.072-03:00",
+    "updated_at": "2016-10-06T18:13:51.072-03:00"
+  },
+  {
+    "id": 33,
+    "name": "2ª VARA CÍVEL CEILÂNDIA",
+    "description": "2ª VARA CÍVEL CEILÂNDIA",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.047-03:00",
+    "updated_at": "2016-10-06T18:13:51.047-03:00"
+  },
+  {
+    "id": 56,
+    "name": "2ª Vara Cível de Sobradinho",
+    "description": "2ª Vara Civel de Sobradinho",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.120-03:00",
+    "updated_at": "2016-10-06T18:13:51.120-03:00"
+  },
+  {
+    "id": 2,
+    "name": "2ª VARA DA FAZENDA PÚBLICA DO DF",
+    "description": ".",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:50.960-03:00",
+    "updated_at": "2016-10-06T18:13:50.960-03:00"
+  },
+  {
+    "id": 24,
+    "name": "2ª VARA DO TRABALHO",
+    "description": "2ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.010-03:00",
+    "updated_at": "2016-10-06T18:13:51.010-03:00"
+  },
+  {
+    "id": 52,
+    "name": "2ª VARA FEDERAL",
+    "description": "2ª VARA FEDERAL",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.105-03:00",
+    "updated_at": "2016-10-06T18:13:51.105-03:00"
+  },
+  {
+    "id": 18,
+    "name": "2º JUIZADO DA FAZENDA PÚBLICA DO DF",
+    "description": "2º JUIZADO DA FAZENDA PÚBLICA DO DF",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:50.995-03:00",
+    "updated_at": "2016-10-06T18:13:50.995-03:00"
+  },
+  {
+    "id": 12,
+    "name": "3ª Turma Cível",
+    "description": ".",
+    "status": true,
+    "instancy_id": 2,
+    "created_at": "2016-10-06T18:13:51.149-03:00",
+    "updated_at": "2016-10-06T18:13:51.149-03:00"
+  },
+  {
+    "id": 57,
+    "name": "3ª Vara Cível de Taguatinga",
+    "description": "3ª Vara Cível de Taguatinga",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.123-03:00",
+    "updated_at": "2016-10-06T18:13:51.123-03:00"
+  },
+  {
+    "id": 59,
+    "name": "3ª VARA DA FAZENDA PÚBLICA DO DF",
+    "description": "3ª VARA DA FAZENDA PÚBLICA DO DF",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.131-03:00",
+    "updated_at": "2016-10-06T18:13:51.131-03:00"
+  },
+  {
+    "id": 53,
+    "name": "3ª Vara Federal",
+    "description": "3ª Vara Federal",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.109-03:00",
+    "updated_at": "2016-10-06T18:13:51.109-03:00"
+  },
+  {
+    "id": 27,
+    "name": "3º JUIZADO ESPECIAL DA FAZENDA PÚBLICA DO DF",
+    "description": "3º JUIZADO ESPECIAL DA FAZENDA PÚBLICA DO DF",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.023-03:00",
+    "updated_at": "2016-10-06T18:13:51.023-03:00"
+  },
+  {
+    "id": 13,
+    "name": "4ª Turma Cível",
+    "description": ".",
+    "status": true,
+    "instancy_id": 2,
+    "created_at": "2016-10-06T18:13:51.153-03:00",
+    "updated_at": "2016-10-06T18:13:51.153-03:00"
+  },
+  {
+    "id": 4,
+    "name": "4ª VARA DA FAZENDA PÚBLICA DO DF",
+    "description": ".",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:50.969-03:00",
+    "updated_at": "2016-10-06T18:13:50.969-03:00"
+  },
+  {
+    "id": 28,
+    "name": "4ª VARA DO TRABALHO DF",
+    "description": "4ª VARA DO TRABALHO DF",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.027-03:00",
+    "updated_at": "2016-10-06T18:13:51.027-03:00"
+  },
+  {
+    "id": 14,
+    "name": "5ª Turma Cível",
+    "description": ".",
+    "status": true,
+    "instancy_id": 2,
+    "created_at": "2016-10-06T18:13:51.157-03:00",
+    "updated_at": "2016-10-06T18:13:51.157-03:00"
+  },
+  {
+    "id": 5,
+    "name": "5ª VARA DA FAZENDA PÚBLICA DO DF",
+    "description": ".",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:50.973-03:00",
+    "updated_at": "2016-10-06T18:13:50.973-03:00"
+  },
+  {
+    "id": 37,
+    "name": "5ª VARA DO TRABALHO",
+    "description": "5ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.062-03:00",
+    "updated_at": "2016-10-06T18:13:51.062-03:00"
+  },
+  {
+    "id": 36,
+    "name": "5ª VARA DO TRABALHO",
+    "description": "5ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.058-03:00",
+    "updated_at": "2016-10-06T18:13:51.058-03:00"
+  },
+  {
+    "id": 3,
+    "name": "5ª VARA DO TRABALHO",
+    "description": "5ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:50.965-03:00",
+    "updated_at": "2016-10-06T18:13:50.965-03:00"
+  },
+  {
+    "id": 15,
+    "name": "6ª Turma Cível",
+    "description": ".",
+    "status": true,
+    "instancy_id": 2,
+    "created_at": "2016-10-06T18:13:51.161-03:00",
+    "updated_at": "2016-10-06T18:13:51.161-03:00"
+  },
+  {
+    "id": 6,
+    "name": "6ª VARA DA FAZENDA PÚBLICA DO DF",
+    "description": ".",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:50.977-03:00",
+    "updated_at": "2016-10-06T18:13:50.977-03:00"
+  },
+  {
+    "id": 7,
+    "name": "7ª VARA DA FAZENDA PÚBLICA DO DF",
+    "description": ".",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:50.981-03:00",
+    "updated_at": "2016-10-06T18:13:50.981-03:00"
+  },
+  {
+    "id": 22,
+    "name": "7ª VARA DO TRABALHO",
+    "description": "7ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.003-03:00",
+    "updated_at": "2016-10-06T18:13:51.003-03:00"
+  },
+  {
+    "id": 21,
+    "name": "7ª VARA DO TRABALHO",
+    "description": "7ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:50.999-03:00",
+    "updated_at": "2016-10-06T18:13:50.999-03:00"
+  },
+  {
+    "id": 8,
+    "name": "8ª VARA DA FAZENDA PÚBLICA DO DF",
+    "description": ".",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:50.984-03:00",
+    "updated_at": "2016-10-06T18:13:50.984-03:00"
+  },
+  {
+    "id": 23,
+    "name": "8ª VARA DO TRABALHO",
+    "description": "8ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.006-03:00",
+    "updated_at": "2016-10-06T18:13:51.006-03:00"
+  },
+  {
+    "id": 39,
+    "name": "9ª VARA DO TRABALHO",
+    "description": "9ª VARA DO TRABALHO",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.069-03:00",
+    "updated_at": "2016-10-06T18:13:51.069-03:00"
+  },
+  {
+    "id": 54,
+    "name": "9ª Vara Federal",
+    "description": "9ª Vara Federal",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.113-03:00",
+    "updated_at": "2016-10-06T18:13:51.113-03:00"
+  },
+  {
+    "id": 17,
+    "name": "Outros",
+    "description": ".",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:50.992-03:00",
+    "updated_at": "2016-10-06T18:13:50.992-03:00"
+  },
+  {
+    "id": 16,
+    "name": "Outros",
+    "description": ".",
+    "status": true,
+    "instancy_id": 3,
+    "created_at": "2016-10-06T18:13:51.182-03:00",
+    "updated_at": "2016-10-06T18:13:51.182-03:00"
+  },
+  {
+    "id": 42,
+    "name": "STJ - 3ª TURMA",
+    "description": "STJ - 3ª TURMA",
+    "status": true,
+    "instancy_id": 2,
+    "created_at": "2016-10-06T18:13:51.171-03:00",
+    "updated_at": "2016-10-06T18:13:51.171-03:00"
+  },
+  {
+    "id": 43,
+    "name": "STJ - 4ª TURMA",
+    "description": "STJ - 4ª TURMA",
+    "status": true,
+    "instancy_id": 2,
+    "created_at": "2016-10-06T18:13:51.175-03:00",
+    "updated_at": "2016-10-06T18:13:51.175-03:00"
+  },
+  {
+    "id": 19,
+    "name": "SUREC",
+    "description": "SUREC",
+    "status": true,
+    "instancy_id": 2,
+    "created_at": "2016-10-06T18:13:51.164-03:00",
+    "updated_at": "2016-10-06T18:13:51.164-03:00"
+  },
+  {
+    "id": 20,
+    "name": "SUREC",
+    "description": "SUREC",
+    "status": true,
+    "instancy_id": 2,
+    "created_at": "2016-10-06T18:13:51.168-03:00",
+    "updated_at": "2016-10-06T18:13:51.168-03:00"
+  },
+  {
+    "id": 26,
+    "name": "VARA CÍVEL DO PARANOÁ",
+    "description": "VARA CÍVEL DO PARANOÁ",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.018-03:00",
+    "updated_at": "2016-10-06T18:13:51.018-03:00"
+  },
+  {
+    "id": 51,
+    "name": "Vara Cível do Riacho Fundo",
+    "description": "Vara Cível do Riacho Fundo",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.101-03:00",
+    "updated_at": "2016-10-06T18:13:51.101-03:00"
+  },
+  {
+    "id": 9,
+    "name": "VARA DE MEIO AMBIENTE, DESENVOLVIMENTO URBANO E FUNDIÁRIO DO DF",
+    "description": ".",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:50.988-03:00",
+    "updated_at": "2016-10-06T18:13:50.988-03:00"
+  },
+  {
+    "id": 44,
+    "name": "Vara de Registros Públicos DF",
+    "description": "Vara de Registros Públicos DF",
+    "status": true,
+    "instancy_id": 1,
+    "created_at": "2016-10-06T18:13:51.080-03:00",
+    "updated_at": "2016-10-06T18:13:51.080-03:00"
+  }
+]

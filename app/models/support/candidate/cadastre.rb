@@ -19,6 +19,7 @@ module Support
       
       validates :cpf, cpf: true, presence: true
 
+
       def password=(value)
         self[:password] = BCrypt::Password.create(value)
       end

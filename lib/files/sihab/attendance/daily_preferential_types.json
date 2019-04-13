@@ -1,0 +1,33 @@
+
+{
+  "daily_preferential_types": [
+     {
+      "id": 1,
+      "name": "Idoso",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 2,
+      "name": "Deficiente",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 3,
+      "name": "Gestante",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    },
+    {
+      "id": 4,
+      "name": "Criança de Colo",
+      "status": true,
+      "created_at": "2017-12-31T22:00:00.000-02:00",
+      "updated_at": "2017-12-31T22:00:00.000-02:00"
+    }
+  ]
+}

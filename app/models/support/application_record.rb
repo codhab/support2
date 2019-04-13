@@ -19,7 +19,7 @@ module Support
     end
 
     private 
-    
+
     def call_presenter(presenter_class, model, view = nil)
       presenter = presenter_class.constantize.new(model, view)
       block_given? ? yield(presenter) : presenter
