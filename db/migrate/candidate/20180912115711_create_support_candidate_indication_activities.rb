@@ -4,15 +4,16 @@ class CreateSupportCandidateIndicationActivities < ActiveRecord::Migration[5.2]
       t.integer :cadastre_indication_id
       t.integer :activity_type_id
       t.integer :user_id
+      t.text    :observation
       t.boolean :computer, default: false
       t.boolean :company,  default: false
       t.boolean :staff,    default: true
-      t.integer :ticket_id 
-      
+      t.integer :ticket_id
+
       t.timestamps
 
       t.boolean  :deleted, default: false
-      t.datetime :deleted_at, default: nil      
+      t.datetime :deleted_at, default: nil
     end
   end
 end
