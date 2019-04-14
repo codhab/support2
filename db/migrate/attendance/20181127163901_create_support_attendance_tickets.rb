@@ -26,16 +26,9 @@ class CreateSupportAttendanceTickets < ActiveRecord::Migration[5.2]
       t.integer  :supervisor_status, default: nil
       t.datetime :supervisor_status_at
       t.text     :supervisor_observation
-
-      t.boolean  :deferred, default: nil
-
-      t.boolean  :internal, default: false
-
-      t.boolean  :status, default: true
       
-      t.boolean  :wait_cadastre, default: true
-      t.boolean  :wait_request,  default: false
-
+      t.boolean  :internal, default: false
+      
       t.timestamps
 
       t.boolean  :deleted, default: false

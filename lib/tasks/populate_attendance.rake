@@ -2,11 +2,29 @@ require 'net/http'
 
 namespace :populate_attendance do
   task populate: :environment do
+    Rake::Task["populate_attendance:document_types"].invoke
+    Rake::Task["populate_attendance:ticket_categories"].invoke
+    Rake::Task["populate_attendance:situation_types"].invoke
     Rake::Task["populate_attendance:categories"].invoke
     Rake::Task["populate_attendance:daily_types"].invoke
     Rake::Task["populate_attendance:daily_preferential_types"].invoke
     Rake::Task["populate_attendance:stations"].invoke
-    p 'Attendance populado.'
+
+    puts "Attendance populate"
+  end
+
+  task situation_types: :environment do
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/tickets.json").read)
+
+    populate['situation_types'].each do |d|
+      object = Support::Attendance::TicketSituationType.new
+      object.id                     = d['id']
+      object.name                   = d['name']
+      object.code                   = d['code']
+      object.status                 = d['status']
+      object.label_view_candidate   = d['label_view_candidate']
+
+    end
   end
 
   
@@ -22,6 +40,24 @@ namespace :populate_attendance do
     end
   end
 
+  
+  task document_types: :environment do
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/tickets.json").read)
+
+    populate['document_types'].each do |d|
+      object = Support::Attendance::DocumentType.new
+      object.id               = d['id']
+      object.code             = d['code']
+      object.name             = d['name']
+      object.introduction     = d['introduction']
+      object.status           = d['status']
+      object.sei_group_id     = d['sei_group_id']
+      object.sei_tranning_id  = d['sei_tranning_id']
+      object.sei_label        = d['sei_label']
+    end
+  end
+
+
   task daily_types: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/daily_types.json").read)
 
@@ -31,6 +67,56 @@ namespace :populate_attendance do
       object.name                = daily_type['name']
       object.status              = daily_type['status']
       object.save(validate: false)
+    end
+  end
+
+
+  task ticket_categories: :environment do
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/tickets.json").read)
+    
+    populate['ticket_categories'].each do |c|
+      object = Support::Attendance::TicketCategory.new
+
+      object.name                   = c["name"]
+      object.status                 = c["status"]
+      object.unique                 = c["unique"]
+      object.filter_situation       = c["filter_situation"]
+      object.filter_situation_id    = c["filter_situation_id"] 
+      object.filter_convocation     = c["filter_convocation"]
+      object.filter_convocation_id  = c["filter_convocation_id"] 
+      object.filter_program_id      = c["filter_program_id"] 
+
+      object.save(validate: false)
+
+      if c.has_key?('steps')
+        c['steps'].each do |s|
+          obj = Support::Attendance::TicketCategoryStep.new
+          obj.name                = s["name"]
+          obj.resume              = s["resume"]
+          obj.view_form           = s["view_form"]
+          obj.document_required   = s["document_required"]
+          obj.step_required       = s["step_required"]
+          obj.screen_order        = s["screen_order"]
+          obj.allow_confirmation  = s["allow_confirmation"]
+          obj.status              = s["status"]
+
+          obj.ticket_category_id  = object.id
+
+          obj.save(validate: false)
+
+          if s.has_key?('step_documents')
+            s['step_documents'].each do |sd|
+              obje = Support::Attendance::StepDocument.new
+              obje.category_step_id  = obj.id
+              obje.document_type_id  = sd["document_type_id"]
+              
+              obje.save(validate: false)
+            end
+          end 
+      
+        end
+      end
+
     end
   end
 

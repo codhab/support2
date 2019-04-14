@@ -23,6 +23,9 @@ class CreateSupportCandidateDependentMirrors < ActiveRecord::Migration[5.2] # :n
       t.string  :nationality
       t.date    :admission_date
 
+      t.boolean :created, default: false
+      t.boolean :removed, default: false
+
       t.timestamps
 
       t.boolean  :deleted, default: false

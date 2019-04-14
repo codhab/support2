@@ -12,7 +12,7 @@ module Support
       }
 
       scope :federal_district, -> {
-        where(state_id: 7)
+        where(state_id: 7).order(:name)
       }
     end
   end

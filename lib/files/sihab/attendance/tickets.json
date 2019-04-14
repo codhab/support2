@@ -1,17 +1,670 @@
 {
+
+  "situation_types": [
+    { 
+      "id": 1,
+      "name": "pendente com candidato",
+      "code": "candidate_pendent",
+      "status": true,
+      "label_view_candidate": "Pendente"
+    },
+    {
+      "id": 2,
+      "name": "pendente com atendente",
+      "code": "attendant_pendent",
+      "status": true,
+      "label_view_candidate": "Em análise pela CODHAB"
+    },
+    {
+      "id": 3,
+      "name": "pendente com supervisor",
+      "code": "supervisor_pendent",
+      "status": true,
+      "label_view_candidate": "Em análise pela CODHAB"
+    },
+    {
+      "id": 4,
+      "name": "deferido",
+      "code": "accepted",
+      "status": true,
+      "label_view_candidate": "Finalizado (Deferido)"
+    },
+    {
+      "id": 5,
+      "name": "indeferido",
+      "code": "decline",
+      "status": true,
+      "label_view_candidate": "Finalizado (Indeferido)"
+    },
+    {
+      "id": 6,
+      "name": "cancelado",
+      "code": "cancel",
+      "status": true,
+      "label_view_candidate": "Cancelado"
+    }
+  ],
+  "document_types": [
+    {
+      "id": 1,
+      "code": 0,
+      "name": "Documento de identificação (frente e verso)",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 1,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952, 
+      "sei_label": "RG"
+    },
+    {
+      "id": 2,
+      "code": 1,
+      "name": "Comprovante CPF",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 2,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952,
+      "sei_label": "CPF"
+    },
+    {
+      "id": 3,
+      "code": 2,
+      "name": "Comprovante de residência no DF nos últimos 5 anos.",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 3,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952,
+      "sei_label": "Comprovante de residência"
+    },
+    {
+      "id": 4,
+      "code": 3,
+      "name": "Comprovante de tempo de domicílio",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 4,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952,
+      "sei_label": "Tempo de brasília"
+    },
+    {
+      "id": 5,
+      "code": 4,
+      "name": "Comprovantes da deficiência declarada",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 4,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952,
+      "sei_label": "Deficiência"
+    },
+    {
+      "id": 6,
+      "code": 5,
+      "name": "Comprovantes para remoção de cônjuge",
+      "introduction": "Quando união estável enviar a dissolução e a desistência, quando divórcio certidão averbada e quando óbito favor enviar a certidão de óbito.",
+      "status": true,
+      "sei_group_id": 5,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952,
+      "sei_label": "Remoção de cônjuge"
+    },
+    {
+      "id": 7,
+      "code": 6,
+      "name": "Certidão de nascimento",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 6,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Nascimento"
+    },
+    {
+      "id": 8,
+      "code": 7,
+      "name": "Declaração de união estável com firma reconhecida",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 7,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952,
+      "sei_label": "União estável"
+    },
+    {
+      "id": 9,
+      "code": 8,
+      "name": "Certidão de casamento",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 8,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Casamento"
+    },
+    {
+      "id": 10,
+      "code": 9,
+      "name": "Comprovante de renda do titular (Carteira de trabalho)",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 9,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952,
+      "sei_label": "Renda (titular)"
+    },
+    {
+      "id": 11,
+      "code": 10,
+      "name": "Comprovante de renda (Dependente)",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 10,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952,
+      "sei_label": "Renda (dependente)"
+    },
+    {
+      "id": 12,
+      "code": 11,
+      "name": "Certidão de nascimento do dependente",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 11,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Nascimento (dependente)"
+    },
+    {
+      "id": 13,
+      "code": 12,
+      "name": "Comprovante de deficiência declarada (dependente)",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 12,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952,
+      "sei_label": "Deficiência (dependente)"
+    },
+    {
+      "id": 14,
+      "code": 13,
+      "name": "CPF do dependente",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 13,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952,
+      "sei_label": "CPF (dependente)"
+    },
+    {
+      "id": 15,
+      "code": 14,
+      "name": "Certidão de tutela / curatela",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 14,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952,
+      "sei_label": "Tutela / curatela)"
+    },
+    {
+      "id": 16,
+      "code": 15,
+      "name": "Documento de identificação (frente e verso) do dependente",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 15,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952,
+      "sei_label": "Identificação (dependente)"
+    },
+    {
+      "id": 17,
+      "code": 16,
+      "name": "Cartorária - 1º Ofício",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 16,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Cartorária"
+    }, 
+    {
+      "id": 18,
+      "code": 17,
+      "name": "Cartorária - 2º Ofício",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 16,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Cartorária"
+    },
+    {
+      "id": 19,
+      "code": 18,
+      "name": "Cartorária - 3º Ofício",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 16,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Cartorária"
+    },
+    {
+      "id": 20,
+      "code": 19,
+      "name": "Cartorária - 4º Ofício",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 16,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Cartorária"
+    },
+    {
+      "id": 21,
+      "code": 20,
+      "name": "Cartorária - 5º Ofício",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 16,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Cartorária"
+    },
+    {
+      "id": 22,
+      "code": 21,
+      "name": "Cartorária - 6º Ofício",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 16,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Cartorária"
+    },
+    {
+      "id": 23,
+      "code": 22,
+      "name": "Cartorária - 7º Ofício",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 16,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Cartorária"
+    },
+    {
+      "id": 24,
+      "code": 22,
+      "name": "Cartorária - 8º Ofício",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 16,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Cartorária"
+    },
+    {
+      "id": 25,
+      "code": 23,
+      "name": "Cartorária - 9º Ofício",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 16,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Cartorária"
+    },
+    {
+      "id": 26,
+      "code": 24,
+      "name": "Cartorária - Cônjuge",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 16,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Cartorária"
+    },
+    {
+      "id": 27,
+      "code": 25,
+      "name": "Declaração de imposto de renda do titular",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 17,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Imposto de renda"
+    },
+    {
+      "id": 28,
+      "code": 26,
+      "name": "Declaração de escolaridade",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 18,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Escolaridade"
+    },
+    {
+      "id": 29,
+      "code": 27,
+      "name": "Certidão de óbito de cônjuge",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 19,
+      "sei_tranning_id": 504,
+      "sei_production_id": 504,
+      "sei_label": "Óbito"
+    },
+    {
+      "id": 30,
+      "code": 28,
+      "name": "Documentação de divórcio",
+      "introduction": "As fotos devem estar legíveis e compatíveis com a documentação solicitada.",
+      "status": true,
+      "sei_group_id": 20,
+      "sei_tranning_id": 952,
+      "sei_production_id": 952,
+      "sei_label": "Escolaridade"
+    }
+  ],
+
   "ticket_categories": [
     {
       "name": "Habilitação",
       "status": true,
-      "only_one": true,
       "unique": true,
       "filter_situation": true,
       "filter_situation_id": "3",
-      "filter_convocation": true,
-      "filter_convocation_id": 1456,
+      "filter_convocation": false,
+      "filter_convocation_id": "",
       "filter_program": true,
-      "filter_program_id": 1,
-      "filter_sub_program": false
+      "filter_program_id": "1",
+      "steps": [
+        {
+          "name": "Dados básicos",
+          "resume": "Atualização de dados do titular",
+          "view_form": "cadastre",
+          "document_required": true,
+          "step_required": true,
+          "screen_order": 0,
+          "allow_confirmation": false,
+          "status": true,
+          "step_documents": [
+            { "document_type_id": 1 },
+            { "document_type_id": 2 },
+            { "document_type_id": 3 },
+            { "document_type_id": 4 },
+            { "document_type_id": 5 },
+            { "document_type_id": 7 },
+            { "document_type_id": 8 },
+            { "document_type_id": 9 },
+            { "document_type_id": 28 },
+            { "document_type_id": 27 },
+            { "document_type_id": 29 },
+            { "document_type_id": 30 }
+          ]
+        },
+        {
+          "name": "Dependentes",
+          "resume": "Atualização de informações dos dependentes",
+          "view_form": "dependent",
+          "document_required": true,
+          "step_required": true,
+          "screen_order": 1,
+          "allow_confirmation": false,
+          "status": true,
+          "step_documents": [
+            { "document_type_id": 12 },
+            { "document_type_id": 13 },
+            { "document_type_id": 14 },
+            { "document_type_id": 15 },
+            { "document_type_id": 16 },
+            { "document_type_id": 6 }
+          ]
+        },
+        {
+          "name": "Renda",
+          "resume": "Atualização de renda",
+          "view_form": "income",
+          "document_required": true,
+          "step_required": true,
+          "screen_order": 2,
+          "allow_confirmation": false,
+          "status": true,
+          "step_documents": [
+            {"document_type_id": 10 },
+            {"document_type_id": 27 },
+            {"document_type_id": 11 }
+          ]
+        },
+        {
+          "name": "Contatos",
+          "resume": "Atualização de dados de contato",
+          "view_form": "contact",
+          "document_required": true,
+          "step_required": true,
+          "screen_order": 3,
+          "allow_confirmation": false,
+          "status": true
+        },                        
+        {
+          "name": "Catorária",
+          "resume": "Envio de catorárias",
+          "view_form": "carton",
+          "document_required": true,
+          "step_required": true,
+          "screen_order": 4,
+          "allow_confirmation": false,
+          "status": true,
+          "step_documents": [
+            {"document_type_id": 17},
+            {"document_type_id": 18},
+            {"document_type_id": 19},
+            {"document_type_id": 20},
+            {"document_type_id": 21},
+            {"document_type_id": 23},
+            {"document_type_id": 24},
+            {"document_type_id": 25},
+            {"document_type_id": 26}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Atualização cadastral",
+      "status": true,
+      "unique": true,
+      "filter_situation": true,
+      "filter_situation_id": 68,
+      "filter_program": true,
+      "filter_program_id": "1",
+      "steps": [
+        {
+          "name": "Dados básicos",
+          "resume": "Atualização de dados do titular",
+          "view_form": "cadastre",
+          "document_required": true,
+          "step_required": true,
+          "screen_order": 0,
+          "allow_confirmation": true,
+          "status": true,
+          "step_documents": [
+            { "document_type_id": 1 },
+            { "document_type_id": 2 },
+            { "document_type_id": 3 },
+            { "document_type_id": 4 },
+            { "document_type_id": 5 },
+            { "document_type_id": 7 },
+            { "document_type_id": 8 },
+            { "document_type_id": 9 },
+            { "document_type_id": 28 },
+            { "document_type_id": 27 },
+            { "document_type_id": 29 },
+            { "document_type_id": 30 }
+          ]
+        },
+        {
+          "name": "Dependentes",
+          "resume": "Atualização de informações dos dependentes",
+          "view_form": "dependent",
+          "document_required": true,
+          "step_required": true,
+          "screen_order": "1",
+          "allow_confirmation": true,
+          "status": true,
+          "step_documents": [
+            {"document_type_id": 10},
+            {"document_type_id": 27},
+            {"document_type_id": 11}
+          ]
+        },              
+        {
+          "name": "Renda",
+          "resume": "Atualização de renda",
+          "view_form": "income",
+          "document_required": true,
+          "step_required": true,
+          "screen_order": 2,
+          "allow_confirmation": true,
+          "status": true,
+          "step_documents": [
+            { "document_type_id": 10 },
+            { "document_type_id": 27 },
+            { "document_type_id": 11 }
+          ]
+        },
+        {
+          "name": "Contatos",
+          "resume": "Atualização de dados de contato",
+          "view_form": "contact",
+          "document_required": true,
+          "step_required": true,
+          "screen_order": 3,
+          "allow_confirmation": true,
+          "status": true
+        }
+      ]
+    },
+    {
+      "name": "Atualização de dados",
+      "status": true,
+      "unique": false,
+      "filter_situation": true,
+      "filter_situation_id": "4",
+      "filter_program": true,
+      "filter_program_id": "1",
+      "steps": [
+        {
+          "name": "Dados básicos",
+          "resume": "Atualização de dados do titular",
+          "view_form": "cadastre",
+          "document_required": true,
+          "step_required": false,
+          "screen_order": 0,
+          "allow_confirmation": false,
+          "status": true,
+          "step_documents": [
+            {
+              "document_type_id": 1
+            },
+            {
+              "document_type_id": 2
+            },
+            {
+              "document_type_id": 3
+            },
+            {
+              "document_type_id": 4
+            },
+            {
+              "document_type_id": 5
+            },
+            {
+              "document_type_id": 7
+            },
+            {
+              "document_type_id": 8
+            },
+            {
+              "document_type_id": 9
+            },
+            {
+              "document_type_id": 28
+            },
+            {
+              "document_type_id": 27
+            },
+            {
+              "document_type_id": 29
+            },
+            {
+              "document_type_id": 30
+            }
+          ]
+        },
+        {
+          "name": "Dependentes",
+          "resume": "Atualização de informações dos dependentes",
+          "view_form": "dependent",
+          "document_required": false,
+          "step_required": true,
+          "screen_order": 1,
+          "allow_confirmation": false,
+          "status": true,
+          "step_documents": [
+            {
+              "document_type_id": 10
+            },
+            {
+              "document_type_id": 27
+            },
+            {
+              "document_type_id": 11
+            }
+          ]
+        },
+        {
+          "name": "Renda",
+          "resume": "Atualização de renda",
+          "view_form": "income",
+          "document_required": true,
+          "step_required": false,
+          "screen_order": 2,
+          "allow_confirmation": false,
+          "status": true,
+          "step_documents": [
+            {
+              "document_type_id": 10
+            },
+            {
+              "document_type_id": 27
+            },
+            {
+              "document_type_id": 11
+            }
+          ]
+        },
+        {
+          "name": "Contatos",
+          "resume": "Atualização de dados de contato",
+          "view_form": "contact",
+          "document_required": true,
+          "step_required": false,
+          "screen_order": 3,
+          "allow_confirmation": false,
+          "status": true
+        }
+      ]
     }
   ]
+
 }

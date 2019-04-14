@@ -27,7 +27,7 @@ module Support
       end
       
       def current_situation_name
-        current_situation.situation_type.name
+        current_situation.situation_type.name.humanize
       rescue StandardError
         'Sem informação de situação cadastral'
       end
@@ -40,11 +40,8 @@ module Support
         current_convocation.id
       end
       
-      def age
-        born.present? ? ((Date.today - born).to_i / 365.25).to_i : 'Sem informação de idade.'
-      end
-
-      def program_name
+      
+      def current_program_name
         prog = program.name rescue nil
         sub_prog = "(#{sub_program.name})" if sub_program.present?
         result = prog.present? || sub_prog.present? ? "#{prog} #{sub_prog}" : 'Sem informação de programa'

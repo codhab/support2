@@ -30,6 +30,7 @@ namespace :db do
     Rake::Task['populate_entity:populate'].invoke
     Rake::Task['populate_helpdesk:populate'].invoke
     Rake::Task['populate_cms:populate'].invoke
+    Rake::Task['populate_attendance:populate'].invoke
     Rake::Task['migrate_address:populate'].invoke
     Rake::Task['migrate_candidate:populate'].invoke
     Rake::Task['migrate_sefaz:populate'].invoke

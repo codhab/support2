@@ -7,12 +7,17 @@ module Support
       
       audited
 
+      belongs_to :program
+      belongs_to :sub_program, class_name: "Candidate::Cadastre::Program"
+      
       has_many :cadastre_pontuations
       has_many :cadastre_situations
       has_many :cadastre_activities
       has_many :cadastre_indications
       has_many :cadastre_mirrors
       has_many :dependents
+      
+      validates :cpf, cpf: true, presence: true
 
 
       def password=(value)
@@ -23,21 +28,10 @@ module Support
         call_presenter('Support::Candidate::CadastrePresenter', self)
       end
 
-      def current_situation
-        self.cadastre_situations.order(created_at: :asc).last.situation_type.name rescue nil
-      end
-
-      def current_valid_mirror
-        self.cadastre_mirrors.order(created_at: :asc, status: true).last.id rescue nil
+      def age
+        born.present? ? ((Date.today - born).to_i / 365.25).to_i : 'Sem informação de idade.'
       end
       
-      def current_convocation
-        self.cadastre_convocations.order(created_at: :asc).where(status: true).last.convocation rescue nil
-      end
-
-      def enabled?
-        self.current_situation.situation_type_id == 4
-      end
     end
   end
 end

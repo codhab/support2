@@ -4,7 +4,7 @@ class CreateSupportAttendanceTicketSituationTypes < ActiveRecord::Migration[5.2]
       t.integer :code
       t.string  :name
       t.boolean :status, default: true 
-      t.boolean :allowed_view_candidate, default: false
+      t.string  :label_view_candidate
 
       t.timestamps
 
