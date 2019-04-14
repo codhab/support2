@@ -20,6 +20,9 @@ class CreateSupportCandidateDependents < ActiveRecord::Migration[5.2] # :nodoc:
       t.string  :employment
       t.string  :nationality
       t.date    :admission_date
+      t.boolean :deceased, default: false
+      t.date    :deceased_date
+      t.string  :deceased_observation
 
       t.timestamps
 

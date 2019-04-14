@@ -15,7 +15,7 @@ class CreateSupportBrbInvoices < ActiveRecord::Migration[5.2] # :nodoc:
       t.integer  :situation_id
       t.integer  :invoice_type_id
       t.date     :due
-      t.decimal  :value, precision: 8, scale: 2
+      t.decimal  :value, precision: 12, scale: 2
       t.text     :message
       t.date     :payment
       t.date     :credit

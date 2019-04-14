@@ -29,7 +29,7 @@ namespace :migrate_candidate do
 
     populate.each do |state|
       state_obj = Support::Candidate::Convocation.new(
-        description: state['description'],
+        name: state['description'],
         start_date: state['date_start'],
         end_date: state['date_end'],
         quantity: state['quantity'],

@@ -7,7 +7,7 @@ module Support
 
       audited
 
-      belongs_to :program
+      belongs_to :program, required: false
 
       scope :by_program_id, -> (value) {
         where(program_id: value)
