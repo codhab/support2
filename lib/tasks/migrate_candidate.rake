@@ -77,7 +77,7 @@ namespace :migrate_candidate do
     populate.each do |state|
       state_obj = Support::Candidate::SituationType.new(
         name: state['name'],
-        program_id: state['id']
+        program_id: state['program_id'],
         id: state['id']
        )
       state_obj.save
