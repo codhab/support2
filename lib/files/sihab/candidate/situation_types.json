@@ -1,280 +1,623 @@
-{
-  "situations": [
-    {
-      "id": 31,
-      "name": "cadastrado-cooperativa desclassificada"
-    },
-    {
-      "id": 19,
-      "name": "cadastro inativo - sem cpf"
-    },
-    {
-      "id": 34,
-      "name": "cadastro sub-judice"
-    },
-    {
-      "id": 43,
-      "name": "candidato impugnado pela entidade"
-    },
-    {
-      "id": 29,
-      "name": "constou em outra inscricao"
-    },
-    {
-      "id": 23,
-      "name": "constou em outra inscrição"
-    },
-    {
-      "id": 20,
-      "name": "constou imóvel no df"
-    },
-    {
-      "id": 24,
-      "name": "constou imóvel no df"
-    },
-    {
-      "id": 63,
-      "name": "contemplado-cancelado por edital"
-    },
-    {
-      "id": 5,
-      "name": "contemplado (cheque-lote)"
-    },
-    {
-      "id": 41,
-      "name": "contemplado c/imóvel outro programa"
-    },
-    {
-      "id": 12,
-      "name": "contemplado (devolvido)"
-    },
-    {
-      "id": 33,
-      "name": "contemplado (duplo benefÍcio)"
-    },
-    {
-      "id": 44,
-      "name": "contemplado - imóvel distribuÍdo"
-    },
-    {
-      "id": 7,
-      "name": "contemplado - imóvel entregue"
-    },
-    {
-      "id": 9,
-      "name": "contemplado (quitado)"
-    },
-    {
-      "id": 10,
-      "name": "contemplado (sec. desenv. social)"
-    },
-    {
-      "id": 45,
-      "name": "contemplado - sobrestado"
-    },
-    {
-      "id": 32,
-      "name": "contemplado sub-judice"
-    },
-    {
-      "id": 8,
-      "name": "contemplado (transferido)"
-    },
-    {
-      "id": 49,
-      "name": "Conv Antiga Liberado Recadastrar MB"
-    },
-    {
-      "id": 73,
-      "name": "Convocação cancelada por edital"
-    },
-    {
-      "id": 13,
-      "name": "convocado c/ imovel designado"
-    },
-    {
-      "id": 37,
-      "name": "convocado com processo em andamento"
-    },
-    {
-      "id": 47,
-      "name": "convocado e não habilitado - não compareceu"
-    },
-    {
-      "id": 3,
-      "name": "convocado para entrega de documentação"
-    },
-    {
-      "id": 30,
-      "name": "cpf com dados inconsistentes"
-    },
-    {
-      "id": 40,
-      "name": "dependente em cadastro de convocado"
-    },
-    {
-      "id": 36,
-      "name": "desclassificado pela entidade"
-    },
-    {
-      "id": 51,
-      "name": "Desistente"
-    },
-    {
-      "id": 25,
-      "name": "em habilitação"
-    },
-    {
-      "id": 14,
-      "name": "excluido"
-    },
-    {
-      "id": 56,
-      "name": "excluído - 3 recusas"
-    },
-    {
-      "id": 46,
-      "name": "excluído a pedido"
-    },
-    {
-      "id": 55,
-      "name": "excluído por edital"
-    },
-    {
-      "id": 64,
-      "name": "falecido"
-    },
-    {
-      "id": 65,
-      "name": "habilitação cancelada por edital"
-    },
-    {
-      "id": 4,
-      "name": "habilitado - documentação aprovada"
-    },
-    {
-      "id": 67,
-      "name": "habilitado - em análise"
-    },
-    {
-      "id": 70,
-      "name": "habilitado - em atendimento"
-    },
-    {
-      "id": 15,
-      "name": "habilitado - indeferido"
-    },
-    {
-      "id": 68,
-      "name": "habilitado - pendente de atualização"
-    },
-    {
-      "id": 54,
-      "name": "habilitado - sobrestado"
-    },
-    {
-      "id": 50,
-      "name": "indeferido - documentação reprovada"
-    },
-    {
-      "id": 71,
-      "name": "indeferido - imóvel retomado"
-    },
-    {
-      "id": 72,
-      "name": "Indeferido - não habilitado"
-    },
-    {
-      "id": 2,
-      "name": "inscrito - cadastro inicial"
-    },
-    {
-      "id": 69,
-      "name": "inscrito - eventual entidade"
-    },
-    {
-      "id": 35,
-      "name": "inscrito-pontuacao alterada(dec.judicial)"
-    },
-    {
-      "id": 48,
-      "name": "liberado para recadastramento"
-    },
-    {
-      "id": 39,
-      "name": "menos de 5 anos de df"
-    },
-    {
-      "id": 38,
-      "name": "não compareceu p/formalizar proc"
-    },
-    {
-      "id": 1,
-      "name": "não se recadastrou"
-    },
-    {
-      "id": 74,
-      "name": "Realocação"
-    },
-    {
-      "id": 52,
-      "name": "Recadastramento (Morar Bem)"
-    },
-    {
-      "id": 6,
-      "name": "regularizacao condominios"
-    },
-    {
-      "id": 17,
-      "name": "regularização não concluida."
-    },
-    {
-      "id": 53,
-      "name": "remoção"
-    },
-    {
-      "id": 11,
-      "name": "remocao/fixacao"
-    },
-    {
-      "id": 22,
-      "name": "renda familiar superior 12 sm"
-    },
-    {
-      "id": 27,
-      "name": "renda superior 12 sm e constou imóvel"
-    },
-    {
-      "id": 42,
-      "name": "requereu regularização lote"
-    },
-    {
-      "id": 21,
-      "name": "reside fora do df"
-    },
-    {
-      "id": 26,
-      "name": "reside fora do df e constou imóvel"
-    },
-    {
-      "id": 28,
-      "name": "reside fora do df e renda superior 12 sm"
-    },
-    {
-      "id": 16,
-      "name": "retomado"
-    },
-    {
-      "id": 66,
-      "name": "titularidade alterada"
-    },
-    {
-      "id": 18,
-      "name": "transferido cadastro unico"
-    },
-    {
-      "id": 75,
-      "name": "inscrição eventual"
-    }
-  ]
-}
+[
+  {
+    "id": 31,
+    "name": "cadastrado-cooperativa desclassificada",
+    "description": null,
+    "program_id": "2",
+    "created_at": "2015-10-19T09:50:56.632-02:00",
+    "updated_at": "2015-10-19T09:50:56.632-02:00",
+    "status": true
+  },
+  {
+    "id": 19,
+    "name": "cadastro inativo - sem cpf",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.588-02:00",
+    "updated_at": "2015-10-19T09:50:56.588-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 34,
+    "name": "cadastro sub-judice",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.643-02:00",
+    "updated_at": "2015-10-19T09:50:56.643-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 43,
+    "name": "candidato impugnado pela entidade",
+    "description": null,
+    "program_id": "2",
+    "created_at": "2015-10-19T09:50:56.677-02:00",
+    "updated_at": "2015-10-19T09:50:56.677-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 76,
+    "name": "candidato menor de 18 anos",
+    "description": null,
+    "program_id": null,
+    "created_at": "2019-01-07T01:00:00.000-02:00",
+    "updated_at": "2018-01-06T22:00:00.000-02:00",
+    "status": null
+  },
+  {
+    "id": 29,
+    "name": "constou em outra inscricao",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.625-02:00",
+    "updated_at": "2015-10-19T09:50:56.625-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 20,
+    "name": "constou imóvel no df",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.592-02:00",
+    "updated_at": "2015-10-19T09:50:56.592-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 24,
+    "name": "constou imóvel no df",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.606-02:00",
+    "updated_at": "2015-10-19T09:50:56.606-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 63,
+    "name": "contemplado-cancelado por edital",
+    "description": null,
+    "program_id": null,
+    "created_at": "2017-07-06T00:00:00.000-03:00",
+    "updated_at": "2017-07-06T00:00:00.000-03:00",
+    "status": "ok"
+  },
+  {
+    "id": 5,
+    "name": "contemplado (cheque-lote)",
+    "description": null,
+    "program_id": "6",
+    "created_at": "2015-10-19T09:50:56.539-02:00",
+    "updated_at": "2015-10-19T09:50:56.539-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 41,
+    "name": "contemplado c/imóvel outro programa",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.669-02:00",
+    "updated_at": "2015-10-19T09:50:56.669-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 12,
+    "name": "contemplado (devolvido)",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.564-02:00",
+    "updated_at": "2015-10-19T09:50:56.564-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 33,
+    "name": "contemplado (duplo benefÍcio)",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.639-02:00",
+    "updated_at": "2015-10-19T09:50:56.639-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 44,
+    "name": "contemplado - imóvel distribudo",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.682-02:00",
+    "updated_at": "2015-10-19T09:50:56.682-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 7,
+    "name": "contemplado - imóvel entregue",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.546-02:00",
+    "updated_at": "2015-10-19T09:50:56.546-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 9,
+    "name": "contemplado (quitado)",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.553-02:00",
+    "updated_at": "2015-10-19T09:50:56.553-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 10,
+    "name": "contemplado (sec. desenv. social)",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.557-02:00",
+    "updated_at": "2015-10-19T09:50:56.557-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 45,
+    "name": "contemplado - sobrestado",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.685-02:00",
+    "updated_at": "2015-10-19T09:50:56.685-02:00",
+    "status": "cinza"
+  },
+  {
+    "id": 32,
+    "name": "contemplado sub-judice",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.635-02:00",
+    "updated_at": "2015-10-19T09:50:56.635-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 8,
+    "name": "contemplado (transferido)",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.550-02:00",
+    "updated_at": "2015-10-19T09:50:56.550-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 49,
+    "name": "Conv Antiga Liberado Recadastrar MB",
+    "description": null,
+    "program_id": "6",
+    "created_at": "2015-11-18T22:00:00.000-02:00",
+    "updated_at": "2015-11-18T22:00:00.000-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 73,
+    "name": "Convocação cancelada por edital",
+    "description": null,
+    "program_id": null,
+    "created_at": "2018-02-16T01:00:00.000-02:00",
+    "updated_at": "2018-02-16T01:00:00.000-02:00",
+    "status": null
+  },
+  {
+    "id": 13,
+    "name": "convocado c/ imovel designado",
+    "description": null,
+    "program_id": "6",
+    "created_at": "2015-10-19T09:50:56.567-02:00",
+    "updated_at": "2015-10-19T09:50:56.567-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 37,
+    "name": "convocado com processo em andamento",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.654-02:00",
+    "updated_at": "2015-10-19T09:50:56.654-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 47,
+    "name": "convocado e não habilitado - não compareceu",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.693-02:00",
+    "updated_at": "2015-10-19T09:50:56.693-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 3,
+    "name": "convocado para entrega de documentação",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.531-02:00",
+    "updated_at": "2015-10-19T09:50:56.531-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 30,
+    "name": "cpf com dados inconsistentes",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.629-02:00",
+    "updated_at": "2015-10-19T09:50:56.629-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 40,
+    "name": "dependente em cadastro de convocado",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.665-02:00",
+    "updated_at": "2015-10-19T09:50:56.665-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 36,
+    "name": "desclassificado pela entidade",
+    "description": null,
+    "program_id": "2",
+    "created_at": "2015-10-19T09:50:56.650-02:00",
+    "updated_at": "2015-10-19T09:50:56.650-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 51,
+    "name": "Desistente",
+    "description": null,
+    "program_id": null,
+    "created_at": "2016-11-09T22:00:00.000-02:00",
+    "updated_at": "2016-11-09T22:00:00.000-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 25,
+    "name": "em habilitação",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.609-02:00",
+    "updated_at": "2015-10-19T09:50:56.609-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 14,
+    "name": "excluido",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.571-02:00",
+    "updated_at": "2015-10-19T09:50:56.571-02:00",
+    "status": "cinza"
+  },
+  {
+    "id": 56,
+    "name": "excluído - 3 recusas",
+    "description": null,
+    "program_id": "1",
+    "created_at": "2017-06-07T21:00:00.000-03:00",
+    "updated_at": "2017-06-07T21:00:00.000-03:00",
+    "status": "ok"
+  },
+  {
+    "id": 46,
+    "name": "excluído a pedido",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.689-02:00",
+    "updated_at": "2015-10-19T09:50:56.689-02:00",
+    "status": "cinza"
+  },
+  {
+    "id": 55,
+    "name": "excluído por edital",
+    "description": null,
+    "program_id": null,
+    "created_at": "2017-04-18T00:00:00.000-03:00",
+    "updated_at": "2017-04-18T00:00:00.000-03:00",
+    "status": "ok"
+  },
+  {
+    "id": 64,
+    "name": "falecido",
+    "description": null,
+    "program_id": null,
+    "created_at": "2017-07-11T00:00:00.000-03:00",
+    "updated_at": "2017-07-11T00:00:00.000-03:00",
+    "status": "pendente"
+  },
+  {
+    "id": 65,
+    "name": "habilitação cancelada por edital",
+    "description": null,
+    "program_id": null,
+    "created_at": "2017-07-27T21:00:00.000-03:00",
+    "updated_at": "2017-07-27T21:00:00.000-03:00",
+    "status": null
+  },
+  {
+    "id": 4,
+    "name": "habilitado - documentação aprovada",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.535-02:00",
+    "updated_at": "2015-10-19T09:50:56.535-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 67,
+    "name": "habilitado - em análise",
+    "description": null,
+    "program_id": "1",
+    "created_at": "2017-07-30T21:00:00.000-03:00",
+    "updated_at": "2017-07-30T21:00:00.000-03:00",
+    "status": "pendente"
+  },
+  {
+    "id": 70,
+    "name": "habilitado - em atendimento",
+    "description": null,
+    "program_id": "1",
+    "created_at": "2017-11-09T01:00:00.000-02:00",
+    "updated_at": "2017-11-09T01:00:00.000-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 15,
+    "name": "habilitado - indeferido",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.574-02:00",
+    "updated_at": "2015-10-19T09:50:56.574-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 68,
+    "name": "habilitado - pendente de atualização",
+    "description": null,
+    "program_id": "1",
+    "created_at": "2017-08-31T00:00:00.000-03:00",
+    "updated_at": "2017-08-31T00:00:00.000-03:00",
+    "status": "pendente"
+  },
+  {
+    "id": 54,
+    "name": "habilitado - sobrestado",
+    "description": null,
+    "program_id": null,
+    "created_at": "2017-04-02T00:00:00.000-03:00",
+    "updated_at": "2017-04-02T00:00:00.000-03:00",
+    "status": "ok"
+  },
+  {
+    "id": 50,
+    "name": "indeferido - documentação reprovada",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-11-18T22:00:00.000-02:00",
+    "updated_at": "2015-11-18T22:00:00.000-02:00",
+    "status": "cinza"
+  },
+  {
+    "id": 71,
+    "name": "indeferido - imóvel retomado",
+    "description": null,
+    "program_id": null,
+    "created_at": "2018-01-11T01:00:00.000-02:00",
+    "updated_at": "2018-01-11T01:00:00.000-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 72,
+    "name": "Indeferido - não habilitado",
+    "description": null,
+    "program_id": null,
+    "created_at": "2018-02-04T22:00:00.000-02:00",
+    "updated_at": "2018-02-04T22:00:00.000-02:00",
+    "status": null
+  },
+  {
+    "id": 75,
+    "name": "inscrito - cadastro eventual",
+    "description": null,
+    "program_id": null,
+    "created_at": "2018-11-21T01:00:00.000-02:00",
+    "updated_at": "2018-11-21T01:00:00.000-02:00",
+    "status": null
+  },
+  {
+    "id": 2,
+    "name": "inscrito - cadastro inicial",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.528-02:00",
+    "updated_at": "2015-10-19T09:50:56.528-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 69,
+    "name": "inscrito - eventual entidade",
+    "description": null,
+    "program_id": null,
+    "created_at": "2017-09-19T21:00:00.000-03:00",
+    "updated_at": "2017-09-19T21:00:00.000-03:00",
+    "status": "pendente"
+  },
+  {
+    "id": 35,
+    "name": "inscrito-pontuacao alterada(dec.judicial)",
+    "description": null,
+    "program_id": "2",
+    "created_at": "2015-10-19T09:50:56.647-02:00",
+    "updated_at": "2015-10-19T09:50:56.647-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 48,
+    "name": "liberado para recadastramento",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-11-18T22:00:00.000-02:00",
+    "updated_at": "2015-11-18T22:00:00.000-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 39,
+    "name": "menos de 5 anos de df",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.661-02:00",
+    "updated_at": "2015-10-19T09:50:56.661-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 38,
+    "name": "não compareceu p/formalizar proc",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.657-02:00",
+    "updated_at": "2015-10-19T09:50:56.657-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 1,
+    "name": "não se recadastrou",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.516-02:00",
+    "updated_at": "2015-10-19T09:50:56.516-02:00",
+    "status": "cinza"
+  },
+  {
+    "id": 74,
+    "name": "Realocação",
+    "description": null,
+    "program_id": null,
+    "created_at": "2018-05-01T21:00:00.000-03:00",
+    "updated_at": "2018-05-01T21:00:00.000-03:00",
+    "status": null
+  },
+  {
+    "id": 52,
+    "name": "Recadastramento (Morar Bem)",
+    "description": null,
+    "program_id": "1",
+    "created_at": "2016-12-14T22:00:00.000-02:00",
+    "updated_at": "2016-12-14T22:00:00.000-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 6,
+    "name": "regularizacao condominios",
+    "description": null,
+    "program_id": "3",
+    "created_at": "2015-10-19T09:50:56.543-02:00",
+    "updated_at": "2015-10-19T09:50:56.543-02:00",
+    "status": "nao_sabemos"
+  },
+  {
+    "id": 17,
+    "name": "regularização não concluida.",
+    "description": null,
+    "program_id": "3",
+    "created_at": "2015-10-19T09:50:56.581-02:00",
+    "updated_at": "2015-10-19T09:50:56.581-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 53,
+    "name": "remoção",
+    "description": null,
+    "program_id": null,
+    "created_at": "2016-12-31T22:00:00.000-02:00",
+    "updated_at": "2016-12-31T22:00:00.000-02:00",
+    "status": "ok"
+  },
+  {
+    "id": 11,
+    "name": "remocao/fixacao",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.560-02:00",
+    "updated_at": "2015-10-19T09:50:56.560-02:00",
+    "status": "nao_sabemos"
+  },
+  {
+    "id": 22,
+    "name": "renda familiar superior 12 sm",
+    "description": null,
+    "program_id": "1",
+    "created_at": "2015-10-19T09:50:56.598-02:00",
+    "updated_at": "2015-10-19T09:50:56.598-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 27,
+    "name": "renda superior 12 sm e constou imóvel",
+    "description": null,
+    "program_id": "1",
+    "created_at": "2015-10-19T09:50:56.617-02:00",
+    "updated_at": "2015-10-19T09:50:56.617-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 42,
+    "name": "requereu regularização lote",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.673-02:00",
+    "updated_at": "2015-10-19T09:50:56.673-02:00",
+    "status": "cinza"
+  },
+  {
+    "id": 21,
+    "name": "reside fora do df",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.595-02:00",
+    "updated_at": "2015-10-19T09:50:56.595-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 26,
+    "name": "reside fora do df e constou imóvel",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.612-02:00",
+    "updated_at": "2015-10-19T09:50:56.612-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 28,
+    "name": "reside fora do df e renda superior 12 sm",
+    "description": null,
+    "program_id": "1",
+    "created_at": "2015-10-19T09:50:56.621-02:00",
+    "updated_at": "2015-10-19T09:50:56.621-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 16,
+    "name": "retomado",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.577-02:00",
+    "updated_at": "2015-10-19T09:50:56.577-02:00",
+    "status": "pendente"
+  },
+  {
+    "id": 66,
+    "name": "titularidade alterada",
+    "description": null,
+    "program_id": null,
+    "created_at": "2017-07-30T21:00:00.000-03:00",
+    "updated_at": "2017-07-30T21:00:00.000-03:00",
+    "status": null
+  },
+  {
+    "id": 18,
+    "name": "transferido cadastro unico",
+    "description": null,
+    "program_id": null,
+    "created_at": "2015-10-19T09:50:56.584-02:00",
+    "updated_at": "2015-10-19T09:50:56.584-02:00",
+    "status": "pendente"
+  }
+]

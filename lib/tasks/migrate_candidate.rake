@@ -74,9 +74,10 @@ namespace :migrate_candidate do
   task situation_type: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/candidate/situation_types.json").read)
 
-    populate['situations'].each do |state|
+    populate.each do |state|
       state_obj = Support::Candidate::SituationType.new(
         name: state['name'],
+        program_id: state['id']
         id: state['id']
        )
       state_obj.save

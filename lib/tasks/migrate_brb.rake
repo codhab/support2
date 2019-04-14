@@ -11,7 +11,7 @@ namespace :migrate_brb do
   task category: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/brb/categories.json").read)
 
-    populate['situations'].each do |state|
+    populate.each do |state|
       state_obj = Support::Brb::Category.new(
         name: state['name'],
         default_value: state['default_value'],

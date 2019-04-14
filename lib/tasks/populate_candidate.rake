@@ -28,10 +28,11 @@ namespace :populate_candidate do
   task situation_type: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/candidate/situation_types.json").read)
 
-    populate['situations'].each do |situation_type|
+    populate.each do |situation_type|
       object = Support::Candidate::SituationType.new
       object.id     = situation_type['id']
       object.name   = situation_type['name']
+      object.program_id   = situation_type['program_id']
       object.save(validate: false)
     end
   end

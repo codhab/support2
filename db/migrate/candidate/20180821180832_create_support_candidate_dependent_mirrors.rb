@@ -13,7 +13,7 @@ class CreateSupportCandidateDependentMirrors < ActiveRecord::Migration[5.2] # :n
       t.integer :gender_id
       t.string  :place_birth
       t.integer :civil_state_id
-      t.decimal :income, precision: 8, scale: 2
+      t.decimal :income, precision: 12, scale: 2
       t.integer :kinship_id
       t.boolean :special_condition, default: false
       t.integer :special_condition_type_id

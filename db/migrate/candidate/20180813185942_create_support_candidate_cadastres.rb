@@ -24,8 +24,8 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
       t.integer :state_id
       t.string  :address
       t.string  :address_complement
-      t.decimal :family_income, precision: 8, scale: 2, default: 0
-      t.decimal :personal_income, precision: 8, scale: 2, default: 0
+      t.decimal :family_income, precision: 12, scale: 2, default: 0
+      t.decimal :personal_income, precision: 12, scale: 2, default: 0
       t.string  :work_employment
       t.string  :nis
       t.string  :cid

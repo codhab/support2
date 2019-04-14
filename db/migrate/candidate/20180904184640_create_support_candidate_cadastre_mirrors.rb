@@ -24,12 +24,8 @@ class CreateSupportCandidateCadastreMirrors < ActiveRecord::Migration[5.2] # :no
       t.integer :state_id
       t.string  :address
       t.string  :address_complement
-      t.decimal :family_income, precision: 8, scale: 2, default: 0
-      t.decimal :personal_income, precision: 8, scale: 2, default: 0
-      t.string  :work_cep
-      t.integer :work_city_id
-      t.integer :work_state_id
-      t.integer :work_address
+      t.decimal :family_income, precision: 12, scale: 2, default: 0
+      t.decimal :personal_income, precision: 12, scale: 2, default: 0
       t.string  :work_employment
       t.string  :nis
       t.string  :cid
