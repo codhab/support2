@@ -2,10 +2,13 @@ require 'net/http'
 
 namespace :populate_attendance do
   task populate: :environment do
-<<<<<<< HEAD
     Rake::Task["populate_attendance:document_types"].invoke
     Rake::Task["populate_attendance:ticket_categories"].invoke
     Rake::Task["populate_attendance:situation_types"].invoke
+    Rake::Task["populate_attendance:categories"].invoke
+    Rake::Task["populate_attendance:daily_types"].invoke
+    Rake::Task["populate_attendance:daily_preferential_types"].invoke
+    Rake::Task["populate_attendance:stations"].invoke
 
     puts "Attendance populate"
   end
@@ -21,12 +24,7 @@ namespace :populate_attendance do
       object.status                 = d['status']
       object.label_view_candidate   = d['label_view_candidate']
 
-=======
-    Rake::Task["populate_attendance:categories"].invoke
-    Rake::Task["populate_attendance:daily_types"].invoke
-    Rake::Task["populate_attendance:daily_preferential_types"].invoke
-    Rake::Task["populate_attendance:stations"].invoke
-    p 'Attendance populado.'
+    end
   end
 
   
@@ -38,12 +36,10 @@ namespace :populate_attendance do
       object.id                  = category['id']
       object.name                = category['name']
       object.status              = category['status']
->>>>>>> 5c9031e901e893e7f069da318e40097c762f777c
       object.save(validate: false)
     end
   end
 
-<<<<<<< HEAD
   
   task document_types: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/tickets.json").read)
@@ -58,8 +54,10 @@ namespace :populate_attendance do
       object.sei_group_id     = d['sei_group_id']
       object.sei_tranning_id  = d['sei_tranning_id']
       object.sei_label        = d['sei_label']
-      
-=======
+    end
+  end
+
+
   task daily_types: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/daily_types.json").read)
 
@@ -68,12 +66,10 @@ namespace :populate_attendance do
       object.id                  = daily_type['id']
       object.name                = daily_type['name']
       object.status              = daily_type['status']
->>>>>>> 5c9031e901e893e7f069da318e40097c762f777c
       object.save(validate: false)
     end
   end
 
-<<<<<<< HEAD
 
   task ticket_categories: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/tickets.json").read)
@@ -88,7 +84,6 @@ namespace :populate_attendance do
       object.filter_situation_id    = c["filter_situation_id"] 
       object.filter_convocation     = c["filter_convocation"]
       object.filter_convocation_id  = c["filter_convocation_id"] 
-      object.filter_program         = c["filter_program"]
       object.filter_program_id      = c["filter_program_id"] 
 
       object.save(validate: false)
@@ -124,7 +119,7 @@ namespace :populate_attendance do
 
     end
   end
-=======
+
   task daily_preferential_types: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/daily_preferential_types.json").read)
 
@@ -152,5 +147,4 @@ namespace :populate_attendance do
     end
   end
 
->>>>>>> 5c9031e901e893e7f069da318e40097c762f777c
 end
