@@ -1,0 +1,84 @@
+{
+  "engine": [
+    {
+      "id": 1,
+      "name": "Address",
+      "code": "ADD0001"
+    },
+    {
+      "id": 2,
+      "name": "Api",
+      "code": "API0001"
+    },
+    {
+      "id": 3,
+      "name": "Attendance",
+      "code": "ATT0001"
+    },
+    {
+      "id": 4,
+      "name": "Brb",
+      "code": "BRB0001"
+    },
+    {
+      "id": 5,
+      "name": "Candidate",
+      "code": "CAN0001"
+    },
+    {
+      "id": 6,
+      "name": "Cms",
+      "code": "CMS0001"
+    },
+    {
+      "id": 7,
+      "name": "Cpl",
+      "code": "CPL0001"
+    },
+    {
+      "id": 8,
+      "name": "Entity",
+      "code": "ENT0001"
+    },
+    {
+      "id": 9,
+      "name": "Helpdesk",
+      "code": "HEL0001"
+    },
+    {
+      "id": 10,
+      "name": "Juridical",
+      "code": "JUR0001"
+    },
+    {
+      "id": 11,
+      "name": "Persson",
+      "code": "PER0001"
+    },
+    {
+      "id": 12,
+      "name": "Pivotal",
+      "code": "PIV0001"
+    },
+    {
+      "id": 13,
+      "name": "Protocol",
+      "code": "PRO0001"
+    },
+    {
+      "id": 14,
+      "name": "Sefaz",
+      "code": "SEF0001"
+    },
+    {
+      "id": 15,
+      "name": "Social",
+      "code": "SOC0001"
+    },
+    {
+      "id": 16,
+      "name": "Wiki",
+      "code": "WIK0001"
+    }
+  ]
+}

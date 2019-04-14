@@ -3,6 +3,7 @@ require 'net/http'
 namespace :populate_pivotal do 
   task populate: :environment do 
     Rake::Task["populate_pivotal:nav"].invoke
+    Rake::Task["populate_pivotal:engine"].invoke
     Rake::Task["populate_pivotal:sector"].invoke
     Rake::Task["populate_pivotal:job"].invoke
     Rake::Task["populate_pivotal:user"].invoke
@@ -45,6 +46,18 @@ namespace :populate_pivotal do
       object.prefex = sector['prefex']
       object.father_id = sector['father_id']
       object.responsible_id = sector['responsible_id']
+      object.save(validate: false)
+    end
+  end
+
+  task engine: :environment do 
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/pivotal/engines.json").read)
+
+    populate['engine'].each do |engine|
+      object = Support::Pivotal::Engine.new
+      object.id     = engine['id']
+      object.name   = engine['name']
+      object.code  = engine['code']
       object.save(validate: false)
     end
   end
