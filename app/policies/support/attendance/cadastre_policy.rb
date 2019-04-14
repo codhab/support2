@@ -4,8 +4,17 @@ module Support
   module Attendance
     class CadastrePolicy < ApplicationPolicy
 
-      def new_ticket_allowed?
-        tickets = Support::Attendance::Ticket.closed.where(cadastre_id: self.id)
+
+      # situation_types
+      # 1 => pendente com candidato
+      # 2 => pendente com atendente
+      # 3 => pendente com supervisor
+      # 4 => deferido
+      # 5 => indeferido
+      # 6 => cancelado
+
+      def new_ticket?
+        tickets = Support::Attendance::Ticket.opened
 
         return false if tickets.present?
 
@@ -22,7 +31,7 @@ module Support
         ticket_categories = Support::Attendance::TicketCategory.status_active.all
 
         ticket_categories.each do |category|
-
+          
           # Se atendimento possui prazo e está fora do período configurado 
           next if (category.due && !(category.started_at <= Date.current && category.ended_at >= Date.current)) 
           

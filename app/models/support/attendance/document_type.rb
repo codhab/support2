@@ -4,6 +4,8 @@ module Support
   module Attendance
     class DocumentType < ApplicationRecord
       self.table_name = 'sihab.attendance_document_types'
+
+      audited
     end
   end
 end

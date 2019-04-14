@@ -1,6 +1,6 @@
 module Support
   module Attendance
-    class RequerimentService
+    class RequerimentPolicy
 
       attr_accessor :cpf, :category_id
 
@@ -24,13 +24,13 @@ module Support
           @category_id << outside_categories if outside_categories.present?
         else
           ::Support::Attendance::RequerimentCategory.where(status: true, outside_cadastre: false).each do |internal|
-            if internal.program
-              if internal.program_id.include?(cadastre.program_id)
-                @category_id << internal.id
-              end  
+            if internal.program_id.include?(cadastre.presenter.current_program_id)
+              @category_id << internal.id
+            end  
+
+            if internal.situation && internal.situation_id.include?(cadastre.presenter.current_situation_id)
+              @category_id << internal.id
             end
-            # Implementacao posterior
-            # if internal.situation ...
           end
         end
 

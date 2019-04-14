@@ -13,6 +13,8 @@ module Support
         cadastre         = ticket.cadastre
         dependent_mirror = ticket.cadastre_mirror.dependent_mirrors.find_by(id: dependent_mirror_id)
         
+        return false if document.document_type.nil?
+
         case context
         when 'cadastre'
 

@@ -6,7 +6,6 @@ class CreateSupportAttendanceRequerimentCategories < ActiveRecord::Migration[5.2
       
       t.boolean :outside_cadastre, default: false
       
-      t.boolean :program, default: true
       t.text    :program_id, array: true
       
       t.boolean :situation, default: false

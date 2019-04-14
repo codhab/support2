@@ -5,8 +5,8 @@ module Support
     class Ticket < ApplicationRecord
       self.table_name = 'sihab.attendance_tickets'
 
-      belongs_to :cadastre
-      belongs_to :cadastre_mirror
+      belongs_to :cadastre, required: false
+      belongs_to :cadastre_mirror, required: false
     
       has_many :ticket_steps
       

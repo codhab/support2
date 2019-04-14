@@ -23,7 +23,7 @@ namespace :populate_attendance do
       object.code                   = d['code']
       object.status                 = d['status']
       object.label_view_candidate   = d['label_view_candidate']
-
+      object.save(validate: false)
     end
   end
 
@@ -54,6 +54,7 @@ namespace :populate_attendance do
       object.sei_group_id     = d['sei_group_id']
       object.sei_tranning_id  = d['sei_tranning_id']
       object.sei_label        = d['sei_label']
+      object.save(validate: false)
     end
   end
 

@@ -8,7 +8,7 @@ module Support
       audited
 
       belongs_to :program
-      belongs_to :sub_program, class_name: "Support::Cadastre::Program", required: false
+      belongs_to :sub_program, class_name: "::Support::Candidate::Program", required: false
       
       has_many :cadastre_pontuations
       has_many :cadastre_situations

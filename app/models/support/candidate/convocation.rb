@@ -6,6 +6,10 @@ module Support
       self.table_name = 'sihab.candidate_convocations'
 
       audited
+
+      def full_name
+        "#{self.id} - #{self.name.to_s.downcase}"
+      end
     end
   end
 end
