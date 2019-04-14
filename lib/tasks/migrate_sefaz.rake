@@ -7,9 +7,19 @@ namespace :migrate_sefaz do
     Rake::Task["migrate_sefaz:notifier"].invoke
     Rake::Task["migrate_sefaz:request_situation"].invoke
     Rake::Task["migrate_sefaz:request_type"].invoke
-    Rake::Task["migrate_sefaz:allotment"].invoke
 
     p 'Sefaz populado.'
+  end
+
+  task populate_full: :environment do
+    Rake::Task["migrate_sefaz:exemption_type"].invoke
+    Rake::Task["migrate_sefaz:notifier"].invoke
+    Rake::Task["migrate_sefaz:request_situation"].invoke
+    Rake::Task["migrate_sefaz:request_type"].invoke
+    Rake::Task["migrate_sefaz:allotment"].invoke
+    Rake::Task["migrate_sefaz:exemption"].invoke
+
+    p 'Sefaz full populado.'
   end
 
   task exemption_type: :environment do
@@ -83,5 +93,22 @@ namespace :migrate_sefaz do
        )
       state_obj.save
     end
+  end
+
+  task exemption: :environment do
+    sql = %(insert into extranet.sefaz_exemptions(id, name, cpf, city, address, realty_number, realty_value, allotment_id,
+                        act_number, canceled, canceled_date, canceled_user_id, return_message,
+                        user_id, system_message, number_act_cancel, year_act_cancel, created_at, updated_at)
+            SELECT *
+                FROM sihab.dblink('host=10.233.38.16 port=5432 user=postgres dbname=codhab_production',
+                                     'select id, name, cpf, city, address, realty_number, realty_value, allotment_id,
+                                        act_number, canceled, canceled_date, canceled_staff_id, return_message, staff_id, system_message, number_act_to_cancel,
+                                        year_act, created_at, updated_at  from extranet.sefaz_exemptions')
+                  AS sefaz_exemptions( id integer, name varchar, cpf varchar, city varchar, address varchar, realty_number varchar, realty_value varchar, allotment_id integer,
+                                       act_number varchar, canceled boolean, canceled_date timestamp, canceled_staff_id integer, return_message text,
+                                       staff_id integer, system_message varchar, number_act_to_cancel varchar, year_act integer,
+                                       created_at timestamp, updated_at timestamp))
+
+    ActiveRecord::Base.connection.execute sql
   end
 end

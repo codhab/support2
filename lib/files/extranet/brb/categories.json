@@ -1,0 +1,401 @@
+// 20190413180608
+// http://localhost:3001/cms/testes
+
+[
+  {
+    "id": 1,
+    "name": "PARQUEDORIACHO-CEI",
+    "status": false,
+    "default_value": 300.0,
+    "description": "''",
+    "created_at": "2015-12-29T07:22:27.895-02:00",
+    "updated_at": "2016-01-11T08:51:20.271-02:00"
+  },
+  {
+    "id": 2,
+    "name": "CONCURSO",
+    "status": false,
+    "default_value": 0.95,
+    "description": "''",
+    "created_at": "2015-12-29T10:41:10.591-02:00",
+    "updated_at": "2016-01-13T14:47:16.985-02:00"
+  },
+  {
+    "id": 4,
+    "name": "PARQUEDORIACHO-CEF",
+    "status": false,
+    "default_value": 300.0,
+    "description": "''",
+    "created_at": "2016-01-11T17:18:58.180-02:00",
+    "updated_at": "2016-01-11T17:18:58.180-02:00"
+  },
+  {
+    "id": 5,
+    "name": "PARQUEDORIACHO-UBS",
+    "status": false,
+    "default_value": 300.0,
+    "description": "''",
+    "created_at": "2016-01-18T14:42:31.974-02:00",
+    "updated_at": "2016-01-18T14:42:31.974-02:00"
+  },
+  {
+    "id": 6,
+    "name": "UHC-SAMAMBAIA",
+    "status": false,
+    "default_value": 300.0,
+    "description": "''",
+    "created_at": "2016-06-16T10:59:14.032-03:00",
+    "updated_at": "2016-06-16T10:59:14.032-03:00"
+  },
+  {
+    "id": 7,
+    "name": "UHC-SOBRADINHO",
+    "status": false,
+    "default_value": 300.0,
+    "description": "''",
+    "created_at": "2016-06-30T15:16:32.946-03:00",
+    "updated_at": "2016-06-30T15:16:32.946-03:00"
+  },
+  {
+    "id": 8,
+    "name": "uhc-sol-nascente-quadra-700",
+    "status": true,
+    "default_value": 300.0,
+    "description": "''",
+    "created_at": "2016-08-17T14:13:52.599-03:00",
+    "updated_at": "2016-08-17T17:48:45.723-03:00"
+  },
+  {
+    "id": 9,
+    "name": "erm-sol-nascente-trecho-02",
+    "status": true,
+    "default_value": 300.0,
+    "description": "''",
+    "created_at": "2016-08-17T14:14:10.337-03:00",
+    "updated_at": "2016-08-17T14:14:10.337-03:00"
+  },
+  {
+    "id": 10,
+    "name": "TAXA DE HABILITAÇÃO\n",
+    "status": true,
+    "default_value": 0.0,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 11,
+    "name": "TAXA DE REGULARIZAÇÃO",
+    "status": true,
+    "default_value": 0.0,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 12,
+    "name": "TAXA GENÉRICA",
+    "status": true,
+    "default_value": 0.0,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 13,
+    "name": "LAV.INST.CONTRATUAL-ESCRITURA/FICAHA DESCRITIVA\n",
+    "status": true,
+    "default_value": 129.82,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 14,
+    "name": "TAXA DE FORMALIZAÇÃO DE PROCESSO \n",
+    "status": true,
+    "default_value": 47.83,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 15,
+    "name": "TAXA DE 2ª VIA DE BAIXA DE HIPOTECA\n",
+    "status": true,
+    "default_value": 47.83,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 16,
+    "name": "TAXA DE INTERPELAÇÃO JUDICIAL \n",
+    "status": true,
+    "default_value": 38.65,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 17,
+    "name": "TAXA DE INCORPORAÇÃO BNH/CEF \n ",
+    "status": true,
+    "default_value": 0.0,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 18,
+    "name": "TAXA DE CÓPIA XEROX\n",
+    "status": true,
+    "default_value": 0.0,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 19,
+    "name": "CERTIDÃO NEGATIVA/POSITIVA IMÓVEL (CASADO)\n",
+    "status": true,
+    "default_value": 10.82,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 20,
+    "name": "CERTIDÃO NEGATIVA/POSITIVA IMÓVEL (SOLEITRO)\n",
+    "status": true,
+    "default_value": 5.41,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 21,
+    "name": "DEVOLUÇÃO DE IMÓVEL\n",
+    "status": true,
+    "default_value": 32.47,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 22,
+    "name": "LUCIO COSTA (HABITE-SE)\n",
+    "status": true,
+    "default_value": 45.84,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 23,
+    "name": "CESSÃO PARCIAL (ESP.JUDICIAL)\n",
+    "status": true,
+    "default_value": 194.8,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 24,
+    "name": "PERMUTA DE LOTE (PROGRAMA ASSENTAMENTO)\n",
+    "status": true,
+    "default_value": 97.4,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 25,
+    "name": "RECURSO PERTINENTE A HABILITAÇÃO DE IMÓVEL\n",
+    "status": true,
+    "default_value": 12.37,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 26,
+    "name": "REGULARIZAÇÃO DE IMÓVEL\n",
+    "status": true,
+    "default_value": 389.59,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 27,
+    "name": "REGULARIZAÇÃO DE LOTE\n",
+    "status": true,
+    "default_value": 30.92,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 28,
+    "name": "TRANSMISSÃO DE CONCESSÃO DE USO\n",
+    "status": true,
+    "default_value": 25.97,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 29,
+    "name": "UTILIZAÇÃO DE FGTS/PRESTAÇÃO\n",
+    "status": true,
+    "default_value": 6.49,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 30,
+    "name": "VERIFICAÇÃO OCUP.IMÓVEL (FORA EXPEDIENTE)\n",
+    "status": true,
+    "default_value": 87.68,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 31,
+    "name": "PLOTAGEM – SULFIT/COLORIDA\n",
+    "status": true,
+    "default_value": 13.67,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 32,
+    "name": "TAXA DE OCUPAÇÃO\n",
+    "status": true,
+    "default_value": 550.98,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 33,
+    "name": "PAGAMENTO DE TERRENO\n",
+    "status": true,
+    "default_value": 0.0,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 34,
+    "name": "RE-RATIFICAÇÃO DE CONTRATO/ESCRITURA\n",
+    "status": true,
+    "default_value": 47.83,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 35,
+    "name": "PAGAMENTO DE TEERENO FUNDHIS\n",
+    "status": true,
+    "default_value": 0.0,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 36,
+    "name": "DEPÓSITO DE GARANTIA CONTRATUAL",
+    "status": true,
+    "default_value": 0.0,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 37,
+    "name": "eum-sol-nascente-quadra-105",
+    "status": true,
+    "default_value": 300.0,
+    "description": null,
+    "created_at": "2015-12-31T22:00:00.000-02:00",
+    "updated_at": "2015-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 38,
+    "name": "HABITACAO-ADAPTAVEL",
+    "status": true,
+    "default_value": 300.0,
+    "description": "",
+    "created_at": "2017-06-06T12:55:15.555-03:00",
+    "updated_at": "2017-06-06T12:55:15.555-03:00"
+  },
+  {
+    "id": 39,
+    "name": "PORDOSOL-URBEARQ",
+    "status": true,
+    "default_value": 300.0,
+    "description": "",
+    "created_at": "2017-07-20T17:02:40.020-03:00",
+    "updated_at": "2017-07-20T17:02:40.020-03:00"
+  },
+  {
+    "id": 41,
+    "name": "PROCURAÇÃO",
+    "status": true,
+    "default_value": 0.0,
+    "description": null,
+    "created_at": "2017-12-18T22:00:00.000-02:00",
+    "updated_at": "2017-12-18T22:00:00.000-02:00"
+  },
+  {
+    "id": 43,
+    "name": "CAUÇÃO",
+    "status": true,
+    "default_value": 0.0,
+    "description": null,
+    "created_at": "2017-12-20T22:00:00.000-02:00",
+    "updated_at": "2017-12-20T22:00:00.000-02:00"
+  },
+  {
+    "id": 44,
+    "name": "CONCURSO CRIXA CED",
+    "status": true,
+    "default_value": 300.0,
+    "description": null,
+    "created_at": "2018-06-20T21:00:00.000-03:00",
+    "updated_at": "2018-06-20T21:00:00.000-03:00"
+  },
+  {
+    "id": 45,
+    "name": "CONCURSO CRIXA EC",
+    "status": true,
+    "default_value": 300.0,
+    "description": null,
+    "created_at": "2017-12-31T22:00:00.000-02:00",
+    "updated_at": "2017-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 46,
+    "name": "CONCURSO QNR06 URBEARQ",
+    "status": true,
+    "default_value": 300.0,
+    "description": null,
+    "created_at": "2017-12-31T22:00:00.000-02:00",
+    "updated_at": "2017-12-31T22:00:00.000-02:00"
+  },
+  {
+    "id": 47,
+    "name": "CONCURSO MULTIUSO",
+    "status": true,
+    "default_value": 300.0,
+    "description": null,
+    "created_at": "2017-12-31T22:00:00.000-02:00",
+    "updated_at": "2017-12-31T22:00:00.000-02:00"
+  }
+]

@@ -6,11 +6,22 @@ namespace :migrate_juridical do
     Rake::Task["migrate_juridical:instacy"].invoke
     Rake::Task["migrate_juridical:instacy_place"].invoke
     Rake::Task["migrate_juridical:lawsuit"].invoke
+    Rake::Task["migrate_juridical:advice_type"].invoke
+
+    p 'Jurical populado'
+  end
+
+  task populate_full: :environment do
+    Rake::Task["migrate_juridical:instacy"].invoke
+    Rake::Task["migrate_juridical:instacy_place"].invoke
+    Rake::Task["migrate_juridical:lawsuit"].invoke
     Rake::Task["migrate_juridical:defendant"].invoke
     Rake::Task["migrate_juridical:complainant"].invoke
     Rake::Task["migrate_juridical:legal_advice"].invoke
+    Rake::Task["migrate_juridical:advice_type"].invoke
+    Rake::Task["migrate_juridical:complement"].invoke
 
-    p 'Jurical populado'
+    p 'Jurical full populado'
   end
 
   task instacy: :environment do
@@ -18,6 +29,18 @@ namespace :migrate_juridical do
 
     populate.each do |subject|
       object = Support::Juridical::Instancy.new
+      object.id     = subject['id']
+      object.name   = subject['name']
+      object.status = subject['status']
+      object.save(validate: false)
+    end
+  end
+
+  task advice_type: :environment do
+    populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/extranet/juridical/advice_types.json").read)
+
+    populate.each do |subject|
+      object = Support::Juridical::AdviceType.new
       object.id     = subject['id']
       object.name   = subject['name']
       object.status = subject['status']
@@ -109,4 +132,21 @@ namespace :migrate_juridical do
     end
   end
 
+  task complement: :environment do
+    sql = %(insert into extranet.juridical_complements(id, document_type_id, lawsuit_id, instancy_place_id, distribution_date,
+					           end_date, complement, responsible_lawyer_id, advice_type_id,
+				             attachment, status, complement_father_id, legal_advice_id, user_id, created_at, updated_at)
+             SELECT *
+                FROM sihab.dblink('host=10.233.38.16 port=5432 user=postgres dbname=codhab_production',
+                         'select id, document_type_id, lawsuit_id, instancy_place_id, distribution_date,
+				                  end_date, complement, responsible_lawyer_id, advice_type_id,
+				                  file_path, status, complement_father_id, legal_advice_id, staff_id, created_at, updated_at
+                          from extranet.juridical_complements')
+             AS juridical_complements(id integer,  document_type_id integer, lawsuit_id integer, instancy_place_id integer, distribution_date date,
+			       	                        end_date date , complement text, responsible_lawyer_id integer, advice_type_id integer,
+			       	                        file_path varchar, status boolean, complement_father_id integer, legal_advice_id integer, staff_id integer,
+                                      created_at timestamp, updated_at timestamp))
+
+    ActiveRecord::Base.connection.execute sql
+  end
 end

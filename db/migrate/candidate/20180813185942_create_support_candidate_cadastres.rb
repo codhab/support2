@@ -30,6 +30,7 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
       t.string  :nis
       t.string  :cid
       t.string  :mother_name
+      t.string  :father_name
       t.integer :civil_state_id
       t.integer :program_id
       t.integer :sub_program_id
@@ -44,6 +45,9 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
       t.string   :avatar
       t.boolean  :add_score, default: false
       t.integer  :add_score_id
+      t.boolean  :deceased, default: false
+      t.date     :deceased_date
+      t.string   :deceased_observation
 
       t.timestamps
 
