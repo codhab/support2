@@ -19,7 +19,7 @@ module Support
         cadastre_service = Support::Candidate::CadastreService.new(cadastre_id: @cadastre.id)
         cadastre_service.create_mirror
 
-        @ticket.update(cadastre_mirror_id: cadastre_service.cadastre_mirror_id)
+        @ticket.update(cadastre_mirror_id: cadastre_service.cadastre_mirror_id, situation_type_id: 1)
       end
 
       def create_or_find_step(ticket_category_step_id)

@@ -2,7 +2,7 @@ require 'net/http'
 
 namespace :populate_entity do
   task populate: :environment do
-    #Rake::Task["populate_entity:cadastre"].invoke
+    Rake::Task["populate_entity:cadastre"].invoke
     Rake::Task["populate_entity:job"].invoke
 
     p 'Entity populado.'

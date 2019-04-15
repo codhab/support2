@@ -7,6 +7,8 @@ class CreateSupportAttendanceDocumentTypes < ActiveRecord::Migration[5.2]
       t.string  :name
       t.text    :introduction
       t.text    :help_text
+      t.integer :min_file, default: 0
+      t.boolean :optional, default: false
       
       t.boolean :status, default: true
       

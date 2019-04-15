@@ -5,6 +5,7 @@ class CreateSupportAttendanceRequeriments < ActiveRecord::Migration[5.2]
       t.integer :entity_id
 
       t.string  :name
+      t.date    :born
       t.string  :cpf
       t.string  :cnpj
       t.string  :telephone
