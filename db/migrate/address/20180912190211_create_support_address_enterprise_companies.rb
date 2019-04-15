@@ -13,7 +13,7 @@ class CreateSupportAddressEnterpriseCompanies < ActiveRecord::Migration[5.2]
       t.boolean :access_allow, default: true
       t.integer :user_id
       t.integer :state_id
-      t.boolean :entity
+      t.boolean :entity, default: false
 
       t.timestamps
 

@@ -8,6 +8,10 @@ module Support
       def presenter
         call_presenter('Support::Candidate::DependentPresenter', self)
       end
+
+      def age
+        born.present? ? ((Date.today - born).to_i / 365.25).to_i : 'Sem informação de idade.'
+      end
     end
   end
 end
