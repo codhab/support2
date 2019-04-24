@@ -4,7 +4,7 @@ module Support
   module Candidate
     class Cadastre < ApplicationRecord # :nodoc:
       self.table_name = 'sihab.candidate_cadastres'
-      
+
       audited
 
       belongs_to :program
@@ -16,7 +16,7 @@ module Support
       has_many :cadastre_indications
       has_many :cadastre_mirrors
       has_many :dependents
-      
+
       validates :cpf, cpf: true, presence: true
 
 
@@ -31,7 +31,11 @@ module Support
       def age
         born.present? ? ((Date.today - born).to_i / 365.25).to_i : 'Sem informação de idade.'
       end
-      
+
+      def spouse
+        self.dependents.where(kinship_id: 6).first rescue nil
+      end
+
     end
   end
 end

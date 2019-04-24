@@ -27,7 +27,7 @@ namespace :populate_attendance do
     end
   end
 
-  
+
   task categories: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/categories.json").read)
 
@@ -40,7 +40,7 @@ namespace :populate_attendance do
     end
   end
 
-  
+
   task document_types: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/tickets.json").read)
 
@@ -54,7 +54,7 @@ namespace :populate_attendance do
       object.sei_group_id     = d['sei_group_id']
       object.sei_tranning_id  = d['sei_tranning_id']
       object.sei_label        = d['sei_label']
-      object.save(validate: false)
+      object.save(validate: false) 
     end
   end
 
@@ -74,7 +74,7 @@ namespace :populate_attendance do
 
   task ticket_categories: :environment do
     populate = JSON.parse(File.open("#{Support::Engine.root}/lib/files/sihab/attendance/tickets.json").read)
-    
+
     populate['ticket_categories'].each do |c|
       object = Support::Attendance::TicketCategory.new
 
@@ -82,10 +82,10 @@ namespace :populate_attendance do
       object.status                 = c["status"]
       object.unique                 = c["unique"]
       object.filter_situation       = c["filter_situation"]
-      object.filter_situation_id    = c["filter_situation_id"] 
+      object.filter_situation_id    = c["filter_situation_id"]
       object.filter_convocation     = c["filter_convocation"]
-      object.filter_convocation_id  = c["filter_convocation_id"] 
-      object.filter_program_id      = c["filter_program_id"] 
+      object.filter_convocation_id  = c["filter_convocation_id"]
+      object.filter_program_id      = c["filter_program_id"]
 
       object.save(validate: false)
 
@@ -110,11 +110,11 @@ namespace :populate_attendance do
               obje = Support::Attendance::StepDocument.new
               obje.category_step_id  = obj.id
               obje.document_type_id  = sd["document_type_id"]
-              
+
               obje.save(validate: false)
             end
-          end 
-      
+          end
+
         end
       end
 

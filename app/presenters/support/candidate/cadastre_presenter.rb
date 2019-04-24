@@ -6,12 +6,12 @@ require_dependency 'support/application_presenter'
 module Support
   module Candidate
     class CadastrePresenter < ApplicationPresenter # :nodoc:
-      
+
       def short_name
         short = self.name.split(' ')
         "#{short[0].humanize} #{short[-1].humanize}"
       end
-      
+
       def camel_case_name
         name.to_s.mb_chars.downcase.titleize
       end
@@ -25,7 +25,7 @@ module Support
       def current_situation_id
         current_situation.situation_type.id
       end
-      
+
       def current_situation_name
         current_situation.situation_type.name.humanize
       rescue StandardError
@@ -36,11 +36,27 @@ module Support
         Support::Candidate::CadastreConvocation.where(cadastre_id: self.id, status: true).order(created_at: :asc).last
       end
 
+      def current_pontuation
+        Support::Candidate::CadastrePontuation.where(cadastre_id: self.id).order(created_at: :asc).last
+      end
+
+      def last_indication
+        Support::Candidate::CadastreIndication.where(cadastre_id: self.id).order(created_at: :asc).last
+      end
+
+      def current_mirror
+        Support::Candidate::CadastreMirror.where(cadastre_id: self.id, status: true).order(created_at: :asc).last
+      end
+
       def current_convocation_id
         current_convocation.id
       end
-      
-      
+
+      def age
+        ((Date.today - self.born).to_i / 365.25).to_i
+      end
+
+
       def current_program_name
         prog = program.name rescue nil
         sub_prog = "(#{sub_program.name})" if sub_program.present?
