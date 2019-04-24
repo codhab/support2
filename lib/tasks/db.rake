@@ -35,6 +35,8 @@ namespace :db do
     Rake::Task['migrate_candidate:populate'].invoke
     Rake::Task['migrate_sefaz:populate'].invoke
     Rake::Task['migrate_juridical:populate'].invoke
+
+    Rake::Task['create_view:cadastre_union'].invoke
   end
 
   task populate_full: :environment do

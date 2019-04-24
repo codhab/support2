@@ -37,7 +37,7 @@ module Support
         return nil if @cadastre_mirror.nil?
 
         # => SAL_MIM é o valor do salário mínimo na data de geração dos pontos.
-        @min_salary        = options[:min_salary]   ||= 954.0
+        @min_salary        = options[:min_salary]   ||= ::Support::Common::Config.find_by('SAL_MIN').value
 
         # => DSP é a data de geração dos pontos.
         @dsp_value         = options[:dsp]          ||= proc_dsp
@@ -53,7 +53,17 @@ module Support
 
       def scoring_cadastre!
         total_score = income_score + special_dependent_score + dependent_score + timelist_score + timebsb_score
-        total_score += 10_000.0 if @cadastre_mirror.cadastre.scoring
+
+        # => Verificacao se o candidato possui a aplicação de pontuação adicional ao ser pontuado
+        if @cadastre_mirror.cadastre.cadastre_additional_scores.present?
+          @cadastre_mirror.cadastre.cadastre_additional_scores.each do |add_score|
+            total_score += add_score.additional_score.value 
+          end
+        end
+
+        # = > Forma antiga de aplicar os 10 mil pontos
+        # total_score += 10_000.0 if @cadastre_mirror.cadastre.scoring
+        
         { total: total_score.round(10), income_score: income_score.round(10), special_dependent_score: special_dependent_score.round(10),
          dependent_score: dependent_score.round(10), timelist_score: timelist_score.round(10), timebsb_score: timebsb_score.round(10) }
       end
@@ -133,7 +143,7 @@ module Support
       # SENÃO (PML*(DSP – DT_INSCRICAO(i)) / (DSP – DIC) + MB_11*700))
       def timelist_score
         #=> DATA REFERENTE PARA CALCULO DE 2012 - 01/10/2012 - NAO PERDER ESSA DATA
-        #UNS MANE JA PERDERAM, FAÇA O FAVOR, VALEU
+        # UNS MANE JA PERDERAM, FAÇA O FAVOR, VALEU
         total = 0
 
         arrival_df = @cadastre_mirror.arrival_df.present? ? @cadastre_mirror.arrival_df : (Date.current - 1.day)

@@ -43,8 +43,9 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
       t.date     :wedding_date, default: nil
       t.date     :admission_date, default: nil
       t.string   :avatar
-      t.boolean  :add_score, default: false
-      t.integer  :add_score_id
+
+      t.boolean  :additional_score, default: false
+      
       t.boolean  :deceased, default: false
       t.date     :deceased_date
       t.string   :deceased_observation

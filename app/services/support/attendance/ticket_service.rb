@@ -38,7 +38,6 @@ module Support
         end
 
       end
-      
 
       def category_allowed?(category_id)
         category = Support::Attendance::TicketCategory.status_active.find_by(id: category_id)
