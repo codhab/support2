@@ -2,8 +2,8 @@ require_dependency 'support/application_record'
 
 module Support
   module Pivotal
-    class NavPermissionGroup < ApplicationRecord
-      self.table_name = 'extranet.pivotal_nav_permission_groups'
+    class PermissionGroup < ApplicationRecord
+      self.table_name = 'extranet.pivotal_permission_groups'
 
       audited
     end
