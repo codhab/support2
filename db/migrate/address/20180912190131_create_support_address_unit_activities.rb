@@ -12,5 +12,7 @@ class CreateSupportAddressUnitActivities < ActiveRecord::Migration[5.2]
       t.boolean  :deleted, default: false
       t.datetime :deleted_at, default: nil 
     end
+
+    add_index 'sihab.address_unit_activities', :unit_id
   end
 end

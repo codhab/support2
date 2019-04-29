@@ -37,6 +37,10 @@ class CreateSupportPivotalUsers < ActiveRecord::Migration[5.2] # :nodoc:
       t.boolean  :external, default: false
       t.text     :external_observation
 
+      t.string   :introduce
+      t.string   :signature
+      t.string   :rubric
+
       t.timestamps
 
       t.boolean  :deleted, default: false

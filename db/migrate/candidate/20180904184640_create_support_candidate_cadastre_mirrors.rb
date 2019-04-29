@@ -44,5 +44,8 @@ class CreateSupportCandidateCadastreMirrors < ActiveRecord::Migration[5.2] # :no
       t.boolean  :deleted, default: false
       t.datetime :deleted_at, default: nil
     end
+
+    add_index 'sihab.candidate_cadastre_mirrors', :cadastre_id
+    add_index 'sihab.candidate_cadastre_mirrors', :program_id
   end
 end

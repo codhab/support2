@@ -24,5 +24,9 @@ class CreateSupportAddressEnterprises < ActiveRecord::Migration[5.2]
       t.boolean  :deleted, default: false
       t.datetime :deleted_at, default: nil
     end
+
+    add_index 'sihab.address_enterprises', :company_id
+    add_index 'sihab.address_enterprises', :entity_id
+    add_index 'sihab.address_enterprises', :city_id
   end
 end

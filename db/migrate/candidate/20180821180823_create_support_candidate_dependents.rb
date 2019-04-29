@@ -29,5 +29,10 @@ class CreateSupportCandidateDependents < ActiveRecord::Migration[5.2] # :nodoc:
       t.boolean  :deleted, default: false
       t.datetime :deleted_at, default: nil
     end
+    
+    add_index 'sihab.candidate_dependents', :cadastre_id
+    add_index 'sihab.candidate_dependents', :cpf
+    add_index 'sihab.candidate_dependents', :special_condition
+    add_index 'sihab.candidate_dependents', :income
   end
 end

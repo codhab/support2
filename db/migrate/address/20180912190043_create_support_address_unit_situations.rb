@@ -16,5 +16,8 @@ class CreateSupportAddressUnitSituations < ActiveRecord::Migration[5.2]
       t.boolean :deleted, default: false
       t.datetime :deleted_at, default: nil
     end
+
+    add_index 'sihab.address_unit_situations', :unit_id
+    add_index 'sihab.address_unit_situations', :situation_type_id
   end
 end

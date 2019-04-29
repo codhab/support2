@@ -56,5 +56,16 @@ class CreateSupportAddressUnits < ActiveRecord::Migration[5.2]
       t.boolean :deleted, default: false
       t.datetime :deleted_at, default: nil
     end
+
+    add_index 'sihab.address_units', :block
+    add_index 'sihab.address_units', :group
+    add_index 'sihab.address_units', :unit
+    add_index 'sihab.address_units', :complete_address
+    add_index 'sihab.address_units', :burgh
+    add_index 'sihab.address_units', :city_id
+    add_index 'sihab.address_units', :program_id
+    add_index 'sihab.address_units', :sub_program_id
+    add_index 'sihab.address_units', :enterprise_typology_id
+    add_index 'sihab.address_units', :unit_code
   end
 end
