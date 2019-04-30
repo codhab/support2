@@ -11,9 +11,6 @@ module Support
         where(situation_type_id: [4,5,6])
       }
 
-      scope :opened, -> {
-        not.closed
-      }
       
     end
   end

@@ -1,4 +1,4 @@
-insert into sihab.candidate_cadastre_pontuations(id, cadastre_id, cadastre_mirror_id, code, bsb, dependent, timelist, 
+insert into sihab.candidate_cadastre_pontuations(id, cadastre_id, cadastre_mirror_id, pontuation_type_id, bsb, dependent, timelist, 
 						 special_condition, income, total, program_id, situation_type_id,created_at, updated_at)
 
 SELECT *

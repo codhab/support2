@@ -5,7 +5,13 @@ module Support
     class Dependent < ApplicationRecord # :nodoc:
       self.table_name = 'sihab.candidate_dependents'
 
-       belongs_to :kinship, class_name: 'Support::Common::Kinship', required: false
+      belongs_to :kinship, class_name: 'Support::Common::Kinship', required: false
+      
+      audited
+      
+      belongs_to :cadastre
+
+      validates :cpf, cpf: true, allow_blank: true
 
       def presenter
         call_presenter('Support::Candidate::DependentPresenter', self)

@@ -1,7 +1,6 @@
 class CreateSupportCommonConfigs < ActiveRecord::Migration[5.2]
   def change
     create_table 'common.configs' do |t|
-      
       t.string :code
       t.string :value
 

@@ -4,9 +4,38 @@ module Support
   module Attendance
     class TicketPolicy < ApplicationPolicy
       
-      def require_document?(document_id: nil, ticket_step_id: nil, context: nil, dependent_mirror_id: nil)
+      def allow_close_document?(ticket_step_id: nil, step_category_id: nil, context: nil, dependent_mirror_id: nil)
+        ticket = self
+        step_category = Support::Attendance::TicketCategoryStep.find_by(id: step_category_id)
+        ticket_step   = Support::Attendance::TicketStep.find_by(id: ticket_step_id)
+
+        step_category.step_documents.each do |document|
+          unless document.document_type.min_file <= ticket_step.ticket_documents.count
+            return false
+          end
+        end
+      end
+
+      def allow_close_dependent?(ticket_step_id: nil)
+        ticket = self
+        ticket_step   = Support::Attendance::TicketStep.find_by(id: ticket_step_id)
+        ticket_category_step  = Support::Attendance::TicketCategoryStep.find_by(id: ticket_step.category_step_id)
+
+        cadastre_mirror = ticket.cadastre_mirror
+        dependent_mirrors = cadastre_mirror.dependent_mirrors
+
+        dependent_mirrors.each do |dependent|
+          ticket_category_step.step_documents.each do |document|
+            unless document.document_type.min_file <= ticket_step.ticket_documents.where(dependent_mirror_id: dependent.id).count
+              return false
+            end
+          end
+        end
+      end
+
+      def require_document?(document_id: nil, step_category_id: nil, context: nil, dependent_mirror_id: nil)
         document = Support::Attendance::StepDocument.find_by(id: document_id)
-        ticket_step = Support::Attendance::TicketCategoryStep.find_by(id: ticket_step_id)
+        ticket_step = Support::Attendance::TicketCategoryStep.find_by(id: step_category_id)
         
         ticket           = self
         cadastre_mirror  = ticket.cadastre_mirror
@@ -105,10 +134,12 @@ module Support
 
         when 'dependent'
 
+          return false if dependent_mirror.nil?
+          
           case document.document_type.code
           # CPF do dependente
           when 13
-            return true #if ticket_step.document_required && dependent_mirror.age.to_i >= 14 
+            return true if ticket_step.document_required && dependent_mirror.age.to_i >= 14 
           end
             
 
