@@ -10,5 +10,7 @@ class CreateSupportCandidateCadastreAdditionalPontuations < ActiveRecord::Migrat
       t.boolean  :deleted, default: false
       t.datetime :deleted_at, default: nil      
     end
+
+    add_index 'sihab.candidate_cadastre_additional_pontuations', :cadastre_id, name: 'cadastre_additional_pontuations_cadastre_id'
   end
 end

@@ -38,5 +38,8 @@ class CreateSupportCandidateIndicationAllotments < ActiveRecord::Migration[5.2]
       t.boolean  :deleted, default: false
       t.datetime :deleted_at, default: nil      
     end
+
+    add_index 'sihab.candidate_indication_allotments', :enterprise_id
+    add_index 'sihab.candidate_indication_allotments', :program_id
   end
 end

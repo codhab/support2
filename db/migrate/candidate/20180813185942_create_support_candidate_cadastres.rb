@@ -59,5 +59,8 @@ class CreateSupportCandidateCadastres < ActiveRecord::Migration[5.2]
     add_index 'sihab.candidate_cadastres', :uuid, unique: true
     add_index 'sihab.candidate_cadastres', :program_id
     add_index 'sihab.candidate_cadastres', :city_id
+    add_index 'sihab.candidate_cadastres', :state_id
+    add_index 'sihab.candidate_cadastres', :family_income
+    add_index 'sihab.candidate_cadastres', :born
   end
 end

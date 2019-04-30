@@ -10,5 +10,7 @@ class CreateSupportCandidateCadastreDevices < ActiveRecord::Migration[5.2]
       t.boolean  :deleted, default: false
       t.datetime :deleted_at, default: nil
     end
+
+    add_index 'sihab.candidate_cadastre_devices', :cadastre_id
   end
 end

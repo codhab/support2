@@ -23,6 +23,7 @@ class CreateSupportCmsPosts < ActiveRecord::Migration[5.2]
       t.string  :iframe_url
       t.integer :user_id
       t.integer :post_category_id
+      
       t.integer :old_id
       t.string  :old_target
 

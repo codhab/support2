@@ -11,8 +11,7 @@ namespace :migrate_pivotal do
                                    curriculum, email, private_email, status, administrator,
                                    password, job_id, civil_state_id, birth_place, telephone, celphone,
                                    sector_id, created_at, updated_at)
-SELECT *
-    FROM sihab.dblink('host=10.233.38.16 port=5432 user=postgres dbname=codhab_production',
+    SELECT * FROM sihab.dblink('host=10.233.38.16 port=5432 user=postgres dbname=codhab_production',
                          'select id, code, name, cpf, born, gender, avatar, curriculum, email, private_email, status,
                           administrator, password, job_id, civil_state_id, birth_place, telephone, celphone, sector_current_id,
                           created_at, updated_at  from extranet.person_staffs')
@@ -26,11 +25,14 @@ SELECT *
   end
 
   task update_password: :environment do
+
     @users = Support::Pivotal::User.all
 
     @users.each do |user|
       user.password = user.password
+      user.code     = user.username
       user.save
     end
+
   end
 end

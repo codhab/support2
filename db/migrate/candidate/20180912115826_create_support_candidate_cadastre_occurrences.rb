@@ -1,26 +1,26 @@
 class CreateSupportCandidateCadastreOccurrences < ActiveRecord::Migration[5.2]
   def change
     create_table 'sihab.candidate_cadastre_occurrences' do |t|
-      t.integer :cadastre_id
-      t.string  :name
-      t.text    :description
+      t.integer   :cadastre_id
+      t.string    :name
+      t.text      :description
       
-      t.string  :friendly_name
-      t.string  :friendly_description
+      t.string    :friendly_name
+      t.string    :friendly_description
       
-      t.boolean :impediment, default: false
-      t.boolean :alert, default: false 
-      t.boolean :portal, default: false
+      t.boolean   :impediment, default: false
+      t.boolean   :alert, default: false 
+      t.boolean   :portal, default: false
         
-      t.integer :user_id
+      t.integer   :user_id
       
-      t.boolean :computer, default: false 
-      t.boolean :external, default: false 
+      t.boolean   :computer, default: false 
+      t.boolean   :external, default: false 
 
-      t.integer :ticket_id
+      t.integer   :ticket_id
 
-      t.string  :target_id
-      t.string  :target_code
+      t.string    :target_id
+      t.string    :target_code
       
       t.boolean   :solved, default: false
       t.datetime  :solved_at
@@ -33,5 +33,7 @@ class CreateSupportCandidateCadastreOccurrences < ActiveRecord::Migration[5.2]
       t.boolean  :deleted, default: false
       t.datetime :deleted_at, default: nil      
     end
+
+    add_index 'sihab.candidate_cadastre_occurrences', :cadastre_id
   end
 end

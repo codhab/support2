@@ -6,11 +6,11 @@ namespace :db do
         ActiveRecord::Base.connection.execute sql
       end
 
-      sql = %(CREATE EXTENSION IF NOT EXISTS "uuid-ossp")
-      ActiveRecord::Base.connection.execute sql
+      uuid = %(CREATE EXTENSION IF NOT EXISTS "uuid-ossp")
+      ActiveRecord::Base.connection.execute uuid
 
-      sql1 = %(CREATE EXTENSION dblink SCHEMA sihab;)
-      ActiveRecord::Base.connection.execute sql1
+      dblink_sihab = %(CREATE EXTENSION dblink SCHEMA sihab;)
+      ActiveRecord::Base.connection.execute dblink_sihab
     end
   end
 
@@ -41,7 +41,6 @@ namespace :db do
 
   task populate_full: :environment do
 
-    Rake::Task['populate_candidate:populate'].invoke
     Rake::Task['populate_attendance:populate'].invoke
     Rake::Task['populate_common:populate'].invoke
     Rake::Task['populate_entity:populate'].invoke

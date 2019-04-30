@@ -27,5 +27,10 @@ class CreateSupportCandidateCadastreIndications < ActiveRecord::Migration[5.2]
       t.boolean  :deleted, default: false
       t.datetime :deleted_at, default: nil      
     end
+
+    add_index 'sihab.candidate_cadastre_indications', :cadastre_id
+    add_index 'sihab.candidate_cadastre_indications', :enterprise_id
+    add_index 'sihab.candidate_cadastre_indications', :status
+    
   end
 end
